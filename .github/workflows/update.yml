@@ -22,13 +22,24 @@ jobs:
       - name: Build merged ruleset
         run: python3 scripts/build_rules.py
 
+      - name: Discard timestamp-only changes
+        run: |
+          if git diff --quiet -- output/china_direct.list; then
+            exit 0
+          fi
+          if diff -q \
+              <(git show HEAD:output/china_direct.list | grep -v '^# UPDATED:') \
+              <(grep -v '^# UPDATED:' output/china_direct.list) > /dev/null; then
+            git checkout -- output/china_direct.list
+          fi
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/china_direct.list
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No rule changes, skipping commit"
           else
             git commit -m "chore: update china_direct.list $(date -u +%Y-%m-%d)"
             git push
