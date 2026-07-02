@@ -2,7 +2,7 @@
 
 [![Update ruleset](https://github.com/Mr-Grin/china-direct-rules/actions/workflows/update.yml/badge.svg)](https://github.com/Mr-Grin/china-direct-rules/actions/workflows/update.yml)
 
-Daily-refreshed, deduplicated merge of [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)'s `China`, `ChinaMax`, and `ChinaIPs` rulesets plus [misakaio/chnroutes2](https://github.com/misakaio/chnroutes2)'s raw `chnroutes.txt` — a ready-to-subscribe direct-connect ruleset for **Shadowrocket, Surge, Loon, QuantumultX, and Clash**.
+Daily-refreshed, deduplicated merge of [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)'s `China`, `ChinaMax`, and `ChinaIPs` rulesets plus [misakaio/chnroutes2](https://github.com/misakaio/chnroutes2)'s BGP-sourced China IP ranges — a ready-to-subscribe direct-connect ruleset for **Shadowrocket, Surge, Loon, QuantumultX, and Clash**.
 
 ## Subscribing
 
