@@ -7,6 +7,7 @@ import urllib.request
 
 BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
 CHNROUTES_URL = "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main"
 
 # ChinaDNS is intentionally excluded: its 4 rules were verified to already be
 # covered by ChinaMax's domain set (see diff report).
@@ -284,8 +285,25 @@ def render_clash(ctx: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def render_shadowrocket_module(ctx: dict) -> str:
+    """Shadowrocket module wrapping the shadowrocket.list RULE-SET: lets users
+    add it via Configuration > Module > + (paste URL) instead of hand-editing
+    a profile's [Rule] section. Content is static (no embedded date/count) so
+    it never produces timestamp-only diff noise across daily rebuilds."""
+    lines = [
+        "#!name = China Direct Rules",
+        "#!desc = Daily-refreshed China direct-connect ruleset — github.com/Mr-Grin/china-direct-rules",
+        "#!category = Rule",
+        "",
+        "[Rule]",
+        f"RULE-SET,{REPO_RAW_BASE}/rules/shadowrocket.list,DIRECT",
+    ]
+    return "\n".join(lines) + "\n"
+
+
 OUTPUTS = {
     "rules/shadowrocket.list": render_shadowrocket,
+    "rules/shadowrocket.sgmodule": render_shadowrocket_module,
     "rules/surge.list": render_surge_loon,
     "rules/loon.list": render_surge_loon,
     "rules/quantumultx.list": render_quantumultx,

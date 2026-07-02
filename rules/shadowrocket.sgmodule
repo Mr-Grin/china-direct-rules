@@ -1,0 +1,6 @@
+#!name = China Direct Rules
+#!desc = Daily-refreshed China direct-connect ruleset — github.com/Mr-Grin/china-direct-rules
+#!category = Rule
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/shadowrocket.list,DIRECT
