@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Aggregate blackmatrix7/ios_rule_script China rulesets into one deduped Shadowrocket RULE-SET."""
+"""Aggregate blackmatrix7/ios_rule_script China rulesets into one deduped ruleset,
+rendered into Shadowrocket, Surge, Loon, QuantumultX, and Clash formats."""
 import datetime
 import ipaddress
 import urllib.request
@@ -10,6 +11,13 @@ BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/ru
 # near-total subsets of ChinaMax's IP-CIDR / domain coverage (see diff report).
 # ChinaIPs is included despite ~99.93% overlap with ChinaMax, since collapse_cidrs()
 # below merges it for free and it still contributes a small amount of unique address space.
+#
+# All five client outputs are rendered from this single Shadowrocket-derived
+# canonical ruleset rather than fetched separately per client. blackmatrix7's
+# per-client files are ~99% identical data with different serialization; the
+# small platform-exclusive extras (e.g. QuantumultX's one HOST-WILDCARD rule,
+# Surge/Clash's desktop-only PROCESS-NAME rules) are skipped in exchange for
+# one build pipeline and guaranteed-identical coverage across every client.
 SOURCES = [
     f"{BASE}/China/China.list",
     f"{BASE}/China/China_Domain.list",
@@ -63,9 +71,20 @@ def suffix_covers(trie: dict, domain: str) -> bool:
     return bool(node.get(MARK))
 
 
+def normalize_v4_mapped(net: ipaddress._BaseNetwork) -> ipaddress._BaseNetwork:
+    """Some upstream entries encode plain IPv4 hosts as IPv4-mapped IPv6 /128
+    literals (e.g. ::ffff:1.2.3.4/128). Rule engines match connections by
+    address family, so as IPv6 these never match real IPv4 traffic - convert
+    back to IPv4 so the rule actually works."""
+    if net.version == 6 and net.prefixlen == 128 and net.network_address.ipv4_mapped is not None:
+        return ipaddress.ip_network(f"{net.network_address.ipv4_mapped}/32")
+    return net
+
+
 def collapse_cidrs(cidrs: set) -> list:
-    v4 = [ipaddress.ip_network(c) for c in cidrs if ipaddress.ip_network(c).version == 4]
-    v6 = [ipaddress.ip_network(c) for c in cidrs if ipaddress.ip_network(c).version == 6]
+    nets = [normalize_v4_mapped(ipaddress.ip_network(c)) for c in cidrs]
+    v4 = [n for n in nets if n.version == 4]
+    v6 = [n for n in nets if n.version == 6]
     collapsed = []
     if v4:
         collapsed += list(ipaddress.collapse_addresses(v4))
@@ -123,7 +142,7 @@ def merge(all_rules: list) -> dict:
     return merged
 
 
-def build() -> str:
+def build_canonical() -> dict:
     parsed = []
     for url in SOURCES:
         text = fetch(url)
@@ -136,42 +155,135 @@ def build() -> str:
         insert_suffix(suffix_trie, d)
     domain = {d for d in merged["domain"] if not suffix_covers(suffix_trie, d)}
     ip_cidr = collapse_cidrs(merged["ip_cidr"])
+    ip_cidr_v4 = sorted((n for n in ip_cidr if n.version == 4))
+    ip_cidr_v6 = sorted((n for n in ip_cidr if n.version == 6))
 
-    lines = []
-    lines.append("# NAME: ChinaDirectMerged")
-    lines.append("# GENERATED-BY: china-direct-rules/scripts/build_rules.py")
-    lines.append(f"# UPDATED: {datetime.datetime.now(datetime.timezone.utc).isoformat()}")
-    lines.append("# SOURCES:")
+    return {
+        "domain_suffix": sorted(domain_suffix, key=lambda s: s[::-1]),
+        "domain": sorted(domain),
+        "domain_keyword": sorted(merged["domain_keyword"]),
+        "user_agent": sorted(merged["user_agent"]),
+        "ip_asn": sorted(merged["ip_asn"]),
+        "ip_cidr_v4": ip_cidr_v4,
+        "ip_cidr_v6": ip_cidr_v6,
+    }
+
+
+def header(ctx: dict, comment: str = "#") -> list:
+    total = sum(len(ctx[k]) for k in ("domain_suffix", "domain", "domain_keyword", "user_agent", "ip_asn", "ip_cidr_v4", "ip_cidr_v6"))
+    lines = [
+        f"{comment} NAME: ChinaDirectMerged",
+        f"{comment} GENERATED-BY: china-direct-rules/scripts/build_rules.py",
+        f"{comment} UPDATED: {datetime.datetime.now(datetime.timezone.utc).isoformat()}",
+        f"{comment} SOURCES:",
+    ]
     for url in SOURCES:
-        lines.append(f"#   {url}")
-    lines.append(f"# DOMAIN-SUFFIX: {len(domain_suffix)}")
-    lines.append(f"# DOMAIN: {len(domain)}")
-    lines.append(f"# DOMAIN-KEYWORD: {len(merged['domain_keyword'])}")
-    lines.append(f"# USER-AGENT: {len(merged['user_agent'])}")
-    lines.append(f"# IP-ASN: {len(merged['ip_asn'])}")
-    lines.append(f"# IP-CIDR: {len(ip_cidr)}")
-    total = len(domain_suffix) + len(domain) + len(merged["domain_keyword"]) + len(merged["user_agent"]) + len(merged["ip_asn"]) + len(ip_cidr)
-    lines.append(f"# TOTAL: {total}")
-    lines.append("")
+        lines.append(f"{comment}   {url}")
+    lines += [
+        f"{comment} DOMAIN-SUFFIX: {len(ctx['domain_suffix'])}",
+        f"{comment} DOMAIN: {len(ctx['domain'])}",
+        f"{comment} DOMAIN-KEYWORD: {len(ctx['domain_keyword'])}",
+        f"{comment} USER-AGENT: {len(ctx['user_agent'])}",
+        f"{comment} IP-ASN: {len(ctx['ip_asn'])}",
+        f"{comment} IP-CIDR: {len(ctx['ip_cidr_v4'])}",
+        f"{comment} IP-CIDR6: {len(ctx['ip_cidr_v6'])}",
+        f"{comment} TOTAL: {total}",
+    ]
+    return lines
 
-    for d in sorted(merged["domain_keyword"]):
+
+def render_shadowrocket(ctx: dict) -> str:
+    """Shadowrocket RULE-SET: mixes rule types in one file, single IP-CIDR type for v4+v6."""
+    lines = header(ctx) + [""]
+    for d in ctx["domain_keyword"]:
         lines.append(f"DOMAIN-KEYWORD,{d}")
-    for d in sorted(merged["user_agent"]):
+    for d in ctx["user_agent"]:
         lines.append(f"USER-AGENT,{d}")
-    for d in sorted(merged["ip_asn"]):
+    for d in ctx["ip_asn"]:
         lines.append(f"IP-ASN,{d},no-resolve")
-    for net in sorted(ip_cidr, key=lambda n: (n.version, n)):
+    for net in ctx["ip_cidr_v4"] + ctx["ip_cidr_v6"]:
         lines.append(f"IP-CIDR,{net},no-resolve")
-    for d in sorted(domain):
+    for d in ctx["domain"]:
         lines.append(f"DOMAIN,{d}")
-    for d in sorted(domain_suffix, key=lambda s: s[::-1]):
+    for d in ctx["domain_suffix"]:
         lines.append(f"DOMAIN-SUFFIX,{d}")
-
     return "\n".join(lines) + "\n"
 
 
+def render_surge_loon(ctx: dict) -> str:
+    """Surge & Loon RULE-SET: same syntax, IPv6 CIDRs get their own IP-CIDR6 type."""
+    lines = header(ctx) + [""]
+    for d in ctx["domain_keyword"]:
+        lines.append(f"DOMAIN-KEYWORD,{d}")
+    for d in ctx["user_agent"]:
+        lines.append(f"USER-AGENT,{d}")
+    for d in ctx["ip_asn"]:
+        lines.append(f"IP-ASN,{d},no-resolve")
+    for net in ctx["ip_cidr_v4"]:
+        lines.append(f"IP-CIDR,{net},no-resolve")
+    for net in ctx["ip_cidr_v6"]:
+        lines.append(f"IP-CIDR6,{net},no-resolve")
+    for d in ctx["domain"]:
+        lines.append(f"DOMAIN,{d}")
+    for d in ctx["domain_suffix"]:
+        lines.append(f"DOMAIN-SUFFIX,{d}")
+    return "\n".join(lines) + "\n"
+
+
+def render_quantumultx(ctx: dict) -> str:
+    """QuantumultX filter: HOST(-SUFFIX/-KEYWORD) instead of DOMAIN(-SUFFIX/-KEYWORD),
+    every line carries an explicit trailing policy so it works standalone without
+    relying on a force-policy= override at subscription time."""
+    lines = header(ctx) + [""]
+    for d in ctx["domain_keyword"]:
+        lines.append(f"HOST-KEYWORD,{d},direct")
+    for d in ctx["user_agent"]:
+        lines.append(f"USER-AGENT,{d},direct")
+    for d in ctx["ip_asn"]:
+        lines.append(f"IP-ASN,{d},direct")
+    for net in ctx["ip_cidr_v4"]:
+        lines.append(f"IP-CIDR,{net},direct")
+    for net in ctx["ip_cidr_v6"]:
+        lines.append(f"IP6-CIDR,{net},direct")
+    for d in ctx["domain"]:
+        lines.append(f"HOST,{d},direct")
+    for d in ctx["domain_suffix"]:
+        lines.append(f"HOST-SUFFIX,{d},direct")
+    return "\n".join(lines) + "\n"
+
+
+def render_clash(ctx: dict) -> str:
+    """Clash classical rule-provider. No USER-AGENT support in classical mode,
+    so those rules are dropped (documented in README)."""
+    lines = header(ctx) + ["payload:"]
+    for d in ctx["domain_keyword"]:
+        lines.append(f"  - DOMAIN-KEYWORD,{d}")
+    for d in ctx["ip_asn"]:
+        lines.append(f"  - IP-ASN,{d}")
+    for net in ctx["ip_cidr_v4"]:
+        lines.append(f"  - IP-CIDR,{net}")
+    for net in ctx["ip_cidr_v6"]:
+        lines.append(f"  - IP-CIDR6,{net}")
+    for d in ctx["domain"]:
+        lines.append(f"  - DOMAIN,{d}")
+    for d in ctx["domain_suffix"]:
+        lines.append(f"  - DOMAIN-SUFFIX,{d}")
+    return "\n".join(lines) + "\n"
+
+
+OUTPUTS = {
+    "rules/shadowrocket.list": render_shadowrocket,
+    "rules/surge.list": render_surge_loon,
+    "rules/loon.list": render_surge_loon,
+    "rules/quantumultx.list": render_quantumultx,
+    "rules/clash.yaml": render_clash,
+}
+
+
 if __name__ == "__main__":
-    output = build()
-    with open("rules/china_direct.list", "w", encoding="utf-8") as f:
-        f.write(output)
-    print(f"wrote rules/china_direct.list ({len(output.splitlines())} lines)")
+    ctx = build_canonical()
+    for path, renderer in OUTPUTS.items():
+        text = renderer(ctx)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(text)
+        print(f"wrote {path} ({len(text.splitlines())} lines)")
