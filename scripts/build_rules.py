@@ -172,6 +172,6 @@ def build() -> str:
 
 if __name__ == "__main__":
     output = build()
-    with open("output/china_direct.list", "w", encoding="utf-8") as f:
+    with open("rules/china_direct.list", "w", encoding="utf-8") as f:
         f.write(output)
-    print(f"wrote output/china_direct.list ({len(output.splitlines())} lines)")
+    print(f"wrote rules/china_direct.list ({len(output.splitlines())} lines)")

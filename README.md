@@ -23,24 +23,24 @@ So `China.list` + `China_Domain.list` + `ChinaMax.list` + `ChinaMax_Domain.list`
 
 ## Output
 
-`output/china_direct.list` — a single Shadowrocket `RULE-SET` file mixing all rule types (same format `ChinaMax.list` itself uses).
+`rules/china_direct.list` — a single Shadowrocket `RULE-SET` file mixing all rule types (same format `ChinaMax.list` itself uses).
 
 ## Subscribing in Shadowrocket
 
 Add as a rule subscription:
 
 ```
-https://raw.githubusercontent.com/<your-github-username>/china-direct-rules/main/output/china_direct.list
+https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/china_direct.list
 ```
 
 Rule config line:
 
 ```
-RULE-SET,https://raw.githubusercontent.com/<your-github-username>/china-direct-rules/main/output/china_direct.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/china_direct.list,DIRECT
 ```
 
 Set the subscription's auto-update interval (e.g. 24h) so Shadowrocket re-pulls after each daily GitHub Actions run.
 
 ## Automation
 
-`.github/workflows/update.yml` runs daily at 21:30 UTC (05:30 Beijing) — a few hours after upstream's own daily refresh — regenerates `output/china_direct.list`, and commits/pushes if anything changed. Trigger manually anytime via the Actions tab (`workflow_dispatch`).
+`.github/workflows/update.yml` runs daily at 21:30 UTC (05:30 Beijing) — a few hours after upstream's own daily refresh — regenerates `rules/china_direct.list`, and commits/pushes if anything changed. Trigger manually anytime via the Actions tab (`workflow_dispatch`).
