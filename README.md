@@ -1,17 +1,16 @@
 # china-direct-rules
 
-Daily-refreshed, deduplicated merge of [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)'s `China`, `ChinaMax`, and `ChinaIPs` rulesets, published as a ready-to-subscribe direct-connect ruleset for **Shadowrocket, Surge, Loon, QuantumultX, and Clash**.
+Daily-refreshed, deduplicated merge of [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)'s `China`, `ChinaMax`, `ChinaIPs`, and `ChinaIPsBGP` rulesets, published as a ready-to-subscribe direct-connect ruleset for **Shadowrocket, Surge, Loon, QuantumultX, and Clash**.
 
-## Why these three sources
+## Why these four sources
 
-Diffing all five China-related rulesets (`China`, `ChinaDNS`, `ChinaIPs`, `ChinaIPsBGP`, `ChinaMax`) showed:
+Diffing all four China-related rulesets (`China`, `ChinaIPs`, `ChinaIPsBGP`, `ChinaMax`) showed:
 
-- `ChinaIPsBGP` is a >99.9% address-space subset of `ChinaMax`'s IP-CIDR set — skipped, zero unique value.
+- `ChinaIPsBGP` is a >99.9% address-space subset of `ChinaMax`'s IP-CIDR set, but the remaining sliver is real unique address space, and `collapse_cidrs()` merges it for free — so it's included.
 - `ChinaIPs` is ~99.93% overlapping with `ChinaMax`, but the remaining ~0.07% (≈247k addresses) is real unique address space, and `collapse_cidrs()` merges it for free — so it's included.
-- `ChinaDNS`'s 4 rules are already covered by `ChinaMax` (verbatim or via a broader suffix it already has) — skipped.
 - `China` (the small curated list) contributes real, unique value `ChinaMax` doesn't have: 5 Tencent Cloud HK/SG IP ranges used by WeChat/QQ backends, a `microsoft` DOMAIN-KEYWORD, and ~162 domains (`bootcdn.net`, `baidustatic.com`, `51.la`, etc.) missing from `ChinaMax`'s domain set.
 
-So `China.list` + `China_Domain.list` + `ChinaMax.list` + `ChinaMax_Domain.list` + `ChinaIPs.list` are merged. Only `ChinaIPsBGP` and `ChinaDNS` are skipped as fully redundant.
+So `China.list` + `China_Domain.list` + `ChinaMax.list` + `ChinaMax_Domain.list` + `ChinaIPs.list` + `ChinaIPsBGP.list` are merged into the canonical set.
 
 ## Deduplication
 
@@ -47,9 +46,9 @@ Auto-updated by `scripts/build_rules.py` on every run — counts reflect the can
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 65 |
 | IP-ASN | 1 |
-| IP-CIDR (v4) | 8,281 |
+| IP-CIDR (v4) | 8,285 |
 | IP-CIDR6 (v6) | 4,099 |
-| **TOTAL** | **124,958** |
+| **TOTAL** | **124,962** |
 
 <!-- RULE-STATS:END -->
 

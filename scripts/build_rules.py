@@ -7,10 +7,11 @@ import urllib.request
 
 BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
 
-# ChinaIPsBGP / ChinaDNS are intentionally excluded: they were verified to be
-# near-total subsets of ChinaMax's IP-CIDR / domain coverage (see diff report).
-# ChinaIPs is included despite ~99.93% overlap with ChinaMax, since collapse_cidrs()
-# below merges it for free and it still contributes a small amount of unique address space.
+# ChinaDNS is intentionally excluded: its 4 rules were verified to already be
+# covered by ChinaMax's domain set (see diff report).
+# ChinaIPs and ChinaIPsBGP are included despite heavy overlap with ChinaMax's
+# IP-CIDR set, since collapse_cidrs() below merges them for free and each still
+# contributes a small amount of unique address space.
 #
 # All five client outputs are rendered from this single Shadowrocket-derived
 # canonical ruleset rather than fetched separately per client. blackmatrix7's
@@ -24,6 +25,7 @@ SOURCES = [
     f"{BASE}/ChinaMax/ChinaMax.list",
     f"{BASE}/ChinaMax/ChinaMax_Domain.list",
     f"{BASE}/ChinaIPs/ChinaIPs.list",
+    f"{BASE}/ChinaIPsBGP/ChinaIPsBGP.list",
 ]
 
 MARK = object()

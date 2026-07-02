@@ -1,20 +1,21 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-02T05:36:56.925015+00:00
+# UPDATED: 2026-07-02T07:39:19.152647+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMax/ChinaMax.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMax/ChinaMax_Domain.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
+#   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPsBGP/ChinaIPsBGP.list
 # DOMAIN-SUFFIX: 112498
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 65
 # IP-ASN: 1
-# IP-CIDR: 8281
+# IP-CIDR: 8285
 # IP-CIDR6: 4099
-# TOTAL: 124958
+# TOTAL: 124962
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -1350,6 +1351,7 @@ payload:
   - IP-CIDR,61.10.96.0/20
   - IP-CIDR,61.10.128.0/20
   - IP-CIDR,61.10.160.0/19
+  - IP-CIDR,61.10.224.0/19
   - IP-CIDR,61.14.212.0/22
   - IP-CIDR,61.14.216.0/21
   - IP-CIDR,61.14.240.0/21
@@ -5575,6 +5577,7 @@ payload:
   - IP-CIDR,185.228.135.48/32
   - IP-CIDR,185.242.244.0/22
   - IP-CIDR,186.155.200.118/32
+  - IP-CIDR,187.54.48.0/23
   - IP-CIDR,188.65.16.0/22
   - IP-CIDR,188.131.128.0/17
   - IP-CIDR,188.190.1.0/24
@@ -5618,6 +5621,7 @@ payload:
   - IP-CIDR,192.168.10.1/32
   - IP-CIDR,192.168.119.253/32
   - IP-CIDR,192.171.224.0/21
+  - IP-CIDR,192.193.73.0/24
   - IP-CIDR,192.197.113.0/24
   - IP-CIDR,192.232.97.0/24
   - IP-CIDR,192.240.127.34/32
@@ -7253,6 +7257,7 @@ payload:
   - IP-CIDR,210.210.155.35/32
   - IP-CIDR,211.64.0.0/13
   - IP-CIDR,211.76.108.0/27
+  - IP-CIDR,211.76.179.0/24
   - IP-CIDR,211.80.0.0/12
   - IP-CIDR,211.96.0.0/13
   - IP-CIDR,211.136.0.0/13
@@ -7359,7 +7364,7 @@ payload:
   - IP-CIDR,222.248.0.0/15
   - IP-CIDR,223.0.0.0/12
   - IP-CIDR,223.20.0.0/15
-  - IP-CIDR,223.26.0.0/24
+  - IP-CIDR,223.26.0.0/23
   - IP-CIDR,223.27.184.0/22
   - IP-CIDR,223.29.208.0/22
   - IP-CIDR,223.29.252.0/22
