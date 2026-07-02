@@ -1,0 +1,35 @@
+name: Update China direct-connect ruleset
+
+on:
+  schedule:
+    # 21:30 UTC = 05:30 Beijing time, a few hours after upstream's own daily refresh
+    - cron: "30 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build merged ruleset
+        run: python3 scripts/build_rules.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/china_direct.list
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update china_direct.list $(date -u +%Y-%m-%d)"
+            git push
+          fi
