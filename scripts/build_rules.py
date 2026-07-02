@@ -279,6 +279,39 @@ OUTPUTS = {
     "rules/clash.yaml": render_clash,
 }
 
+STATS_START = "<!-- RULE-STATS:START -->"
+STATS_END = "<!-- RULE-STATS:END -->"
+
+
+def render_readme_stats(ctx: dict) -> str:
+    rows = [
+        ("DOMAIN-SUFFIX", len(ctx["domain_suffix"])),
+        ("DOMAIN", len(ctx["domain"])),
+        ("DOMAIN-KEYWORD", len(ctx["domain_keyword"])),
+        ("USER-AGENT", len(ctx["user_agent"])),
+        ("IP-ASN", len(ctx["ip_asn"])),
+        ("IP-CIDR (v4)", len(ctx["ip_cidr_v4"])),
+        ("IP-CIDR6 (v6)", len(ctx["ip_cidr_v6"])),
+    ]
+    total = sum(n for _, n in rows)
+    lines = [STATS_START, "", "| Type | Count |", "|---|---|"]
+    for name, n in rows:
+        lines.append(f"| {name} | {n:,} |")
+    lines.append(f"| **TOTAL** | **{total:,}** |")
+    lines.append("")
+    lines.append(STATS_END)
+    return "\n".join(lines)
+
+
+def update_readme(ctx: dict, path: str = "README.md") -> None:
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    start = text.index(STATS_START)
+    end = text.index(STATS_END) + len(STATS_END)
+    text = text[:start] + render_readme_stats(ctx) + text[end:]
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+
 
 if __name__ == "__main__":
     ctx = build_canonical()
@@ -287,3 +320,5 @@ if __name__ == "__main__":
         with open(path, "w", encoding="utf-8") as f:
             f.write(text)
         print(f"wrote {path} ({len(text.splitlines())} lines)")
+    update_readme(ctx)
+    print("updated README.md rule statistics")

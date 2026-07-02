@@ -34,6 +34,25 @@ All five client files are generated from a single canonical rule set (parsed fro
 | `rules/quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; every line has an explicit trailing `direct` policy so it works standalone without needing a `force-policy=` override |
 | `rules/clash.yaml` | Clash | `behavior: classical` rule-provider; **`USER-AGENT` rules are dropped** — Clash's classical behavior has no such rule type |
 
+## Rule statistics
+
+Auto-updated by `scripts/build_rules.py` on every run — counts reflect the canonical merged set (Clash additionally drops the `USER-AGENT` rows, see table above).
+
+<!-- RULE-STATS:START -->
+
+| Type | Count |
+|---|---|
+| DOMAIN-SUFFIX | 112,498 |
+| DOMAIN | 0 |
+| DOMAIN-KEYWORD | 14 |
+| USER-AGENT | 65 |
+| IP-ASN | 1 |
+| IP-CIDR (v4) | 8,281 |
+| IP-CIDR6 (v6) | 4,099 |
+| **TOTAL** | **124,958** |
+
+<!-- RULE-STATS:END -->
+
 ## Subscribing
 
 **Shadowrocket** — rule config line:
