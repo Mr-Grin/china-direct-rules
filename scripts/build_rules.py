@@ -6,17 +6,25 @@ import ipaddress
 import urllib.request
 
 BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
+CHNROUTES_URL = "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt"
 
 # ChinaDNS is intentionally excluded: its 4 rules were verified to already be
 # covered by ChinaMax's domain set (see diff report).
-# ChinaIPs and ChinaIPsBGP are included despite heavy overlap with ChinaMax's
-# IP-CIDR set, since collapse_cidrs() below merges them for free and each still
-# contributes a small amount of unique address space.
+# ChinaIPs is included despite ~99.93% overlap with ChinaMax, since
+# collapse_cidrs() below merges it for free and it still contributes a small
+# amount of unique address space.
 #
-# All five client outputs are rendered from this single Shadowrocket-derived
-# canonical ruleset rather than fetched separately per client. blackmatrix7's
-# per-client files are ~99% identical data with different serialization; the
-# small platform-exclusive extras (e.g. QuantumultX's one HOST-WILDCARD rule,
+# chnroutes.txt is fetched directly from misakaio/chnroutes2 (a bare CIDR
+# list, refreshed daily) instead of blackmatrix7's ChinaIPsBGP.list mirror of
+# it, since that mirror was found to lag the upstream by weeks. As of this
+# writing it's a 100% subset of ChinaMax's IP-CIDR set (zero unique
+# addresses), but it's kept since collapse_cidrs() dedupes it for free and it
+# guards against future BGP churn ChinaMax hasn't picked up yet.
+#
+# All five client outputs are rendered from this single canonical ruleset
+# rather than fetched separately per client. blackmatrix7's per-client files
+# are ~99% identical data with different serialization; the small
+# platform-exclusive extras (e.g. QuantumultX's one HOST-WILDCARD rule,
 # Surge/Clash's desktop-only PROCESS-NAME rules) are skipped in exchange for
 # one build pipeline and guaranteed-identical coverage across every client.
 SOURCES = [
@@ -25,7 +33,7 @@ SOURCES = [
     f"{BASE}/ChinaMax/ChinaMax.list",
     f"{BASE}/ChinaMax/ChinaMax_Domain.list",
     f"{BASE}/ChinaIPs/ChinaIPs.list",
-    f"{BASE}/ChinaIPsBGP/ChinaIPsBGP.list",
+    CHNROUTES_URL,
 ]
 
 MARK = object()
@@ -95,7 +103,7 @@ def collapse_cidrs(cidrs: set) -> list:
     return collapsed
 
 
-def parse_source(text: str, is_domain_set: bool):
+def parse_source(text: str, is_domain_set: bool, is_cidr_set: bool = False):
     rules = {
         "domain_suffix": set(),
         "domain": set(),
@@ -110,6 +118,9 @@ def parse_source(text: str, is_domain_set: bool):
             continue
         if is_domain_set:
             rules["domain_suffix"].add(line.lstrip("."))
+            continue
+        if is_cidr_set:
+            rules["ip_cidr"].add(line)
             continue
         parts = line.split(",")
         rtype = parts[0]
@@ -148,7 +159,7 @@ def build_canonical() -> dict:
     parsed = []
     for url in SOURCES:
         text = fetch(url)
-        parsed.append(parse_source(text, is_domain_set=url.endswith("_Domain.list")))
+        parsed.append(parse_source(text, is_domain_set=url.endswith("_Domain.list"), is_cidr_set=url == CHNROUTES_URL))
     merged = merge(parsed)
 
     domain_suffix = reduce_domain_suffixes(merged["domain_suffix"])
