@@ -85,14 +85,14 @@ Auto-updated by `scripts/build_rules.py` on every run — counts reflect the can
 
 | Type | Count |
 |---|---|
-| DOMAIN-SUFFIX | 112,507 |
+| DOMAIN-SUFFIX | 112,513 |
 | DOMAIN | 0 |
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 65 |
 | IP-ASN | 1 |
-| IP-CIDR (v4) | 8,271 |
-| IP-CIDR6 (v6) | 4,097 |
-| **TOTAL** | **124,955** |
+| IP-CIDR (v4) | 8,276 |
+| IP-CIDR6 (v6) | 4,098 |
+| **TOTAL** | **124,967** |
 
 <!-- RULE-STATS:END -->
 

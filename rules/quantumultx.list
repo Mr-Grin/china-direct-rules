@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-03T22:34:57.795479+00:00
+# UPDATED: 2026-07-05T22:31:52.444902+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -8,14 +8,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMax/ChinaMax_Domain.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
-# DOMAIN-SUFFIX: 112507
+# DOMAIN-SUFFIX: 112513
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 65
 # IP-ASN: 1
-# IP-CIDR: 8271
-# IP-CIDR6: 4097
-# TOTAL: 124955
+# IP-CIDR: 8276
+# IP-CIDR6: 4098
+# TOTAL: 124967
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -1476,6 +1476,8 @@ IP-CIDR,67.199.159.224/30,direct
 IP-CIDR,67.220.137.144/28,direct
 IP-CIDR,67.220.158.24/29,direct
 IP-CIDR,68.79.0.0/18,direct
+IP-CIDR,68.166.209.0/24,direct
+IP-CIDR,69.33.203.0/24,direct
 IP-CIDR,69.85.93.0/24,direct
 IP-CIDR,69.107.7.16/29,direct
 IP-CIDR,69.163.104.0/24,direct
@@ -5134,6 +5136,7 @@ IP-CIDR,154.36.92.0/23,direct
 IP-CIDR,154.72.42.0/24,direct
 IP-CIDR,154.72.44.0/24,direct
 IP-CIDR,154.72.47.0/24,direct
+IP-CIDR,154.84.180.0/24,direct
 IP-CIDR,154.89.32.0/20,direct
 IP-CIDR,154.91.158.0/23,direct
 IP-CIDR,154.197.128.0/17,direct
@@ -5648,6 +5651,7 @@ IP-CIDR,188.220.127.0/24,direct
 IP-CIDR,188.240.211.0/25,direct
 IP-CIDR,188.241.80.0/24,direct
 IP-CIDR,189.31.222.0/24,direct
+IP-CIDR,189.75.180.0/24,direct
 IP-CIDR,189.75.185.0/24,direct
 IP-CIDR,191.44.18.0/24,direct
 IP-CIDR,191.219.18.0/24,direct
@@ -5742,6 +5746,7 @@ IP-CIDR,199.65.192.0/21,direct
 IP-CIDR,199.182.239.0/24,direct
 IP-CIDR,199.212.57.0/24,direct
 IP-CIDR,199.244.144.0/24,direct
+IP-CIDR,200.102.179.0/24,direct
 IP-CIDR,200.102.180.0/24,direct
 IP-CIDR,201.11.233.0/24,direct
 IP-CIDR,201.14.217.0/24,direct
@@ -12316,6 +12321,7 @@ IP6-CIDR,2a0f:1cc5:3200::/46,direct
 IP6-CIDR,2a0f:1cc5:3222::/48,direct
 IP6-CIDR,2a0f:1cc5:4508::/46,direct
 IP6-CIDR,2a0f:1cc5:45ff::/48,direct
+IP6-CIDR,2a0f:1cc5:4700::/40,direct
 IP6-CIDR,2a0f:1cc6:b110::/47,direct
 IP6-CIDR,2a0f:2706::/32,direct
 IP6-CIDR,2a0f:7803:fd00::/44,direct
@@ -12371,7 +12377,7 @@ IP6-CIDR,2a13:cc3:c000::/34,direct
 IP6-CIDR,2a13:1800::/29,direct
 IP6-CIDR,2a13:8b40::/29,direct
 IP6-CIDR,2a13:8c87::/32,direct
-IP6-CIDR,2a13:9500:194::/48,direct
+IP6-CIDR,2a13:9500:194::/47,direct
 IP6-CIDR,2a13:a5c3:d600::/42,direct
 IP6-CIDR,2a13:a5c3:f000::/40,direct
 IP6-CIDR,2a13:a5c3:f1c0::/44,direct
@@ -12465,6 +12471,7 @@ IP6-CIDR,2c0f:f7a8:8211::/48,direct
 IP6-CIDR,2c0f:f7a8:9020::/48,direct
 IP6-CIDR,2c0f:f7a8:9041::/48,direct
 IP6-CIDR,2c0f:f7a8:9220::/48,direct
+HOST-SUFFIX,xn--9krt00a,direct
 HOST-SUFFIX,xn--fjq720a,direct
 HOST-SUFFIX,xn--1qqw23a,direct
 HOST-SUFFIX,xn--8y0a063a,direct
@@ -12636,6 +12643,7 @@ HOST-SUFFIX,dd.ma,direct
 HOST-SUFFIX,kuai.ma,direct
 HOST-SUFFIX,luan.ma,direct
 HOST-SUFFIX,2w.ma,direct
+HOST-SUFFIX,sina,direct
 HOST-SUFFIX,icbc.com.qa,direct
 HOST-SUFFIX,geely.com.qa,direct
 HOST-SUFFIX,touhou.casa,direct
@@ -18412,6 +18420,7 @@ HOST-SUFFIX,im.ci,direct
 HOST-SUFFIX,men.ci,direct
 HOST-SUFFIX,zz.ci,direct
 HOST-SUFFIX,com.fi,direct
+HOST-SUFFIX,shouji,direct
 HOST-SUFFIX,chase-secure55.wiki,direct
 HOST-SUFFIX,dyfsp88.wiki,direct
 HOST-SUFFIX,secure-chasle029.wiki,direct
@@ -112576,6 +112585,8 @@ HOST-SUFFIX,mao.fan,direct
 HOST-SUFFIX,phet.fan,direct
 HOST-SUFFIX,ably.fan,direct
 HOST-SUFFIX,79979.loan,direct
+HOST-SUFFIX,xihuan,direct
+HOST-SUFFIX,anquan,direct
 HOST-SUFFIX,cn,direct
 HOST-SUFFIX,tj1-miui-bn-stage01.kscn,direct
 HOST-SUFFIX,ximalaya.men,direct
@@ -113288,11 +113299,12 @@ HOST-SUFFIX,wu.run,direct
 HOST-SUFFIX,lx.run,direct
 HOST-SUFFIX,midway.run,direct
 HOST-SUFFIX,yyyyy.run,direct
-HOST-SUFFIX,emby.yun,direct
+HOST-SUFFIX,yun,direct
 HOST-SUFFIX,lazada.vn,direct
 HOST-SUFFIX,icbc.com.vn,direct
 HOST-SUFFIX,taobao,direct
 HOST-SUFFIX,gao.bo,direct
+HOST-SUFFIX,weibo,direct
 HOST-SUFFIX,13800100.co,direct
 HOST-SUFFIX,425300.co,direct
 HOST-SUFFIX,xd0.co,direct

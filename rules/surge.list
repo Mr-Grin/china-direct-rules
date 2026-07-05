@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-03T22:34:57.656575+00:00
+# UPDATED: 2026-07-05T22:31:52.304816+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -8,14 +8,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMax/ChinaMax_Domain.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
-# DOMAIN-SUFFIX: 112507
+# DOMAIN-SUFFIX: 112513
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 65
 # IP-ASN: 1
-# IP-CIDR: 8271
-# IP-CIDR6: 4097
-# TOTAL: 124955
+# IP-CIDR: 8276
+# IP-CIDR6: 4098
+# TOTAL: 124967
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -1476,6 +1476,8 @@ IP-CIDR,67.199.159.224/30,no-resolve
 IP-CIDR,67.220.137.144/28,no-resolve
 IP-CIDR,67.220.158.24/29,no-resolve
 IP-CIDR,68.79.0.0/18,no-resolve
+IP-CIDR,68.166.209.0/24,no-resolve
+IP-CIDR,69.33.203.0/24,no-resolve
 IP-CIDR,69.85.93.0/24,no-resolve
 IP-CIDR,69.107.7.16/29,no-resolve
 IP-CIDR,69.163.104.0/24,no-resolve
@@ -5134,6 +5136,7 @@ IP-CIDR,154.36.92.0/23,no-resolve
 IP-CIDR,154.72.42.0/24,no-resolve
 IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
+IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,154.197.128.0/17,no-resolve
@@ -5648,6 +5651,7 @@ IP-CIDR,188.220.127.0/24,no-resolve
 IP-CIDR,188.240.211.0/25,no-resolve
 IP-CIDR,188.241.80.0/24,no-resolve
 IP-CIDR,189.31.222.0/24,no-resolve
+IP-CIDR,189.75.180.0/24,no-resolve
 IP-CIDR,189.75.185.0/24,no-resolve
 IP-CIDR,191.44.18.0/24,no-resolve
 IP-CIDR,191.219.18.0/24,no-resolve
@@ -5742,6 +5746,7 @@ IP-CIDR,199.65.192.0/21,no-resolve
 IP-CIDR,199.182.239.0/24,no-resolve
 IP-CIDR,199.212.57.0/24,no-resolve
 IP-CIDR,199.244.144.0/24,no-resolve
+IP-CIDR,200.102.179.0/24,no-resolve
 IP-CIDR,200.102.180.0/24,no-resolve
 IP-CIDR,201.11.233.0/24,no-resolve
 IP-CIDR,201.14.217.0/24,no-resolve
@@ -12316,6 +12321,7 @@ IP-CIDR6,2a0f:1cc5:3200::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:3222::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:4508::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:45ff::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:4700::/40,no-resolve
 IP-CIDR6,2a0f:1cc6:b110::/47,no-resolve
 IP-CIDR6,2a0f:2706::/32,no-resolve
 IP-CIDR6,2a0f:7803:fd00::/44,no-resolve
@@ -12371,7 +12377,7 @@ IP-CIDR6,2a13:cc3:c000::/34,no-resolve
 IP-CIDR6,2a13:1800::/29,no-resolve
 IP-CIDR6,2a13:8b40::/29,no-resolve
 IP-CIDR6,2a13:8c87::/32,no-resolve
-IP-CIDR6,2a13:9500:194::/48,no-resolve
+IP-CIDR6,2a13:9500:194::/47,no-resolve
 IP-CIDR6,2a13:a5c3:d600::/42,no-resolve
 IP-CIDR6,2a13:a5c3:f000::/40,no-resolve
 IP-CIDR6,2a13:a5c3:f1c0::/44,no-resolve
@@ -12465,6 +12471,7 @@ IP-CIDR6,2c0f:f7a8:8211::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:9020::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:9041::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:9220::/48,no-resolve
+DOMAIN-SUFFIX,xn--9krt00a
 DOMAIN-SUFFIX,xn--fjq720a
 DOMAIN-SUFFIX,xn--1qqw23a
 DOMAIN-SUFFIX,xn--8y0a063a
@@ -12636,6 +12643,7 @@ DOMAIN-SUFFIX,dd.ma
 DOMAIN-SUFFIX,kuai.ma
 DOMAIN-SUFFIX,luan.ma
 DOMAIN-SUFFIX,2w.ma
+DOMAIN-SUFFIX,sina
 DOMAIN-SUFFIX,icbc.com.qa
 DOMAIN-SUFFIX,geely.com.qa
 DOMAIN-SUFFIX,touhou.casa
@@ -18412,6 +18420,7 @@ DOMAIN-SUFFIX,im.ci
 DOMAIN-SUFFIX,men.ci
 DOMAIN-SUFFIX,zz.ci
 DOMAIN-SUFFIX,com.fi
+DOMAIN-SUFFIX,shouji
 DOMAIN-SUFFIX,chase-secure55.wiki
 DOMAIN-SUFFIX,dyfsp88.wiki
 DOMAIN-SUFFIX,secure-chasle029.wiki
@@ -112576,6 +112585,8 @@ DOMAIN-SUFFIX,mao.fan
 DOMAIN-SUFFIX,phet.fan
 DOMAIN-SUFFIX,ably.fan
 DOMAIN-SUFFIX,79979.loan
+DOMAIN-SUFFIX,xihuan
+DOMAIN-SUFFIX,anquan
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,tj1-miui-bn-stage01.kscn
 DOMAIN-SUFFIX,ximalaya.men
@@ -113288,11 +113299,12 @@ DOMAIN-SUFFIX,wu.run
 DOMAIN-SUFFIX,lx.run
 DOMAIN-SUFFIX,midway.run
 DOMAIN-SUFFIX,yyyyy.run
-DOMAIN-SUFFIX,emby.yun
+DOMAIN-SUFFIX,yun
 DOMAIN-SUFFIX,lazada.vn
 DOMAIN-SUFFIX,icbc.com.vn
 DOMAIN-SUFFIX,taobao
 DOMAIN-SUFFIX,gao.bo
+DOMAIN-SUFFIX,weibo
 DOMAIN-SUFFIX,13800100.co
 DOMAIN-SUFFIX,425300.co
 DOMAIN-SUFFIX,xd0.co
