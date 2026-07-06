@@ -90,9 +90,9 @@ Auto-updated by `scripts/build_rules.py` on every run — counts reflect the can
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 65 |
 | IP-ASN | 1 |
-| IP-CIDR (v4) | 8,276 |
+| IP-CIDR (v4) | 8,277 |
 | IP-CIDR6 (v6) | 4,098 |
-| **TOTAL** | **124,967** |
+| **TOTAL** | **124,968** |
 
 <!-- RULE-STATS:END -->
 
