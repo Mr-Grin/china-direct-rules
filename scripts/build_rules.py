@@ -7,6 +7,7 @@ import urllib.request
 
 BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
 CHNROUTES_URL = "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt"
+ASN_CHINA_URL = "https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list"
 REPO_RAW_BASE = "https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main"
 
 # ChinaDNS is intentionally excluded: its 4 rules were verified to already be
@@ -28,6 +29,11 @@ REPO_RAW_BASE = "https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/ma
 # platform-exclusive extras (e.g. QuantumultX's one HOST-WILDCARD rule,
 # Surge/Clash's desktop-only PROCESS-NAME rules) are skipped in exchange for
 # one build pipeline and guaranteed-identical coverage across every client.
+#
+# ASN.China.list (missuo/ASN-China) adds IP-ASN coverage: blackmatrix7's own
+# lists carry only a single hand-picked ASN, while this list is a
+# comprehensively scraped registry of China-registered ASNs (thousands of
+# entries) refreshed independently of the other sources.
 SOURCES = [
     f"{BASE}/China/China.list",
     f"{BASE}/China/China_Domain.list",
@@ -35,6 +41,7 @@ SOURCES = [
     f"{BASE}/ChinaMax/ChinaMax_Domain.list",
     f"{BASE}/ChinaIPs/ChinaIPs.list",
     CHNROUTES_URL,
+    ASN_CHINA_URL,
 ]
 
 MARK = object()
@@ -161,7 +168,7 @@ def collapse_cidrs(cidrs: set) -> list:
     return collapsed
 
 
-def parse_source(text: str, is_domain_set: bool, is_cidr_set: bool = False):
+def parse_source(text: str, is_domain_set: bool, is_cidr_set: bool = False, strip_inline_comment: bool = False):
     rules = {
         "domain_suffix": set(),
         "domain": set(),
@@ -172,6 +179,11 @@ def parse_source(text: str, is_domain_set: bool, is_cidr_set: bool = False):
     }
     for line in text.splitlines():
         line = line.strip()
+        if strip_inline_comment:
+            # ASN.China.list uses "//" full-line and trailing comments (e.g.
+            # "IP-ASN,24429 // Zhejiang Taobao Network Co.,Ltd") instead of
+            # blackmatrix7's "#" full-line-only comments.
+            line = line.split("//", 1)[0].strip()
         if not line or line.startswith("#"):
             continue
         if is_domain_set:
@@ -217,7 +229,12 @@ def build_canonical() -> dict:
     parsed = []
     for url in SOURCES:
         text = fetch(url)
-        parsed.append(parse_source(text, is_domain_set=url.endswith("_Domain.list"), is_cidr_set=url == CHNROUTES_URL))
+        parsed.append(parse_source(
+            text,
+            is_domain_set=url.endswith("_Domain.list"),
+            is_cidr_set=url == CHNROUTES_URL,
+            strip_inline_comment=url == ASN_CHINA_URL,
+        ))
     merged = merge(parsed)
 
     domain_suffix = reduce_domain_suffixes(merged["domain_suffix"])
