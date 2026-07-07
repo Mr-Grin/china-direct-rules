@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-06T22:49:08.394440+00:00
+# UPDATED: 2026-07-07T08:04:48.375497+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,11 +11,11 @@
 # DOMAIN-SUFFIX: 112513
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
-# USER-AGENT: 65
+# USER-AGENT: 51
 # IP-ASN: 1
 # IP-CIDR: 8277
 # IP-CIDR6: 4098
-# TOTAL: 124968
+# TOTAL: 124954
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -37,7 +37,6 @@ USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 USER-AGENT,%E4%BC%98%E9%85%B7*
 USER-AGENT,%E5%8D%B3%E5%88%BB*
 USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
 USER-AGENT,*QIYI*
@@ -46,26 +45,18 @@ USER-AGENT,*bili*
 USER-AGENT,AcFun*
 USER-AGENT,AdBlock*
 USER-AGENT,Best%20Trace*
-USER-AGENT,Bilibili*
 USER-AGENT,DomesticMedia*
 USER-AGENT,Himalaya*
 USER-AGENT,MGTV*
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
 USER-AGENT,MOO*
 USER-AGENT,MegaWerewolf*
-USER-AGENT,MicroMessenger%20Client
 USER-AGENT,MicroMessenger*
-USER-AGENT,MicroMessengerClient*
 USER-AGENT,Microsoft*
 USER-AGENT,MiguVideo*
 USER-AGENT,Moke*
 USER-AGENT,NeteaseMusic*
 USER-AGENT,PPStream*
-USER-AGENT,QIYI*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-USER-AGENT,QQ%e9%9f%b3%e4%b9%90*
 USER-AGENT,QQ*
-USER-AGENT,QQMusic*
 USER-AGENT,QYPlayer*
 USER-AGENT,RemotePlay*
 USER-AGENT,TIM*
@@ -79,15 +70,10 @@ USER-AGENT,Youku*
 USER-AGENT,arrowio*
 USER-AGENT,baiduyinyue
 USER-AGENT,balls*
-USER-AGENT,bili*
-USER-AGENT,bili-inter*
-USER-AGENT,bilibili*
 USER-AGENT,cmb*
-USER-AGENT,cmblife*
 USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
-USER-AGENT,iQIYI*
 USER-AGENT,iQiYi*
 USER-AGENT,iQiyi*
 USER-AGENT,live4iphone*

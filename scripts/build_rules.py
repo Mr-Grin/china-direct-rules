@@ -82,6 +82,63 @@ def suffix_covers(trie: dict, domain: str) -> bool:
     return bool(node.get(MARK))
 
 
+def classify_user_agent(value: str) -> tuple:
+    """Turn a USER-AGENT wildcard pattern into a (kind, literal) pair.
+
+    Surge/Shadowrocket/Loon/QuantumultX match USER-AGENT as a fnmatch-style
+    glob anchored at both ends, so a value with no '*' only matches that exact
+    header. '?' isn't used by any current source and isn't a plain substring
+    op, so patterns using it are left as "complex" (never deduped) rather
+    than mismodeled.
+    """
+    if "?" in value:
+        return ("complex", value)
+    stars = value.count("*")
+    if stars == 0:
+        return ("exact", value)
+    if stars == 1:
+        if value.startswith("*"):
+            return ("suffix", value[1:])
+        if value.endswith("*"):
+            return ("prefix", value[:-1])
+        return ("complex", value)
+    if stars == 2 and value.startswith("*") and value.endswith("*") and "*" not in value[1:-1]:
+        return ("contains", value[1:-1])
+    return ("complex", value)
+
+
+def pattern_subsumes(a: tuple, b: tuple) -> bool:
+    """True if every string matched by pattern b is also matched by pattern a,
+    i.e. keeping a makes b redundant. Patterns are (kind, literal) pairs from
+    classify_user_agent, or ("contains", value) for plain DOMAIN-KEYWORD
+    substrings. "complex" never subsumes and is never subsumed."""
+    ak, ac = a
+    bk, bc = b
+    if ak == "complex" or bk == "complex":
+        return False
+    if ak == "contains":
+        return ac in bc
+    if ak == "prefix":
+        return bk in ("prefix", "exact") and bc.startswith(ac)
+    if ak == "suffix":
+        return bk in ("suffix", "exact") and bc.endswith(ac)
+    return False  # "exact" only ever matches itself, so it can't subsume a distinct pattern
+
+
+def reduce_redundant_patterns(values: set, classify) -> set:
+    """Drop patterns whose matches are a subset of some other pattern's in the
+    same set (e.g. DOMAIN-KEYWORD "qiyi" makes "iqiyi" redundant; USER-AGENT
+    "QQ*" makes "QQMusic*" redundant)."""
+    parsed = {v: classify(v) for v in values}
+    redundant = set()
+    for b in values:
+        for a in values:
+            if a != b and pattern_subsumes(parsed[a], parsed[b]):
+                redundant.add(b)
+                break
+    return values - redundant
+
+
 def normalize_v4_mapped(net: ipaddress._BaseNetwork) -> ipaddress._BaseNetwork:
     """Some upstream entries encode plain IPv4 hosts as IPv4-mapped IPv6 /128
     literals (e.g. ::ffff:1.2.3.4/128). Rule engines match connections by
@@ -168,6 +225,8 @@ def build_canonical() -> dict:
     for d in domain_suffix:
         insert_suffix(suffix_trie, d)
     domain = {d for d in merged["domain"] if not suffix_covers(suffix_trie, d)}
+    domain_keyword = reduce_redundant_patterns(merged["domain_keyword"], lambda v: ("contains", v))
+    user_agent = reduce_redundant_patterns(merged["user_agent"], classify_user_agent)
     ip_cidr = collapse_cidrs(merged["ip_cidr"])
     ip_cidr_v4 = sorted((n for n in ip_cidr if n.version == 4))
     ip_cidr_v6 = sorted((n for n in ip_cidr if n.version == 6))
@@ -175,8 +234,8 @@ def build_canonical() -> dict:
     return {
         "domain_suffix": sorted(domain_suffix, key=lambda s: s[::-1]),
         "domain": sorted(domain),
-        "domain_keyword": sorted(merged["domain_keyword"]),
-        "user_agent": sorted(merged["user_agent"]),
+        "domain_keyword": sorted(domain_keyword),
+        "user_agent": sorted(user_agent),
         "ip_asn": sorted(merged["ip_asn"]),
         "ip_cidr_v4": ip_cidr_v4,
         "ip_cidr_v6": ip_cidr_v6,
