@@ -6,11 +6,18 @@
 
 Merges [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) (`China`, `ChinaMax`, `ChinaIPs`), [misakaio/chnroutes2](https://github.com/misakaio/chnroutes2) (BGP-sourced China IP ranges), and [missuo/ASN-China](https://github.com/missuo/ASN-China) (China-registered ASNs) into one canonical set, then renders it for **Shadowrocket, Surge, Loon, QuantumultX, and Clash**.
 
+Ships in two variants — pick one:
+
+- **Full** (`rules/`) — everything, including blackmatrix7's `ChinaMax`, by far the largest domain source.
+- **Lite** (`rules-lite/`) — same pipeline minus `ChinaMax`, ~85% fewer total entries. IP coverage stays nearly as complete (`ChinaIPs`/`chnroutes`/ASN-China overlap `ChinaMax` heavily), but domain-suffix coverage drops sharply — pick this if you mainly care about IP-based direct-connect and want a smaller ruleset.
+
 ---
 
 ## Subscribe
 
-Pick your client, paste the URL, set the subscription's refresh interval to 24h so it stays current.
+Pick your client and variant, paste the URL, set the subscription's refresh interval to 24h so it stays current.
+
+**Full**
 
 | Client | URL |
 |---|---|
@@ -21,9 +28,22 @@ Pick your client, paste the URL, set the subscription's refresh interval to 24h 
 | **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/quantumultx.list` |
 | **Clash** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/clash.yaml` |
 
+**Lite** (no `ChinaMax`)
+
+| Client | URL |
+|---|---|
+| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/shadowrocket.sgmodule` |
+| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/shadowrocket.list` |
+| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/surge.list` |
+| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/loon.list` |
+| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/quantumultx.list` |
+| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/clash.yaml` |
+
 <details>
 <summary><b>Setup instructions per client</b></summary>
 <br>
+
+Same steps for either variant — just use the URL from whichever table above you picked.
 
 **Shadowrocket — module (recommended)**
 Configuration → **Module** → **+** → paste the `.sgmodule` URL → Download. Toggle the whole module on/off from the Module list; no manual config editing.
@@ -74,6 +94,8 @@ rules:
 
 ## Rule statistics
 
+**Full**
+
 <!-- RULE-STATS:START -->
 
 | Type | Count |
@@ -89,20 +111,37 @@ rules:
 
 <!-- RULE-STATS:END -->
 
-Auto-updated by [`scripts/build_rules.py`](scripts/build_rules.py) every run; reflects the canonical merged set (Clash's output additionally drops `USER-AGENT` rows — see [output files](#output-files)).
+**Lite** (no `ChinaMax`)
+
+<!-- RULE-STATS-LITE:START -->
+
+| Type | Count |
+|---|---|
+| DOMAIN-SUFFIX | 3,691 |
+| DOMAIN | 0 |
+| DOMAIN-KEYWORD | 9 |
+| USER-AGENT | 28 |
+| IP-ASN | 5,231 |
+| IP-CIDR (v4) | 7,236 |
+| IP-CIDR6 (v6) | 4,087 |
+| **TOTAL** | **20,282** |
+
+<!-- RULE-STATS-LITE:END -->
+
+Both auto-updated by [`scripts/build_rules.py`](scripts/build_rules.py) every run; each reflects that variant's canonical merged set (Clash's output additionally drops `USER-AGENT` rows — see [output files](#output-files)). Dropping `ChinaMax` cuts domain-suffix coverage by ~97%, but barely touches IP coverage since `ChinaIPs`/`chnroutes`/ASN-China independently cover nearly the same address space.
 
 ## How it's built
 
-All six client files are generated from **one canonical rule set** by [`scripts/build_rules.py`](scripts/build_rules.py) — nothing is fetched or maintained separately per client.
+Each variant's six client files are generated from **one canonical rule set per variant** by [`scripts/build_rules.py`](scripts/build_rules.py) — nothing is fetched or maintained separately per client. Lite reruns the exact same pipeline with `ChinaMax.list`/`ChinaMax_Domain.list` dropped from the source list before fetching.
 
 ```mermaid
 flowchart LR
-    A["Fetch 7 upstream sources\n(blackmatrix7, chnroutes2, ASN-China)"] --> B["Parse\nDOMAIN-SUFFIX / DOMAIN / DOMAIN-KEYWORD\nUSER-AGENT / IP-ASN / IP-CIDR"]
+    A["Fetch upstream sources\n(blackmatrix7, chnroutes2, ASN-China)\nFull: 7 sources · Lite: 5 (no ChinaMax)"] --> B["Parse\nDOMAIN-SUFFIX / DOMAIN / DOMAIN-KEYWORD\nUSER-AGENT / IP-ASN / IP-CIDR"]
     B --> C["Deduplicate\ntrie pruning, CIDR collapsing,\ncontainment pruning"]
-    C --> D["Render\n6 client-specific files"]
+    C --> D["Render\n6 client-specific files\nper variant"]
 ```
 
-**1. Fetch & parse** the sources listed under [why these sources](#why-these-sources), reading every rule type each one defines.
+**1. Fetch & parse** the sources listed under [why these sources](#why-these-sources) (minus `ChinaMax` for the Lite variant), reading every rule type each one defines.
 
 **2. Deduplicate** — not just exact-line matches:
 
@@ -118,14 +157,16 @@ flowchart LR
 
 ### Output files
 
+Same six filenames under both `rules/` (Full) and `rules-lite/` (Lite):
+
 | File | Client | Notes |
 |---|---|---|
-| `rules/shadowrocket.list` | Shadowrocket | `RULE-SET`; IPv4 and IPv6 CIDRs share one `IP-CIDR` type |
-| `rules/shadowrocket.sgmodule` | Shadowrocket | Module wrapping a `RULE-SET` reference to `shadowrocket.list`, addable from Configuration → Module |
-| `rules/surge.list` | Surge | `RULE-SET`; IPv6 CIDRs use a separate `IP-CIDR6` type |
-| `rules/loon.list` | Loon | Same syntax as Surge |
-| `rules/quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; every line carries an explicit `direct` policy so it works standalone |
-| `rules/clash.yaml` | Clash | `behavior: classical` rule-provider; **`USER-AGENT` rules are dropped** — classical mode has no such rule type |
+| `shadowrocket.list` | Shadowrocket | `RULE-SET`; IPv4 and IPv6 CIDRs share one `IP-CIDR` type |
+| `shadowrocket.sgmodule` | Shadowrocket | Module wrapping a `RULE-SET` reference to that variant's `shadowrocket.list`, addable from Configuration → Module |
+| `surge.list` | Surge | `RULE-SET`; IPv6 CIDRs use a separate `IP-CIDR6` type |
+| `loon.list` | Loon | Same syntax as Surge |
+| `quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; every line carries an explicit `direct` policy so it works standalone |
+| `clash.yaml` | Clash | `behavior: classical` rule-provider; **`USER-AGENT` rules are dropped** — classical mode has no such rule type |
 
 blackmatrix7's per-client directories are ~99% the same data with different serialization; a few platform-exclusive extras (QuantumultX's one `HOST-WILDCARD` rule, Surge/Clash's desktop-only `PROCESS-NAME` rules) aren't reproduced here. Trade-off: one build pipeline and guaranteed-identical domain/IP coverage across every client, at the cost of a handful of rarely-relevant platform-specific micro-rules.
 
@@ -133,7 +174,7 @@ blackmatrix7's per-client directories are ~99% the same data with different seri
 
 [`.github/workflows/update.yml`](.github/workflows/update.yml) runs daily at **21:30 UTC / 05:30 Beijing** — a few hours after upstream's own daily refresh:
 
-1. Regenerates all six output files.
+1. Regenerates all twelve output files (six per variant).
 2. Discards any file whose only change is the `# UPDATED:` timestamp, so no-op days produce no commit.
 3. Commits and pushes only the files that actually changed.
 
@@ -152,6 +193,6 @@ Diffing the China-related rulesets (`China`, `ChinaIPs`, `ChinaIPsBGP`/`chnroute
 - **`China`** (the small curated list) contributes real value `ChinaMax` doesn't have: 5 Tencent Cloud HK/SG IP ranges used by WeChat/QQ backends, a `microsoft` `DOMAIN-KEYWORD`, and ~162 domains (`bootcdn.net`, `baidustatic.com`, `51.la`, etc.) missing from `ChinaMax`.
 - blackmatrix7's lists carry only one hand-picked `IP-ASN` entry between them, so [missuo/ASN-China](https://github.com/missuo/ASN-China)'s `ASN.China.list` — a comprehensively scraped, independently refreshed registry of thousands of China-registered ASNs — is merged in too. It uses `//` comments rather than blackmatrix7's `#`-only convention, which the parser accounts for.
 
-**Result:** `China.list` + `China_Domain.list` + `ChinaMax.list` + `ChinaMax_Domain.list` + `ChinaIPs.list` + `chnroutes.txt` + `ASN.China.list` merged into the canonical set.
+**Result:** `China.list` + `China_Domain.list` + `ChinaMax.list` + `ChinaMax_Domain.list` + `ChinaIPs.list` + `chnroutes.txt` + `ASN.China.list` merged into the canonical set (Full). Lite uses the same list minus `ChinaMax.list` + `ChinaMax_Domain.list`.
 
 </details>

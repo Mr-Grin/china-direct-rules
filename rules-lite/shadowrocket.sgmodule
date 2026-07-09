@@ -1,0 +1,6 @@
+#!name = China Direct Rules (Lite)
+#!desc = Lite China direct-connect ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/china-direct-rules
+#!category = Rule
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules-lite/shadowrocket.list,DIRECT
