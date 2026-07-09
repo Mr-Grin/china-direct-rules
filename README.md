@@ -9,7 +9,7 @@ Merges [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_s
 Ships in two variants — pick one:
 
 - **Full** (`rules/`) — everything, including blackmatrix7's `ChinaMax`, by far the largest domain source.
-- **Lite** (`rules-lite/`) — same pipeline minus `ChinaMax`, ~85% fewer total entries. IP coverage stays nearly as complete (`ChinaIPs`/`chnroutes`/ASN-China overlap `ChinaMax` heavily), but domain-suffix coverage drops sharply — pick this if you mainly care about IP-based direct-connect and want a smaller ruleset.
+- **Lite** (`rules-lite/`) — same pipeline minus `ChinaMax`, ~85% fewer total entries. IP coverage stays nearly as complete (`ChinaIPs`/`chnroutes`/ASN-China overlap `ChinaMax` heavily), but domain-suffix coverage drops sharply — pick this if you mainly care about IP-based direct-connect and want a smaller ruleset. **Recommended for mobile** (Shadowrocket/Loon/QuantumultX on iOS) — a much smaller file means faster rule-matching and lower memory use on-device.
 
 ---
 
@@ -28,7 +28,7 @@ Pick your client and variant, paste the URL, set the subscription's refresh inte
 | **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/quantumultx.list` |
 | **Clash** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/clash.yaml` |
 
-**Lite** (no `ChinaMax`)
+**Lite** (no `ChinaMax`, recommended for mobile — smaller file size)
 
 | Client | URL |
 |---|---|
