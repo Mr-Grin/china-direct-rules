@@ -100,14 +100,14 @@ rules:
 
 | Type | Count |
 |---|---|
-| DOMAIN-SUFFIX | 112,454 |
+| DOMAIN-SUFFIX | 112,464 |
 | DOMAIN | 0 |
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 51 |
 | IP-ASN | 5,233 |
-| IP-CIDR (v4) | 8,272 |
-| IP-CIDR6 (v6) | 4,139 |
-| **TOTAL** | **130,163** |
+| IP-CIDR (v4) | 8,270 |
+| IP-CIDR6 (v6) | 4,140 |
+| **TOTAL** | **130,172** |
 
 <!-- RULE-STATS:END -->
 
