@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-15T22:31:16.397491+00:00
+# UPDATED: 2026-07-16T22:29:49.596373+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -5101,7 +5101,6 @@ IP-ASN,38358,direct
 IP-ASN,38364,direct
 IP-ASN,38365,direct
 IP-ASN,38367,direct
-IP-ASN,38371,direct
 IP-ASN,38372,direct
 IP-ASN,38375,direct
 IP-ASN,38378,direct
@@ -5217,6 +5216,7 @@ IP-ASN,58850,direct
 IP-ASN,58851,direct
 IP-ASN,58852,direct
 IP-ASN,58854,direct
+IP-ASN,58858,direct
 IP-ASN,58862,direct
 IP-ASN,58866,direct
 IP-ASN,58879,direct
