@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-17T22:23:28.868562+00:00
+# UPDATED: 2026-07-18T22:24:46.884518+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -14,9 +14,9 @@
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5236
-# IP-CIDR: 8249
+# IP-CIDR: 8252
 # IP-CIDR6: 4177
-# TOTAL: 129998
+# TOTAL: 130001
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -324,6 +324,7 @@ IP-ASN,139178,no-resolve
 IP-ASN,139179,no-resolve
 IP-ASN,139180,no-resolve
 IP-ASN,139183,no-resolve
+IP-ASN,139184,no-resolve
 IP-ASN,139189,no-resolve
 IP-ASN,139201,no-resolve
 IP-ASN,139203,no-resolve
@@ -5250,7 +5251,6 @@ IP-ASN,60666,no-resolve
 IP-ASN,63538,no-resolve
 IP-ASN,63539,no-resolve
 IP-ASN,63540,no-resolve
-IP-ASN,63541,no-resolve
 IP-ASN,63548,no-resolve
 IP-ASN,63555,no-resolve
 IP-ASN,63561,no-resolve
@@ -6238,6 +6238,7 @@ IP-CIDR,45.81.34.0/24,no-resolve
 IP-CIDR,45.82.241.0/24,no-resolve
 IP-CIDR,45.87.53.0/24,no-resolve
 IP-CIDR,45.87.54.0/24,no-resolve
+IP-CIDR,45.91.139.0/24,no-resolve
 IP-CIDR,45.112.132.0/22,no-resolve
 IP-CIDR,45.112.188.0/22,no-resolve
 IP-CIDR,45.112.208.0/20,no-resolve
@@ -10626,6 +10627,8 @@ IP-CIDR,165.154.112.0/20,no-resolve
 IP-CIDR,165.154.128.0/18,no-resolve
 IP-CIDR,165.154.192.0/19,no-resolve
 IP-CIDR,165.156.30.0/24,no-resolve
+IP-CIDR,166.0.97.0/24,no-resolve
+IP-CIDR,166.0.100.0/24,no-resolve
 IP-CIDR,166.111.0.0/16,no-resolve
 IP-CIDR,166.118.227.88/32,no-resolve
 IP-CIDR,167.139.0.0/16,no-resolve

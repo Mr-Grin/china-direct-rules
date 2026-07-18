@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-17T22:23:29.945625+00:00
+# UPDATED: 2026-07-18T22:24:47.935558+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -12,9 +12,9 @@
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
 # IP-ASN: 5236
-# IP-CIDR: 7221
+# IP-CIDR: 7224
 # IP-CIDR6: 4159
-# TOTAL: 20344
+# TOTAL: 20347
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -294,6 +294,7 @@ IP-ASN,139178,direct
 IP-ASN,139179,direct
 IP-ASN,139180,direct
 IP-ASN,139183,direct
+IP-ASN,139184,direct
 IP-ASN,139189,direct
 IP-ASN,139201,direct
 IP-ASN,139203,direct
@@ -5220,7 +5221,6 @@ IP-ASN,60666,direct
 IP-ASN,63538,direct
 IP-ASN,63539,direct
 IP-ASN,63540,direct
-IP-ASN,63541,direct
 IP-ASN,63548,direct
 IP-ASN,63555,direct
 IP-ASN,63561,direct
@@ -6182,6 +6182,7 @@ IP-CIDR,45.81.34.0/24,direct
 IP-CIDR,45.82.241.0/24,direct
 IP-CIDR,45.87.53.0/24,direct
 IP-CIDR,45.87.54.0/24,direct
+IP-CIDR,45.91.139.0/24,direct
 IP-CIDR,45.112.132.0/22,direct
 IP-CIDR,45.112.188.0/22,direct
 IP-CIDR,45.112.208.0/20,direct
@@ -10523,6 +10524,8 @@ IP-CIDR,165.154.112.0/20,direct
 IP-CIDR,165.154.128.0/18,direct
 IP-CIDR,165.154.192.0/19,direct
 IP-CIDR,165.156.30.0/24,direct
+IP-CIDR,166.0.97.0/24,direct
+IP-CIDR,166.0.100.0/24,direct
 IP-CIDR,166.111.0.0/16,direct
 IP-CIDR,166.118.227.88/32,direct
 IP-CIDR,167.139.0.0/16,direct
