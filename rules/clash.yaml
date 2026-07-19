@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-18T22:24:47.087636+00:00
+# UPDATED: 2026-07-19T22:27:09.838008+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 112271
+# DOMAIN-SUFFIX: 112272
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5236
-# IP-CIDR: 8252
-# IP-CIDR6: 4177
-# TOTAL: 130001
+# IP-ASN: 5237
+# IP-CIDR: 8250
+# IP-CIDR6: 4181
+# TOTAL: 130005
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -4946,6 +4946,7 @@ payload:
   - IP-ASN,216224
   - IP-ASN,216299
   - IP-ASN,216412
+  - IP-ASN,219207
   - IP-ASN,219283
   - IP-ASN,219289
   - IP-ASN,219300
@@ -5379,7 +5380,6 @@ payload:
   - IP-CIDR,14.196.0.0/15
   - IP-CIDR,14.204.0.0/15
   - IP-CIDR,14.208.0.0/12
-  - IP-CIDR,14.241.232.0/21
   - IP-CIDR,14.255.16.0/24
   - IP-CIDR,14.255.238.0/24
   - IP-CIDR,14.255.249.0/24
@@ -6683,7 +6683,6 @@ payload:
   - IP-CIDR,81.173.20.0/22
   - IP-CIDR,81.173.28.0/24
   - IP-CIDR,82.22.30.0/23
-  - IP-CIDR,82.38.46.0/23
   - IP-CIDR,82.108.198.0/23
   - IP-CIDR,82.109.96.0/23
   - IP-CIDR,82.110.234.0/23
@@ -8130,6 +8129,7 @@ payload:
   - IP-CIDR,103.144.148.0/23
   - IP-CIDR,103.144.158.0/23
   - IP-CIDR,103.144.240.0/23
+  - IP-CIDR,103.144.244.0/24
   - IP-CIDR,103.145.38.0/23
   - IP-CIDR,103.145.40.0/22
   - IP-CIDR,103.145.60.0/23
@@ -10297,7 +10297,6 @@ payload:
   - IP-CIDR,154.89.32.0/20
   - IP-CIDR,154.91.158.0/23
   - IP-CIDR,154.197.128.0/17
-  - IP-CIDR,154.203.244.0/23
   - IP-CIDR,154.209.251.0/24
   - IP-CIDR,155.102.0.0/16
   - IP-CIDR,155.126.176.0/23
@@ -14350,6 +14349,7 @@ payload:
   - IP-CIDR6,2402:52c0::/32
   - IP-CIDR6,2402:5340::/32
   - IP-CIDR6,2402:5880::/32
+  - IP-CIDR6,2402:5920::/48
   - IP-CIDR6,2402:5940::/32
   - IP-CIDR6,2402:59c0::/32
   - IP-CIDR6,2402:5a40::/32
@@ -15512,8 +15512,7 @@ payload:
   - IP-CIDR6,2406:840:e600::/39
   - IP-CIDR6,2406:840:e800::/39
   - IP-CIDR6,2406:840:ea00::/40
-  - IP-CIDR6,2406:840:eb01::/48
-  - IP-CIDR6,2406:840:eb02::/47
+  - IP-CIDR6,2406:840:eb00::/46
   - IP-CIDR6,2406:840:eb04::/47
   - IP-CIDR6,2406:840:eb07::/48
   - IP-CIDR6,2406:840:eb08::/48
@@ -17333,6 +17332,7 @@ payload:
   - IP-CIDR6,2a0a:6040:d623::/48
   - IP-CIDR6,2a0a:6040:d624::/48
   - IP-CIDR6,2a0a:6040:d629::/48
+  - IP-CIDR6,2a0a:6040:d630::/48
   - IP-CIDR6,2a0a:6040:d740::/48
   - IP-CIDR6,2a0a:6040:e541::/48
   - IP-CIDR6,2a0a:6040:e543::/48
@@ -17484,8 +17484,10 @@ payload:
   - IP-CIDR6,2a0f:1cc5:1010::/44
   - IP-CIDR6,2a0f:1cc5:1032::/47
   - IP-CIDR6,2a0f:1cc5:1034::/47
+  - IP-CIDR6,2a0f:1cc5:1041::/48
   - IP-CIDR6,2a0f:1cc5:1310::/44
   - IP-CIDR6,2a0f:1cc5:1901::/48
+  - IP-CIDR6,2a0f:1cc5:1902::/48
   - IP-CIDR6,2a0f:1cc5:1c00::/47
   - IP-CIDR6,2a0f:1cc5:1c02::/48
   - IP-CIDR6,2a0f:1cc5:1c20::/48
@@ -17619,7 +17621,7 @@ payload:
   - IP-CIDR6,2a14:67c1:b578::/48
   - IP-CIDR6,2a14:67c1:b582::/48
   - IP-CIDR6,2a14:67c1:b586::/47
-  - IP-CIDR6,2a14:67c1:b589::/48
+  - IP-CIDR6,2a14:67c1:b588::/47
   - IP-CIDR6,2a14:67c1:b590::/48
   - IP-CIDR6,2a14:67c1:b5e0::/44
   - IP-CIDR6,2a14:67c1:c300::/40
@@ -17644,6 +17646,7 @@ payload:
   - IP-CIDR6,2a14:67c2:a41::/48
   - IP-CIDR6,2a14:67c2:a50::/48
   - IP-CIDR6,2a14:67c2:a70::/47
+  - IP-CIDR6,2a14:67c2:a80::/47
   - IP-CIDR6,2a14:67c2:a90::/48
   - IP-CIDR6,2a14:67c2:aa1::/48
   - IP-CIDR6,2a14:67c3:30::/44
@@ -94196,6 +94199,7 @@ payload:
   - DOMAIN-SUFFIX,92nas.com
   - DOMAIN-SUFFIX,hanas.com
   - DOMAIN-SUFFIX,myarowanas.com
+  - DOMAIN-SUFFIX,mycloudnas.com
   - DOMAIN-SUFFIX,ugnas.com
   - DOMAIN-SUFFIX,cjnas.com
   - DOMAIN-SUFFIX,fnnas.com
