@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-19T22:27:09.620319+00:00
+# UPDATED: 2026-07-21T22:27:47.232641+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 112272
+# DOMAIN-SUFFIX: 112328
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5237
-# IP-CIDR: 8250
-# IP-CIDR6: 4181
-# TOTAL: 130005
+# IP-CIDR: 8249
+# IP-CIDR6: 4180
+# TOTAL: 130059
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -6212,6 +6212,7 @@ IP-CIDR,43.255.208.0/21,no-resolve
 IP-CIDR,43.255.224.0/21,no-resolve
 IP-CIDR,43.255.232.0/22,no-resolve
 IP-CIDR,43.255.244.0/22,no-resolve
+IP-CIDR,44.30.131.0/24,no-resolve
 IP-CIDR,44.30.164.0/24,no-resolve
 IP-CIDR,44.30.169.0/24,no-resolve
 IP-CIDR,44.30.171.0/24,no-resolve
@@ -6238,7 +6239,6 @@ IP-CIDR,45.81.34.0/24,no-resolve
 IP-CIDR,45.82.241.0/24,no-resolve
 IP-CIDR,45.87.53.0/24,no-resolve
 IP-CIDR,45.87.54.0/24,no-resolve
-IP-CIDR,45.91.139.0/24,no-resolve
 IP-CIDR,45.112.132.0/22,no-resolve
 IP-CIDR,45.112.188.0/22,no-resolve
 IP-CIDR,45.112.208.0/20,no-resolve
@@ -6636,7 +6636,6 @@ IP-CIDR,61.8.160.0/20,no-resolve
 IP-CIDR,61.14.212.0/22,no-resolve
 IP-CIDR,61.14.216.0/21,no-resolve
 IP-CIDR,61.14.240.0/21,no-resolve
-IP-CIDR,61.18.64.0/20,no-resolve
 IP-CIDR,61.28.0.0/17,no-resolve
 IP-CIDR,61.28.212.0/24,no-resolve
 IP-CIDR,61.29.128.0/18,no-resolve
@@ -10175,7 +10174,6 @@ IP-CIDR,140.248.63.47/32,no-resolve
 IP-CIDR,140.249.0.0/16,no-resolve
 IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
-IP-CIDR,141.11.51.0/24,no-resolve
 IP-CIDR,141.11.219.0/24,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
@@ -10309,6 +10307,7 @@ IP-CIDR,150.242.248.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
 IP-CIDR,151.243.189.0/24,no-resolve
+IP-CIDR,151.244.135.0/24,no-resolve
 IP-CIDR,151.246.184.0/24,no-resolve
 IP-CIDR,151.247.148.0/23,no-resolve
 IP-CIDR,151.249.90.0/23,no-resolve
@@ -17517,8 +17516,7 @@ IP-CIDR6,2a0f:1cc5:1f::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:40::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:110::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:130::/44,no-resolve
-IP-CIDR6,2a0f:1cc5:140::/43,no-resolve
-IP-CIDR6,2a0f:1cc5:160::/44,no-resolve
+IP-CIDR6,2a0f:1cc5:140::/42,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/47,no-resolve
 IP-CIDR6,2a0f:1cc5:603::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:642::/48,no-resolve
@@ -17763,6 +17761,7 @@ DOMAIN-SUFFIX,ctexcel.ca
 DOMAIN-SUFFIX,westendwell.ca
 DOMAIN-SUFFIX,jiayu.yoga
 DOMAIN-SUFFIX,bfgy001.asia
+DOMAIN-SUFFIX,hongxin1.asia
 DOMAIN-SUFFIX,jiuqings21833.asia
 DOMAIN-SUFFIX,jiuqings193004.asia
 DOMAIN-SUFFIX,a549543886.asia
@@ -17787,6 +17786,7 @@ DOMAIN-SUFFIX,changwei.asia
 DOMAIN-SUFFIX,zack.asia
 DOMAIN-SUFFIX,duolawk.asia
 DOMAIN-SUFFIX,mydeal.asia
+DOMAIN-SUFFIX,tannel.asia
 DOMAIN-SUFFIX,zenithfashion.asia
 DOMAIN-SUFFIX,mdown.asia
 DOMAIN-SUFFIX,venusgroup.asia
@@ -17989,6 +17989,7 @@ DOMAIN-SUFFIX,tianli-blog.club
 DOMAIN-SUFFIX,mblog.club
 DOMAIN-SUFFIX,tentech.club
 DOMAIN-SUFFIX,vsearch.club
+DOMAIN-SUFFIX,xhh.club
 DOMAIN-SUFFIX,zhoulaoshi.club
 DOMAIN-SUFFIX,jiangxinkeji.club
 DOMAIN-SUFFIX,suki.club
@@ -19758,6 +19759,7 @@ DOMAIN-SUFFIX,asmr.red
 DOMAIN-SUFFIX,winds.red
 DOMAIN-SUFFIX,anw.red
 DOMAIN-SUFFIX,anyway.red
+DOMAIN-SUFFIX,76642464.cfd
 DOMAIN-SUFFIX,chat14da.cfd
 DOMAIN-SUFFIX,lapostea.cfd
 DOMAIN-SUFFIX,dpdpt-prtra.cfd
@@ -20347,6 +20349,7 @@ DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,miaoo.me
 DOMAIN-SUFFIX,pqpo.me
 DOMAIN-SUFFIX,mashiro.me
+DOMAIN-SUFFIX,zduo.me
 DOMAIN-SUFFIX,binguo.me
 DOMAIN-SUFFIX,yaohuo.me
 DOMAIN-SUFFIX,longluo.me
@@ -20731,6 +20734,7 @@ DOMAIN-SUFFIX,iqunix.store
 DOMAIN-SUFFIX,mintix.store
 DOMAIN-SUFFIX,ryx.store
 DOMAIN-SUFFIX,mokra.house
+DOMAIN-SUFFIX,vo0.site
 DOMAIN-SUFFIX,loping151.site
 DOMAIN-SUFFIX,videotomp3.site
 DOMAIN-SUFFIX,grace2015.site
@@ -20791,6 +20795,7 @@ DOMAIN-SUFFIX,l2h.site
 DOMAIN-SUFFIX,uahh.site
 DOMAIN-SUFFIX,xiaohuochai.site
 DOMAIN-SUFFIX,17lai.site
+DOMAIN-SUFFIX,kimi.site
 DOMAIN-SUFFIX,miri.site
 DOMAIN-SUFFIX,matsuri.site
 DOMAIN-SUFFIX,longkui.site
@@ -23584,6 +23589,7 @@ DOMAIN-SUFFIX,zlfc.mobi
 DOMAIN-SUFFIX,ddmc.mobi
 DOMAIN-SUFFIX,hxqc.mobi
 DOMAIN-SUFFIX,dreamad.mobi
+DOMAIN-SUFFIX,hhjd.mobi
 DOMAIN-SUFFIX,dnspod.mobi
 DOMAIN-SUFFIX,mobcloud.mobi
 DOMAIN-SUFFIX,vankeservice.mobi
@@ -24085,6 +24091,7 @@ DOMAIN-SUFFIX,9188.work
 DOMAIN-SUFFIX,fada12888888.work
 DOMAIN-SUFFIX,flora009.work
 DOMAIN-SUFFIX,d3e5f7g9.work
+DOMAIN-SUFFIX,hunsha.work
 DOMAIN-SUFFIX,chuanshanjia.work
 DOMAIN-SUFFIX,huolala.work
 DOMAIN-SUFFIX,joomla.work
@@ -28496,6 +28503,7 @@ DOMAIN-SUFFIX,wan73.com
 DOMAIN-SUFFIX,231083.com
 DOMAIN-SUFFIX,715083.com
 DOMAIN-SUFFIX,yabo083.com
+DOMAIN-SUFFIX,173183.com
 DOMAIN-SUFFIX,526183.com
 DOMAIN-SUFFIX,18183.com
 DOMAIN-SUFFIX,acg183.com
@@ -35177,6 +35185,7 @@ DOMAIN-SUFFIX,expba.com
 DOMAIN-SUFFIX,gxbqba.com
 DOMAIN-SUFFIX,yunerba.com
 DOMAIN-SUFFIX,gxhsba.com
+DOMAIN-SUFFIX,initba.com
 DOMAIN-SUFFIX,hntba.com
 DOMAIN-SUFFIX,sntba.com
 DOMAIN-SUFFIX,520txtba.com
@@ -38664,6 +38673,7 @@ DOMAIN-SUFFIX,qiremanhua.com
 DOMAIN-SUFFIX,gmanhua.com
 DOMAIN-SUFFIX,kaimanhua.com
 DOMAIN-SUFFIX,zaimanhua.com
+DOMAIN-SUFFIX,feimanhua.com
 DOMAIN-SUFFIX,yangqimanhua.com
 DOMAIN-SUFFIX,ykmanhua.com
 DOMAIN-SUFFIX,51kanmanhua.com
@@ -40349,6 +40359,7 @@ DOMAIN-SUFFIX,xyqb.com
 DOMAIN-SUFFIX,mtzqb.com
 DOMAIN-SUFFIX,hytzqb.com
 DOMAIN-SUFFIX,chinalowcarb.com
+DOMAIN-SUFFIX,xn--6fr40zm5ai2go3cnse89dtttbrb.com
 DOMAIN-SUFFIX,jcrb.com
 DOMAIN-SUFFIX,nxcrb.com
 DOMAIN-SUFFIX,sxycrb.com
@@ -41426,6 +41437,7 @@ DOMAIN-SUFFIX,kkidc.com
 DOMAIN-SUFFIX,okidc.com
 DOMAIN-SUFFIX,hchlidc.com
 DOMAIN-SUFFIX,llidc.com
+DOMAIN-SUFFIX,yslidc.com
 DOMAIN-SUFFIX,yjwmidc.com
 DOMAIN-SUFFIX,canidc.com
 DOMAIN-SUFFIX,jianidc.com
@@ -44077,6 +44089,7 @@ DOMAIN-SUFFIX,xlhyc.com
 DOMAIN-SUFFIX,cnhyc.com
 DOMAIN-SUFFIX,51shyc.com
 DOMAIN-SUFFIX,huataiyc.com
+DOMAIN-SUFFIX,yizhiyc.com
 DOMAIN-SUFFIX,adjyc.com
 DOMAIN-SUFFIX,hjyc.com
 DOMAIN-SUFFIX,hbcljyc.com
@@ -44618,6 +44631,7 @@ DOMAIN-SUFFIX,jkllbd.com
 DOMAIN-SUFFIX,hxlbd.com
 DOMAIN-SUFFIX,ckd-mbd.com
 DOMAIN-SUFFIX,emiretasnbd.com
+DOMAIN-SUFFIX,shunbd.com
 DOMAIN-SUFFIX,frontopbd.com
 DOMAIN-SUFFIX,hqbd.com
 DOMAIN-SUFFIX,gzqbd.com
@@ -47824,6 +47838,7 @@ DOMAIN-SUFFIX,taeee.com
 DOMAIN-SUFFIX,microbeee.com
 DOMAIN-SUFFIX,aldeee.com
 DOMAIN-SUFFIX,codeeeee.com
+DOMAIN-SUFFIX,heeee.com
 DOMAIN-SUFFIX,oeeee.com
 DOMAIN-SUFFIX,baiheee.com
 DOMAIN-SUFFIX,scnleee.com
@@ -48351,6 +48366,7 @@ DOMAIN-SUFFIX,feixuege.com
 DOMAIN-SUFFIX,xiyuege.com
 DOMAIN-SUFFIX,hzxiyuege.com
 DOMAIN-SUFFIX,mzyege.com
+DOMAIN-SUFFIX,sicangge.com
 DOMAIN-SUFFIX,mofangge.com
 DOMAIN-SUFFIX,hangge.com
 DOMAIN-SUFFIX,xiaoqiangge.com
@@ -51211,6 +51227,7 @@ DOMAIN-SUFFIX,37zone.com
 DOMAIN-SUFFIX,jeffdingzone.com
 DOMAIN-SUFFIX,huizone.com
 DOMAIN-SUFFIX,bnzone.com
+DOMAIN-SUFFIX,milinzone.com
 DOMAIN-SUFFIX,piaozone.com
 DOMAIN-SUFFIX,ippzone.com
 DOMAIN-SUFFIX,qzone.com
@@ -51361,6 +51378,7 @@ DOMAIN-SUFFIX,hesppe.com
 DOMAIN-SUFFIX,ql-spe.com
 DOMAIN-SUFFIX,trftpe.com
 DOMAIN-SUFFIX,chtpe.com
+DOMAIN-SUFFIX,zhihupe.com
 DOMAIN-SUFFIX,queniupe.com
 DOMAIN-SUFFIX,tianmupe.com
 DOMAIN-SUFFIX,tudoupe.com
@@ -52791,6 +52809,7 @@ DOMAIN-SUFFIX,jcloudresolve.com
 DOMAIN-SUFFIX,cosdnsresolve.com
 DOMAIN-SUFFIX,jiulve.com
 DOMAIN-SUFFIX,zhongxisunve.com
+DOMAIN-SUFFIX,ecdove.com
 DOMAIN-SUFFIX,ddove.com
 DOMAIN-SUFFIX,coodove.com
 DOMAIN-SUFFIX,shiove.com
@@ -60164,6 +60183,7 @@ DOMAIN-SUFFIX,wlwltech.com
 DOMAIN-SUFFIX,rzltech.com
 DOMAIN-SUFFIX,szltech.com
 DOMAIN-SUFFIX,cnbmtech.com
+DOMAIN-SUFFIX,bestcmtech.com
 DOMAIN-SUFFIX,hnchemtech.com
 DOMAIN-SUFFIX,innosystemtech.com
 DOMAIN-SUFFIX,ifmtech.com
@@ -60442,6 +60462,7 @@ DOMAIN-SUFFIX,miaowutech.com
 DOMAIN-SUFFIX,xuanyutech.com
 DOMAIN-SUFFIX,gxwenyutech.com
 DOMAIN-SUFFIX,suyutech.com
+DOMAIN-SUFFIX,shuzutech.com
 DOMAIN-SUFFIX,jxsj-vtech.com
 DOMAIN-SUFFIX,cnvtech.com
 DOMAIN-SUFFIX,minewtech.com
@@ -60688,6 +60709,7 @@ DOMAIN-SUFFIX,bgrdh.com
 DOMAIN-SUFFIX,bqrdh.com
 DOMAIN-SUFFIX,csdh.com
 DOMAIN-SUFFIX,jssdh.com
+DOMAIN-SUFFIX,tttdh.com
 DOMAIN-SUFFIX,ilxdh.com
 DOMAIN-SUFFIX,yxdh.com
 DOMAIN-SUFFIX,chinajyxdh.com
@@ -64358,6 +64380,7 @@ DOMAIN-SUFFIX,amishii.com
 DOMAIN-SUFFIX,kuhii.com
 DOMAIN-SUFFIX,wuzhii.com
 DOMAIN-SUFFIX,cg100iii.com
+DOMAIN-SUFFIX,biiii.com
 DOMAIN-SUFFIX,qianliii.com
 DOMAIN-SUFFIX,fastliii.com
 DOMAIN-SUFFIX,ooiii.com
@@ -69755,6 +69778,7 @@ DOMAIN-SUFFIX,nmgfrank.com
 DOMAIN-SUFFIX,kolrank.com
 DOMAIN-SUFFIX,sosorank.com
 DOMAIN-SUFFIX,iapprank.com
+DOMAIN-SUFFIX,exprank.com
 DOMAIN-SUFFIX,90tank.com
 DOMAIN-SUFFIX,3dtank.com
 DOMAIN-SUFFIX,slegetank.com
@@ -70282,6 +70306,7 @@ DOMAIN-SUFFIX,ztnwork.com
 DOMAIN-SUFFIX,miaomiaowork.com
 DOMAIN-SUFFIX,omowork.com
 DOMAIN-SUFFIX,oppowork.com
+DOMAIN-SUFFIX,krowork.com
 DOMAIN-SUFFIX,yopwork.com
 DOMAIN-SUFFIX,changhong-network.com
 DOMAIN-SUFFIX,jereh-network.com
@@ -76843,6 +76868,7 @@ DOMAIN-SUFFIX,360shouzhuan.com
 DOMAIN-SUFFIX,anzhuoshouzhuan.com
 DOMAIN-SUFFIX,youzhuan.com
 DOMAIN-SUFFIX,yuzhuan.com
+DOMAIN-SUFFIX,waimaijuan.com
 DOMAIN-SUFFIX,qijuan.com
 DOMAIN-SUFFIX,wenjuan.com
 DOMAIN-SUFFIX,juyanwenjuan.com
@@ -76862,6 +76888,7 @@ DOMAIN-SUFFIX,zhanuan.com
 DOMAIN-SUFFIX,176quan.com
 DOMAIN-SUFFIX,daquan.com
 DOMAIN-SUFFIX,tradaquan.com
+DOMAIN-SUFFIX,biaogedaquan.com
 DOMAIN-SUFFIX,qichedaquan.com
 DOMAIN-SUFFIX,wendangdaquan.com
 DOMAIN-SUFFIX,fangdaquan.com
@@ -77498,6 +77525,7 @@ DOMAIN-SUFFIX,ggwan.com
 DOMAIN-SUFFIX,dangwan.com
 DOMAIN-SUFFIX,gangwan.com
 DOMAIN-SUFFIX,wozhangwan.com
+DOMAIN-SUFFIX,91fengwan.com
 DOMAIN-SUFFIX,kengwan.com
 DOMAIN-SUFFIX,zutingwan.com
 DOMAIN-SUFFIX,youkongwan.com
@@ -87197,6 +87225,7 @@ DOMAIN-SUFFIX,jishuoshuo.com
 DOMAIN-SUFFIX,qqshuoshuo.com
 DOMAIN-SUFFIX,xshuoshuo.com
 DOMAIN-SUFFIX,wyshuoshuo.com
+DOMAIN-SUFFIX,ypshuo.com
 DOMAIN-SUFFIX,jushuo.com
 DOMAIN-SUFFIX,yuantoushuo.com
 DOMAIN-SUFFIX,dianpushuo.com
@@ -92738,6 +92767,7 @@ DOMAIN-SUFFIX,mqrouter.com
 DOMAIN-SUFFIX,iotrouter.com
 DOMAIN-SUFFIX,yihuacomputer.com
 DOMAIN-SUFFIX,newlandcomputer.com
+DOMAIN-SUFFIX,haseecomputer.com
 DOMAIN-SUFFIX,ewarecomputer.com
 DOMAIN-SUFFIX,aduer.com
 DOMAIN-SUFFIX,xcfuer.com
@@ -93497,6 +93527,7 @@ DOMAIN-SUFFIX,ithor.com
 DOMAIN-SUFFIX,szmedior.com
 DOMAIN-SUFFIX,kugousenior.com
 DOMAIN-SUFFIX,vynior.com
+DOMAIN-SUFFIX,besavior.com
 DOMAIN-SUFFIX,vrmajor.com
 DOMAIN-SUFFIX,naokor.com
 DOMAIN-SUFFIX,middleschoolcounselor.com
@@ -94090,6 +94121,7 @@ DOMAIN-SUFFIX,sf-saas.com
 DOMAIN-SUFFIX,ioasaas.com
 DOMAIN-SUFFIX,hdwbsaas.com
 DOMAIN-SUFFIX,ddsaas.com
+DOMAIN-SUFFIX,whalesaas.com
 DOMAIN-SUFFIX,winsalesaas.com
 DOMAIN-SUFFIX,sagsaas.com
 DOMAIN-SUFFIX,parkingsaas.com
@@ -98696,6 +98728,7 @@ DOMAIN-SUFFIX,lxdws.com
 DOMAIN-SUFFIX,wg-views.com
 DOMAIN-SUFFIX,xinhua-news.com
 DOMAIN-SUFFIX,lc-news.com
+DOMAIN-SUFFIX,prism-news.com
 DOMAIN-SUFFIX,sz-news.com
 DOMAIN-SUFFIX,0730news.com
 DOMAIN-SUFFIX,no1news.com
@@ -99856,6 +99889,7 @@ DOMAIN-SUFFIX,admbucket.com
 DOMAIN-SUFFIX,svnbucket.com
 DOMAIN-SUFFIX,meeket.com
 DOMAIN-SUFFIX,gkket.com
+DOMAIN-SUFFIX,nyanket.com
 DOMAIN-SUFFIX,supersharket.com
 DOMAIN-SUFFIX,e-cig-market.com
 DOMAIN-SUFFIX,ecco-market.com
@@ -101021,6 +101055,7 @@ DOMAIN-SUFFIX,batmanit.com
 DOMAIN-SUFFIX,herenit.com
 DOMAIN-SUFFIX,computeinit.com
 DOMAIN-SUFFIX,medifinit.com
+DOMAIN-SUFFIX,opinstallinit.com
 DOMAIN-SUFFIX,winjoinit.com
 DOMAIN-SUFFIX,zhuqinit.com
 DOMAIN-SUFFIX,lightinit.com
@@ -103316,6 +103351,7 @@ DOMAIN-SUFFIX,halfrost.com
 DOMAIN-SUFFIX,qfrost.com
 DOMAIN-SUFFIX,duost.com
 DOMAIN-SUFFIX,davost.com
+DOMAIN-SUFFIX,zevost.com
 DOMAIN-SUFFIX,ouwost.com
 DOMAIN-SUFFIX,gspst.com
 DOMAIN-SUFFIX,dmqst.com
@@ -105380,6 +105416,7 @@ DOMAIN-SUFFIX,shijueju.com
 DOMAIN-SUFFIX,bayueju.com
 DOMAIN-SUFFIX,iweju.com
 DOMAIN-SUFFIX,zeju.com
+DOMAIN-SUFFIX,zhifangju.com
 DOMAIN-SUFFIX,gshangju.com
 DOMAIN-SUFFIX,jingmiliangju.com
 DOMAIN-SUFFIX,d1dengju.com
@@ -107739,9 +107776,11 @@ DOMAIN-SUFFIX,anav.com
 DOMAIN-SUFFIX,qutianshanav.com
 DOMAIN-SUFFIX,javanav.com
 DOMAIN-SUFFIX,chcnav.com
+DOMAIN-SUFFIX,eeenav.com
 DOMAIN-SUFFIX,mgnav.com
 DOMAIN-SUFFIX,rongnav.com
 DOMAIN-SUFFIX,zjnav.com
+DOMAIN-SUFFIX,plnav.com
 DOMAIN-SUFFIX,gotonav.com
 DOMAIN-SUFFIX,codernav.com
 DOMAIN-SUFFIX,qxnav.com
@@ -108048,6 +108087,7 @@ DOMAIN-SUFFIX,cnpv.com
 DOMAIN-SUFFIX,desunpv.com
 DOMAIN-SUFFIX,linuopv.com
 DOMAIN-SUFFIX,21spv.com
+DOMAIN-SUFFIX,bwespv.com
 DOMAIN-SUFFIX,chspv.com
 DOMAIN-SUFFIX,chenglispv.com
 DOMAIN-SUFFIX,soupv.com
@@ -111787,6 +111827,7 @@ DOMAIN-SUFFIX,kjcmxx.com
 DOMAIN-SUFFIX,hbhmxx.com
 DOMAIN-SUFFIX,gxjmxx.com
 DOMAIN-SUFFIX,szlmxx.com
+DOMAIN-SUFFIX,yummxx.com
 DOMAIN-SUFFIX,shqmxx.com
 DOMAIN-SUFFIX,gzsqmxx.com
 DOMAIN-SUFFIX,qzsmxx.com
@@ -112604,6 +112645,7 @@ DOMAIN-SUFFIX,xhdpay.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,yabandpay.com
 DOMAIN-SUFFIX,bluecardpay.com
+DOMAIN-SUFFIX,hxdpay.com
 DOMAIN-SUFFIX,xydpay.com
 DOMAIN-SUFFIX,epay.com
 DOMAIN-SUFFIX,hl-epay.com
@@ -113565,6 +113607,7 @@ DOMAIN-SUFFIX,cocodiy.com
 DOMAIN-SUFFIX,aigodiy.com
 DOMAIN-SUFFIX,qpdiy.com
 DOMAIN-SUFFIX,spdiy.com
+DOMAIN-SUFFIX,expdiy.com
 DOMAIN-SUFFIX,sdsdiy.com
 DOMAIN-SUFFIX,clicksdiy.com
 DOMAIN-SUFFIX,pingmudiy.com
@@ -114437,6 +114480,7 @@ DOMAIN-SUFFIX,51dojoy.com
 DOMAIN-SUFFIX,ufojoy.com
 DOMAIN-SUFFIX,innojoy.com
 DOMAIN-SUFFIX,capjoy.com
+DOMAIN-SUFFIX,phpjoy.com
 DOMAIN-SUFFIX,topjoy.com
 DOMAIN-SUFFIX,rjoy.com
 DOMAIN-SUFFIX,cheerjoy.com
@@ -119328,6 +119372,7 @@ DOMAIN-SUFFIX,bth.vip
 DOMAIN-SUFFIX,jkhealth.vip
 DOMAIN-SUFFIX,bdszh.vip
 DOMAIN-SUFFIX,icai.vip
+DOMAIN-SUFFIX,suishendai.vip
 DOMAIN-SUFFIX,hkyukai.vip
 DOMAIN-SUFFIX,wlai.vip
 DOMAIN-SUFFIX,xiaopai.vip
@@ -119371,6 +119416,7 @@ DOMAIN-SUFFIX,cndl.vip
 DOMAIN-SUFFIX,stunnel.vip
 DOMAIN-SUFFIX,qyhl.vip
 DOMAIN-SUFFIX,syhl.vip
+DOMAIN-SUFFIX,iwill.vip
 DOMAIN-SUFFIX,datatool.vip
 DOMAIN-SUFFIX,vtool.vip
 DOMAIN-SUFFIX,tol.vip
@@ -119428,6 +119474,7 @@ DOMAIN-SUFFIX,shenhexin.vip
 DOMAIN-SUFFIX,nnn.vip
 DOMAIN-SUFFIX,pokemon.vip
 DOMAIN-SUFFIX,typhoon.vip
+DOMAIN-SUFFIX,jialidun.vip
 DOMAIN-SUFFIX,ssldun.vip
 DOMAIN-SUFFIX,datafun.vip
 DOMAIN-SUFFIX,tongchengqun.vip
@@ -122089,6 +122136,7 @@ DOMAIN-SUFFIX,dlgslb.net
 DOMAIN-SUFFIX,mgslb.net
 DOMAIN-SUFFIX,cngslb.net
 DOMAIN-SUFFIX,sinogslb.net
+DOMAIN-SUFFIX,ctripgslb.net
 DOMAIN-SUFFIX,ugslb.net
 DOMAIN-SUFFIX,queniugslb.net
 DOMAIN-SUFFIX,verygslb.net
@@ -122359,6 +122407,7 @@ DOMAIN-SUFFIX,jianlc.net
 DOMAIN-SUFFIX,bwlc.net
 DOMAIN-SUFFIX,gowlc.net
 DOMAIN-SUFFIX,hntcmc.net
+DOMAIN-SUFFIX,bjdmc.net
 DOMAIN-SUFFIX,mslmc.net
 DOMAIN-SUFFIX,swomc.net
 DOMAIN-SUFFIX,bbsmc.net
@@ -122565,6 +122614,7 @@ DOMAIN-SUFFIX,yufuid.net
 DOMAIN-SUFFIX,nextvid.net
 DOMAIN-SUFFIX,yxid.net
 DOMAIN-SUFFIX,tajd.net
+DOMAIN-SUFFIX,mcbjd.net
 DOMAIN-SUFFIX,mcjd.net
 DOMAIN-SUFFIX,xcjd.net
 DOMAIN-SUFFIX,gqjd.net
@@ -129279,6 +129329,7 @@ DOMAIN-SUFFIX,jianguo.tv
 DOMAIN-SUFFIX,tvguo.tv
 DOMAIN-SUFFIX,zhensuo.tv
 DOMAIN-SUFFIX,16app.tv
+DOMAIN-SUFFIX,mokexapp.tv
 DOMAIN-SUFFIX,dzp.tv
 DOMAIN-SUFFIX,ijq.tv
 DOMAIN-SUFFIX,qqq.tv
@@ -129587,6 +129638,7 @@ DOMAIN-SUFFIX,zhouyi.biz
 DOMAIN-SUFFIX,k.biz
 DOMAIN-SUFFIX,bingolink.biz
 DOMAIN-SUFFIX,l.biz
+DOMAIN-SUFFIX,gdmm.biz
 DOMAIN-SUFFIX,n.biz
 DOMAIN-SUFFIX,changan.biz
 DOMAIN-SUFFIX,kuangchan.biz
@@ -129780,6 +129832,7 @@ DOMAIN-SUFFIX,iguazutraffic.xyz
 DOMAIN-SUFFIX,vmic.xyz
 DOMAIN-SUFFIX,ripic.xyz
 DOMAIN-SUFFIX,avpic.xyz
+DOMAIN-SUFFIX,bjwkc.xyz
 DOMAIN-SUFFIX,e5e333e55e5e3d.xyz
 DOMAIN-SUFFIX,3975ad.xyz
 DOMAIN-SUFFIX,yfd.xyz
@@ -129850,6 +129903,7 @@ DOMAIN-SUFFIX,junpengtouzhi.xyz
 DOMAIN-SUFFIX,siii.xyz
 DOMAIN-SUFFIX,qianqiankeji.xyz
 DOMAIN-SUFFIX,zhixunkeji.xyz
+DOMAIN-SUFFIX,yunxukeji.xyz
 DOMAIN-SUFFIX,ncogvki.xyz
 DOMAIN-SUFFIX,mikumikumi.xyz
 DOMAIN-SUFFIX,privateapi.xyz
