@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-22T22:34:06.824673+00:00
+# UPDATED: 2026-07-23T22:31:45.746767+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,8 +11,8 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5237
-# IP-CIDR: 7224
+# IP-ASN: 5238
+# IP-CIDR: 7223
 # IP-CIDR6: 4159
 # TOTAL: 20348
 
@@ -4968,6 +4968,7 @@ IP-ASN,216224,no-resolve
 IP-ASN,216299,no-resolve
 IP-ASN,216412,no-resolve
 IP-ASN,219207,no-resolve
+IP-ASN,219210,no-resolve
 IP-ASN,219283,no-resolve
 IP-ASN,219289,no-resolve
 IP-ASN,219300,no-resolve
@@ -10214,7 +10215,6 @@ IP-CIDR,150.242.248.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
 IP-CIDR,151.243.189.0/24,no-resolve
-IP-CIDR,151.244.135.0/24,no-resolve
 IP-CIDR,151.246.184.0/24,no-resolve
 IP-CIDR,151.247.148.0/23,no-resolve
 IP-CIDR,151.249.90.0/23,no-resolve
@@ -10752,7 +10752,7 @@ IP-CIDR,188.241.80.0/24,no-resolve
 IP-CIDR,189.31.222.0/24,no-resolve
 IP-CIDR,189.75.185.0/24,no-resolve
 IP-CIDR,191.222.245.0/24,no-resolve
-IP-CIDR,192.6.120.0/23,no-resolve
+IP-CIDR,192.6.121.0/24,no-resolve
 IP-CIDR,192.6.161.0/24,no-resolve
 IP-CIDR,192.6.243.0/24,no-resolve
 IP-CIDR,192.11.23.0/24,no-resolve

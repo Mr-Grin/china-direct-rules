@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-22T22:34:06.163596+00:00
+# UPDATED: 2026-07-23T22:31:45.043498+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 112328
+# DOMAIN-SUFFIX: 112332
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5237
-# IP-CIDR: 8250
-# IP-CIDR6: 4180
-# TOTAL: 130060
+# IP-ASN: 5238
+# IP-CIDR: 8253
+# IP-CIDR6: 4185
+# TOTAL: 130073
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -4947,6 +4947,7 @@ payload:
   - IP-ASN,216299
   - IP-ASN,216412
   - IP-ASN,219207
+  - IP-ASN,219210
   - IP-ASN,219283
   - IP-ASN,219289
   - IP-ASN,219300
@@ -5662,6 +5663,7 @@ payload:
   - IP-CIDR,36.255.172.0/22
   - IP-CIDR,36.255.176.0/22
   - IP-CIDR,37.48.83.34/32
+  - IP-CIDR,38.12.255.0/24
   - IP-CIDR,38.47.192.0/20
   - IP-CIDR,38.47.208.0/21
   - IP-CIDR,38.47.216.0/22
@@ -6682,6 +6684,7 @@ payload:
   - IP-CIDR,81.173.20.0/22
   - IP-CIDR,81.173.28.0/24
   - IP-CIDR,82.22.30.0/23
+  - IP-CIDR,82.38.46.0/23
   - IP-CIDR,82.108.198.0/23
   - IP-CIDR,82.109.96.0/23
   - IP-CIDR,82.110.234.0/23
@@ -9272,6 +9275,7 @@ payload:
   - IP-CIDR,104.212.68.151/32
   - IP-CIDR,104.212.68.152/32
   - IP-CIDR,104.227.65.96/28
+  - IP-CIDR,104.234.10.0/24
   - IP-CIDR,104.237.80.0/21
   - IP-CIDR,106.0.0.0/24
   - IP-CIDR,106.0.2.0/23
@@ -10256,7 +10260,6 @@ payload:
   - IP-CIDR,150.248.0.0/16
   - IP-CIDR,150.255.0.0/16
   - IP-CIDR,151.243.189.0/24
-  - IP-CIDR,151.244.135.0/24
   - IP-CIDR,151.246.184.0/24
   - IP-CIDR,151.247.148.0/23
   - IP-CIDR,151.249.90.0/23
@@ -10811,7 +10814,8 @@ payload:
   - IP-CIDR,189.31.222.0/24
   - IP-CIDR,189.75.185.0/24
   - IP-CIDR,191.222.245.0/24
-  - IP-CIDR,192.6.120.0/23
+  - IP-CIDR,192.6.121.0/24
+  - IP-CIDR,192.6.159.0/24
   - IP-CIDR,192.6.161.0/24
   - IP-CIDR,192.6.243.0/24
   - IP-CIDR,192.11.23.0/24
@@ -13837,6 +13841,7 @@ payload:
   - IP-CIDR6,2400:9380:90b2::/47
   - IP-CIDR6,2400:9380:90b4::/46
   - IP-CIDR6,2400:9380:90c0::/44
+  - IP-CIDR6,2400:9380:9109::/48
   - IP-CIDR6,2400:9380:9121::/48
   - IP-CIDR6,2400:9380:91c0::/44
   - IP-CIDR6,2400:9380:9220::/47
@@ -16237,6 +16242,7 @@ payload:
   - IP-CIDR6,2a09:4c0:0:30::/64
   - IP-CIDR6,2a09:2700:2800::/40
   - IP-CIDR6,2a09:2702:48::/48
+  - IP-CIDR6,2a09:3f00:6100::/40
   - IP-CIDR6,2a09:7c45:0:1::/64
   - IP-CIDR6,2a09:7c45:0:2::/63
   - IP-CIDR6,2a09:7c45:0:4::/62
@@ -17499,6 +17505,8 @@ payload:
   - IP-CIDR6,2a0f:1cc5:2680::/42
   - IP-CIDR6,2a0f:1cc5:2d01::/48
   - IP-CIDR6,2a0f:1cc5:2d03::/48
+  - IP-CIDR6,2a0f:1cc5:3200::/46
+  - IP-CIDR6,2a0f:1cc5:3222::/48
   - IP-CIDR6,2a0f:1cc5:4508::/46
   - IP-CIDR6,2a0f:1cc5:450c::/47
   - IP-CIDR6,2a0f:1cc5:45ff::/48
@@ -17652,6 +17660,7 @@ payload:
   - IP-CIDR6,2a14:67c3:c0::/48
   - IP-CIDR6,2a14:67c3:190::/47
   - IP-CIDR6,2a14:67c3:360::/48
+  - IP-CIDR6,2a14:67c3:1100::/47
   - IP-CIDR6,2a14:67c3:caf0::/45
   - IP-CIDR6,2a14:67c3:caf8::/46
   - IP-CIDR6,2a14:67c3:cafc::/47
@@ -24437,6 +24446,7 @@ payload:
   - DOMAIN-SUFFIX,nextday.im
   - DOMAIN-SUFFIX,akey.im
   - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-SUFFIX,xcz.im
   - DOMAIN-SUFFIX,mm131.kim
   - DOMAIN-SUFFIX,shanhe.kim
   - DOMAIN-SUFFIX,mojie.kim
@@ -96666,6 +96676,7 @@ payload:
   - DOMAIN-SUFFIX,tinyems.com
   - DOMAIN-SUFFIX,gxyzems.com
   - DOMAIN-SUFFIX,wffms.com
+  - DOMAIN-SUFFIX,tsingtengms.com
   - DOMAIN-SUFFIX,nndims.com
   - DOMAIN-SUFFIX,dedeeims.com
   - DOMAIN-SUFFIX,shenghefilms.com
@@ -104166,6 +104177,7 @@ payload:
   - DOMAIN-SUFFIX,beegoedu.com
   - DOMAIN-SUFFIX,sungoedu.com
   - DOMAIN-SUFFIX,gohoedu.com
+  - DOMAIN-SUFFIX,moedu.com
   - DOMAIN-SUFFIX,weproedu.com
   - DOMAIN-SUFFIX,wproedu.com
   - DOMAIN-SUFFIX,shuoedu.com
@@ -118590,6 +118602,7 @@ payload:
   - DOMAIN-SUFFIX,bolo.video
   - DOMAIN-SUFFIX,itv.video
   - DOMAIN-SUFFIX,lanbing510.info
+  - DOMAIN-SUFFIX,cd120.info
   - DOMAIN-SUFFIX,cdn20.info
   - DOMAIN-SUFFIX,cdn30.info
   - DOMAIN-SUFFIX,qtlcdn360.info
