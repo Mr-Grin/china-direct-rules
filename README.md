@@ -104,10 +104,10 @@ rules:
 | DOMAIN | 0 |
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 51 |
-| IP-ASN | 5,241 |
-| IP-CIDR (v4) | 8,266 |
+| IP-ASN | 5,242 |
+| IP-CIDR (v4) | 8,268 |
 | IP-CIDR6 (v6) | 4,171 |
-| **TOTAL** | **130,075** |
+| **TOTAL** | **130,078** |
 
 <!-- RULE-STATS:END -->
 
@@ -121,10 +121,10 @@ rules:
 | DOMAIN | 0 |
 | DOMAIN-KEYWORD | 9 |
 | USER-AGENT | 28 |
-| IP-ASN | 5,241 |
-| IP-CIDR (v4) | 7,222 |
+| IP-ASN | 5,242 |
+| IP-CIDR (v4) | 7,224 |
 | IP-CIDR6 (v6) | 4,150 |
-| **TOTAL** | **20,341** |
+| **TOTAL** | **20,344** |
 
 <!-- RULE-STATS-LITE:END -->
 
