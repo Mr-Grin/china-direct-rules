@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-07-30T22:37:06.210710+00:00
+# UPDATED: 2026-07-31T22:33:26.941396+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,10 +11,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5239
-# IP-CIDR: 7229
-# IP-CIDR6: 4145
-# TOTAL: 20341
+# IP-ASN: 5240
+# IP-CIDR: 7232
+# IP-CIDR6: 4146
+# TOTAL: 20346
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -4639,6 +4639,7 @@ payload:
   - IP-ASN,148982
   - IP-ASN,149178
   - IP-ASN,149304
+  - IP-ASN,149464
   - IP-ASN,149510
   - IP-ASN,149511
   - IP-ASN,149837
@@ -5372,7 +5373,6 @@ payload:
   - IP-CIDR,14.196.0.0/15
   - IP-CIDR,14.204.0.0/15
   - IP-CIDR,14.208.0.0/12
-  - IP-CIDR,14.238.34.0/24
   - IP-CIDR,14.255.16.0/24
   - IP-CIDR,14.255.238.0/24
   - IP-CIDR,14.255.254.0/24
@@ -6324,6 +6324,8 @@ payload:
   - IP-CIDR,45.150.236.0/23
   - IP-CIDR,45.152.24.0/22
   - IP-CIDR,45.154.244.0/24
+  - IP-CIDR,45.196.104.0/24
+  - IP-CIDR,45.196.165.0/24
   - IP-CIDR,45.248.8.0/22
   - IP-CIDR,45.248.80.0/21
   - IP-CIDR,45.248.88.0/22
@@ -9244,6 +9246,7 @@ payload:
   - IP-CIDR,106.108.0.0/14
   - IP-CIDR,106.112.0.0/12
   - IP-CIDR,106.224.0.0/12
+  - IP-CIDR,107.149.27.0/24
   - IP-CIDR,107.150.125.199/32
   - IP-CIDR,107.151.212.0/24
   - IP-CIDR,107.153.91.0/24
@@ -10586,6 +10589,7 @@ payload:
   - IP-CIDR,175.186.0.0/15
   - IP-CIDR,175.188.0.0/14
   - IP-CIDR,176.56.38.0/24
+  - IP-CIDR,178.95.192.0/24
   - IP-CIDR,178.236.232.0/24
   - IP-CIDR,178.248.72.0/24
   - IP-CIDR,178.253.252.0/24
@@ -16390,6 +16394,7 @@ payload:
   - IP-CIDR6,2a0e:aa07:e284::/46
   - IP-CIDR6,2a0e:aa07:e288::/47
   - IP-CIDR6,2a0e:aa07:e28b::/48
+  - IP-CIDR6,2a0e:aa07:e28d::/48
   - IP-CIDR6,2a0e:aa07:f012::/48
   - IP-CIDR6,2a0e:aa07:f0d0::/46
   - IP-CIDR6,2a0e:aa07:f0d4::/47
