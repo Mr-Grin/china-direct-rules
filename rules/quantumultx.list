@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-02T22:28:17.634313+00:00
+# UPDATED: 2026-08-03T22:33:55.507710+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 112129
+# DOMAIN-SUFFIX: 111751
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5240
-# IP-CIDR: 8285
-# IP-CIDR6: 4165
-# TOTAL: 129884
+# IP-ASN: 5239
+# IP-CIDR: 8269
+# IP-CIDR6: 4170
+# TOTAL: 129494
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -4866,7 +4866,6 @@ IP-ASN,198527,direct
 IP-ASN,198588,direct
 IP-ASN,198681,direct
 IP-ASN,199310,direct
-IP-ASN,199353,direct
 IP-ASN,199392,direct
 IP-ASN,199406,direct
 IP-ASN,199932,direct
@@ -5680,8 +5679,6 @@ IP-CIDR,27.192.0.0/11,direct
 IP-CIDR,27.224.0.0/14,direct
 IP-CIDR,31.40.214.0/24,direct
 IP-CIDR,31.42.183.48/32,direct
-IP-CIDR,31.57.0.0/24,direct
-IP-CIDR,31.57.167.0/24,direct
 IP-CIDR,31.77.184.0/22,direct
 IP-CIDR,31.77.215.0/24,direct
 IP-CIDR,31.130.224.0/20,direct
@@ -6247,7 +6244,6 @@ IP-CIDR,45.81.34.0/24,direct
 IP-CIDR,45.82.241.0/24,direct
 IP-CIDR,45.87.53.0/24,direct
 IP-CIDR,45.87.54.0/24,direct
-IP-CIDR,45.91.139.0/24,direct
 IP-CIDR,45.112.132.0/22,direct
 IP-CIDR,45.112.188.0/22,direct
 IP-CIDR,45.112.208.0/20,direct
@@ -6547,7 +6543,6 @@ IP-CIDR,49.246.224.0/19,direct
 IP-CIDR,50.7.161.82/32,direct
 IP-CIDR,50.114.187.0/24,direct
 IP-CIDR,51.15.0.141/32,direct
-IP-CIDR,51.194.180.0/24,direct
 IP-CIDR,52.80.0.0/14,direct
 IP-CIDR,52.93.35.0/24,direct
 IP-CIDR,52.93.127.92/30,direct
@@ -6689,7 +6684,6 @@ IP-CIDR,66.102.240.0/21,direct
 IP-CIDR,66.102.248.0/22,direct
 IP-CIDR,66.102.252.0/24,direct
 IP-CIDR,66.102.254.0/23,direct
-IP-CIDR,66.117.159.0/24,direct
 IP-CIDR,66.119.149.0/24,direct
 IP-CIDR,67.199.152.160/28,direct
 IP-CIDR,67.199.154.248/29,direct
@@ -6744,17 +6738,14 @@ IP-CIDR,81.161.63.0/24,direct
 IP-CIDR,81.173.18.0/23,direct
 IP-CIDR,81.173.20.0/22,direct
 IP-CIDR,81.173.28.0/24,direct
-IP-CIDR,82.29.45.0/24,direct
 IP-CIDR,82.38.46.0/23,direct
 IP-CIDR,82.139.229.0/24,direct
 IP-CIDR,82.156.0.0/15,direct
 IP-CIDR,82.163.16.0/24,direct
-IP-CIDR,83.245.71.0/24,direct
 IP-CIDR,85.12.7.192/28,direct
 IP-CIDR,85.184.245.0/24,direct
 IP-CIDR,85.209.40.0/22,direct
 IP-CIDR,85.239.154.0/24,direct
-IP-CIDR,87.76.149.0/24,direct
 IP-CIDR,87.76.221.0/24,direct
 IP-CIDR,87.76.222.0/24,direct
 IP-CIDR,87.232.115.0/24,direct
@@ -9385,7 +9376,6 @@ IP-CIDR,109.118.6.23/32,direct
 IP-CIDR,109.134.14.71/32,direct
 IP-CIDR,109.134.18.213/32,direct
 IP-CIDR,109.172.100.0/24,direct
-IP-CIDR,109.176.134.0/24,direct
 IP-CIDR,109.244.0.0/16,direct
 IP-CIDR,110.6.0.0/15,direct
 IP-CIDR,110.16.0.0/14,direct
@@ -10199,7 +10189,7 @@ IP-CIDR,140.248.63.47/32,direct
 IP-CIDR,140.249.0.0/16,direct
 IP-CIDR,140.250.0.0/16,direct
 IP-CIDR,140.255.0.0/16,direct
-IP-CIDR,141.11.93.0/24,direct
+IP-CIDR,141.11.50.0/24,direct
 IP-CIDR,141.11.219.0/24,direct
 IP-CIDR,142.70.0.0/16,direct
 IP-CIDR,142.86.0.0/16,direct
@@ -10376,13 +10366,10 @@ IP-CIDR,154.89.32.0/20,direct
 IP-CIDR,154.91.158.0/23,direct
 IP-CIDR,154.94.60.0/24,direct
 IP-CIDR,154.197.128.0/17,direct
-IP-CIDR,154.198.10.0/24,direct
 IP-CIDR,154.208.67.0/24,direct
 IP-CIDR,154.209.251.0/24,direct
 IP-CIDR,155.102.0.0/16,direct
-IP-CIDR,155.117.8.0/24,direct
 IP-CIDR,155.117.138.0/24,direct
-IP-CIDR,155.117.222.0/24,direct
 IP-CIDR,155.126.176.0/23,direct
 IP-CIDR,156.59.61.0/24,direct
 IP-CIDR,156.59.65.0/24,direct
@@ -10511,7 +10498,6 @@ IP-CIDR,157.185.172.0/24,direct
 IP-CIDR,157.185.176.0/24,direct
 IP-CIDR,157.185.179.0/24,direct
 IP-CIDR,157.185.187.0/24,direct
-IP-CIDR,157.254.130.0/24,direct
 IP-CIDR,157.255.0.0/16,direct
 IP-CIDR,158.26.192.0/24,direct
 IP-CIDR,158.26.194.0/24,direct
@@ -10602,7 +10588,6 @@ IP-CIDR,162.62.240.0/23,direct
 IP-CIDR,162.62.242.0/24,direct
 IP-CIDR,162.105.0.0/16,direct
 IP-CIDR,162.141.140.0/24,direct
-IP-CIDR,162.141.152.0/24,direct
 IP-CIDR,163.0.0.0/16,direct
 IP-CIDR,163.5.97.0/24,direct
 IP-CIDR,163.47.4.0/22,direct
@@ -10666,7 +10651,6 @@ IP-CIDR,166.0.100.0/23,direct
 IP-CIDR,166.111.0.0/16,direct
 IP-CIDR,166.118.227.88/32,direct
 IP-CIDR,167.139.0.0/16,direct
-IP-CIDR,167.148.81.0/24,direct
 IP-CIDR,167.167.208.0/22,direct
 IP-CIDR,167.167.212.0/23,direct
 IP-CIDR,167.189.0.0/16,direct
@@ -12568,7 +12552,6 @@ IP-CIDR,213.182.216.0/21,direct
 IP-CIDR,213.189.17.0/24,direct
 IP-CIDR,213.199.169.0/24,direct
 IP-CIDR,213.214.110.0/24,direct
-IP-CIDR,213.218.216.0/24,direct
 IP-CIDR,213.255.231.0/24,direct
 IP-CIDR,216.246.39.189/32,direct
 IP-CIDR,217.7.142.0/32,direct
@@ -17763,6 +17746,11 @@ IP6-CIDR,2a14:7586:6110::/48,direct
 IP6-CIDR,2a14:7586:6113::/48,direct
 IP6-CIDR,2a14:7586:6300::/44,direct
 IP6-CIDR,2a14:7586:6500::/48,direct
+IP6-CIDR,2a14:7dc0:510::/47,direct
+IP6-CIDR,2a14:7dc0:512::/48,direct
+IP6-CIDR,2a14:7dc0:515::/48,direct
+IP6-CIDR,2a14:7dc0:516::/47,direct
+IP6-CIDR,2a14:7dc0:51b::/48,direct
 IP6-CIDR,2a14:ae00:50::/44,direct
 IP6-CIDR,2c0f:f7a8:8011::/48,direct
 IP6-CIDR,2c0f:f7a8:8050::/48,direct
@@ -17791,7 +17779,6 @@ HOST-SUFFIX,jiuqings193004.asia,direct
 HOST-SUFFIX,a549543886.asia,direct
 HOST-SUFFIX,sikuyi5838.asia,direct
 HOST-SUFFIX,txkjaisa.asia,direct
-HOST-SUFFIX,ancdwqob.asia,direct
 HOST-SUFFIX,salutecc.asia,direct
 HOST-SUFFIX,azad.asia,direct
 HOST-SUFFIX,hqzxecd.asia,direct
@@ -17805,7 +17792,6 @@ HOST-SUFFIX,drinkmagazine.asia,direct
 HOST-SUFFIX,ysdwe.asia,direct
 HOST-SUFFIX,dhlzhif.asia,direct
 HOST-SUFFIX,0zn5mg.asia,direct
-HOST-SUFFIX,baicai.asia,direct
 HOST-SUFFIX,jiangguimei.asia,direct
 HOST-SUFFIX,huawei.asia,direct
 HOST-SUFFIX,changwei.asia,direct
@@ -17835,7 +17821,6 @@ HOST-SUFFIX,ucss.ninja,direct
 HOST-SUFFIX,900.la,direct
 HOST-SUFFIX,4020.la,direct
 HOST-SUFFIX,51.la,direct
-HOST-SUFFIX,collect-v6-51.la,direct
 HOST-SUFFIX,125.la,direct
 HOST-SUFFIX,6655.la,direct
 HOST-SUFFIX,cmd5.la,direct
@@ -18025,7 +18010,6 @@ HOST-SUFFIX,suki.club,direct
 HOST-SUFFIX,trli.club,direct
 HOST-SUFFIX,mzli.club,direct
 HOST-SUFFIX,safemini.club,direct
-HOST-SUFFIX,pengqi.club,direct
 HOST-SUFFIX,peiyinshenqi.club,direct
 HOST-SUFFIX,zxdj.club,direct
 HOST-SUFFIX,chinahj.club,direct
@@ -18125,7 +18109,6 @@ HOST-SUFFIX,qsl.pub,direct
 HOST-SUFFIX,paul.pub,direct
 HOST-SUFFIX,gtm.pub,direct
 HOST-SUFFIX,igtm.pub,direct
-HOST-SUFFIX,jtm.pub,direct
 HOST-SUFFIX,youfan.pub,direct
 HOST-SUFFIX,ethan.pub,direct
 HOST-SUFFIX,jiaodian.pub,direct
@@ -18157,7 +18140,6 @@ HOST-SUFFIX,njust.pub,direct
 HOST-SUFFIX,stdout.pub,direct
 HOST-SUFFIX,aku.pub,direct
 HOST-SUFFIX,ucw.pub,direct
-HOST-SUFFIX,dpw.pub,direct
 HOST-SUFFIX,chyw.pub,direct
 HOST-SUFFIX,rockx.pub,direct
 HOST-SUFFIX,lx.pub,direct
@@ -18169,7 +18151,6 @@ HOST-SUFFIX,bog.ac,direct
 HOST-SUFFIX,loj.ac,direct
 HOST-SUFFIX,uoj.ac,direct
 HOST-SUFFIX,astron.ac,direct
-HOST-SUFFIX,hao.ac,direct
 HOST-SUFFIX,dsx.ac,direct
 HOST-SUFFIX,icbc,direct
 HOST-SUFFIX,f-0.cc,direct
@@ -18241,7 +18222,6 @@ HOST-SUFFIX,ly93.cc,direct
 HOST-SUFFIX,gateweb3.cc,direct
 HOST-SUFFIX,yb3.cc,direct
 HOST-SUFFIX,link3.cc,direct
-HOST-SUFFIX,tao3.cc,direct
 HOST-SUFFIX,014.cc,direct
 HOST-SUFFIX,0434.cc,direct
 HOST-SUFFIX,4444.cc,direct
@@ -18325,7 +18305,6 @@ HOST-SUFFIX,sp588.cc,direct
 HOST-SUFFIX,hd88.cc,direct
 HOST-SUFFIX,0798.cc,direct
 HOST-SUFFIX,cc8.cc,direct
-HOST-SUFFIX,bqg8.cc,direct
 HOST-SUFFIX,ah8.cc,direct
 HOST-SUFFIX,ziliao8.cc,direct
 HOST-SUFFIX,kao8.cc,direct
@@ -18583,7 +18562,6 @@ HOST-SUFFIX,leike.cc,direct
 HOST-SUFFIX,mylike.cc,direct
 HOST-SUFFIX,whmylike.cc,direct
 HOST-SUFFIX,jianke.cc,direct
-HOST-SUFFIX,ske.cc,direct
 HOST-SUFFIX,siluke.cc,direct
 HOST-SUFFIX,replicasale.cc,direct
 HOST-SUFFIX,ddle.cc,direct
@@ -18823,7 +18801,6 @@ HOST-SUFFIX,80wifi.cc,direct
 HOST-SUFFIX,ccwifi.cc,direct
 HOST-SUFFIX,jhi.cc,direct
 HOST-SUFFIX,xiaohi.cc,direct
-HOST-SUFFIX,24shi.cc,direct
 HOST-SUFFIX,huashi.cc,direct
 HOST-SUFFIX,xiangshi.cc,direct
 HOST-SUFFIX,meishi.cc,direct
@@ -18914,7 +18891,6 @@ HOST-SUFFIX,jmj.cc,direct
 HOST-SUFFIX,gqsj.cc,direct
 HOST-SUFFIX,usj.cc,direct
 HOST-SUFFIX,sszsj.cc,direct
-HOST-SUFFIX,zybwj.cc,direct
 HOST-SUFFIX,yzj.cc,direct
 HOST-SUFFIX,163k.cc,direct
 HOST-SUFFIX,385k.cc,direct
@@ -18955,7 +18931,6 @@ HOST-SUFFIX,webportal.cc,direct
 HOST-SUFFIX,yswebportal.cc,direct
 HOST-SUFFIX,xtal.cc,direct
 HOST-SUFFIX,dpanel.cc,direct
-HOST-SUFFIX,kernel.cc,direct
 HOST-SUFFIX,jjcoffetel.cc,direct
 HOST-SUFFIX,caocaotravel.cc,direct
 HOST-SUFFIX,cgl.cc,direct
@@ -19002,7 +18977,6 @@ HOST-SUFFIX,jxzl.cc,direct
 HOST-SUFFIX,prodcam.cc,direct
 HOST-SUFFIX,yourdream.cc,direct
 HOST-SUFFIX,m-team.cc,direct
-HOST-SUFFIX,telegerlam.cc,direct
 HOST-SUFFIX,4cm.cc,direct
 HOST-SUFFIX,sccm.cc,direct
 HOST-SUFFIX,e1em.cc,direct
@@ -19012,7 +18986,6 @@ HOST-SUFFIX,websem.cc,direct
 HOST-SUFFIX,playgm.cc,direct
 HOST-SUFFIX,gyhm.cc,direct
 HOST-SUFFIX,topsim.cc,direct
-HOST-SUFFIX,jglm.cc,direct
 HOST-SUFFIX,myfilm.cc,direct
 HOST-SUFFIX,ainm.cc,direct
 HOST-SUFFIX,juhaom.cc,direct
@@ -19052,7 +19025,6 @@ HOST-SUFFIX,tan.cc,direct
 HOST-SUFFIX,aduan.cc,direct
 HOST-SUFFIX,yuntuoguan.cc,direct
 HOST-SUFFIX,zuchuan.cc,direct
-HOST-SUFFIX,wenjuan.cc,direct
 HOST-SUFFIX,wangmingdaquan.cc,direct
 HOST-SUFFIX,haquan.cc,direct
 HOST-SUFFIX,jiuquan.cc,direct
@@ -19286,7 +19258,6 @@ HOST-SUFFIX,wmzp.cc,direct
 HOST-SUFFIX,lszp.cc,direct
 HOST-SUFFIX,z8q.cc,direct
 HOST-SUFFIX,hwaq.cc,direct
-HOST-SUFFIX,023cq.cc,direct
 HOST-SUFFIX,redq.cc,direct
 HOST-SUFFIX,neeq.cc,direct
 HOST-SUFFIX,nchq.cc,direct
@@ -19342,7 +19313,6 @@ HOST-SUFFIX,gyr.cc,direct
 HOST-SUFFIX,swissreplicas.cc,direct
 HOST-SUFFIX,cocas.cc,direct
 HOST-SUFFIX,fresh-ideas.cc,direct
-HOST-SUFFIX,ainas.cc,direct
 HOST-SUFFIX,mbbs.cc,direct
 HOST-SUFFIX,statics.cc,direct
 HOST-SUFFIX,d-robotics.cc,direct
@@ -19375,7 +19345,6 @@ HOST-SUFFIX,zmaxhotels.cc,direct
 HOST-SUFFIX,yhtools.cc,direct
 HOST-SUFFIX,zhicms.cc,direct
 HOST-SUFFIX,ioms.cc,direct
-HOST-SUFFIX,popmartfans.cc,direct
 HOST-SUFFIX,myfans.cc,direct
 HOST-SUFFIX,numans.cc,direct
 HOST-SUFFIX,95dns.cc,direct
@@ -19524,7 +19493,6 @@ HOST-SUFFIX,rrxiu.cc,direct
 HOST-SUFFIX,jiaju.cc,direct
 HOST-SUFFIX,caiku.cc,direct
 HOST-SUFFIX,shuiku.cc,direct
-HOST-SUFFIX,coolku.cc,direct
 HOST-SUFFIX,panku.cc,direct
 HOST-SUFFIX,tielu.cc,direct
 HOST-SUFFIX,feilu.cc,direct
@@ -19586,7 +19554,6 @@ HOST-SUFFIX,live.hhtv.cc,direct
 HOST-SUFFIX,tv.drs.hhtv.cc,direct
 HOST-SUFFIX,balltv.cc,direct
 HOST-SUFFIX,gmtv.cc,direct
-HOST-SUFFIX,mastv.cc,direct
 HOST-SUFFIX,juyoutv.cc,direct
 HOST-SUFFIX,skytv.cc,direct
 HOST-SUFFIX,cztv.cc,direct
@@ -19805,7 +19772,6 @@ HOST-SUFFIX,05.gd,direct
 HOST-SUFFIX,2345.gd,direct
 HOST-SUFFIX,qdd.gd,direct
 HOST-SUFFIX,acg.gd,direct
-HOST-SUFFIX,zun.gd,direct
 HOST-SUFFIX,zikao.gd,direct
 HOST-SUFFIX,jmp.gd,direct
 HOST-SUFFIX,kwx.gd,direct
@@ -19906,7 +19872,6 @@ HOST-SUFFIX,intelligen.ltd,direct
 HOST-SUFFIX,gaisen.ltd,direct
 HOST-SUFFIX,beilin.ltd,direct
 HOST-SUFFIX,zhangxin.ltd,direct
-HOST-SUFFIX,decoration.ltd,direct
 HOST-SUFFIX,chinahiron.ltd,direct
 HOST-SUFFIX,aoun.ltd,direct
 HOST-SUFFIX,gosun.ltd,direct
@@ -19925,6 +19890,7 @@ HOST-SUFFIX,downloads.ltd,direct
 HOST-SUFFIX,oks.ltd,direct
 HOST-SUFFIX,supers.ltd,direct
 HOST-SUFFIX,usus.ltd,direct
+HOST-SUFFIX,iyys.ltd,direct
 HOST-SUFFIX,xinhuanet.ltd,direct
 HOST-SUFFIX,ifeart.ltd,direct
 HOST-SUFFIX,frt.ltd,direct
@@ -20172,7 +20138,6 @@ HOST-SUFFIX,jintiankansha.me,direct
 HOST-SUFFIX,meia.me,direct
 HOST-SUFFIX,liujiajia.me,direct
 HOST-SUFFIX,chenjia.me,direct
-HOST-SUFFIX,linjia.me,direct
 HOST-SUFFIX,rela.me,direct
 HOST-SUFFIX,haima.me,direct
 HOST-SUFFIX,yunna.me,direct
@@ -20204,7 +20169,6 @@ HOST-SUFFIX,1yd.me,direct
 HOST-SUFFIX,zhyd.me,direct
 HOST-SUFFIX,xcode.me,direct
 HOST-SUFFIX,kit-lee.me,direct
-HOST-SUFFIX,biaoge.me,direct
 HOST-SUFFIX,tutuge.me,direct
 HOST-SUFFIX,yge.me,direct
 HOST-SUFFIX,chenhe.me,direct
@@ -20229,7 +20193,6 @@ HOST-SUFFIX,hite.me,direct
 HOST-SUFFIX,shante.me,direct
 HOST-SUFFIX,dute.me,direct
 HOST-SUFFIX,shijue.me,direct
-HOST-SUFFIX,iblue.me,direct
 HOST-SUFFIX,gllue.me,direct
 HOST-SUFFIX,zhuque.me,direct
 HOST-SUFFIX,overtrue.me,direct
@@ -20435,7 +20398,6 @@ HOST-SUFFIX,jakehu.me,direct
 HOST-SUFFIX,feihu.me,direct
 HOST-SUFFIX,jinhu.me,direct
 HOST-SUFFIX,jieshu.me,direct
-HOST-SUFFIX,boyishu.me,direct
 HOST-SUFFIX,mikoshu.me,direct
 HOST-SUFFIX,xinranliu.me,direct
 HOST-SUFFIX,rrxiu.me,direct
@@ -20486,7 +20448,6 @@ HOST-SUFFIX,towry.me,direct
 HOST-SUFFIX,dxy.me,direct
 HOST-SUFFIX,luciaz.me,direct
 HOST-SUFFIX,ipdz.me,direct
-HOST-SUFFIX,vez.me,direct
 HOST-SUFFIX,clz.me,direct
 HOST-SUFFIX,ilz.me,direct
 HOST-SUFFIX,xiaoz.me,direct
@@ -20690,7 +20651,6 @@ HOST-SUFFIX,geely.pe,direct
 HOST-SUFFIX,zhuo.re,direct
 HOST-SUFFIX,jdh.healthcare,direct
 HOST-SUFFIX,1633.store,direct
-HOST-SUFFIX,football8888.store,direct
 HOST-SUFFIX,bldaea.store,direct
 HOST-SUFFIX,discount-polska.store,direct
 HOST-SUFFIX,ninomiya.store,direct
@@ -20702,21 +20662,16 @@ HOST-SUFFIX,sharkisland.store,direct
 HOST-SUFFIX,777e.store,direct
 HOST-SUFFIX,52code.store,direct
 HOST-SUFFIX,bobohome.store,direct
-HOST-SUFFIX,lainse.store,direct
 HOST-SUFFIX,forwe.store,direct
-HOST-SUFFIX,clothinggg.store,direct
 HOST-SUFFIX,weareing.store,direct
 HOST-SUFFIX,ponging.store,direct
 HOST-SUFFIX,topping.store,direct
-HOST-SUFFIX,huodong.store,direct
-HOST-SUFFIX,uonglong.store,direct
 HOST-SUFFIX,taozg.store,direct
 HOST-SUFFIX,sapphiretech.store,direct
 HOST-SUFFIX,homearch.store,direct
 HOST-SUFFIX,kingsh.store,direct
 HOST-SUFFIX,hungsh.store,direct
 HOST-SUFFIX,ienglish.store,direct
-HOST-SUFFIX,mochai.store,direct
 HOST-SUFFIX,huaji.store,direct
 HOST-SUFFIX,silvmark.store,direct
 HOST-SUFFIX,atk.store,direct
@@ -20778,7 +20733,6 @@ HOST-SUFFIX,c-abc.site,direct
 HOST-SUFFIX,cmic.site,direct
 HOST-SUFFIX,zhangrc.site,direct
 HOST-SUFFIX,51read.site,direct
-HOST-SUFFIX,xmgod.site,direct
 HOST-SUFFIX,bi-sage.site,direct
 HOST-SUFFIX,binjie.site,direct
 HOST-SUFFIX,lightmake.site,direct
@@ -20816,6 +20770,7 @@ HOST-SUFFIX,6young.site,direct
 HOST-SUFFIX,xmzsyg.site,direct
 HOST-SUFFIX,l2h.site,direct
 HOST-SUFFIX,uahh.site,direct
+HOST-SUFFIX,taoyaohh.site,direct
 HOST-SUFFIX,xiaohuochai.site,direct
 HOST-SUFFIX,17lai.site,direct
 HOST-SUFFIX,kimi.site,direct
@@ -20964,6 +20919,7 @@ HOST-SUFFIX,xn--3ds443g,direct
 HOST-SUFFIX,xn--ses554g,direct
 HOST-SUFFIX,xn--5tzm5g,direct
 HOST-SUFFIX,xn--rhqv96g,direct
+HOST-SUFFIX,980.ag,direct
 HOST-SUFFIX,634.ag,direct
 HOST-SUFFIX,yl.ag,direct
 HOST-SUFFIX,d.cg,direct
@@ -21334,7 +21290,6 @@ HOST-SUFFIX,caacchina.org,direct
 HOST-SUFFIX,hdchina.org,direct
 HOST-SUFFIX,oidchina.org,direct
 HOST-SUFFIX,ivdchina.org,direct
-HOST-SUFFIX,libreofficechina.org,direct
 HOST-SUFFIX,acfechina.org,direct
 HOST-SUFFIX,croplifechina.org,direct
 HOST-SUFFIX,mechina.org,direct
@@ -21470,7 +21425,6 @@ HOST-SUFFIX,ourhlb.org,direct
 HOST-SUFFIX,hdslb.org,direct
 HOST-SUFFIX,mgslb.org,direct
 HOST-SUFFIX,leadclimb.org,direct
-HOST-SUFFIX,mczmb.org,direct
 HOST-SUFFIX,ccpitnb.org,direct
 HOST-SUFFIX,plob.org,direct
 HOST-SUFFIX,domob.org,direct
@@ -21587,7 +21541,6 @@ HOST-SUFFIX,itetc.org,direct
 HOST-SUFFIX,whptc.org,direct
 HOST-SUFFIX,chhuc.org,direct
 HOST-SUFFIX,jjwxc.org,direct
-HOST-SUFFIX,mazc.org,direct
 HOST-SUFFIX,g3d.org,direct
 HOST-SUFFIX,weedo3d.org,direct
 HOST-SUFFIX,rt-thread.org,direct
@@ -21656,7 +21609,6 @@ HOST-SUFFIX,codebe.org,direct
 HOST-SUFFIX,chinacace.org,direct
 HOST-SUFFIX,chinatrace.org,direct
 HOST-SUFFIX,cloudytrace.org,direct
-HOST-SUFFIX,sklbce.org,direct
 HOST-SUFFIX,casece.org,direct
 HOST-SUFFIX,ceice.org,direct
 HOST-SUFFIX,forestpolice.org,direct
@@ -22005,6 +21957,7 @@ HOST-SUFFIX,gdyslyh.org,direct
 HOST-SUFFIX,szyh.org,direct
 HOST-SUFFIX,dnzh.org,direct
 HOST-SUFFIX,hku-szh.org,direct
+HOST-SUFFIX,agentzh.org,direct
 HOST-SUFFIX,bjtyzh.org,direct
 HOST-SUFFIX,robot-ai.org,direct
 HOST-SUFFIX,gexiuyixibai.org,direct
@@ -22059,7 +22012,6 @@ HOST-SUFFIX,tiboshi.org,direct
 HOST-SUFFIX,chanzhi.org,direct
 HOST-SUFFIX,ranzhi.org,direct
 HOST-SUFFIX,zjiii.org,direct
-HOST-SUFFIX,wolunliuliangji.org,direct
 HOST-SUFFIX,xuefeiji.org,direct
 HOST-SUFFIX,lengshuiji.org,direct
 HOST-SUFFIX,simiki.org,direct
@@ -23006,7 +22958,6 @@ HOST-SUFFIX,dinggou.org,direct
 HOST-SUFFIX,wuchou.org,direct
 HOST-SUFFIX,heishou.org,direct
 HOST-SUFFIX,xinzhou.org,direct
-HOST-SUFFIX,shumilou.org,direct
 HOST-SUFFIX,luobotou.org,direct
 HOST-SUFFIX,xueyou.org,direct
 HOST-SUFFIX,mengyou.org,direct
@@ -23077,7 +23028,6 @@ HOST-SUFFIX,kyxsw.org,direct
 HOST-SUFFIX,whysw.org,direct
 HOST-SUFFIX,hbww.org,direct
 HOST-SUFFIX,mlgxw.org,direct
-HOST-SUFFIX,yjkxw.org,direct
 HOST-SUFFIX,dyzxw.org,direct
 HOST-SUFFIX,chinagwyw.org,direct
 HOST-SUFFIX,zjgwyw.org,direct
@@ -23125,7 +23075,6 @@ HOST-SUFFIX,gutx.org,direct
 HOST-SUFFIX,gamux.org,direct
 HOST-SUFFIX,cclinux.org,direct
 HOST-SUFFIX,zeuux.org,direct
-HOST-SUFFIX,sqjvx.org,direct
 HOST-SUFFIX,tsinghua-wx.org,direct
 HOST-SUFFIX,5wx.org,direct
 HOST-SUFFIX,wlwx.org,direct
@@ -24237,7 +24186,6 @@ HOST-SUFFIX,jklughj.work,direct
 HOST-SUFFIX,5k.work,direct
 HOST-SUFFIX,miak.work,direct
 HOST-SUFFIX,rajaluck.work,direct
-HOST-SUFFIX,littlegeek.work,direct
 HOST-SUFFIX,mydisk.work,direct
 HOST-SUFFIX,cxsk.work,direct
 HOST-SUFFIX,ypmail.work,direct
@@ -24255,7 +24203,6 @@ HOST-SUFFIX,sdwan.work,direct
 HOST-SUFFIX,aicdn.work,direct
 HOST-SUFFIX,csdn.work,direct
 HOST-SUFFIX,ybchen.work,direct
-HOST-SUFFIX,gaigeshen.work,direct
 HOST-SUFFIX,shengren.work,direct
 HOST-SUFFIX,kucoin-in.work,direct
 HOST-SUFFIX,h5login.work,direct
@@ -24331,9 +24278,7 @@ HOST-SUFFIX,fanyu.work,direct
 HOST-SUFFIX,tanxinyu.work,direct
 HOST-SUFFIX,zhiquhuyu.work,direct
 HOST-SUFFIX,openlaw.work,direct
-HOST-SUFFIX,d7ftpecw.work,direct
 HOST-SUFFIX,mdxw.work,direct
-HOST-SUFFIX,lhovoxcx.work,direct
 HOST-SUFFIX,baosiwushidhex.work,direct
 HOST-SUFFIX,mtex.work,direct
 HOST-SUFFIX,allday.work,direct
@@ -24398,7 +24343,6 @@ HOST-SUFFIX,uyouii.cool,direct
 HOST-SUFFIX,kaiyi.cool,direct
 HOST-SUFFIX,ezreal.cool,direct
 HOST-SUFFIX,hin.cool,direct
-HOST-SUFFIX,yms.cool,direct
 HOST-SUFFIX,papers.cool,direct
 HOST-SUFFIX,coolight.cool,direct
 HOST-SUFFIX,minyunit.cool,direct
@@ -24408,7 +24352,6 @@ HOST-SUFFIX,wedev.cool,direct
 HOST-SUFFIX,xray.cool,direct
 HOST-SUFFIX,surely.cool,direct
 HOST-SUFFIX,moonvy.cool,direct
-HOST-SUFFIX,zegarkirepliki.pl,direct
 HOST-SUFFIX,xn--6qq986b3xl,direct
 HOST-SUFFIX,xn--3bst00m,direct
 HOST-SUFFIX,71.am,direct
@@ -24501,7 +24444,6 @@ HOST-SUFFIX,nextday.im,direct
 HOST-SUFFIX,akey.im,direct
 HOST-SUFFIX,totheglory.im,direct
 HOST-SUFFIX,xcz.im,direct
-HOST-SUFFIX,mm131.kim,direct
 HOST-SUFFIX,shanhe.kim,direct
 HOST-SUFFIX,mojie.kim,direct
 HOST-SUFFIX,zhuye.kim,direct
@@ -24511,7 +24453,6 @@ HOST-SUFFIX,icbc.com.mm,direct
 HOST-SUFFIX,awsdns-cn-00.com,direct
 HOST-SUFFIX,1010-0000.com,direct
 HOST-SUFFIX,4008000000.com,direct
-HOST-SUFFIX,10100000.com,direct
 HOST-SUFFIX,8888800000.com,direct
 HOST-SUFFIX,10000.com,direct
 HOST-SUFFIX,035110000.com,direct
@@ -24879,7 +24820,6 @@ HOST-SUFFIX,boya300.com,direct
 HOST-SUFFIX,che300.com,direct
 HOST-SUFFIX,tjkj300.com,direct
 HOST-SUFFIX,jmnk300.com,direct
-HOST-SUFFIX,dm300.com,direct
 HOST-SUFFIX,go300.com,direct
 HOST-SUFFIX,asp300.com,direct
 HOST-SUFFIX,400.com,direct
@@ -24958,7 +24898,6 @@ HOST-SUFFIX,zb800.com,direct
 HOST-SUFFIX,vc800.com,direct
 HOST-SUFFIX,yee800.com,direct
 HOST-SUFFIX,zhe800.com,direct
-HOST-SUFFIX,jike800.com,direct
 HOST-SUFFIX,kuaile800.com,direct
 HOST-SUFFIX,huanle800.com,direct
 HOST-SUFFIX,live800.com,direct
@@ -25268,7 +25207,6 @@ HOST-SUFFIX,ybs120.com,direct
 HOST-SUFFIX,ycs120.com,direct
 HOST-SUFFIX,males120.com,direct
 HOST-SUFFIX,chinajs120.com,direct
-HOST-SUFFIX,ccjs120.com,direct
 HOST-SUFFIX,gdjs120.com,direct
 HOST-SUFFIX,bys120.com,direct
 HOST-SUFFIX,jcys120.com,direct
@@ -25409,7 +25347,6 @@ HOST-SUFFIX,tj20.com,direct
 HOST-SUFFIX,yfdurl20.com,direct
 HOST-SUFFIX,rim20.com,direct
 HOST-SUFFIX,cdn20.com,direct
-HOST-SUFFIX,jaebanke-nochujapazsn20.com,direct
 HOST-SUFFIX,bear20.com,direct
 HOST-SUFFIX,eceibs20.com,direct
 HOST-SUFFIX,cdnhwczjt20.com,direct
@@ -25502,7 +25439,6 @@ HOST-SUFFIX,sky350.com,direct
 HOST-SUFFIX,hy450.com,direct
 HOST-SUFFIX,0550.com,direct
 HOST-SUFFIX,1739705934745550.com,direct
-HOST-SUFFIX,968550.com,direct
 HOST-SUFFIX,135650.com,direct
 HOST-SUFFIX,076650.com,direct
 HOST-SUFFIX,kao750.com,direct
@@ -25937,6 +25873,7 @@ HOST-SUFFIX,spark-page0.com,direct
 HOST-SUFFIX,bige0.com,direct
 HOST-SUFFIX,che0.com,direct
 HOST-SUFFIX,opengame0.com,direct
+HOST-SUFFIX,cname0.com,direct
 HOST-SUFFIX,eoacme0.com,direct
 HOST-SUFFIX,kmoe0.com,direct
 HOST-SUFFIX,dnse0.com,direct
@@ -26438,7 +26375,6 @@ HOST-SUFFIX,tianqi321.com,direct
 HOST-SUFFIX,waihui321.com,direct
 HOST-SUFFIX,xyj321.com,direct
 HOST-SUFFIX,kl321.com,direct
-HOST-SUFFIX,shen321.com,direct
 HOST-SUFFIX,xun321.com,direct
 HOST-SUFFIX,bingo321.com,direct
 HOST-SUFFIX,bjp321.com,direct
@@ -26528,7 +26464,6 @@ HOST-SUFFIX,1931.com,direct
 HOST-SUFFIX,la31.com,direct
 HOST-SUFFIX,mgskfjfod31.com,direct
 HOST-SUFFIX,scdnpe31.com,direct
-HOST-SUFFIX,1g31.com,direct
 HOST-SUFFIX,yh31.com,direct
 HOST-SUFFIX,chem31.com,direct
 HOST-SUFFIX,wangzhan31.com,direct
@@ -26746,7 +26681,6 @@ HOST-SUFFIX,kq81.com,direct
 HOST-SUFFIX,91.com,direct
 HOST-SUFFIX,114-91.com,direct
 HOST-SUFFIX,01975cf969f20191.com,direct
-HOST-SUFFIX,8008202191.com,direct
 HOST-SUFFIX,95191.com,direct
 HOST-SUFFIX,057191.com,direct
 HOST-SUFFIX,dh9191.com,direct
@@ -26853,6 +26787,7 @@ HOST-SUFFIX,eo-vod1.com,direct
 HOST-SUFFIX,edgeonevod1.com,direct
 HOST-SUFFIX,1card1.com,direct
 HOST-SUFFIX,gaqcloud1.com,direct
+HOST-SUFFIX,analyscloud1.com,direct
 HOST-SUFFIX,nmbxd1.com,direct
 HOST-SUFFIX,lovevibe1.com,direct
 HOST-SUFFIX,ca9ce6rv872ce1.com,direct
@@ -27131,7 +27066,6 @@ HOST-SUFFIX,hpv112.com,direct
 HOST-SUFFIX,1212.com,direct
 HOST-SUFFIX,ju1212.com,direct
 HOST-SUFFIX,xy1212.com,direct
-HOST-SUFFIX,bqjeep212.com,direct
 HOST-SUFFIX,81312.com,direct
 HOST-SUFFIX,yx1312.com,direct
 HOST-SUFFIX,zqgjz1312.com,direct
@@ -27517,7 +27451,6 @@ HOST-SUFFIX,starsshine2.com,direct
 HOST-SUFFIX,eafifaonline2.com,direct
 HOST-SUFFIX,dnsoe2.com,direct
 HOST-SUFFIX,l799vk4qe2.com,direct
-HOST-SUFFIX,qqe2.com,direct
 HOST-SUFFIX,goshare2.com,direct
 HOST-SUFFIX,cese2.com,direct
 HOST-SUFFIX,dnse2.com,direct
@@ -27850,7 +27783,6 @@ HOST-SUFFIX,90123.com,direct
 HOST-SUFFIX,blue0123.com,direct
 HOST-SUFFIX,tg0123.com,direct
 HOST-SUFFIX,12123.com,direct
-HOST-SUFFIX,6832123.com,direct
 HOST-SUFFIX,o2123.com,direct
 HOST-SUFFIX,66123123.com,direct
 HOST-SUFFIX,4007123123.com,direct
@@ -27907,8 +27839,6 @@ HOST-SUFFIX,loke123.com,direct
 HOST-SUFFIX,whale123.com,direct
 HOST-SUFFIX,youandme123.com,direct
 HOST-SUFFIX,heitiane123.com,direct
-HOST-SUFFIX,shopline123.com,direct
-HOST-SUFFIX,haoe123.com,direct
 HOST-SUFFIX,moe123.com,direct
 HOST-SUFFIX,tbshare123.com,direct
 HOST-SUFFIX,tmshare123.com,direct
@@ -28150,6 +28080,7 @@ HOST-SUFFIX,3323.com,direct
 HOST-SUFFIX,im323.com,direct
 HOST-SUFFIX,800423.com,direct
 HOST-SUFFIX,19840423.com,direct
+HOST-SUFFIX,31423.com,direct
 HOST-SUFFIX,ea6d86dbe8e3e423.com,direct
 HOST-SUFFIX,xh0523.com,direct
 HOST-SUFFIX,hk0523.com,direct
@@ -28295,6 +28226,7 @@ HOST-SUFFIX,6677243.com,direct
 HOST-SUFFIX,11343.com,direct
 HOST-SUFFIX,6699343.com,direct
 HOST-SUFFIX,56099443.com,direct
+HOST-SUFFIX,hnw443.com,direct
 HOST-SUFFIX,633586c05c8f4543.com,direct
 HOST-SUFFIX,36543.com,direct
 HOST-SUFFIX,eia543.com,direct
@@ -28419,7 +28351,6 @@ HOST-SUFFIX,xhw81pr263.com,direct
 HOST-SUFFIX,net263.com,direct
 HOST-SUFFIX,east263.com,direct
 HOST-SUFFIX,west263.com,direct
-HOST-SUFFIX,host263.com,direct
 HOST-SUFFIX,dushu263.com,direct
 HOST-SUFFIX,363.com,direct
 HOST-SUFFIX,49363.com,direct
@@ -28536,6 +28467,7 @@ HOST-SUFFIX,44983.com,direct
 HOST-SUFFIX,sz5983.com,direct
 HOST-SUFFIX,yb983.com,direct
 HOST-SUFFIX,g983.com,direct
+HOST-SUFFIX,mqs983.com,direct
 HOST-SUFFIX,835images83.com,direct
 HOST-SUFFIX,093.com,direct
 HOST-SUFFIX,zx0093.com,direct
@@ -29665,7 +29597,6 @@ HOST-SUFFIX,bet6755.com,direct
 HOST-SUFFIX,yabo7755.com,direct
 HOST-SUFFIX,db2b0d032aefa755.com,direct
 HOST-SUFFIX,181855.com,direct
-HOST-SUFFIX,le855.com,direct
 HOST-SUFFIX,zankee1955.com,direct
 HOST-SUFFIX,68955.com,direct
 HOST-SUFFIX,in955.com,direct
@@ -29880,6 +29811,7 @@ HOST-SUFFIX,maomao365.com,direct
 HOST-SUFFIX,aoao365.com,direct
 HOST-SUFFIX,fengtao365.com,direct
 HOST-SUFFIX,zhongyao365.com,direct
+HOST-SUFFIX,paibo365.com,direct
 HOST-SUFFIX,aodo365.com,direct
 HOST-SUFFIX,sjgo365.com,direct
 HOST-SUFFIX,oo365.com,direct
@@ -30023,6 +29955,7 @@ HOST-SUFFIX,lxyl375.com,direct
 HOST-SUFFIX,canyin375.com,direct
 HOST-SUFFIX,uu375.com,direct
 HOST-SUFFIX,hy375.com,direct
+HOST-SUFFIX,jus475.com,direct
 HOST-SUFFIX,e0575.com,direct
 HOST-SUFFIX,car0575.com,direct
 HOST-SUFFIX,45575.com,direct
@@ -30316,7 +30249,6 @@ HOST-SUFFIX,admin5.com,direct
 HOST-SUFFIX,haixin5.com,direct
 HOST-SUFFIX,yixin5.com,direct
 HOST-SUFFIX,suoxin5.com,direct
-HOST-SUFFIX,jaebanke-nochujapazsn5.com,direct
 HOST-SUFFIX,nongcun5.com,direct
 HOST-SUFFIX,peixun5.com,direct
 HOST-SUFFIX,lingyun5.com,direct
@@ -30328,7 +30260,6 @@ HOST-SUFFIX,huaxiao5.com,direct
 HOST-SUFFIX,zikao5.com,direct
 HOST-SUFFIX,vod-eo5.com,direct
 HOST-SUFFIX,gho5.com,direct
-HOST-SUFFIX,taluo5.com,direct
 HOST-SUFFIX,tcp5.com,direct
 HOST-SUFFIX,ssixvo9gaybkp5.com,direct
 HOST-SUFFIX,q5.com,direct
@@ -30361,7 +30292,6 @@ HOST-SUFFIX,zj8t5.com,direct
 HOST-SUFFIX,wbt5.com,direct
 HOST-SUFFIX,592bet5.com,direct
 HOST-SUFFIX,datasheet5.com,direct
-HOST-SUFFIX,topit5.com,direct
 HOST-SUFFIX,tlt5.com,direct
 HOST-SUFFIX,kpt5.com,direct
 HOST-SUFFIX,t7rt5.com,direct
@@ -30564,6 +30494,7 @@ HOST-SUFFIX,1626.com,direct
 HOST-SUFFIX,nncc626.com,direct
 HOST-SUFFIX,3337726.com,direct
 HOST-SUFFIX,suuny0826.com,direct
+HOST-SUFFIX,odh36826.com,direct
 HOST-SUFFIX,ee409d6370bfc826.com,direct
 HOST-SUFFIX,xuexi826.com,direct
 HOST-SUFFIX,1415926.com,direct
@@ -30714,7 +30645,6 @@ HOST-SUFFIX,gti56.com,direct
 HOST-SUFFIX,nti56.com,direct
 HOST-SUFFIX,shenghui56.com,direct
 HOST-SUFFIX,jiayi56.com,direct
-HOST-SUFFIX,xggj56.com,direct
 HOST-SUFFIX,cxgj56.com,direct
 HOST-SUFFIX,zxgj56.com,direct
 HOST-SUFFIX,cdyj56.com,direct
@@ -30906,7 +30836,6 @@ HOST-SUFFIX,zkzn666.com,direct
 HOST-SUFFIX,gongwenbao666.com,direct
 HOST-SUFFIX,zhukao666.com,direct
 HOST-SUFFIX,rongyao666.com,direct
-HOST-SUFFIX,hoho666.com,direct
 HOST-SUFFIX,lituo666.com,direct
 HOST-SUFFIX,kap666.com,direct
 HOST-SUFFIX,syq666.com,direct
@@ -30962,7 +30891,6 @@ HOST-SUFFIX,tz8966.com,direct
 HOST-SUFFIX,9966.com,direct
 HOST-SUFFIX,6169966.com,direct
 HOST-SUFFIX,bc966.com,direct
-HOST-SUFFIX,dog089a-a66.com,direct
 HOST-SUFFIX,be84433f5ce02a66.com,direct
 HOST-SUFFIX,shida66.com,direct
 HOST-SUFFIX,kema66.com,direct
@@ -30996,14 +30924,12 @@ HOST-SUFFIX,bjjk66.com,direct
 HOST-SUFFIX,hyhl66.com,direct
 HOST-SUFFIX,mcwell66.com,direct
 HOST-SUFFIX,jzwl66.com,direct
-HOST-SUFFIX,webadminsystem66.com,direct
 HOST-SUFFIX,tzm66.com,direct
 HOST-SUFFIX,in66.com,direct
 HOST-SUFFIX,lihun66.com,direct
 HOST-SUFFIX,tao66.com,direct
 HOST-SUFFIX,yoo66.com,direct
 HOST-SUFFIX,4to66.com,direct
-HOST-SUFFIX,ip66.com,direct
 HOST-SUFFIX,axq66.com,direct
 HOST-SUFFIX,jinshier66.com,direct
 HOST-SUFFIX,sir66.com,direct
@@ -31046,7 +30972,6 @@ HOST-SUFFIX,97576.com,direct
 HOST-SUFFIX,h576.com,direct
 HOST-SUFFIX,hy576.com,direct
 HOST-SUFFIX,52676.com,direct
-HOST-SUFFIX,76676.com,direct
 HOST-SUFFIX,57676.com,direct
 HOST-SUFFIX,def5feeaeb220776.com,direct
 HOST-SUFFIX,eye0776.com,direct
@@ -31545,7 +31470,6 @@ HOST-SUFFIX,soke17.com,direct
 HOST-SUFFIX,acg17.com,direct
 HOST-SUFFIX,zunxiang17.com,direct
 HOST-SUFFIX,kailang17.com,direct
-HOST-SUFFIX,wch17.com,direct
 HOST-SUFFIX,sh17.com,direct
 HOST-SUFFIX,yitai17.com,direct
 HOST-SUFFIX,sunari17.com,direct
@@ -31844,7 +31768,6 @@ HOST-SUFFIX,yf77.com,direct
 HOST-SUFFIX,dongfang77.com,direct
 HOST-SUFFIX,ii77.com,direct
 HOST-SUFFIX,nnkj77.com,direct
-HOST-SUFFIX,tool77.com,direct
 HOST-SUFFIX,wan77.com,direct
 HOST-SUFFIX,yijun77.com,direct
 HOST-SUFFIX,tattoo77.com,direct
@@ -31855,8 +31778,6 @@ HOST-SUFFIX,mt77.com,direct
 HOST-SUFFIX,boost77.com,direct
 HOST-SUFFIX,20087.com,direct
 HOST-SUFFIX,5087.com,direct
-HOST-SUFFIX,qpb187.com,direct
-HOST-SUFFIX,ocn187.com,direct
 HOST-SUFFIX,3387.com,direct
 HOST-SUFFIX,487.com,direct
 HOST-SUFFIX,3235587.com,direct
@@ -32844,7 +32765,6 @@ HOST-SUFFIX,for68.com,direct
 HOST-SUFFIX,uhs68.com,direct
 HOST-SUFFIX,jiafu68.com,direct
 HOST-SUFFIX,egou68.com,direct
-HOST-SUFFIX,hjw68.com,direct
 HOST-SUFFIX,ysw68.com,direct
 HOST-SUFFIX,tex68.com,direct
 HOST-SUFFIX,play68.com,direct
@@ -32955,7 +32875,6 @@ HOST-SUFFIX,flower188.com,direct
 HOST-SUFFIX,jjys188.com,direct
 HOST-SUFFIX,at188.com,direct
 HOST-SUFFIX,shanhu188.com,direct
-HOST-SUFFIX,jx188.com,direct
 HOST-SUFFIX,bcfy188.com,direct
 HOST-SUFFIX,ztny188.com,direct
 HOST-SUFFIX,hsy188.com,direct
@@ -33109,7 +33028,6 @@ HOST-SUFFIX,7888.com,direct
 HOST-SUFFIX,17888.com,direct
 HOST-SUFFIX,0917888.com,direct
 HOST-SUFFIX,t47888.com,direct
-HOST-SUFFIX,18888.com,direct
 HOST-SUFFIX,03118888.com,direct
 HOST-SUFFIX,jz68888.com,direct
 HOST-SUFFIX,81988888.com,direct
@@ -33177,7 +33095,6 @@ HOST-SUFFIX,fh888.com,direct
 HOST-SUFFIX,xylh888.com,direct
 HOST-SUFFIX,guikai888.com,direct
 HOST-SUFFIX,jieyoulai888.com,direct
-HOST-SUFFIX,xunmai888.com,direct
 HOST-SUFFIX,zhanshi888.com,direct
 HOST-SUFFIX,duoduoyouli888.com,direct
 HOST-SUFFIX,buy-copi888.com,direct
@@ -33201,7 +33118,6 @@ HOST-SUFFIX,dsm888.com,direct
 HOST-SUFFIX,vm888.com,direct
 HOST-SUFFIX,guandan888.com,direct
 HOST-SUFFIX,nizhan888.com,direct
-HOST-SUFFIX,kangjian888.com,direct
 HOST-SUFFIX,zhenhuan888.com,direct
 HOST-SUFFIX,wuan888.com,direct
 HOST-SUFFIX,tyccdn888.com,direct
@@ -33371,7 +33287,6 @@ HOST-SUFFIX,mixian88.com,direct
 HOST-SUFFIX,zran88.com,direct
 HOST-SUFFIX,xiajuan88.com,direct
 HOST-SUFFIX,zuan88.com,direct
-HOST-SUFFIX,wanwan88.com,direct
 HOST-SUFFIX,kuairen88.com,direct
 HOST-SUFFIX,yushin88.com,direct
 HOST-SUFFIX,admin88.com,direct
@@ -33656,7 +33571,6 @@ HOST-SUFFIX,paihang8.com,direct
 HOST-SUFFIX,yizhang8.com,direct
 HOST-SUFFIX,juliang8.com,direct
 HOST-SUFFIX,touxiang8.com,direct
-HOST-SUFFIX,golang8.com,direct
 HOST-SUFFIX,yunfutang8.com,direct
 HOST-SUFFIX,jialiyoukuang8.com,direct
 HOST-SUFFIX,swang8.com,direct
@@ -33958,7 +33872,6 @@ HOST-SUFFIX,battery8.com,direct
 HOST-SUFFIX,city8.com,direct
 HOST-SUFFIX,520xy8.com,direct
 HOST-SUFFIX,folij9nry5cxy8.com,direct
-HOST-SUFFIX,hlyy8.com,direct
 HOST-SUFFIX,hszy8.com,direct
 HOST-SUFFIX,a8z8.com,direct
 HOST-SUFFIX,fxgz8.com,direct
@@ -34014,7 +33927,6 @@ HOST-SUFFIX,3f496850f89e7809.com,direct
 HOST-SUFFIX,98809.com,direct
 HOST-SUFFIX,66930909.com,direct
 HOST-SUFFIX,xm909.com,direct
-HOST-SUFFIX,maya09.com,direct
 HOST-SUFFIX,xgc09.com,direct
 HOST-SUFFIX,cjjd09.com,direct
 HOST-SUFFIX,baicaijie09.com,direct
@@ -34369,9 +34281,6 @@ HOST-SUFFIX,h389.com,direct
 HOST-SUFFIX,c88a8ae86f58a489.com,direct
 HOST-SUFFIX,51589.com,direct
 HOST-SUFFIX,600689.com,direct
-HOST-SUFFIX,kk1bie336689.com,direct
-HOST-SUFFIX,1jkbie336689.com,direct
-HOST-SUFFIX,1mmbie336689.com,direct
 HOST-SUFFIX,69698689.com,direct
 HOST-SUFFIX,bd689.com,direct
 HOST-SUFFIX,it689.com,direct
@@ -34497,7 +34406,6 @@ HOST-SUFFIX,cs0799.com,direct
 HOST-SUFFIX,041799.com,direct
 HOST-SUFFIX,88995799.com,direct
 HOST-SUFFIX,8799.com,direct
-HOST-SUFFIX,9799.com,direct
 HOST-SUFFIX,19799.com,direct
 HOST-SUFFIX,95105899.com,direct
 HOST-SUFFIX,4001817899.com,direct
@@ -34540,7 +34448,6 @@ HOST-SUFFIX,ytj9999.com,direct
 HOST-SUFFIX,jzj9999.com,direct
 HOST-SUFFIX,lm9999.com,direct
 HOST-SUFFIX,hanchao9999.com,direct
-HOST-SUFFIX,happiness9999.com,direct
 HOST-SUFFIX,xs9999.com,direct
 HOST-SUFFIX,ysx9999.com,direct
 HOST-SUFFIX,golday9999.com,direct
@@ -34584,7 +34491,6 @@ HOST-SUFFIX,bb888xx999.com,direct
 HOST-SUFFIX,cdtyxx999.com,direct
 HOST-SUFFIX,cqyx999.com,direct
 HOST-SUFFIX,golday999.com,direct
-HOST-SUFFIX,bdfyy999.com,direct
 HOST-SUFFIX,xyyy999.com,direct
 HOST-SUFFIX,hydz999.com,direct
 HOST-SUFFIX,majia99.com,direct
@@ -34670,7 +34576,6 @@ HOST-SUFFIX,perfect99.com,direct
 HOST-SUFFIX,yabet99.com,direct
 HOST-SUFFIX,meet99.com,direct
 HOST-SUFFIX,hbbst99.com,direct
-HOST-SUFFIX,njcyt99.com,direct
 HOST-SUFFIX,gxzt99.com,direct
 HOST-SUFFIX,meihu99.com,direct
 HOST-SUFFIX,shanhu99.com,direct
@@ -35098,7 +35003,6 @@ HOST-SUFFIX,1miba.com,direct
 HOST-SUFFIX,niba.com,direct
 HOST-SUFFIX,shuainiba.com,direct
 HOST-SUFFIX,xiaoniba.com,direct
-HOST-SUFFIX,piyipiba.com,direct
 HOST-SUFFIX,yunqiba.com,direct
 HOST-SUFFIX,uqiba.com,direct
 HOST-SUFFIX,yunfuwuqiba.com,direct
@@ -35267,7 +35171,6 @@ HOST-SUFFIX,chinarca.com,direct
 HOST-SUFFIX,rockorca.com,direct
 HOST-SUFFIX,essca.com,direct
 HOST-SUFFIX,kuiniuca.com,direct
-HOST-SUFFIX,acvca.com,direct
 HOST-SUFFIX,szvca.com,direct
 HOST-SUFFIX,hnwca.com,direct
 HOST-SUFFIX,jsgxca.com,direct
@@ -35312,7 +35215,6 @@ HOST-SUFFIX,niiceda.com,direct
 HOST-SUFFIX,jlceda.com,direct
 HOST-SUFFIX,latitudeda.com,direct
 HOST-SUFFIX,lkxfeda.com,direct
-HOST-SUFFIX,wangeda.com,direct
 HOST-SUFFIX,mugeda.com,direct
 HOST-SUFFIX,h5mugeda.com,direct
 HOST-SUFFIX,imugeda.com,direct
@@ -35387,6 +35289,7 @@ HOST-SUFFIX,21dida.com,direct
 HOST-SUFFIX,radida.com,direct
 HOST-SUFFIX,yimidida.com,direct
 HOST-SUFFIX,godida.com,direct
+HOST-SUFFIX,itdida.com,direct
 HOST-SUFFIX,aofeida.com,direct
 HOST-SUFFIX,gongkaoleida.com,direct
 HOST-SUFFIX,meida.com,direct
@@ -35488,7 +35391,6 @@ HOST-SUFFIX,17gaoda.com,direct
 HOST-SUFFIX,zhelaoda.com,direct
 HOST-SUFFIX,cqtanlaoda.com,direct
 HOST-SUFFIX,quanlaoda.com,direct
-HOST-SUFFIX,1yaoda.com,direct
 HOST-SUFFIX,sncoda.com,direct
 HOST-SUFFIX,3dmomoda.com,direct
 HOST-SUFFIX,yanoda.com,direct
@@ -35555,7 +35457,6 @@ HOST-SUFFIX,phoenix-ea.com,direct
 HOST-SUFFIX,c2427457b16e03ea.com,direct
 HOST-SUFFIX,605f40b0b174f4ea.com,direct
 HOST-SUFFIX,china-eaea.com,direct
-HOST-SUFFIX,cqsaea.com,direct
 HOST-SUFFIX,cbea.com,direct
 HOST-SUFFIX,sz-cbea.com,direct
 HOST-SUFFIX,cnccea.com,direct
@@ -35803,8 +35704,6 @@ HOST-SUFFIX,zmbga.com,direct
 HOST-SUFFIX,androidga.com,direct
 HOST-SUFFIX,tencentcloudga.com,direct
 HOST-SUFFIX,chinaega.com,direct
-HOST-SUFFIX,yui06161shga.com,direct
-HOST-SUFFIX,yui06171shga.com,direct
 HOST-SUFFIX,xmamiga.com,direct
 HOST-SUFFIX,szxlga.com,direct
 HOST-SUFFIX,therasaganga.com,direct
@@ -35827,7 +35726,6 @@ HOST-SUFFIX,keepyoga.com,direct
 HOST-SUFFIX,hello-fpga.com,direct
 HOST-SUFFIX,hifpga.com,direct
 HOST-SUFFIX,tencentga.com,direct
-HOST-SUFFIX,buxiuga.com,direct
 HOST-SUFFIX,jxga.com,direct
 HOST-SUFFIX,txga.com,direct
 HOST-SUFFIX,zc-ha.com,direct
@@ -36380,7 +36278,6 @@ HOST-SUFFIX,yoojia.com,direct
 HOST-SUFFIX,waipojia.com,direct
 HOST-SUFFIX,oppojia.com,direct
 HOST-SUFFIX,shenghuojia.com,direct
-HOST-SUFFIX,changshunhuojia.com,direct
 HOST-SUFFIX,wutuojia.com,direct
 HOST-SUFFIX,hbzuojia.com,direct
 HOST-SUFFIX,hainanzuojia.com,direct
@@ -36544,7 +36441,6 @@ HOST-SUFFIX,bizhixia.com,direct
 HOST-SUFFIX,lianjixia.com,direct
 HOST-SUFFIX,xiujixia.com,direct
 HOST-SUFFIX,bangnixia.com,direct
-HOST-SUFFIX,kuailepipixia.com,direct
 HOST-SUFFIX,yixia.com,direct
 HOST-SUFFIX,wangyeyixia.com,direct
 HOST-SUFFIX,jiaoyixia.com,direct
@@ -36634,6 +36530,7 @@ HOST-SUFFIX,windaka.com,direct
 HOST-SUFFIX,bxdaka.com,direct
 HOST-SUFFIX,311faka.com,direct
 HOST-SUFFIX,402faka.com,direct
+HOST-SUFFIX,363faka.com,direct
 HOST-SUFFIX,xafaka.com,direct
 HOST-SUFFIX,kuaifaka.com,direct
 HOST-SUFFIX,vifaka.com,direct
@@ -36663,7 +36560,6 @@ HOST-SUFFIX,huangka.com,direct
 HOST-SUFFIX,shuijingka.com,direct
 HOST-SUFFIX,elingka.com,direct
 HOST-SUFFIX,duopingka.com,direct
-HOST-SUFFIX,lnzhongka.com,direct
 HOST-SUFFIX,360xinyongka.com,direct
 HOST-SUFFIX,yeahka.com,direct
 HOST-SUFFIX,zhka.com,direct
@@ -36680,7 +36576,6 @@ HOST-SUFFIX,micamika.com,direct
 HOST-SUFFIX,guopika.com,direct
 HOST-SUFFIX,drpika.com,direct
 HOST-SUFFIX,gxsika.com,direct
-HOST-SUFFIX,tndsjka.com,direct
 HOST-SUFFIX,2kka.com,direct
 HOST-SUFFIX,pickpikka.com,direct
 HOST-SUFFIX,hanlka.com,direct
@@ -36820,7 +36715,6 @@ HOST-SUFFIX,jinqunla.com,direct
 HOST-SUFFIX,peixunla.com,direct
 HOST-SUFFIX,9aola.com,direct
 HOST-SUFFIX,guajibaola.com,direct
-HOST-SUFFIX,bacaola.com,direct
 HOST-SUFFIX,niaola.com,direct
 HOST-SUFFIX,aixiaola.com,direct
 HOST-SUFFIX,kaola.com,direct
@@ -37007,7 +36901,6 @@ HOST-SUFFIX,haoma.com,direct
 HOST-SUFFIX,gdhaoma.com,direct
 HOST-SUFFIX,mhaoma.com,direct
 HOST-SUFFIX,qqhaoma.com,direct
-HOST-SUFFIX,xiaoma.com,direct
 HOST-SUFFIX,ixiaoma.com,direct
 HOST-SUFFIX,gxaoma.com,direct
 HOST-SUFFIX,51coma.com,direct
@@ -37185,7 +37078,6 @@ HOST-SUFFIX,theweina.com,direct
 HOST-SUFFIX,sdsmefina.com,direct
 HOST-SUFFIX,cnfina.com,direct
 HOST-SUFFIX,china.com,direct
-HOST-SUFFIX,p3-china.com,direct
 HOST-SUFFIX,6-china.com,direct
 HOST-SUFFIX,fuca-china.com,direct
 HOST-SUFFIX,okada-china.com,direct
@@ -37653,7 +37545,6 @@ HOST-SUFFIX,pfmmedicalchina.com,direct
 HOST-SUFFIX,rafflesmedicalchina.com,direct
 HOST-SUFFIX,animalchina.com,direct
 HOST-SUFFIX,mwjournalchina.com,direct
-HOST-SUFFIX,ecoalchina.com,direct
 HOST-SUFFIX,centralchina.com,direct
 HOST-SUFFIX,metalchina.com,direct
 HOST-SUFFIX,digitalchina.com,direct
@@ -37877,7 +37768,6 @@ HOST-SUFFIX,newelementchina.com,direct
 HOST-SUFFIX,contentchina.com,direct
 HOST-SUFFIX,e-pointchina.com,direct
 HOST-SUFFIX,aotchina.com,direct
-HOST-SUFFIX,aptchina.com,direct
 HOST-SUFFIX,eptchina.com,direct
 HOST-SUFFIX,dartchina.com,direct
 HOST-SUFFIX,izestchina.com,direct
@@ -38234,7 +38124,6 @@ HOST-SUFFIX,netposa.com,direct
 HOST-SUFFIX,zuosa.com,direct
 HOST-SUFFIX,dlssa.com,direct
 HOST-SUFFIX,xn--7qvz7xssa.com,direct
-HOST-SUFFIX,microsoftsa.com,direct
 HOST-SUFFIX,gxjtsa.com,direct
 HOST-SUFFIX,sinopec-usa.com,direct
 HOST-SUFFIX,thinkeffective-usa.com,direct
@@ -38291,7 +38180,6 @@ HOST-SUFFIX,wanjiedata.com,direct
 HOST-SUFFIX,westlakedata.com,direct
 HOST-SUFFIX,wakedata.com,direct
 HOST-SUFFIX,jikedata.com,direct
-HOST-SUFFIX,gmedata.com,direct
 HOST-SUFFIX,basestonedata.com,direct
 HOST-SUFFIX,xiaoedata.com,direct
 HOST-SUFFIX,usuredata.com,direct
@@ -38471,7 +38359,6 @@ HOST-SUFFIX,anta.com,direct
 HOST-SUFFIX,wuhanta.com,direct
 HOST-SUFFIX,ipanta.com,direct
 HOST-SUFFIX,dalisanta.com,direct
-HOST-SUFFIX,transcenta.com,direct
 HOST-SUFFIX,7wenta.com,direct
 HOST-SUFFIX,kunlunta.com,direct
 HOST-SUFFIX,xiaota.com,direct
@@ -38773,7 +38660,6 @@ HOST-SUFFIX,qkua.com,direct
 HOST-SUFFIX,vkua.com,direct
 HOST-SUFFIX,yuzhoua.com,direct
 HOST-SUFFIX,esoua.com,direct
-HOST-SUFFIX,sdpua.com,direct
 HOST-SUFFIX,qua.com,direct
 HOST-SUFFIX,diqua.com,direct
 HOST-SUFFIX,eriqua.com,direct
@@ -38841,7 +38727,6 @@ HOST-SUFFIX,bianwa.com,direct
 HOST-SUFFIX,qianwa.com,direct
 HOST-SUFFIX,chinanwa.com,direct
 HOST-SUFFIX,cnwa.com,direct
-HOST-SUFFIX,nanrenwa.com,direct
 HOST-SUFFIX,ginwa.com,direct
 HOST-SUFFIX,haowa.com,direct
 HOST-SUFFIX,rowa.com,direct
@@ -39667,7 +39552,6 @@ HOST-SUFFIX,chenxinghb.com,direct
 HOST-SUFFIX,gxdhhb.com,direct
 HOST-SUFFIX,gxhhhb.com,direct
 HOST-SUFFIX,scjhhb.com,direct
-HOST-SUFFIX,njkhhb.com,direct
 HOST-SUFFIX,gxlhhb.com,direct
 HOST-SUFFIX,bdyhhb.com,direct
 HOST-SUFFIX,gxyzhhb.com,direct
@@ -40685,7 +40569,6 @@ HOST-SUFFIX,xn--rhqr3ykwbm05aegjqxb.com,direct
 HOST-SUFFIX,tpqxb.com,direct
 HOST-SUFFIX,fxcsxb.com,direct
 HOST-SUFFIX,syhsxb.com,direct
-HOST-SUFFIX,zjzsxb.com,direct
 HOST-SUFFIX,initxb.com,direct
 HOST-SUFFIX,jstxb.com,direct
 HOST-SUFFIX,hustxb.com,direct
@@ -40736,11 +40619,9 @@ HOST-SUFFIX,zzzyb.com,direct
 HOST-SUFFIX,gc-zb.com,direct
 HOST-SUFFIX,l-zb.com,direct
 HOST-SUFFIX,173zb.com,direct
-HOST-SUFFIX,115zb.com,direct
 HOST-SUFFIX,525zb.com,direct
 HOST-SUFFIX,027zb.com,direct
 HOST-SUFFIX,12369zb.com,direct
-HOST-SUFFIX,hcazb.com,direct
 HOST-SUFFIX,qianlimazb.com,direct
 HOST-SUFFIX,gfbzb.com,direct
 HOST-SUFFIX,yfbzb.com,direct
@@ -40846,6 +40727,7 @@ HOST-SUFFIX,cls-c.com,direct
 HOST-SUFFIX,max-c.com,direct
 HOST-SUFFIX,220c.com,direct
 HOST-SUFFIX,350c.com,direct
+HOST-SUFFIX,npud450c.com,direct
 HOST-SUFFIX,8d36745b85e5711c.com,direct
 HOST-SUFFIX,challenge-21c.com,direct
 HOST-SUFFIX,97a12bb360b26d1c.com,direct
@@ -40885,7 +40767,6 @@ HOST-SUFFIX,enjoy3c.com,direct
 HOST-SUFFIX,yz3c.com,direct
 HOST-SUFFIX,0724c.com,direct
 HOST-SUFFIX,e24c.com,direct
-HOST-SUFFIX,gy794c.com,direct
 HOST-SUFFIX,chinab4c.com,direct
 HOST-SUFFIX,3d503a99384e0d4c.com,direct
 HOST-SUFFIX,19197a01ee502e4c.com,direct
@@ -40986,7 +40867,6 @@ HOST-SUFFIX,mesnac.com,direct
 HOST-SUFFIX,ikunac.com,direct
 HOST-SUFFIX,xiaoac.com,direct
 HOST-SUFFIX,chinacapac.com,direct
-HOST-SUFFIX,xiapac.com,direct
 HOST-SUFFIX,snpac.com,direct
 HOST-SUFFIX,botaopac.com,direct
 HOST-SUFFIX,cqpac.com,direct
@@ -41504,7 +41384,6 @@ HOST-SUFFIX,zo5yap5sdc.com,direct
 HOST-SUFFIX,uisdc.com,direct
 HOST-SUFFIX,seosdc.com,direct
 HOST-SUFFIX,shssdc.com,direct
-HOST-SUFFIX,qazxsdc.com,direct
 HOST-SUFFIX,kingnetdc.com,direct
 HOST-SUFFIX,smtdc.com,direct
 HOST-SUFFIX,sdstdc.com,direct
@@ -41538,7 +41417,6 @@ HOST-SUFFIX,gw-ec.com,direct
 HOST-SUFFIX,366ec.com,direct
 HOST-SUFFIX,h7ec.com,direct
 HOST-SUFFIX,hbaec.com,direct
-HOST-SUFFIX,kdaec.com,direct
 HOST-SUFFIX,ahaec.com,direct
 HOST-SUFFIX,hnaec.com,direct
 HOST-SUFFIX,ynaec.com,direct
@@ -42830,7 +42708,6 @@ HOST-SUFFIX,zs-jlc.com,direct
 HOST-SUFFIX,sz-jlc.com,direct
 HOST-SUFFIX,cnjlc.com,direct
 HOST-SUFFIX,trucklc.com,direct
-HOST-SUFFIX,fjyklc.com,direct
 HOST-SUFFIX,3dllc.com,direct
 HOST-SUFFIX,gxqllc.com,direct
 HOST-SUFFIX,gxyllc.com,direct
@@ -43152,7 +43029,6 @@ HOST-SUFFIX,55doc.com,direct
 HOST-SUFFIX,126doc.com,direct
 HOST-SUFFIX,97doc.com,direct
 HOST-SUFFIX,518doc.com,direct
-HOST-SUFFIX,89doc.com,direct
 HOST-SUFFIX,4399doc.com,direct
 HOST-SUFFIX,edadoc.com,direct
 HOST-SUFFIX,weadoc.com,direct
@@ -43451,7 +43327,6 @@ HOST-SUFFIX,qlrc.com,direct
 HOST-SUFFIX,chemrc.com,direct
 HOST-SUFFIX,xihaianrc.com,direct
 HOST-SUFFIX,fujianrc.com,direct
-HOST-SUFFIX,hexianrc.com,direct
 HOST-SUFFIX,fengxianrc.com,direct
 HOST-SUFFIX,henanrc.com,direct
 HOST-SUFFIX,chaonanrc.com,direct
@@ -43491,7 +43366,6 @@ HOST-SUFFIX,jlsrc.com,direct
 HOST-SUFFIX,chemsrc.com,direct
 HOST-SUFFIX,echemsrc.com,direct
 HOST-SUFFIX,qcloudcdnsrc.com,direct
-HOST-SUFFIX,vipsrc.com,direct
 HOST-SUFFIX,gdrsrc.com,direct
 HOST-SUFFIX,codersrc.com,direct
 HOST-SUFFIX,ggrsrc.com,direct
@@ -43662,7 +43536,6 @@ HOST-SUFFIX,ddosc.com,direct
 HOST-SUFFIX,jaeosc.com,direct
 HOST-SUFFIX,yoyosc.com,direct
 HOST-SUFFIX,bbecpsc.com,direct
-HOST-SUFFIX,bgypsc.com,direct
 HOST-SUFFIX,cmypsc.com,direct
 HOST-SUFFIX,2qsc.com,direct
 HOST-SUFFIX,zjuqsc.com,direct
@@ -43759,7 +43632,6 @@ HOST-SUFFIX,dongfengtc.com,direct
 HOST-SUFFIX,taoshengtc.com,direct
 HOST-SUFFIX,risongtc.com,direct
 HOST-SUFFIX,aizgtc.com,direct
-HOST-SUFFIX,blog.htc.com,direct
 HOST-SUFFIX,www.htc.com,direct
 HOST-SUFFIX,huahtc.com,direct
 HOST-SUFFIX,jlbhtc.com,direct
@@ -43899,7 +43771,6 @@ HOST-SUFFIX,careuc.com,direct
 HOST-SUFFIX,wiseuc.com,direct
 HOST-SUFFIX,tencentsmhuc.com,direct
 HOST-SUFFIX,cuiuc.com,direct
-HOST-SUFFIX,xinjuc.com,direct
 HOST-SUFFIX,cooluc.com,direct
 HOST-SUFFIX,jimuc.com,direct
 HOST-SUFFIX,zr-fanuc.com,direct
@@ -43924,7 +43795,6 @@ HOST-SUFFIX,rtxuc.com,direct
 HOST-SUFFIX,hollyuc.com,direct
 HOST-SUFFIX,tsinghua-vc.com,direct
 HOST-SUFFIX,tengye-vc.com,direct
-HOST-SUFFIX,kut3974vc.com,direct
 HOST-SUFFIX,3839vc.com,direct
 HOST-SUFFIX,scavc.com,direct
 HOST-SUFFIX,njavc.com,direct
@@ -44155,7 +44025,6 @@ HOST-SUFFIX,beijingzc.com,direct
 HOST-SUFFIX,zsgzc.com,direct
 HOST-SUFFIX,hzc.com,direct
 HOST-SUFFIX,shkhzc.com,direct
-HOST-SUFFIX,nnmhzc.com,direct
 HOST-SUFFIX,pbaohzc.com,direct
 HOST-SUFFIX,gthzc.com,direct
 HOST-SUFFIX,chuandaizc.com,direct
@@ -44262,7 +44131,6 @@ HOST-SUFFIX,chili3d.com,direct
 HOST-SUFFIX,woi3d.com,direct
 HOST-SUFFIX,hori3d.com,direct
 HOST-SUFFIX,xmjj3d.com,direct
-HOST-SUFFIX,1m3d.com,direct
 HOST-SUFFIX,shjcm3d.com,direct
 HOST-SUFFIX,winsun3d.com,direct
 HOST-SUFFIX,vrp3d.com,direct
@@ -44529,7 +44397,6 @@ HOST-SUFFIX,ksyunad.com,direct
 HOST-SUFFIX,uyunad.com,direct
 HOST-SUFFIX,yupaoad.com,direct
 HOST-SUFFIX,taoad.com,direct
-HOST-SUFFIX,cboad.com,direct
 HOST-SUFFIX,oleoad.com,direct
 HOST-SUFFIX,sandload.com,direct
 HOST-SUFFIX,aunload.com,direct
@@ -44955,7 +44822,6 @@ HOST-SUFFIX,harrypottermagicawakened.com,direct
 HOST-SUFFIX,iloveopened.com,direct
 HOST-SUFFIX,myoed.com,direct
 HOST-SUFFIX,szped.com,direct
-HOST-SUFFIX,2008red.com,direct
 HOST-SUFFIX,fx678red.com,direct
 HOST-SUFFIX,lc-cn-e1-shared.com,direct
 HOST-SUFFIX,lc-cn-n1-shared.com,direct
@@ -45114,7 +44980,6 @@ HOST-SUFFIX,zzwgd.com,direct
 HOST-SUFFIX,xgd.com,direct
 HOST-SUFFIX,3xgd.com,direct
 HOST-SUFFIX,unitaxgd.com,direct
-HOST-SUFFIX,gxnxgd.com,direct
 HOST-SUFFIX,gdsxgd.com,direct
 HOST-SUFFIX,scjygd.com,direct
 HOST-SUFFIX,gljygd.com,direct
@@ -45217,7 +45082,6 @@ HOST-SUFFIX,fjcid.com,direct
 HOST-SUFFIX,tjcid.com,direct
 HOST-SUFFIX,bucid.com,direct
 HOST-SUFFIX,czcid.com,direct
-HOST-SUFFIX,hddid.com,direct
 HOST-SUFFIX,thinkdid.com,direct
 HOST-SUFFIX,opensplendid.com,direct
 HOST-SUFFIX,goodid.com,direct
@@ -45225,7 +45089,6 @@ HOST-SUFFIX,faceid.com,direct
 HOST-SUFFIX,preludeid.com,direct
 HOST-SUFFIX,sdfeid.com,direct
 HOST-SUFFIX,moeid.com,direct
-HOST-SUFFIX,aidapeid.com,direct
 HOST-SUFFIX,oubauneereid.com,direct
 HOST-SUFFIX,hbweid.com,direct
 HOST-SUFFIX,21fid.com,direct
@@ -45533,7 +45396,6 @@ HOST-SUFFIX,yktworld.com,direct
 HOST-SUFFIX,giltworld.com,direct
 HOST-SUFFIX,smtworld.com,direct
 HOST-SUFFIX,elfartworld.com,direct
-HOST-SUFFIX,haguworld.com,direct
 HOST-SUFFIX,puworld.com,direct
 HOST-SUFFIX,sznewworld.com,direct
 HOST-SUFFIX,deluxworld.com,direct
@@ -45887,6 +45749,7 @@ HOST-SUFFIX,softdownd.com,direct
 HOST-SUFFIX,zjxnd.com,direct
 HOST-SUFFIX,bbaod.com,direct
 HOST-SUFFIX,jlaod.com,direct
+HOST-SUFFIX,zdcod.com,direct
 HOST-SUFFIX,becod.com,direct
 HOST-SUFFIX,soucod.com,direct
 HOST-SUFFIX,dsdod.com,direct
@@ -46305,7 +46168,6 @@ HOST-SUFFIX,ccpgssd.com,direct
 HOST-SUFFIX,ctssd.com,direct
 HOST-SUFFIX,ccpitsd.com,direct
 HOST-SUFFIX,mostsd.com,direct
-HOST-SUFFIX,cttsd.com,direct
 HOST-SUFFIX,szwtsd.com,direct
 HOST-SUFFIX,qiuqiusd.com,direct
 HOST-SUFFIX,xiaoxusd.com,direct
@@ -46323,7 +46185,6 @@ HOST-SUFFIX,szqzsd.com,direct
 HOST-SUFFIX,shyzsd.com,direct
 HOST-SUFFIX,xhwyzsd.com,direct
 HOST-SUFFIX,sgcctd.com,direct
-HOST-SUFFIX,gxctd.com,direct
 HOST-SUFFIX,zyctd.com,direct
 HOST-SUFFIX,youletd.com,direct
 HOST-SUFFIX,ybsftd.com,direct
@@ -46920,7 +46781,6 @@ HOST-SUFFIX,gxyd.com,direct
 HOST-SUFFIX,gxqzxyd.com,direct
 HOST-SUFFIX,syyyd.com,direct
 HOST-SUFFIX,cqzyyd.com,direct
-HOST-SUFFIX,gxhzyd.com,direct
 HOST-SUFFIX,lzyd.com,direct
 HOST-SUFFIX,xlzyd.com,direct
 HOST-SUFFIX,jd-zd.com,direct
@@ -47459,7 +47319,6 @@ HOST-SUFFIX,worxperience.com,direct
 HOST-SUFFIX,kavience.com,direct
 HOST-SUFFIX,i-excellence.com,direct
 HOST-SUFFIX,wtc-conference.com,direct
-HOST-SUFFIX,xintongconference.com,direct
 HOST-SUFFIX,worldrobotconference.com,direct
 HOST-SUFFIX,kisence.com,direct
 HOST-SUFFIX,awardsequence.com,direct
@@ -47512,7 +47371,6 @@ HOST-SUFFIX,hzsource.com,direct
 HOST-SUFFIX,china-sce.com,direct
 HOST-SUFFIX,syr-sce.com,direct
 HOST-SUFFIX,diomasce.com,direct
-HOST-SUFFIX,ihisce.com,direct
 HOST-SUFFIX,dnsce.com,direct
 HOST-SUFFIX,vpsce.com,direct
 HOST-SUFFIX,sohusce.com,direct
@@ -47649,7 +47507,6 @@ HOST-SUFFIX,heartide.com,direct
 HOST-SUFFIX,jstide.com,direct
 HOST-SUFFIX,wuhan-guide.com,direct
 HOST-SUFFIX,marazziguide.com,direct
-HOST-SUFFIX,bacninhlocalguide.com,direct
 HOST-SUFFIX,chinatourguide.com,direct
 HOST-SUFFIX,chengruide.com,direct
 HOST-SUFFIX,yiruide.com,direct
@@ -47687,7 +47544,6 @@ HOST-SUFFIX,51junde.com,direct
 HOST-SUFFIX,qujunde.com,direct
 HOST-SUFFIX,liyunde.com,direct
 HOST-SUFFIX,gaode.com,direct
-HOST-SUFFIX,zgaode.com,direct
 HOST-SUFFIX,cqbode.com,direct
 HOST-SUFFIX,jlc-code.com,direct
 HOST-SUFFIX,tiger-code.com,direct
@@ -48092,6 +47948,7 @@ HOST-SUFFIX,cqcfe.com,direct
 HOST-SUFFIX,prcfe.com,direct
 HOST-SUFFIX,dddfe.com,direct
 HOST-SUFFIX,0f63e6089d80dffe.com,direct
+HOST-SUFFIX,655hfe.com,direct
 HOST-SUFFIX,zgwhfe.com,direct
 HOST-SUFFIX,anbang-life.com,direct
 HOST-SUFFIX,hongkang-life.com,direct
@@ -48464,7 +48321,6 @@ HOST-SUFFIX,chaojibiaoge.com,direct
 HOST-SUFFIX,ziliaoge.com,direct
 HOST-SUFFIX,wannengxiaoge.com,direct
 HOST-SUFFIX,youxiaoge.com,direct
-HOST-SUFFIX,jingdianlaoge.com,direct
 HOST-SUFFIX,dogedoge.com,direct
 HOST-SUFFIX,aihoge.com,direct
 HOST-SUFFIX,chinahorologe.com,direct
@@ -48661,7 +48517,6 @@ HOST-SUFFIX,renrenche.com,direct
 HOST-SUFFIX,didapinche.com,direct
 HOST-SUFFIX,iyunche.com,direct
 HOST-SUFFIX,yihaoyunche.com,direct
-HOST-SUFFIX,uyunche.com,direct
 HOST-SUFFIX,huangbaoche.com,direct
 HOST-SUFFIX,busbaoche.com,direct
 HOST-SUFFIX,99haoche.com,direct
@@ -49401,7 +49256,6 @@ HOST-SUFFIX,yebaike.com,direct
 HOST-SUFFIX,gongbaike.com,direct
 HOST-SUFFIX,vgbaike.com,direct
 HOST-SUFFIX,cibaike.com,direct
-HOST-SUFFIX,jianfeibaike.com,direct
 HOST-SUFFIX,qiushibaike.com,direct
 HOST-SUFFIX,zhizhibaike.com,direct
 HOST-SUFFIX,zhujibaike.com,direct
@@ -49516,7 +49370,6 @@ HOST-SUFFIX,gzmylike.com,direct
 HOST-SUFFIX,hzmylike.com,direct
 HOST-SUFFIX,szmylike.com,direct
 HOST-SUFFIX,jiangmike.com,direct
-HOST-SUFFIX,www.nike.com,direct
 HOST-SUFFIX,machenike.com,direct
 HOST-SUFFIX,bangqike.com,direct
 HOST-SUFFIX,yiqike.com,direct
@@ -49594,7 +49447,6 @@ HOST-SUFFIX,zhengbiaoke.com,direct
 HOST-SUFFIX,zjjiaoke.com,direct
 HOST-SUFFIX,zhiliaoke.com,direct
 HOST-SUFFIX,fxiaoke.com,direct
-HOST-SUFFIX,mimixiaoke.com,direct
 HOST-SUFFIX,baoxiaoke.com,direct
 HOST-SUFFIX,taoke.com,direct
 HOST-SUFFIX,91taoke.com,direct
@@ -50091,7 +49943,6 @@ HOST-SUFFIX,qilongyoule.com,direct
 HOST-SUFFIX,wolongyoule.com,direct
 HOST-SUFFIX,iyoule.com,direct
 HOST-SUFFIX,5iyoule.com,direct
-HOST-SUFFIX,zhengyouyoule.com,direct
 HOST-SUFFIX,sdfxyoule.com,direct
 HOST-SUFFIX,dorpule.com,direct
 HOST-SUFFIX,ggqule.com,direct
@@ -50946,7 +50797,6 @@ HOST-SUFFIX,feheadline.com,direct
 HOST-SUFFIX,21eline.com,direct
 HOST-SUFFIX,aodeline.com,direct
 HOST-SUFFIX,jtpipeline.com,direct
-HOST-SUFFIX,aiweline.com,direct
 HOST-SUFFIX,iffline.com,direct
 HOST-SUFFIX,avfline.com,direct
 HOST-SUFFIX,sinotechline.com,direct
@@ -51033,7 +50883,6 @@ HOST-SUFFIX,boyuonline.com,direct
 HOST-SUFFIX,uuzuonline.com,direct
 HOST-SUFFIX,edulawonline.com,direct
 HOST-SUFFIX,ccwonline.com,direct
-HOST-SUFFIX,hairboxonline.com,direct
 HOST-SUFFIX,gspxonline.com,direct
 HOST-SUFFIX,rtxonline.com,direct
 HOST-SUFFIX,fytxonline.com,direct
@@ -51282,7 +51131,6 @@ HOST-SUFFIX,zhimoe.com,direct
 HOST-SUFFIX,laomoe.com,direct
 HOST-SUFFIX,konekomoe.com,direct
 HOST-SUFFIX,xsmoe.com,direct
-HOST-SUFFIX,bitmoe.com,direct
 HOST-SUFFIX,antmoe.com,direct
 HOST-SUFFIX,cxmoe.com,direct
 HOST-SUFFIX,nexmoe.com,direct
@@ -51487,7 +51335,6 @@ HOST-SUFFIX,cloudcflare.com,direct
 HOST-SUFFIX,tinyflare.com,direct
 HOST-SUFFIX,szcompare.com,direct
 HOST-SUFFIX,bulbsquare.com,direct
-HOST-SUFFIX,redredsquare.com,direct
 HOST-SUFFIX,shtimessquare.com,direct
 HOST-SUFFIX,mightsquare.com,direct
 HOST-SUFFIX,applysquare.com,direct
@@ -51734,7 +51581,6 @@ HOST-SUFFIX,shiyculture.com,direct
 HOST-SUFFIX,chinulture.com,direct
 HOST-SUFFIX,creationventure.com,direct
 HOST-SUFFIX,versoventure.com,direct
-HOST-SUFFIX,sinture.com,direct
 HOST-SUFFIX,kkcapture.com,direct
 HOST-SUFFIX,moissture.com,direct
 HOST-SUFFIX,great-future.com,direct
@@ -52146,7 +51992,6 @@ HOST-SUFFIX,aqisite.com,direct
 HOST-SUFFIX,ropinsite.com,direct
 HOST-SUFFIX,makeronsite.com,direct
 HOST-SUFFIX,kaosite.com,direct
-HOST-SUFFIX,pocosite.com,direct
 HOST-SUFFIX,mmosite.com,direct
 HOST-SUFFIX,jufa-composite.com,direct
 HOST-SUFFIX,sino-composite.com,direct
@@ -52548,7 +52393,6 @@ HOST-SUFFIX,peiyue.com,direct
 HOST-SUFFIX,shiyue.com,direct
 HOST-SUFFIX,gxbaozhiyue.com,direct
 HOST-SUFFIX,shejiyue.com,direct
-HOST-SUFFIX,qiyue.com,direct
 HOST-SUFFIX,hzriyue.com,direct
 HOST-SUFFIX,yingtaosiyue.com,direct
 HOST-SUFFIX,chuiyue.com,direct
@@ -53336,7 +53180,6 @@ HOST-SUFFIX,99pdf.com,direct
 HOST-SUFFIX,icpdf.com,direct
 HOST-SUFFIX,speedpdf.com,direct
 HOST-SUFFIX,xunjiepdf.com,direct
-HOST-SUFFIX,istylepdf.com,direct
 HOST-SUFFIX,mhpdf.com,direct
 HOST-SUFFIX,qingkuaipdf.com,direct
 HOST-SUFFIX,xjpdf.com,direct
@@ -53355,7 +53198,6 @@ HOST-SUFFIX,vmtdf.com,direct
 HOST-SUFFIX,wxtdf.com,direct
 HOST-SUFFIX,jehudf.com,direct
 HOST-SUFFIX,queniudf.com,direct
-HOST-SUFFIX,gcloudf.com,direct
 HOST-SUFFIX,youyudf.com,direct
 HOST-SUFFIX,vfvdf.com,direct
 HOST-SUFFIX,hbxdf.com,direct
@@ -53515,7 +53357,6 @@ HOST-SUFFIX,mhhf.com,direct
 HOST-SUFFIX,gdgcjhf.com,direct
 HOST-SUFFIX,ncsjhf.com,direct
 HOST-SUFFIX,vkoolhf.com,direct
-HOST-SUFFIX,biohf.com,direct
 HOST-SUFFIX,ipqcrhf.com,direct
 HOST-SUFFIX,lorhf.com,direct
 HOST-SUFFIX,hmtrhf.com,direct
@@ -53900,7 +53741,6 @@ HOST-SUFFIX,kshtxf.com,direct
 HOST-SUFFIX,hotxf.com,direct
 HOST-SUFFIX,tttxf.com,direct
 HOST-SUFFIX,wxf.com,direct
-HOST-SUFFIX,sfwxf.com,direct
 HOST-SUFFIX,gxhyxf.com,direct
 HOST-SUFFIX,zqyxf.com,direct
 HOST-SUFFIX,byf.com,direct
@@ -54276,7 +54116,6 @@ HOST-SUFFIX,jcwjdg.com,direct
 HOST-SUFFIX,zjdg.com,direct
 HOST-SUFFIX,popdg.com,direct
 HOST-SUFFIX,jspdg.com,direct
-HOST-SUFFIX,dzsdg.com,direct
 HOST-SUFFIX,gxgtdg.com,direct
 HOST-SUFFIX,hnhtdg.com,direct
 HOST-SUFFIX,gxtdg.com,direct
@@ -54836,7 +54675,6 @@ HOST-SUFFIX,wdjimg.com,direct
 HOST-SUFFIX,wfjimg.com,direct
 HOST-SUFFIX,kjimg.com,direct
 HOST-SUFFIX,ljimg.com,direct
-HOST-SUFFIX,90sjimg.com,direct
 HOST-SUFFIX,ckimg.com,direct
 HOST-SUFFIX,ickimg.com,direct
 HOST-SUFFIX,ymgkimg.com,direct
@@ -55111,7 +54949,6 @@ HOST-SUFFIX,0712fang.com,direct
 HOST-SUFFIX,0352fang.com,direct
 HOST-SUFFIX,0772fang.com,direct
 HOST-SUFFIX,3fang.com,direct
-HOST-SUFFIX,33fang.com,direct
 HOST-SUFFIX,0573fang.com,direct
 HOST-SUFFIX,234fang.com,direct
 HOST-SUFFIX,0756fang.com,direct
@@ -55456,7 +55293,6 @@ HOST-SUFFIX,dukechiang.com,direct
 HOST-SUFFIX,huang-jiang.com,direct
 HOST-SUFFIX,hai-jiang.com,direct
 HOST-SUFFIX,lin-jiang.com,direct
-HOST-SUFFIX,51jiang.com,direct
 HOST-SUFFIX,93jiang.com,direct
 HOST-SUFFIX,hbmajiang.com,direct
 HOST-SUFFIX,duolemajiang.com,direct
@@ -56549,7 +56385,6 @@ HOST-SUFFIX,appfeng.com,direct
 HOST-SUFFIX,directorfeng.com,direct
 HOST-SUFFIX,gtm.oasisfeng.com,direct
 HOST-SUFFIX,atfeng.com,direct
-HOST-SUFFIX,wtfeng.com,direct
 HOST-SUFFIX,hbchufeng.com,direct
 HOST-SUFFIX,gxshoufeng.com,direct
 HOST-SUFFIX,chiyufeng.com,direct
@@ -56620,7 +56455,6 @@ HOST-SUFFIX,aitiancheng.com,direct
 HOST-SUFFIX,51xiancheng.com,direct
 HOST-SUFFIX,gxjuancheng.com,direct
 HOST-SUFFIX,cloudyancheng.com,direct
-HOST-SUFFIX,laoyancheng.com,direct
 HOST-SUFFIX,cncheng.com,direct
 HOST-SUFFIX,xcjincheng.com,direct
 HOST-SUFFIX,xincheng.com,direct
@@ -56917,7 +56751,6 @@ HOST-SUFFIX,czjiangteng.com,direct
 HOST-SUFFIX,meimingteng.com,direct
 HOST-SUFFIX,hbqingteng.com,direct
 HOST-SUFFIX,bjgongteng.com,direct
-HOST-SUFFIX,gxshiteng.com,direct
 HOST-SUFFIX,wxshiteng.com,direct
 HOST-SUFFIX,gxlteng.com,direct
 HOST-SUFFIX,tianrunshunteng.com,direct
@@ -57512,7 +57345,6 @@ HOST-SUFFIX,huierming.com,direct
 HOST-SUFFIX,fineforming.com,direct
 HOST-SUFFIX,wordstorming.com,direct
 HOST-SUFFIX,huming.com,direct
-HOST-SUFFIX,weichuming.com,direct
 HOST-SUFFIX,juming.com,direct
 HOST-SUFFIX,xz-juming.com,direct
 HOST-SUFFIX,sdjuming.com,direct
@@ -57538,7 +57370,6 @@ HOST-SUFFIX,suyuening.com,direct
 HOST-SUFFIX,easy-signing.com,direct
 HOST-SUFFIX,51signing.com,direct
 HOST-SUFFIX,hebeishuangning.com,direct
-HOST-SUFFIX,guimengning.com,direct
 HOST-SUFFIX,gxhongning.com,direct
 HOST-SUFFIX,gxcaining.com,direct
 HOST-SUFFIX,haining.com,direct
@@ -57688,7 +57519,6 @@ HOST-SUFFIX,dayihangqing.com,direct
 HOST-SUFFIX,efengqing.com,direct
 HOST-SUFFIX,shijiqingqing.com,direct
 HOST-SUFFIX,luctonchongqing.com,direct
-HOST-SUFFIX,kaochongqing.com,direct
 HOST-SUFFIX,fescoadeccochongqing.com,direct
 HOST-SUFFIX,autochongqing.com,direct
 HOST-SUFFIX,quceaiqing.com,direct
@@ -57743,7 +57573,6 @@ HOST-SUFFIX,czddbearing.com,direct
 HOST-SUFFIX,tjbearing.com,direct
 HOST-SUFFIX,sjlbearing.com,direct
 HOST-SUFFIX,huanbearing.com,direct
-HOST-SUFFIX,cbsbearing.com,direct
 HOST-SUFFIX,arnstbearing.com,direct
 HOST-SUFFIX,zjwzbearing.com,direct
 HOST-SUFFIX,china-clearing.com,direct
@@ -58192,7 +58021,6 @@ HOST-SUFFIX,duoying.com,direct
 HOST-SUFFIX,10guoying.com,direct
 HOST-SUFFIX,huoying.com,direct
 HOST-SUFFIX,woying.com,direct
-HOST-SUFFIX,appying.com,direct
 HOST-SUFFIX,tongyidrying.com,direct
 HOST-SUFFIX,itying.com,direct
 HOST-SUFFIX,meiwafuying.com,direct
@@ -58235,7 +58063,6 @@ HOST-SUFFIX,hzliangdong.com,direct
 HOST-SUFFIX,luxiangdong.com,direct
 HOST-SUFFIX,sinochem-guangdong.com,direct
 HOST-SUFFIX,jaguar-guangdong.com,direct
-HOST-SUFFIX,163guangdong.com,direct
 HOST-SUFFIX,gdguangdong.com,direct
 HOST-SUFFIX,yunshangguangdong.com,direct
 HOST-SUFFIX,fescoguangdong.com,direct
@@ -58270,7 +58097,6 @@ HOST-SUFFIX,meituyidong.com,direct
 HOST-SUFFIX,vinkdong.com,direct
 HOST-SUFFIX,duplo-shandong.com,direct
 HOST-SUFFIX,lvdishandong.com,direct
-HOST-SUFFIX,leyishandong.com,direct
 HOST-SUFFIX,mshandong.com,direct
 HOST-SUFFIX,fromshandong.com,direct
 HOST-SUFFIX,diandong.com,direct
@@ -58739,7 +58565,6 @@ HOST-SUFFIX,jiudianrong.com,direct
 HOST-SUFFIX,gxjianrong.com,direct
 HOST-SUFFIX,duanrong.com,direct
 HOST-SUFFIX,sdsenrong.com,direct
-HOST-SUFFIX,yun-jinrong.com,direct
 HOST-SUFFIX,91jinrong.com,direct
 HOST-SUFFIX,jdjinrong.com,direct
 HOST-SUFFIX,kaijiejinrong.com,direct
@@ -59198,7 +59023,6 @@ HOST-SUFFIX,deepepg.com,direct
 HOST-SUFFIX,51fpg.com,direct
 HOST-SUFFIX,gxghpg.com,direct
 HOST-SUFFIX,yuchaipg.com,direct
-HOST-SUFFIX,bigjpg.com,direct
 HOST-SUFFIX,milkjpg.com,direct
 HOST-SUFFIX,gxflpg.com,direct
 HOST-SUFFIX,clmpg.com,direct
@@ -59277,6 +59101,7 @@ HOST-SUFFIX,golahsg.com,direct
 HOST-SUFFIX,sdhsg.com,direct
 HOST-SUFFIX,whhsg.com,direct
 HOST-SUFFIX,univista-isg.com,direct
+HOST-SUFFIX,gejsg.com,direct
 HOST-SUFFIX,szhlsg.com,direct
 HOST-SUFFIX,fslsg.com,direct
 HOST-SUFFIX,qhmsg.com,direct
@@ -59673,7 +59498,6 @@ HOST-SUFFIX,qingbh.com,direct
 HOST-SUFFIX,kaitaibh.com,direct
 HOST-SUFFIX,ahdjbh.com,direct
 HOST-SUFFIX,whjbh.com,direct
-HOST-SUFFIX,mmjbh.com,direct
 HOST-SUFFIX,tjbh.com,direct
 HOST-SUFFIX,hxjbh.com,direct
 HOST-SUFFIX,gxmbh.com,direct
@@ -60139,7 +59963,6 @@ HOST-SUFFIX,trunktech.com,direct
 HOST-SUFFIX,bioktech.com,direct
 HOST-SUFFIX,xktech.com,direct
 HOST-SUFFIX,irealtech.com,direct
-HOST-SUFFIX,ongoaltech.com,direct
 HOST-SUFFIX,narwaltech.com,direct
 HOST-SUFFIX,tcltech.com,direct
 HOST-SUFFIX,gxdltech.com,direct
@@ -60747,7 +60570,6 @@ HOST-SUFFIX,tckjhigh.com,direct
 HOST-SUFFIX,pqyhigh.com,direct
 HOST-SUFFIX,lfkjgh.com,direct
 HOST-SUFFIX,77zhangh.com,direct
-HOST-SUFFIX,wxngh.com,direct
 HOST-SUFFIX,ratogh.com,direct
 HOST-SUFFIX,bjgasgh.com,direct
 HOST-SUFFIX,xihusgh.com,direct
@@ -61850,7 +61672,6 @@ HOST-SUFFIX,zbxyh.com,direct
 HOST-SUFFIX,gzxyh.com,direct
 HOST-SUFFIX,mszxyh.com,direct
 HOST-SUFFIX,diyyh.com,direct
-HOST-SUFFIX,gxhxzyh.com,direct
 HOST-SUFFIX,jlc-zh.com,direct
 HOST-SUFFIX,tarisland-zh.com,direct
 HOST-SUFFIX,zlh-zh.com,direct
@@ -62154,13 +61975,11 @@ HOST-SUFFIX,jiaonizuocai.com,direct
 HOST-SUFFIX,zocai.com,direct
 HOST-SUFFIX,dextercai.com,direct
 HOST-SUFFIX,ctcai.com,direct
-HOST-SUFFIX,getcai.com,direct
 HOST-SUFFIX,notbucai.com,direct
 HOST-SUFFIX,51fucai.com,direct
 HOST-SUFFIX,lanfucai.com,direct
 HOST-SUFFIX,henanfucai.com,direct
 HOST-SUFFIX,qxshucai.com,direct
-HOST-SUFFIX,51zhucai.com,direct
 HOST-SUFFIX,xiucai.com,direct
 HOST-SUFFIX,adjucai.com,direct
 HOST-SUFFIX,koucai.com,direct
@@ -62906,7 +62725,6 @@ HOST-SUFFIX,sd-guotai.com,direct
 HOST-SUFFIX,fhguotai.com,direct
 HOST-SUFFIX,wzotai.com,direct
 HOST-SUFFIX,lingjiptai.com,direct
-HOST-SUFFIX,hyperguestai.com,direct
 HOST-SUFFIX,moffettai.com,direct
 HOST-SUFFIX,ottai.com,direct
 HOST-SUFFIX,wttai.com,direct
@@ -63021,7 +62839,6 @@ HOST-SUFFIX,517huwai.com,direct
 HOST-SUFFIX,zhuhaihuwai.com,direct
 HOST-SUFFIX,maihuwai.com,direct
 HOST-SUFFIX,xingyuhuwai.com,direct
-HOST-SUFFIX,lxhuwai.com,direct
 HOST-SUFFIX,muwai.com,direct
 HOST-SUFFIX,ubixai.com,direct
 HOST-SUFFIX,remixai.com,direct
@@ -63155,7 +62972,6 @@ HOST-SUFFIX,xyniubi.com,direct
 HOST-SUFFIX,xiaodoubi.com,direct
 HOST-SUFFIX,gotoubi.com,direct
 HOST-SUFFIX,52wubi.com,direct
-HOST-SUFFIX,928vbi.com,direct
 HOST-SUFFIX,knewbi.com,direct
 HOST-SUFFIX,bi-ci.com,direct
 HOST-SUFFIX,7ci.com,direct
@@ -63934,7 +63750,6 @@ HOST-SUFFIX,qumingdashi.com,direct
 HOST-SUFFIX,wodidashi.com,direct
 HOST-SUFFIX,wanjidashi.com,direct
 HOST-SUFFIX,qinglidashi.com,direct
-HOST-SUFFIX,zjdashi.com,direct
 HOST-SUFFIX,chandashi.com,direct
 HOST-SUFFIX,quandashi.com,direct
 HOST-SUFFIX,chanpindashi.com,direct
@@ -63971,7 +63786,6 @@ HOST-SUFFIX,16ceshi.com,direct
 HOST-SUFFIX,eceshi.com,direct
 HOST-SUFFIX,weceshi.com,direct
 HOST-SUFFIX,pthceshi.com,direct
-HOST-SUFFIX,zhiniceshi.com,direct
 HOST-SUFFIX,sslceshi.com,direct
 HOST-SUFFIX,pcgeshi.com,direct
 HOST-SUFFIX,higeshi.com,direct
@@ -64023,7 +63837,6 @@ HOST-SUFFIX,congtoukaishi.com,direct
 HOST-SUFFIX,paishi.com,direct
 HOST-SUFFIX,91saishi.com,direct
 HOST-SUFFIX,tiyusaishi.com,direct
-HOST-SUFFIX,gxtaishi.com,direct
 HOST-SUFFIX,cnwaishi.com,direct
 HOST-SUFFIX,szwaishi.com,direct
 HOST-SUFFIX,obeishi.com,direct
@@ -64397,7 +64210,6 @@ HOST-SUFFIX,gongxiaodaji.com,direct
 HOST-SUFFIX,isudaji.com,direct
 HOST-SUFFIX,dafaji.com,direct
 HOST-SUFFIX,shufaji.com,direct
-HOST-SUFFIX,zpchaji.com,direct
 HOST-SUFFIX,jiaji.com,direct
 HOST-SUFFIX,b612kaji.com,direct
 HOST-SUFFIX,hengxiangtaji.com,direct
@@ -65292,7 +65104,6 @@ HOST-SUFFIX,zhixin-semi.com,direct
 HOST-SUFFIX,actions-semi.com,direct
 HOST-SUFFIX,gt-semi.com,direct
 HOST-SUFFIX,qx-semi.com,direct
-HOST-SUFFIX,rx-semi.com,direct
 HOST-SUFFIX,binary-semi.com,direct
 HOST-SUFFIX,0101semi.com,direct
 HOST-SUFFIX,etrasemi.com,direct
@@ -65381,7 +65192,6 @@ HOST-SUFFIX,njimi.com,direct
 HOST-SUFFIX,shoujimi.com,direct
 HOST-SUFFIX,kimi.com,direct
 HOST-SUFFIX,lianglimi.com,direct
-HOST-SUFFIX,nmimi.com,direct
 HOST-SUFFIX,fanmimi.com,direct
 HOST-SUFFIX,qimi.com,direct
 HOST-SUFFIX,icomuimi.com,direct
@@ -65397,7 +65207,6 @@ HOST-SUFFIX,gradaimmi.com,direct
 HOST-SUFFIX,pacificimmi.com,direct
 HOST-SUFFIX,ydimmi.com,direct
 HOST-SUFFIX,hyimmi.com,direct
-HOST-SUFFIX,isummi.com,direct
 HOST-SUFFIX,danmi.com,direct
 HOST-SUFFIX,feifanmi.com,direct
 HOST-SUFFIX,ahhanmi.com,direct
@@ -65554,7 +65363,6 @@ HOST-SUFFIX,fx168api.com,direct
 HOST-SUFFIX,4399api.com,direct
 HOST-SUFFIX,changbaapi.com,direct
 HOST-SUFFIX,midaapi.com,direct
-HOST-SUFFIX,xiaoxiaapi.com,direct
 HOST-SUFFIX,babapi.com,direct
 HOST-SUFFIX,bestincapi.com,direct
 HOST-SUFFIX,jswspocapi.com,direct
@@ -65683,7 +65491,6 @@ HOST-SUFFIX,tyepi.com,direct
 HOST-SUFFIX,xiangpi.com,direct
 HOST-SUFFIX,51wangpi.com,direct
 HOST-SUFFIX,ahipi.com,direct
-HOST-SUFFIX,shejipi.com,direct
 HOST-SUFFIX,lzpipi.com,direct
 HOST-SUFFIX,ivipi.com,direct
 HOST-SUFFIX,elkpi.com,direct
@@ -65871,7 +65678,6 @@ HOST-SUFFIX,juqi.com,direct
 HOST-SUFFIX,gzjuqi.com,direct
 HOST-SUFFIX,xikuqi.com,direct
 HOST-SUFFIX,douqi.com,direct
-HOST-SUFFIX,lieyouqi.com,direct
 HOST-SUFFIX,hfyouqi.com,direct
 HOST-SUFFIX,chuangyouqi.com,direct
 HOST-SUFFIX,yiyouqi.com,direct
@@ -65923,7 +65729,6 @@ HOST-SUFFIX,wsgri.com,direct
 HOST-SUFFIX,jushri.com,direct
 HOST-SUFFIX,szhri.com,direct
 HOST-SUFFIX,bisairi.com,direct
-HOST-SUFFIX,cnshiri.com,direct
 HOST-SUFFIX,uriminzokkiri.com,direct
 HOST-SUFFIX,riliri.com,direct
 HOST-SUFFIX,gxliri.com,direct
@@ -66290,7 +66095,6 @@ HOST-SUFFIX,geihui.com,direct
 HOST-SUFFIX,chinaqipeihui.com,direct
 HOST-SUFFIX,youweihui.com,direct
 HOST-SUFFIX,yishihui.com,direct
-HOST-SUFFIX,anxunshihui.com,direct
 HOST-SUFFIX,jushihui.com,direct
 HOST-SUFFIX,mczhihui.com,direct
 HOST-SUFFIX,kuaizhihui.com,direct
@@ -66427,7 +66231,6 @@ HOST-SUFFIX,laojuhui.com,direct
 HOST-SUFFIX,gzshujuhui.com,direct
 HOST-SUFFIX,fumuhui.com,direct
 HOST-SUFFIX,fenggouhui.com,direct
-HOST-SUFFIX,duogouhui.com,direct
 HOST-SUFFIX,shouhui.com,direct
 HOST-SUFFIX,hishouhui.com,direct
 HOST-SUFFIX,suzhouhui.com,direct
@@ -66648,7 +66451,6 @@ HOST-SUFFIX,ktxuexi.com,direct
 HOST-SUFFIX,naiyouxuexi.com,direct
 HOST-SUFFIX,czxuexi.com,direct
 HOST-SUFFIX,luzexi.com,direct
-HOST-SUFFIX,hijiangxi.com,direct
 HOST-SUFFIX,iyangxi.com,direct
 HOST-SUFFIX,mengxi.com,direct
 HOST-SUFFIX,hbpengxi.com,direct
@@ -67517,7 +67319,6 @@ HOST-SUFFIX,shhzcj.com,direct
 HOST-SUFFIX,gzhzcj.com,direct
 HOST-SUFFIX,zjzcj.com,direct
 HOST-SUFFIX,lnzcj.com,direct
-HOST-SUFFIX,zgxzcj.com,direct
 HOST-SUFFIX,mc-dj.com,direct
 HOST-SUFFIX,60dj.com,direct
 HOST-SUFFIX,0991dj.com,direct
@@ -67687,7 +67488,6 @@ HOST-SUFFIX,gulugj.com,direct
 HOST-SUFFIX,zgfwgj.com,direct
 HOST-SUFFIX,zxfwgj.com,direct
 HOST-SUFFIX,qztvxwgj.com,direct
-HOST-SUFFIX,100xgj.com,direct
 HOST-SUFFIX,gxgj.com,direct
 HOST-SUFFIX,sdjxgj.com,direct
 HOST-SUFFIX,nbzxgj.com,direct
@@ -67884,7 +67684,6 @@ HOST-SUFFIX,sdlfhbkj.com,direct
 HOST-SUFFIX,yaxinghbkj.com,direct
 HOST-SUFFIX,yxbhhbkj.com,direct
 HOST-SUFFIX,tjllhbkj.com,direct
-HOST-SUFFIX,ynhthbkj.com,direct
 HOST-SUFFIX,fythbkj.com,direct
 HOST-SUFFIX,gxlyhbkj.com,direct
 HOST-SUFFIX,flowlbkj.com,direct
@@ -68039,7 +67838,6 @@ HOST-SUFFIX,hzxywlkj.com,direct
 HOST-SUFFIX,gxxlkj.com,direct
 HOST-SUFFIX,xinzlkj.com,direct
 HOST-SUFFIX,zfdmkj.com,direct
-HOST-SUFFIX,cczkdmkj.com,direct
 HOST-SUFFIX,sdhmkj.com,direct
 HOST-SUFFIX,tshmkj.com,direct
 HOST-SUFFIX,jmkj.com,direct
@@ -68398,7 +68196,6 @@ HOST-SUFFIX,skyrj.com,direct
 HOST-SUFFIX,cpzyrj.com,direct
 HOST-SUFFIX,zgczrj.com,direct
 HOST-SUFFIX,2375sj.com,direct
-HOST-SUFFIX,e5sj.com,direct
 HOST-SUFFIX,66sj.com,direct
 HOST-SUFFIX,2048sj.com,direct
 HOST-SUFFIX,99sj.com,direct
@@ -68411,7 +68208,6 @@ HOST-SUFFIX,yl-csj.com,direct
 HOST-SUFFIX,scdnacsj.com,direct
 HOST-SUFFIX,6fcsj.com,direct
 HOST-SUFFIX,glgcsj.com,direct
-HOST-SUFFIX,yzgcsj.com,direct
 HOST-SUFFIX,gd-hcsj.com,direct
 HOST-SUFFIX,360kcsj.com,direct
 HOST-SUFFIX,gdkcsj.com,direct
@@ -68722,7 +68518,6 @@ HOST-SUFFIX,gxjhzj.com,direct
 HOST-SUFFIX,nhzj.com,direct
 HOST-SUFFIX,lshzj.com,direct
 HOST-SUFFIX,xinmaizj.com,direct
-HOST-SUFFIX,bizhizj.com,direct
 HOST-SUFFIX,mxdjzj.com,direct
 HOST-SUFFIX,kjzj.com,direct
 HOST-SUFFIX,yskjzj.com,direct
@@ -69169,7 +68964,6 @@ HOST-SUFFIX,txsdk.com,direct
 HOST-SUFFIX,rcyxdk.com,direct
 HOST-SUFFIX,81ek.com,direct
 HOST-SUFFIX,318ek.com,direct
-HOST-SUFFIX,simaek.com,direct
 HOST-SUFFIX,intaek.com,direct
 HOST-SUFFIX,zgddek.com,direct
 HOST-SUFFIX,hero-geek.com,direct
@@ -69515,7 +69309,6 @@ HOST-SUFFIX,masikkk.com,direct
 HOST-SUFFIX,tukkk.com,direct
 HOST-SUFFIX,lalkk.com,direct
 HOST-SUFFIX,toolkk.com,direct
-HOST-SUFFIX,iapkk.com,direct
 HOST-SUFFIX,upkk.com,direct
 HOST-SUFFIX,zgqkk.com,direct
 HOST-SUFFIX,initkk.com,direct
@@ -69944,7 +69737,6 @@ HOST-SUFFIX,cashbackok.com,direct
 HOST-SUFFIX,wyxokokok.com,direct
 HOST-SUFFIX,msolok.com,direct
 HOST-SUFFIX,69mok.com,direct
-HOST-SUFFIX,2amok.com,direct
 HOST-SUFFIX,laxmok.com,direct
 HOST-SUFFIX,lianok.com,direct
 HOST-SUFFIX,qukanok.com,direct
@@ -69960,7 +69752,6 @@ HOST-SUFFIX,601book.com,direct
 HOST-SUFFIX,51book.com,direct
 HOST-SUFFIX,81book.com,direct
 HOST-SUFFIX,23book.com,direct
-HOST-SUFFIX,rabook.com,direct
 HOST-SUFFIX,xiguabook.com,direct
 HOST-SUFFIX,tianyabook.com,direct
 HOST-SUFFIX,caacbook.com,direct
@@ -70249,7 +70040,6 @@ HOST-SUFFIX,aliwork.com,direct
 HOST-SUFFIX,lianliwork.com,direct
 HOST-SUFFIX,huayiwork.com,direct
 HOST-SUFFIX,zbjwork.com,direct
-HOST-SUFFIX,chainlinkwork.com,direct
 HOST-SUFFIX,lwork.com,direct
 HOST-SUFFIX,lanlanwork.com,direct
 HOST-SUFFIX,onwork.com,direct
@@ -70283,7 +70073,6 @@ HOST-SUFFIX,dduwork.com,direct
 HOST-SUFFIX,iameduwork.com,direct
 HOST-SUFFIX,ovuwork.com,direct
 HOST-SUFFIX,adxwork.com,direct
-HOST-SUFFIX,tabbywork.com,direct
 HOST-SUFFIX,kingyork.com,direct
 HOST-SUFFIX,biyork.com,direct
 HOST-SUFFIX,ssnewyork.com,direct
@@ -70472,7 +70261,6 @@ HOST-SUFFIX,91yk.com,direct
 HOST-SUFFIX,deyayk.com,direct
 HOST-SUFFIX,maiyayk.com,direct
 HOST-SUFFIX,xinyayk.com,direct
-HOST-SUFFIX,mebyk.com,direct
 HOST-SUFFIX,hasbyk.com,direct
 HOST-SUFFIX,gxhcyk.com,direct
 HOST-SUFFIX,xn--rht439a44bdyk.com,direct
@@ -70765,7 +70553,6 @@ HOST-SUFFIX,sh-real.com,direct
 HOST-SUFFIX,tech2real.com,direct
 HOST-SUFFIX,tecreal.com,direct
 HOST-SUFFIX,sinereal.com,direct
-HOST-SUFFIX,zymreal.com,direct
 HOST-SUFFIX,cds-seal.com,direct
 HOST-SUFFIX,ruishengseal.com,direct
 HOST-SUFFIX,gxseal.com,direct
@@ -71617,7 +71404,6 @@ HOST-SUFFIX,cczel.com,direct
 HOST-SUFFIX,sinopharm-fl.com,direct
 HOST-SUFFIX,20fl.com,direct
 HOST-SUFFIX,51fl.com,direct
-HOST-SUFFIX,63fl.com,direct
 HOST-SUFFIX,zjafl.com,direct
 HOST-SUFFIX,orafl.com,direct
 HOST-SUFFIX,jsbcfl.com,direct
@@ -71855,7 +71641,6 @@ HOST-SUFFIX,polycom-jl.com,direct
 HOST-SUFFIX,hikvision-jl.com,direct
 HOST-SUFFIX,projector-jl.com,direct
 HOST-SUFFIX,s-jl.com,direct
-HOST-SUFFIX,cits-jl.com,direct
 HOST-SUFFIX,gtajl.com,direct
 HOST-SUFFIX,xmpbjl.com,direct
 HOST-SUFFIX,cs-cjl.com,direct
@@ -71877,7 +71662,6 @@ HOST-SUFFIX,haljl.com,direct
 HOST-SUFFIX,pcljl.com,direct
 HOST-SUFFIX,gzcmjl.com,direct
 HOST-SUFFIX,hzjmjl.com,direct
-HOST-SUFFIX,52njl.com,direct
 HOST-SUFFIX,xsdnjl.com,direct
 HOST-SUFFIX,nnjl.com,direct
 HOST-SUFFIX,xiaojl.com,direct
@@ -71896,7 +71680,6 @@ HOST-SUFFIX,sdcxjl.com,direct
 HOST-SUFFIX,sdhxjl.com,direct
 HOST-SUFFIX,jskxjl.com,direct
 HOST-SUFFIX,yjhyjl.com,direct
-HOST-SUFFIX,xzyjl.com,direct
 HOST-SUFFIX,gzszjl.com,direct
 HOST-SUFFIX,fiu07040kl.com,direct
 HOST-SUFFIX,fiu07021kl.com,direct
@@ -72682,7 +72465,6 @@ HOST-SUFFIX,szprl.com,direct
 HOST-SUFFIX,bshsrl.com,direct
 HOST-SUFFIX,officectrl.com,direct
 HOST-SUFFIX,eofreqctrl.com,direct
-HOST-SUFFIX,dgwtrl.com,direct
 HOST-SUFFIX,dns-url.com,direct
 HOST-SUFFIX,hahaurl.com,direct
 HOST-SUFFIX,jdburl.com,direct
@@ -72919,7 +72701,6 @@ HOST-SUFFIX,5jwl.com,direct
 HOST-SUFFIX,lsdjwl.com,direct
 HOST-SUFFIX,sydjwl.com,direct
 HOST-SUFFIX,nbgjwl.com,direct
-HOST-SUFFIX,jfgjwl.com,direct
 HOST-SUFFIX,bjsjwl.com,direct
 HOST-SUFFIX,nxjwl.com,direct
 HOST-SUFFIX,xagkwl.com,direct
@@ -74012,7 +73793,6 @@ HOST-SUFFIX,suncjm.com,direct
 HOST-SUFFIX,zjwcjm.com,direct
 HOST-SUFFIX,zmndjm.com,direct
 HOST-SUFFIX,gxhgjm.com,direct
-HOST-SUFFIX,wangjm.com,direct
 HOST-SUFFIX,whjm.com,direct
 HOST-SUFFIX,sxlljm.com,direct
 HOST-SUFFIX,shmljm.com,direct
@@ -74068,7 +73848,6 @@ HOST-SUFFIX,wordlm.com,direct
 HOST-SUFFIX,bnhelm.com,direct
 HOST-SUFFIX,cflm.com,direct
 HOST-SUFFIX,gxflm.com,direct
-HOST-SUFFIX,hhdglm.com,direct
 HOST-SUFFIX,scgglm.com,direct
 HOST-SUFFIX,qinglm.com,direct
 HOST-SUFFIX,hxwglm.com,direct
@@ -74244,6 +74023,7 @@ HOST-SUFFIX,cne-om.com,direct
 HOST-SUFFIX,u-om.com,direct
 HOST-SUFFIX,24om.com,direct
 HOST-SUFFIX,9om.com,direct
+HOST-SUFFIX,4399om.com,direct
 HOST-SUFFIX,uhaom.com,direct
 HOST-SUFFIX,juhaom.com,direct
 HOST-SUFFIX,zbom.com,direct
@@ -74736,6 +74516,7 @@ HOST-SUFFIX,asoasm.com,direct
 HOST-SUFFIX,cnbsm.com,direct
 HOST-SUFFIX,zwcsm.com,direct
 HOST-SUFFIX,heycsm.com,direct
+HOST-SUFFIX,tyycsm.com,direct
 HOST-SUFFIX,ddsm.com,direct
 HOST-SUFFIX,wrxdsm.com,direct
 HOST-SUFFIX,chinaesm.com,direct
@@ -75010,7 +74791,6 @@ HOST-SUFFIX,sjfzxm.com,direct
 HOST-SUFFIX,jkh-ym.com,direct
 HOST-SUFFIX,js-ym.com,direct
 HOST-SUFFIX,020ym.com,direct
-HOST-SUFFIX,120ym.com,direct
 HOST-SUFFIX,70ym.com,direct
 HOST-SUFFIX,12ym.com,direct
 HOST-SUFFIX,365ym.com,direct
@@ -75503,7 +75283,6 @@ HOST-SUFFIX,baishan.com,direct
 HOST-SUFFIX,aichangbaishan.com,direct
 HOST-SUFFIX,cloudmeishan.com,direct
 HOST-SUFFIX,jiangweishan.com,direct
-HOST-SUFFIX,tlwanjishan.com,direct
 HOST-SUFFIX,xiangqishan.com,direct
 HOST-SUFFIX,zhihuishan.com,direct
 HOST-SUFFIX,gllshan.com,direct
@@ -75874,7 +75653,6 @@ HOST-SUFFIX,xianjian.com,direct
 HOST-SUFFIX,kanjian.com,direct
 HOST-SUFFIX,hlduanjian.com,direct
 HOST-SUFFIX,juxinguanjian.com,direct
-HOST-SUFFIX,zhimaruanjian.com,direct
 HOST-SUFFIX,tiaomaruanjian.com,direct
 HOST-SUFFIX,handongruanjian.com,direct
 HOST-SUFFIX,caijiruanjian.com,direct
@@ -76460,7 +76238,6 @@ HOST-SUFFIX,huidawanan.com,direct
 HOST-SUFFIX,fjwanan.com,direct
 HOST-SUFFIX,cloudyanan.com,direct
 HOST-SUFFIX,sinopharm-henan.com,direct
-HOST-SUFFIX,163henan.com,direct
 HOST-SUFFIX,autohenan.com,direct
 HOST-SUFFIX,wushuhenan.com,direct
 HOST-SUFFIX,yxhenan.com,direct
@@ -76493,11 +76270,9 @@ HOST-SUFFIX,51taonan.com,direct
 HOST-SUFFIX,fashionan.com,direct
 HOST-SUFFIX,iissnan.com,direct
 HOST-SUFFIX,cunan.com,direct
-HOST-SUFFIX,163hunan.com,direct
 HOST-SUFFIX,autohunan.com,direct
 HOST-SUFFIX,gz-junan.com,direct
 HOST-SUFFIX,gxjunan.com,direct
-HOST-SUFFIX,admunan.com,direct
 HOST-SUFFIX,skynan.com,direct
 HOST-SUFFIX,chinabaoan.com,direct
 HOST-SUFFIX,xbbaoan.com,direct
@@ -77040,7 +76815,6 @@ HOST-SUFFIX,wowotuan.com,direct
 HOST-SUFFIX,pmptuan.com,direct
 HOST-SUFFIX,qufutuan.com,direct
 HOST-SUFFIX,jinshutuan.com,direct
-HOST-SUFFIX,xiutuan.com,direct
 HOST-SUFFIX,kutuan.com,direct
 HOST-SUFFIX,routuan.com,direct
 HOST-SUFFIX,xtuan.com,direct
@@ -77108,6 +76882,7 @@ HOST-SUFFIX,wenzhouchayuan.com,direct
 HOST-SUFFIX,wzchayuan.com,direct
 HOST-SUFFIX,jiayuan.com,direct
 HOST-SUFFIX,chajiayuan.com,direct
+HOST-SUFFIX,yakejiayuan.com,direct
 HOST-SUFFIX,xianfengjiayuan.com,direct
 HOST-SUFFIX,beijingnongjiayuan.com,direct
 HOST-SUFFIX,jxnongjiayuan.com,direct
@@ -77349,7 +77124,6 @@ HOST-SUFFIX,xyjuyuan.com,direct
 HOST-SUFFIX,yanshanmuyuan.com,direct
 HOST-SUFFIX,youyuan.com,direct
 HOST-SUFFIX,zhiquyuan.com,direct
-HOST-SUFFIX,chinawuyuan.com,direct
 HOST-SUFFIX,yewuyuan.com,direct
 HOST-SUFFIX,diwuyuan.com,direct
 HOST-SUFFIX,dywuyuan.com,direct
@@ -77420,7 +77194,6 @@ HOST-SUFFIX,8wan.com,direct
 HOST-SUFFIX,58wan.com,direct
 HOST-SUFFIX,5158wan.com,direct
 HOST-SUFFIX,668wan.com,direct
-HOST-SUFFIX,278wan.com,direct
 HOST-SUFFIX,188wan.com,direct
 HOST-SUFFIX,w9188wan.com,direct
 HOST-SUFFIX,698wan.com,direct
@@ -77624,7 +77397,6 @@ HOST-SUFFIX,njhunyan.com,direct
 HOST-SUFFIX,idiaoyan.com,direct
 HOST-SUFFIX,zgjiaoyan.com,direct
 HOST-SUFFIX,kaoyan.com,direct
-HOST-SUFFIX,yanyidakaoyan.com,direct
 HOST-SUFFIX,chinakaoyan.com,direct
 HOST-SUFFIX,ekaoyan.com,direct
 HOST-SUFFIX,freekaoyan.com,direct
@@ -77991,7 +77763,6 @@ HOST-SUFFIX,gotechcn.com,direct
 HOST-SUFFIX,avtechcn.com,direct
 HOST-SUFFIX,psychcn.com,direct
 HOST-SUFFIX,xdhcn.com,direct
-HOST-SUFFIX,hhcn.com,direct
 HOST-SUFFIX,xphcn.com,direct
 HOST-SUFFIX,qeteshcn.com,direct
 HOST-SUFFIX,fishcn.com,direct
@@ -78607,6 +78378,7 @@ HOST-SUFFIX,willcdn.com,direct
 HOST-SUFFIX,zjolcdn.com,direct
 HOST-SUFFIX,allschoolcdn.com,direct
 HOST-SUFFIX,volcdn.com,direct
+HOST-SUFFIX,yolcdn.com,direct
 HOST-SUFFIX,ctlcdn.com,direct
 HOST-SUFFIX,qtlcdn.com,direct
 HOST-SUFFIX,sxlcdn.com,direct
@@ -79284,7 +79056,6 @@ HOST-SUFFIX,gan-ren.com,direct
 HOST-SUFFIX,021ren.com,direct
 HOST-SUFFIX,0573ren.com,direct
 HOST-SUFFIX,6ren.com,direct
-HOST-SUFFIX,07ren.com,direct
 HOST-SUFFIX,medcaren.com,direct
 HOST-SUFFIX,meijiadaren.com,direct
 HOST-SUFFIX,jitadaren.com,direct
@@ -79340,7 +79111,6 @@ HOST-SUFFIX,jumengren.com,direct
 HOST-SUFFIX,xiaonengren.com,direct
 HOST-SUFFIX,yifajingren.com,direct
 HOST-SUFFIX,shijiemingren.com,direct
-HOST-SUFFIX,lishimingren.com,direct
 HOST-SUFFIX,doublestarmingren.com,direct
 HOST-SUFFIX,dongpingren.com,direct
 HOST-SUFFIX,iqingren.com,direct
@@ -79433,7 +79203,6 @@ HOST-SUFFIX,hzshuren.com,direct
 HOST-SUFFIX,wuliuren.com,direct
 HOST-SUFFIX,xiuren.com,direct
 HOST-SUFFIX,yongxiuren.com,direct
-HOST-SUFFIX,juren.com,direct
 HOST-SUFFIX,whjuren.com,direct
 HOST-SUFFIX,zzlvjuren.com,direct
 HOST-SUFFIX,yxjuren.com,direct
@@ -79490,7 +79259,6 @@ HOST-SUFFIX,aeinsen.com,direct
 HOST-SUFFIX,mulinsen.com,direct
 HOST-SUFFIX,suzhoulinsen.com,direct
 HOST-SUFFIX,joinsen.com,direct
-HOST-SUFFIX,njlonsen.com,direct
 HOST-SUFFIX,gxlonsen.com,direct
 HOST-SUFFIX,zhaorunsen.com,direct
 HOST-SUFFIX,gxyunsen.com,direct
@@ -79590,9 +79358,7 @@ HOST-SUFFIX,bzxinwen.com,direct
 HOST-SUFFIX,5156lunwen.com,direct
 HOST-SUFFIX,kuailelunwen.com,direct
 HOST-SUFFIX,yixuelunwen.com,direct
-HOST-SUFFIX,mlunwen.com,direct
 HOST-SUFFIX,163qikanlunwen.com,direct
-HOST-SUFFIX,dnlunwen.com,direct
 HOST-SUFFIX,biguolunwen.com,direct
 HOST-SUFFIX,jlguowen.com,direct
 HOST-SUFFIX,zuowen.com,direct
@@ -79905,7 +79671,6 @@ HOST-SUFFIX,pharmengin.com,direct
 HOST-SUFFIX,mingin.com,direct
 HOST-SUFFIX,ib3-gogin.com,direct
 HOST-SUFFIX,valogin.com,direct
-HOST-SUFFIX,pleo-securelogin.com,direct
 HOST-SUFFIX,sunlogin.com,direct
 HOST-SUFFIX,newmargin.com,direct
 HOST-SUFFIX,bbchin.com,direct
@@ -80149,7 +79914,6 @@ HOST-SUFFIX,vanjoin.com,direct
 HOST-SUFFIX,fa-tojoin.com,direct
 HOST-SUFFIX,ztjoin.com,direct
 HOST-SUFFIX,howjoin.com,direct
-HOST-SUFFIX,insmoin.com,direct
 HOST-SUFFIX,supoin.com,direct
 HOST-SUFFIX,chuang-pin.com,direct
 HOST-SUFFIX,v1pin.com,direct
@@ -80168,7 +79932,6 @@ HOST-SUFFIX,zhilepin.com,direct
 HOST-SUFFIX,vxuepin.com,direct
 HOST-SUFFIX,51yuepin.com,direct
 HOST-SUFFIX,shangpin.com,direct
-HOST-SUFFIX,shiyueliangpin.com,direct
 HOST-SUFFIX,yuexiangpin.com,direct
 HOST-SUFFIX,zhikongyangpin.com,direct
 HOST-SUFFIX,faxianjingpin.com,direct
@@ -80405,7 +80168,6 @@ HOST-SUFFIX,siswin.com,direct
 HOST-SUFFIX,cmswin.com,direct
 HOST-SUFFIX,hiloletswin.com,direct
 HOST-SUFFIX,shutwin.com,direct
-HOST-SUFFIX,njyouwin.com,direct
 HOST-SUFFIX,youyouwin.com,direct
 HOST-SUFFIX,dwwin.com,direct
 HOST-SUFFIX,winbywin.com,direct
@@ -80575,7 +80337,6 @@ HOST-SUFFIX,kunlunxin.com,direct
 HOST-SUFFIX,chaoxin.com,direct
 HOST-SUFFIX,zhaoxin.com,direct
 HOST-SUFFIX,51miaoxin.com,direct
-HOST-SUFFIX,seoxiaoxin.com,direct
 HOST-SUFFIX,cuoxin.com,direct
 HOST-SUFFIX,szguoxin.com,direct
 HOST-SUFFIX,jnzhuoxin.com,direct
@@ -80779,7 +80540,6 @@ HOST-SUFFIX,proginn.com,direct
 HOST-SUFFIX,zhishinn.com,direct
 HOST-SUFFIX,hackinn.com,direct
 HOST-SUFFIX,wulinn.com,direct
-HOST-SUFFIX,gowonganinn.com,direct
 HOST-SUFFIX,appinn.com,direct
 HOST-SUFFIX,cupinn.com,direct
 HOST-SUFFIX,gxpinn.com,direct
@@ -80792,7 +80552,6 @@ HOST-SUFFIX,sdkjnn.com,direct
 HOST-SUFFIX,hkjnn.com,direct
 HOST-SUFFIX,moojnn.com,direct
 HOST-SUFFIX,bilnn.com,direct
-HOST-SUFFIX,xiinnn.com,direct
 HOST-SUFFIX,unnnnn.com,direct
 HOST-SUFFIX,exceedconn.com,direct
 HOST-SUFFIX,wingconn.com,direct
@@ -80814,7 +80573,6 @@ HOST-SUFFIX,pkunn.com,direct
 HOST-SUFFIX,xiwnn.com,direct
 HOST-SUFFIX,smynn.com,direct
 HOST-SUFFIX,gxtznn.com,direct
-HOST-SUFFIX,yznn.com,direct
 HOST-SUFFIX,li-on.com,direct
 HOST-SUFFIX,cri-on.com,direct
 HOST-SUFFIX,20on.com,direct
@@ -80940,7 +80698,6 @@ HOST-SUFFIX,qhd-marathon.com,direct
 HOST-SUFFIX,shunde-marathon.com,direct
 HOST-SUFFIX,xiangyang-marathon.com,direct
 HOST-SUFFIX,beijing-marathon.com,direct
-HOST-SUFFIX,xining-marathon.com,direct
 HOST-SUFFIX,nanning-marathon.com,direct
 HOST-SUFFIX,xinxing-marathon.com,direct
 HOST-SUFFIX,rg-marathon.com,direct
@@ -81295,7 +81052,6 @@ HOST-SUFFIX,lomon.com,direct
 HOST-SUFFIX,centralsolomon.com,direct
 HOST-SUFFIX,ctmon.com,direct
 HOST-SUFFIX,aqumon.com,direct
-HOST-SUFFIX,jabansk-auymon.com,direct
 HOST-SUFFIX,biotanon.com,direct
 HOST-SUFFIX,aptenon.com,direct
 HOST-SUFFIX,liwinon.com,direct
@@ -81334,7 +81090,6 @@ HOST-SUFFIX,tipsoon.com,direct
 HOST-SUFFIX,orsoon.com,direct
 HOST-SUFFIX,seassoon.com,direct
 HOST-SUFFIX,etsoon.com,direct
-HOST-SUFFIX,1toon.com,direct
 HOST-SUFFIX,zhengtoon.com,direct
 HOST-SUFFIX,solotoon.com,direct
 HOST-SUFFIX,mocartoon.com,direct
@@ -81761,7 +81516,6 @@ HOST-SUFFIX,niufun.com,direct
 HOST-SUFFIX,soufun.com,direct
 HOST-SUFFIX,japansoufun.com,direct
 HOST-SUFFIX,suufun.com,direct
-HOST-SUFFIX,jwfun.com,direct
 HOST-SUFFIX,vortexfun.com,direct
 HOST-SUFFIX,qxfun.com,direct
 HOST-SUFFIX,innoplayfun.com,direct
@@ -82384,7 +82138,6 @@ HOST-SUFFIX,caiyun.com,direct
 HOST-SUFFIX,7caiyun.com,direct
 HOST-SUFFIX,wacaiyun.com,direct
 HOST-SUFFIX,guicaiyun.com,direct
-HOST-SUFFIX,kuocaiyun.com,direct
 HOST-SUFFIX,ucaiyun.com,direct
 HOST-SUFFIX,youcaiyun.com,direct
 HOST-SUFFIX,bianhaiyun.com,direct
@@ -82649,7 +82402,6 @@ HOST-SUFFIX,heshuyun.com,direct
 HOST-SUFFIX,baishuyun.com,direct
 HOST-SUFFIX,zhishuyun.com,direct
 HOST-SUFFIX,zhuishuyun.com,direct
-HOST-SUFFIX,wanshuyun.com,direct
 HOST-SUFFIX,haoshuyun.com,direct
 HOST-SUFFIX,dezhuyun.com,direct
 HOST-SUFFIX,qizhuyun.com,direct
@@ -82670,7 +82422,6 @@ HOST-SUFFIX,51shenzhouyun.com,direct
 HOST-SUFFIX,jiouyun.com,direct
 HOST-SUFFIX,chengyouyun.com,direct
 HOST-SUFFIX,feiyouyun.com,direct
-HOST-SUFFIX,zhanyouyun.com,direct
 HOST-SUFFIX,wenyouyun.com,direct
 HOST-SUFFIX,laoyouyun.com,direct
 HOST-SUFFIX,kuyouyun.com,direct
@@ -82703,6 +82454,7 @@ HOST-SUFFIX,nswyun.com,direct
 HOST-SUFFIX,adxyun.com,direct
 HOST-SUFFIX,gxlxyun.com,direct
 HOST-SUFFIX,niuxyun.com,direct
+HOST-SUFFIX,1wxyun.com,direct
 HOST-SUFFIX,shxxyun.com,direct
 HOST-SUFFIX,hyyun.com,direct
 HOST-SUFFIX,jyyun.com,direct
@@ -83054,7 +82806,6 @@ HOST-SUFFIX,jicaibao.com,direct
 HOST-SUFFIX,kancaibao.com,direct
 HOST-SUFFIX,zhiliaocaibao.com,direct
 HOST-SUFFIX,haibao.com,direct
-HOST-SUFFIX,17haibao.com,direct
 HOST-SUFFIX,wuxianhaibao.com,direct
 HOST-SUFFIX,i-xiaohaibao.com,direct
 HOST-SUFFIX,bxhaibao.com,direct
@@ -83084,7 +82835,6 @@ HOST-SUFFIX,kaoshibao.com,direct
 HOST-SUFFIX,fushibao.com,direct
 HOST-SUFFIX,chezhibao.com,direct
 HOST-SUFFIX,jianzhibao.com,direct
-HOST-SUFFIX,yunguajibao.com,direct
 HOST-SUFFIX,shuajibao.com,direct
 HOST-SUFFIX,shejibao.com,direct
 HOST-SUFFIX,yangjibao.com,direct
@@ -83218,7 +82968,6 @@ HOST-SUFFIX,jianhaobao.com,direct
 HOST-SUFFIX,uliaobao.com,direct
 HOST-SUFFIX,usqiaobao.com,direct
 HOST-SUFFIX,wangxiaobao.com,direct
-HOST-SUFFIX,daixiaobao.com,direct
 HOST-SUFFIX,qinqinxiaobao.com,direct
 HOST-SUFFIX,chinalaobao.com,direct
 HOST-SUFFIX,taobao.com,direct
@@ -83518,7 +83267,6 @@ HOST-SUFFIX,tandehao.com,direct
 HOST-SUFFIX,kangehao.com,direct
 HOST-SUFFIX,jjiehao.com,direct
 HOST-SUFFIX,guoxiehao.com,direct
-HOST-SUFFIX,pinkehao.com,direct
 HOST-SUFFIX,afhao.com,direct
 HOST-SUFFIX,9ghao.com,direct
 HOST-SUFFIX,lianhanghao.com,direct
@@ -83873,7 +83621,6 @@ HOST-SUFFIX,54benniao.com,direct
 HOST-SUFFIX,binfenniao.com,direct
 HOST-SUFFIX,lanshenniao.com,direct
 HOST-SUFFIX,qunniao.com,direct
-HOST-SUFFIX,3xiaoniao.com,direct
 HOST-SUFFIX,taihuoniao.com,direct
 HOST-SUFFIX,jihuoniao.com,direct
 HOST-SUFFIX,pniao.com,direct
@@ -84081,7 +83828,6 @@ HOST-SUFFIX,yijiakao.com,direct
 HOST-SUFFIX,kuakao.com,direct
 HOST-SUFFIX,mywakao.com,direct
 HOST-SUFFIX,luckao.com,direct
-HOST-SUFFIX,wdkao.com,direct
 HOST-SUFFIX,qiekao.com,direct
 HOST-SUFFIX,xuekao.com,direct
 HOST-SUFFIX,hubeixuekao.com,direct
@@ -84216,14 +83962,12 @@ HOST-SUFFIX,sijiaomao.com,direct
 HOST-SUFFIX,hzsanjiaomao.com,direct
 HOST-SUFFIX,laotiaomao.com,direct
 HOST-SUFFIX,zixiaomao.com,direct
-HOST-SUFFIX,gankaomao.com,direct
 HOST-SUFFIX,koomao.com,direct
 HOST-SUFFIX,huomao.com,direct
 HOST-SUFFIX,darmao.com,direct
 HOST-SUFFIX,ermao.com,direct
 HOST-SUFFIX,ztmao.com,direct
 HOST-SUFFIX,5umao.com,direct
-HOST-SUFFIX,wendumao.com,direct
 HOST-SUFFIX,chinafumao.com,direct
 HOST-SUFFIX,zifumao.com,direct
 HOST-SUFFIX,shanxiumao.com,direct
@@ -84404,7 +84148,6 @@ HOST-SUFFIX,18zhongyao.com,direct
 HOST-SUFFIX,wangzherongyao.com,direct
 HOST-SUFFIX,kuailetongyao.com,direct
 HOST-SUFFIX,wahyao.com,direct
-HOST-SUFFIX,js-haiyao.com,direct
 HOST-SUFFIX,qumaiyao.com,direct
 HOST-SUFFIX,biyao.com,direct
 HOST-SUFFIX,hzfeiyao.com,direct
@@ -84614,6 +84357,7 @@ HOST-SUFFIX,newluobo.com,direct
 HOST-SUFFIX,kx-turbo.com,direct
 HOST-SUFFIX,resturbo.com,direct
 HOST-SUFFIX,jonsbo.com,direct
+HOST-SUFFIX,aihubo.com,direct
 HOST-SUFFIX,xiangbojiubo.com,direct
 HOST-SUFFIX,shujubo.com,direct
 HOST-SUFFIX,cchoubo.com,direct
@@ -84810,7 +84554,6 @@ HOST-SUFFIX,bestdo.com,direct
 HOST-SUFFIX,queniudo.com,direct
 HOST-SUFFIX,doyoudo.com,direct
 HOST-SUFFIX,vqudo.com,direct
-HOST-SUFFIX,shawdo.com,direct
 HOST-SUFFIX,30daydo.com,direct
 HOST-SUFFIX,everydo.com,direct
 HOST-SUFFIX,vendor-src-eo.com,direct
@@ -85227,7 +84970,6 @@ HOST-SUFFIX,365autogo.com,direct
 HOST-SUFFIX,citytogo.com,direct
 HOST-SUFFIX,xiyogo.com,direct
 HOST-SUFFIX,bcshipgo.com,direct
-HOST-SUFFIX,dspgo.com,direct
 HOST-SUFFIX,hnacargo.com,direct
 HOST-SUFFIX,airchinacargo.com,direct
 HOST-SUFFIX,wwlcargo.com,direct
@@ -85678,7 +85420,6 @@ HOST-SUFFIX,tlivesrcdemo.com,direct
 HOST-SUFFIX,volclivedemo.com,direct
 HOST-SUFFIX,wechatauthdemo.com,direct
 HOST-SUFFIX,vcpdemo.com,direct
-HOST-SUFFIX,zmirrordemo.com,direct
 HOST-SUFFIX,tliveplaydemo.com,direct
 HOST-SUFFIX,loveteemo.com,direct
 HOST-SUFFIX,ggemo.com,direct
@@ -86513,7 +86254,6 @@ HOST-SUFFIX,artpro.com,direct
 HOST-SUFFIX,chatartpro.com,direct
 HOST-SUFFIX,lsttpro.com,direct
 HOST-SUFFIX,wmxpro.com,direct
-HOST-SUFFIX,tabbypro.com,direct
 HOST-SUFFIX,listarypro.com,direct
 HOST-SUFFIX,xxsypro.com,direct
 HOST-SUFFIX,qqro.com,direct
@@ -86604,7 +86344,6 @@ HOST-SUFFIX,0531soso.com,direct
 HOST-SUFFIX,93soso.com,direct
 HOST-SUFFIX,2345soso.com,direct
 HOST-SUFFIX,websoso.com,direct
-HOST-SUFFIX,xiaokesoso.com,direct
 HOST-SUFFIX,lhsoso.com,direct
 HOST-SUFFIX,pansoso.com,direct
 HOST-SUFFIX,demososo.com,direct
@@ -87313,7 +87052,6 @@ HOST-SUFFIX,pansousuo.com,direct
 HOST-SUFFIX,jzsousuo.com,direct
 HOST-SUFFIX,yafenglvsuo.com,direct
 HOST-SUFFIX,zaiminglvsuo.com,direct
-HOST-SUFFIX,everybodysuo.com,direct
 HOST-SUFFIX,san-tuo.com,direct
 HOST-SUFFIX,eatuo.com,direct
 HOST-SUFFIX,anetuo.com,direct
@@ -87744,7 +87482,6 @@ HOST-SUFFIX,jqncp.com,direct
 HOST-SUFFIX,shpsncp.com,direct
 HOST-SUFFIX,neusncp.com,direct
 HOST-SUFFIX,yyyncp.com,direct
-HOST-SUFFIX,chainlinkpcp.com,direct
 HOST-SUFFIX,ptpcp.com,direct
 HOST-SUFFIX,scqcp.com,direct
 HOST-SUFFIX,cdqcp.com,direct
@@ -87759,7 +87496,6 @@ HOST-SUFFIX,witcp.com,direct
 HOST-SUFFIX,geektcp.com,direct
 HOST-SUFFIX,vhostcp.com,direct
 HOST-SUFFIX,scdn0wcp.com,direct
-HOST-SUFFIX,sxcp.com,direct
 HOST-SUFFIX,bjzxcp.com,direct
 HOST-SUFFIX,hbtycp.com,direct
 HOST-SUFFIX,qhtycp.com,direct
@@ -88569,7 +88305,6 @@ HOST-SUFFIX,junyushop.com,direct
 HOST-SUFFIX,zuyushop.com,direct
 HOST-SUFFIX,jxtvshop.com,direct
 HOST-SUFFIX,mcwshop.com,direct
-HOST-SUFFIX,resnowshop.com,direct
 HOST-SUFFIX,itrolexshop.com,direct
 HOST-SUFFIX,lqxshop.com,direct
 HOST-SUFFIX,mtxshop.com,direct
@@ -89081,7 +88816,6 @@ HOST-SUFFIX,endianpp.com,direct
 HOST-SUFFIX,xianpp.com,direct
 HOST-SUFFIX,wujinpp.com,direct
 HOST-SUFFIX,downpp.com,direct
-HOST-SUFFIX,ofopp.com,direct
 HOST-SUFFIX,vkoopp.com,direct
 HOST-SUFFIX,cccppp.com,direct
 HOST-SUFFIX,mobileppp.com,direct
@@ -89541,7 +89275,6 @@ HOST-SUFFIX,jfagroup.com,direct
 HOST-SUFFIX,conhagroup.com,direct
 HOST-SUFFIX,yaoshagroup.com,direct
 HOST-SUFFIX,jiajiagroup.com,direct
-HOST-SUFFIX,rongjiagroup.com,direct
 HOST-SUFFIX,zjaijiagroup.com,direct
 HOST-SUFFIX,sujiagroup.com,direct
 HOST-SUFFIX,jshuaxiagroup.com,direct
@@ -90838,7 +90571,6 @@ HOST-SUFFIX,scemrq.com,direct
 HOST-SUFFIX,cqrmrq.com,direct
 HOST-SUFFIX,scbnrq.com,direct
 HOST-SUFFIX,dexinrq.com,direct
-HOST-SUFFIX,cdtnrq.com,direct
 HOST-SUFFIX,ncgprq.com,direct
 HOST-SUFFIX,dqzrrq.com,direct
 HOST-SUFFIX,acsrq.com,direct
@@ -91098,7 +90830,6 @@ HOST-SUFFIX,zszq.com,direct
 HOST-SUFFIX,ytzq.com,direct
 HOST-SUFFIX,iztzq.com,direct
 HOST-SUFFIX,yueniuzq.com,direct
-HOST-SUFFIX,51fxzq.com,direct
 HOST-SUFFIX,shhxzq.com,direct
 HOST-SUFFIX,gjxzq.com,direct
 HOST-SUFFIX,sxzq.com,direct
@@ -91236,7 +90967,6 @@ HOST-SUFFIX,taotaocar.com,direct
 HOST-SUFFIX,guocar.com,direct
 HOST-SUFFIX,dripcar.com,direct
 HOST-SUFFIX,etpcar.com,direct
-HOST-SUFFIX,lercar.com,direct
 HOST-SUFFIX,hzmrcar.com,direct
 HOST-SUFFIX,dbscar.com,direct
 HOST-SUFFIX,fccscar.com,direct
@@ -91497,7 +91227,6 @@ HOST-SUFFIX,jsminstar.com,direct
 HOST-SUFFIX,shanghaionstar.com,direct
 HOST-SUFFIX,www.soundvideostar.com,direct
 HOST-SUFFIX,ivideostar.com,direct
-HOST-SUFFIX,ugostar.com,direct
 HOST-SUFFIX,dippstar.com,direct
 HOST-SUFFIX,qpstar.com,direct
 HOST-SUFFIX,zpstar.com,direct
@@ -91976,7 +91705,6 @@ HOST-SUFFIX,zhuzher.com,direct
 HOST-SUFFIX,haier.com,direct
 HOST-SUFFIX,ehaier.com,direct
 HOST-SUFFIX,ihaier.com,direct
-HOST-SUFFIX,pohaier.com,direct
 HOST-SUFFIX,jsnaier.com,direct
 HOST-SUFFIX,gzhpaier.com,direct
 HOST-SUFFIX,jytaier.com,direct
@@ -91996,7 +91724,6 @@ HOST-SUFFIX,banshier.com,direct
 HOST-SUFFIX,sztaijier.com,direct
 HOST-SUFFIX,chinaflier.com,direct
 HOST-SUFFIX,molilier.com,direct
-HOST-SUFFIX,jimilier.com,direct
 HOST-SUFFIX,goldsupplier.com,direct
 HOST-SUFFIX,hisupplier.com,direct
 HOST-SUFFIX,chinaautosupplier.com,direct
@@ -92025,7 +91752,6 @@ HOST-SUFFIX,im2maker.com,direct
 HOST-SUFFIX,24maker.com,direct
 HOST-SUFFIX,vamaker.com,direct
 HOST-SUFFIX,2dmaker.com,direct
-HOST-SUFFIX,gxcodemaker.com,direct
 HOST-SUFFIX,lemaker.com,direct
 HOST-SUFFIX,framemaker.com,direct
 HOST-SUFFIX,iremaker.com,direct
@@ -92140,7 +91866,6 @@ HOST-SUFFIX,ebuckler.com,direct
 HOST-SUFFIX,houcaller.com,direct
 HOST-SUFFIX,edmseller.com,direct
 HOST-SUFFIX,upseller.com,direct
-HOST-SUFFIX,earth-traveller.com,direct
 HOST-SUFFIX,platinum-traveller.com,direct
 HOST-SUFFIX,joytraveller.com,direct
 HOST-SUFFIX,dtmiller.com,direct
@@ -92191,7 +91916,6 @@ HOST-SUFFIX,franzsandner.com,direct
 HOST-SUFFIX,china-designer.com,direct
 HOST-SUFFIX,h5designer.com,direct
 HOST-SUFFIX,armdesigner.com,direct
-HOST-SUFFIX,yangner.com,direct
 HOST-SUFFIX,hr2trainer.com,direct
 HOST-SUFFIX,alicontainer.com,direct
 HOST-SUFFIX,atcontainer.com,direct
@@ -92600,7 +92324,6 @@ HOST-SUFFIX,gzbookcenter.com,direct
 HOST-SUFFIX,benqmedicalcenter.com,direct
 HOST-SUFFIX,51callcenter.com,direct
 HOST-SUFFIX,koolcenter.com,direct
-HOST-SUFFIX,hjasiancenter.com,direct
 HOST-SUFFIX,cdncenter.com,direct
 HOST-SUFFIX,cityoncenter.com,direct
 HOST-SUFFIX,gamegocenter.com,direct
@@ -92910,6 +92633,7 @@ HOST-SUFFIX,mumuplayer.com,direct
 HOST-SUFFIX,zyplayer.com,direct
 HOST-SUFFIX,windpayer.com,direct
 HOST-SUFFIX,washpayer.com,direct
+HOST-SUFFIX,yipayer.com,direct
 HOST-SUFFIX,anrayer.com,direct
 HOST-SUFFIX,orayer.com,direct
 HOST-SUFFIX,power-sprayer.com,direct
@@ -93313,7 +93037,6 @@ HOST-SUFFIX,xwjr.com,direct
 HOST-SUFFIX,finzjr.com,direct
 HOST-SUFFIX,jtj-kr.com,direct
 HOST-SUFFIX,y4rwk6v8s41kr.com,direct
-HOST-SUFFIX,3kr.com,direct
 HOST-SUFFIX,36kr.com,direct
 HOST-SUFFIX,hardkr.com,direct
 HOST-SUFFIX,feekr.com,direct
@@ -93508,7 +93231,6 @@ HOST-SUFFIX,sootmoor.com,direct
 HOST-SUFFIX,doooor.com,direct
 HOST-SUFFIX,hitoor.com,direct
 HOST-SUFFIX,supor.com,direct
-HOST-SUFFIX,503error.com,direct
 HOST-SUFFIX,oserror.com,direct
 HOST-SUFFIX,clawhub-mirror.com,direct
 HOST-SUFFIX,intramirror.com,direct
@@ -93813,14 +93535,12 @@ HOST-SUFFIX,jinhutour.com,direct
 HOST-SUFFIX,miutour.com,direct
 HOST-SUFFIX,qxtour.com,direct
 HOST-SUFFIX,sintaytour.com,direct
-HOST-SUFFIX,qztour.com,direct
 HOST-SUFFIX,cuour.com,direct
 HOST-SUFFIX,eduour.com,direct
 HOST-SUFFIX,wonflavour.com,direct
 HOST-SUFFIX,xinyour.com,direct
 HOST-SUFFIX,inspur.com,direct
 HOST-SUFFIX,tospur.com,direct
-HOST-SUFFIX,excegroupur.com,direct
 HOST-SUFFIX,digsur.com,direct
 HOST-SUFFIX,info-insur.com,direct
 HOST-SUFFIX,yataiinsur.com,direct
@@ -94543,7 +94263,6 @@ HOST-SUFFIX,aioptics.com,direct
 HOST-SUFFIX,bicomoptics.com,direct
 HOST-SUFFIX,runkunoptics.com,direct
 HOST-SUFFIX,highlightoptics.com,direct
-HOST-SUFFIX,zwoptics.com,direct
 HOST-SUFFIX,dzoptics.com,direct
 HOST-SUFFIX,evergreen-plastics.com,direct
 HOST-SUFFIX,baitongplastics.com,direct
@@ -94643,7 +94362,6 @@ HOST-SUFFIX,commonpcs.com,direct
 HOST-SUFFIX,baidupcs.com,direct
 HOST-SUFFIX,vpcs.com,direct
 HOST-SUFFIX,hzpcs.com,direct
-HOST-SUFFIX,zyqcs.com,direct
 HOST-SUFFIX,eascs.com,direct
 HOST-SUFFIX,ibobscs.com,direct
 HOST-SUFFIX,djcscs.com,direct
@@ -94905,7 +94623,6 @@ HOST-SUFFIX,digitclouds.com,direct
 HOST-SUFFIX,quclouds.com,direct
 HOST-SUFFIX,hwclouds.com,direct
 HOST-SUFFIX,myhwclouds.com,direct
-HOST-SUFFIX,hxclouds.com,direct
 HOST-SUFFIX,xyclouds.com,direct
 HOST-SUFFIX,yyclouds.com,direct
 HOST-SUFFIX,vsmquvds.com,direct
@@ -95342,7 +95059,6 @@ HOST-SUFFIX,yueyues.com,direct
 HOST-SUFFIX,lifves.com,direct
 HOST-SUFFIX,qdlives.com,direct
 HOST-SUFFIX,vilives.com,direct
-HOST-SUFFIX,hllives.com,direct
 HOST-SUFFIX,aoyuanlives.com,direct
 HOST-SUFFIX,heavenonearthhealingalternatives.com,direct
 HOST-SUFFIX,chaodavalves.com,direct
@@ -95476,7 +95192,6 @@ HOST-SUFFIX,ragdgs.com,direct
 HOST-SUFFIX,kmgdgs.com,direct
 HOST-SUFFIX,nnmsjdgs.com,direct
 HOST-SUFFIX,gyjdgs.com,direct
-HOST-SUFFIX,gsstsdgs.com,direct
 HOST-SUFFIX,bdxdgs.com,direct
 HOST-SUFFIX,jnxdgs.com,direct
 HOST-SUFFIX,cjsgegs.com,direct
@@ -95804,7 +95519,6 @@ HOST-SUFFIX,boyais.com,direct
 HOST-SUFFIX,syais.com,direct
 HOST-SUFFIX,xiazais.com,direct
 HOST-SUFFIX,hagibis.com,direct
-HOST-SUFFIX,china-aseanbis.com,direct
 HOST-SUFFIX,cnbis.com,direct
 HOST-SUFFIX,eaecis.com,direct
 HOST-SUFFIX,hnfcis.com,direct
@@ -96013,7 +95727,6 @@ HOST-SUFFIX,cqzkjs.com,direct
 HOST-SUFFIX,cjaljs.com,direct
 HOST-SUFFIX,steeljs.com,direct
 HOST-SUFFIX,jstljs.com,direct
-HOST-SUFFIX,hbjmyljs.com,direct
 HOST-SUFFIX,31amjs.com,direct
 HOST-SUFFIX,39amjs.com,direct
 HOST-SUFFIX,cqljmjs.com,direct
@@ -96358,7 +96071,6 @@ HOST-SUFFIX,hcgtravels.com,direct
 HOST-SUFFIX,zjgfls.com,direct
 HOST-SUFFIX,npfls.com,direct
 HOST-SUFFIX,jsfls.com,direct
-HOST-SUFFIX,cwfls.com,direct
 HOST-SUFFIX,gwfls.com,direct
 HOST-SUFFIX,skwfls.com,direct
 HOST-SUFFIX,xwfls.com,direct
@@ -96647,7 +96359,6 @@ HOST-SUFFIX,sino-customs.com,direct
 HOST-SUFFIX,beijingcustoms.com,direct
 HOST-SUFFIX,popcustoms.com,direct
 HOST-SUFFIX,looyuoms.com,direct
-HOST-SUFFIX,md-pms.com,direct
 HOST-SUFFIX,bzfpms.com,direct
 HOST-SUFFIX,powerpms.com,direct
 HOST-SUFFIX,tonki-tpms.com,direct
@@ -97687,7 +97398,6 @@ HOST-SUFFIX,akr-developers.com,direct
 HOST-SUFFIX,itopers.com,direct
 HOST-SUFFIX,npilasers.com,direct
 HOST-SUFFIX,hiusers.com,direct
-HOST-SUFFIX,fast-heat-cartridge-heaters.com,direct
 HOST-SUFFIX,seven-meters.com,direct
 HOST-SUFFIX,girlsfighters.com,direct
 HOST-SUFFIX,etccenters.com,direct
@@ -97886,7 +97596,6 @@ HOST-SUFFIX,iposeidonbussiness.com,direct
 HOST-SUFFIX,shanshan-business.com,direct
 HOST-SUFFIX,jdbusiness.com,direct
 HOST-SUFFIX,dingdongebusiness.com,direct
-HOST-SUFFIX,renhebusiness.com,direct
 HOST-SUFFIX,nanqiangbusiness.com,direct
 HOST-SUFFIX,antangbusiness.com,direct
 HOST-SUFFIX,zuocaibusiness.com,direct
@@ -98215,7 +97924,6 @@ HOST-SUFFIX,helloinstruments.com,direct
 HOST-SUFFIX,china-payments.com,direct
 HOST-SUFFIX,blocrepresents.com,direct
 HOST-SUFFIX,vinetreetents.com,direct
-HOST-SUFFIX,cdn-static.farfetch-contents.com,direct
 HOST-SUFFIX,ctcontents.com,direct
 HOST-SUFFIX,mieevents.com,direct
 HOST-SUFFIX,globusevents.com,direct
@@ -98488,7 +98196,6 @@ HOST-SUFFIX,oneplus.com,direct
 HOST-SUFFIX,fiveplus.com,direct
 HOST-SUFFIX,volcliveplus.com,direct
 HOST-SUFFIX,weplus.com,direct
-HOST-SUFFIX,yifanshangplus.com,direct
 HOST-SUFFIX,qichengplus.com,direct
 HOST-SUFFIX,fsgplus.com,direct
 HOST-SUFFIX,sucaiplus.com,direct
@@ -98916,7 +98623,6 @@ HOST-SUFFIX,yunxs.com,direct
 HOST-SUFFIX,jxnxs.com,direct
 HOST-SUFFIX,mxnxs.com,direct
 HOST-SUFFIX,sxnxs.com,direct
-HOST-SUFFIX,baixiaoxs.com,direct
 HOST-SUFFIX,hboxs.com,direct
 HOST-SUFFIX,steamboxs.com,direct
 HOST-SUFFIX,wucuoxs.com,direct
@@ -99189,7 +98895,6 @@ HOST-SUFFIX,ynzs.com,direct
 HOST-SUFFIX,jinmaozs.com,direct
 HOST-SUFFIX,yaozs.com,direct
 HOST-SUFFIX,jbpzs.com,direct
-HOST-SUFFIX,kpzs.com,direct
 HOST-SUFFIX,spzs.com,direct
 HOST-SUFFIX,gupzs.com,direct
 HOST-SUFFIX,xxlsmqzs.com,direct
@@ -99217,7 +98922,6 @@ HOST-SUFFIX,cqhwzs.com,direct
 HOST-SUFFIX,tmwzs.com,direct
 HOST-SUFFIX,szmwzs.com,direct
 HOST-SUFFIX,nswzs.com,direct
-HOST-SUFFIX,xywzs.com,direct
 HOST-SUFFIX,whzwzs.com,direct
 HOST-SUFFIX,mcxzs.com,direct
 HOST-SUFFIX,gdjxzs.com,direct
@@ -99310,7 +99014,6 @@ HOST-SUFFIX,gfnormal03at.com,direct
 HOST-SUFFIX,gfvip03at.com,direct
 HOST-SUFFIX,gfnormal04at.com,direct
 HOST-SUFFIX,gfvip04at.com,direct
-HOST-SUFFIX,kra-5at.com,direct
 HOST-SUFFIX,gfnormal05at.com,direct
 HOST-SUFFIX,gfvip05at.com,direct
 HOST-SUFFIX,gfnormal06at.com,direct
@@ -99486,6 +99189,7 @@ HOST-SUFFIX,mideaepayuat.com,direct
 HOST-SUFFIX,jpvat.com,direct
 HOST-SUFFIX,txvat.com,direct
 HOST-SUFFIX,whwat.com,direct
+HOST-SUFFIX,cmswat.com,direct
 HOST-SUFFIX,snkyat.com,direct
 HOST-SUFFIX,kkuryat.com,direct
 HOST-SUFFIX,100bt.com,direct
@@ -99685,7 +99389,6 @@ HOST-SUFFIX,jinbondt.com,direct
 HOST-SUFFIX,timesndt.com,direct
 HOST-SUFFIX,qxndt.com,direct
 HOST-SUFFIX,rxndt.com,direct
-HOST-SUFFIX,xiaobaodt.com,direct
 HOST-SUFFIX,agrodt.com,direct
 HOST-SUFFIX,hbrdt.com,direct
 HOST-SUFFIX,weatherdt.com,direct
@@ -99737,7 +99440,6 @@ HOST-SUFFIX,drakeet.com,direct
 HOST-SUFFIX,hifleet.com,direct
 HOST-SUFFIX,genfleet.com,direct
 HOST-SUFFIX,meetingmeet.com,direct
-HOST-SUFFIX,boluomeet.com,direct
 HOST-SUFFIX,hexmeet.com,direct
 HOST-SUFFIX,enjoymeet.com,direct
 HOST-SUFFIX,topeet.com,direct
@@ -99749,7 +99451,6 @@ HOST-SUFFIX,d3eurostreet.com,direct
 HOST-SUFFIX,buysweet.com,direct
 HOST-SUFFIX,gfrtrttweet.com,direct
 HOST-SUFFIX,gigaget.com,direct
-HOST-SUFFIX,getsetgadget.com,direct
 HOST-SUFFIX,jquerywidget.com,direct
 HOST-SUFFIX,longget.com,direct
 HOST-SUFFIX,alllget.com,direct
@@ -99963,7 +99664,6 @@ HOST-SUFFIX,huainet.com,direct
 HOST-SUFFIX,longwaycabinet.com,direct
 HOST-SUFFIX,baidinet.com,direct
 HOST-SUFFIX,chinaeinet.com,direct
-HOST-SUFFIX,hubeinet.com,direct
 HOST-SUFFIX,sufeinet.com,direct
 HOST-SUFFIX,sheinet.com,direct
 HOST-SUFFIX,xunmeinet.com,direct
@@ -101022,11 +100722,9 @@ HOST-SUFFIX,shouduit.com,direct
 HOST-SUFFIX,daniuit.com,direct
 HOST-SUFFIX,queniuit.com,direct
 HOST-SUFFIX,qingmuit.com,direct
-HOST-SUFFIX,xiehouit.com,direct
 HOST-SUFFIX,qinzhouit.com,direct
 HOST-SUFFIX,hwrecruit.com,direct
 HOST-SUFFIX,gzrecruit.com,direct
-HOST-SUFFIX,yujifruit.com,direct
 HOST-SUFFIX,cnfruit.com,direct
 HOST-SUFFIX,youdingsuit.com,direct
 HOST-SUFFIX,yksuit.com,direct
@@ -101120,7 +100818,6 @@ HOST-SUFFIX,gljdjt.com,direct
 HOST-SUFFIX,jlaqjdjt.com,direct
 HOST-SUFFIX,jsjdjt.com,direct
 HOST-SUFFIX,glbyjdjt.com,direct
-HOST-SUFFIX,czjdjt.com,direct
 HOST-SUFFIX,lnkdjt.com,direct
 HOST-SUFFIX,gxhmdjt.com,direct
 HOST-SUFFIX,gxmdjt.com,direct
@@ -101192,7 +100889,6 @@ HOST-SUFFIX,dayangjt.com,direct
 HOST-SUFFIX,zhhuashengjt.com,direct
 HOST-SUFFIX,sxchangshengjt.com,direct
 HOST-SUFFIX,jinzhengjt.com,direct
-HOST-SUFFIX,lieyingjt.com,direct
 HOST-SUFFIX,huahongjt.com,direct
 HOST-SUFFIX,ganlongjt.com,direct
 HOST-SUFFIX,shrgjt.com,direct
@@ -101416,7 +101112,6 @@ HOST-SUFFIX,ptnrjt.com,direct
 HOST-SUFFIX,shrrjt.com,direct
 HOST-SUFFIX,hbsrjt.com,direct
 HOST-SUFFIX,jxsrjt.com,direct
-HOST-SUFFIX,gzwrjt.com,direct
 HOST-SUFFIX,whxrjt.com,direct
 HOST-SUFFIX,3sjt.com,direct
 HOST-SUFFIX,jcsjt.com,direct
@@ -101944,7 +101639,6 @@ HOST-SUFFIX,mqant.com,direct
 HOST-SUFFIX,tengrant.com,direct
 HOST-SUFFIX,ch-guerrant.com,direct
 HOST-SUFFIX,shine-consultant.com,direct
-HOST-SUFFIX,headconsultant.com,direct
 HOST-SUFFIX,tencentdigitalassistant.com,direct
 HOST-SUFFIX,investassistant.com,direct
 HOST-SUFFIX,ubuant.com,direct
@@ -102340,7 +102034,6 @@ HOST-SUFFIX,hqhot.com,direct
 HOST-SUFFIX,qqhot.com,direct
 HOST-SUFFIX,jrhot.com,direct
 HOST-SUFFIX,swisswatcheshot.com,direct
-HOST-SUFFIX,ifshot.com,direct
 HOST-SUFFIX,kshot.com,direct
 HOST-SUFFIX,mshot.com,direct
 HOST-SUFFIX,unixhot.com,direct
@@ -102468,6 +102161,7 @@ HOST-SUFFIX,cqcpt.com,direct
 HOST-SUFFIX,ezcpt.com,direct
 HOST-SUFFIX,wzjsjtzcpt.com,direct
 HOST-SUFFIX,cqdpt.com,direct
+HOST-SUFFIX,mkadept.com,direct
 HOST-SUFFIX,kijifept.com,direct
 HOST-SUFFIX,biept.com,direct
 HOST-SUFFIX,gamegamept.com,direct
@@ -103324,7 +103018,6 @@ HOST-SUFFIX,pgmcatalyst.com,direct
 HOST-SUFFIX,taglyst.com,direct
 HOST-SUFFIX,nnmyst.com,direct
 HOST-SUFFIX,zoyst.com,direct
-HOST-SUFFIX,hbzst.com,direct
 HOST-SUFFIX,fczst.com,direct
 HOST-SUFFIX,bjfzst.com,direct
 HOST-SUFFIX,cpzst.com,direct
@@ -104033,7 +103726,6 @@ HOST-SUFFIX,baoxuexiedu.com,direct
 HOST-SUFFIX,diyiedu.com,direct
 HOST-SUFFIX,ajedu.com,direct
 HOST-SUFFIX,cjbjedu.com,direct
-HOST-SUFFIX,sxbjedu.com,direct
 HOST-SUFFIX,cscjedu.com,direct
 HOST-SUFFIX,qijedu.com,direct
 HOST-SUFFIX,jjedu.com,direct
@@ -104128,7 +103820,6 @@ HOST-SUFFIX,weproedu.com,direct
 HOST-SUFFIX,wproedu.com,direct
 HOST-SUFFIX,shuoedu.com,direct
 HOST-SUFFIX,mingzhuoedu.com,direct
-HOST-SUFFIX,ainuoedu.com,direct
 HOST-SUFFIX,jiangtuoedu.com,direct
 HOST-SUFFIX,seewoedu.com,direct
 HOST-SUFFIX,ccapedu.com,direct
@@ -104275,7 +103966,6 @@ HOST-SUFFIX,wh-baidu.com,direct
 HOST-SUFFIX,uu-baidu.com,direct
 HOST-SUFFIX,hbbaidu.com,direct
 HOST-SUFFIX,jobbaidu.com,direct
-HOST-SUFFIX,scbaidu.com,direct
 HOST-SUFFIX,cdbaidu.com,direct
 HOST-SUFFIX,wibaidu.com,direct
 HOST-SUFFIX,ymbaidu.com,direct
@@ -105179,7 +104869,6 @@ HOST-SUFFIX,hetaoxingqiu.com,direct
 HOST-SUFFIX,ttyingqiu.com,direct
 HOST-SUFFIX,qiyegongqiu.com,direct
 HOST-SUFFIX,ibaiqiu.com,direct
-HOST-SUFFIX,shuqiandiqiu.com,direct
 HOST-SUFFIX,xiaomiqiu.com,direct
 HOST-SUFFIX,dongdianqiu.com,direct
 HOST-SUFFIX,wanfuqianqiu.com,direct
@@ -105283,11 +104972,7 @@ HOST-SUFFIX,czxiu.com,direct
 HOST-SUFFIX,yiyiu.com,direct
 HOST-SUFFIX,qi-ju.com,direct
 HOST-SUFFIX,20ju.com,direct
-HOST-SUFFIX,moa06240ju.com,direct
-HOST-SUFFIX,moa06250ju.com,direct
 HOST-SUFFIX,1ju.com,direct
-HOST-SUFFIX,moa06211ju.com,direct
-HOST-SUFFIX,moa06181ju.com,direct
 HOST-SUFFIX,76ju.com,direct
 HOST-SUFFIX,haju.com,direct
 HOST-SUFFIX,jiaju.com,direct
@@ -105407,7 +105092,6 @@ HOST-SUFFIX,ikuju.com,direct
 HOST-SUFFIX,luluju.com,direct
 HOST-SUFFIX,yuluju.com,direct
 HOST-SUFFIX,wouju.com,direct
-HOST-SUFFIX,52youju.com,direct
 HOST-SUFFIX,shiguangyouju.com,direct
 HOST-SUFFIX,dajianyouju.com,direct
 HOST-SUFFIX,qqyouju.com,direct
@@ -105495,7 +105179,6 @@ HOST-SUFFIX,aixuekku.com,direct
 HOST-SUFFIX,dukku.com,direct
 HOST-SUFFIX,llku.com,direct
 HOST-SUFFIX,jiulku.com,direct
-HOST-SUFFIX,wlku.com,direct
 HOST-SUFFIX,mobanku.com,direct
 HOST-SUFFIX,haodanku.com,direct
 HOST-SUFFIX,guifanku.com,direct
@@ -105547,7 +105230,6 @@ HOST-SUFFIX,topku.com,direct
 HOST-SUFFIX,expku.com,direct
 HOST-SUFFIX,qqku.com,direct
 HOST-SUFFIX,goodsku.com,direct
-HOST-SUFFIX,glosku.com,direct
 HOST-SUFFIX,ddxsku.com,direct
 HOST-SUFFIX,iotku.com,direct
 HOST-SUFFIX,costku.com,direct
@@ -105616,7 +105298,6 @@ HOST-SUFFIX,xinghewanglu.com,direct
 HOST-SUFFIX,aofenglu.com,direct
 HOST-SUFFIX,chinashenglu.com,direct
 HOST-SUFFIX,zgshenglu.com,direct
-HOST-SUFFIX,gxshenglu.com,direct
 HOST-SUFFIX,lyshenglu.com,direct
 HOST-SUFFIX,menglu.com,direct
 HOST-SUFFIX,mingjinglu.com,direct
@@ -105895,7 +105576,6 @@ HOST-SUFFIX,menpiaotuangou.com,direct
 HOST-SUFFIX,vviptuangou.com,direct
 HOST-SUFFIX,ziyuangou.com,direct
 HOST-SUFFIX,bengou.com,direct
-HOST-SUFFIX,zhaopingou.com,direct
 HOST-SUFFIX,wzqingou.com,direct
 HOST-SUFFIX,xungou.com,direct
 HOST-SUFFIX,fabaogou.com,direct
@@ -106137,7 +105817,6 @@ HOST-SUFFIX,1lou.com,direct
 HOST-SUFFIX,34lou.com,direct
 HOST-SUFFIX,96lou.com,direct
 HOST-SUFFIX,19lou.com,direct
-HOST-SUFFIX,xblou.com,direct
 HOST-SUFFIX,ipcelou.com,direct
 HOST-SUFFIX,igelou.com,direct
 HOST-SUFFIX,tiananmenchenglou.com,direct
@@ -106393,7 +106072,6 @@ HOST-SUFFIX,diyiyou.com,direct
 HOST-SUFFIX,ziyou.com,direct
 HOST-SUFFIX,shjyou.com,direct
 HOST-SUFFIX,lkyou.com,direct
-HOST-SUFFIX,jaebanke-jocelyou.com,direct
 HOST-SUFFIX,qhlyou.com,direct
 HOST-SUFFIX,ittellyou.com,direct
 HOST-SUFFIX,palmyou.com,direct
@@ -106787,7 +106465,6 @@ HOST-SUFFIX,52jisu.com,direct
 HOST-SUFFIX,chuangyijisu.com,direct
 HOST-SUFFIX,toutiaojisu.com,direct
 HOST-SUFFIX,ttjisu.com,direct
-HOST-SUFFIX,chasedorisu.com,direct
 HOST-SUFFIX,tcsisu.com,direct
 HOST-SUFFIX,yisu.com,direct
 HOST-SUFFIX,yimiyisu.com,direct
@@ -107011,6 +106688,7 @@ HOST-SUFFIX,fydvtu.com,direct
 HOST-SUFFIX,hualvtu.com,direct
 HOST-SUFFIX,klvtu.com,direct
 HOST-SUFFIX,xinlvtu.com,direct
+HOST-SUFFIX,88xtu.com,direct
 HOST-SUFFIX,pxtu.com,direct
 HOST-SUFFIX,cqytu.com,direct
 HOST-SUFFIX,360uu.com,direct
@@ -107099,7 +106777,6 @@ HOST-SUFFIX,vzuu.com,direct
 HOST-SUFFIX,h5avu.com,direct
 HOST-SUFFIX,wxavu.com,direct
 HOST-SUFFIX,vacepcvu.com,direct
-HOST-SUFFIX,pouquiagievu.com,direct
 HOST-SUFFIX,lntvu.com,direct
 HOST-SUFFIX,cdrtvu.com,direct
 HOST-SUFFIX,jlrtvu.com,direct
@@ -107153,7 +106830,6 @@ HOST-SUFFIX,yunlaiwu.com,direct
 HOST-SUFFIX,taiwu.com,direct
 HOST-SUFFIX,meipingmeiwu.com,direct
 HOST-SUFFIX,yuaiweiwu.com,direct
-HOST-SUFFIX,quweiwu.com,direct
 HOST-SUFFIX,zhishiwu.com,direct
 HOST-SUFFIX,zhiwu.com,direct
 HOST-SUFFIX,yanzhiwu.com,direct
@@ -107385,7 +107061,6 @@ HOST-SUFFIX,biliyu.com,direct
 HOST-SUFFIX,cmiyu.com,direct
 HOST-SUFFIX,lingshimiyu.com,direct
 HOST-SUFFIX,woiyu.com,direct
-HOST-SUFFIX,hiqiyu.com,direct
 HOST-SUFFIX,zhensiyu.com,direct
 HOST-SUFFIX,meitusiyu.com,direct
 HOST-SUFFIX,yddtiyu.com,direct
@@ -107505,7 +107180,6 @@ HOST-SUFFIX,6duoyu.com,direct
 HOST-SUFFIX,xduoyu.com,direct
 HOST-SUFFIX,guoyu.com,direct
 HOST-SUFFIX,cqyu.com,direct
-HOST-SUFFIX,mqyu.com,direct
 HOST-SUFFIX,nextyu.com,direct
 HOST-SUFFIX,3dbuyu.com,direct
 HOST-SUFFIX,haiwangbuyu.com,direct
@@ -107567,7 +107241,6 @@ HOST-SUFFIX,vjiazu.com,direct
 HOST-SUFFIX,tatazu.com,direct
 HOST-SUFFIX,diguazu.com,direct
 HOST-SUFFIX,yunyazu.com,direct
-HOST-SUFFIX,pochezu.com,direct
 HOST-SUFFIX,aiezu.com,direct
 HOST-SUFFIX,ditiezu.com,direct
 HOST-SUFFIX,kuailezu.com,direct
@@ -108312,7 +107985,6 @@ HOST-SUFFIX,defuv.com,direct
 HOST-SUFFIX,moguv.com,direct
 HOST-SUFFIX,sotouv.com,direct
 HOST-SUFFIX,lanzouv.com,direct
-HOST-SUFFIX,020suv.com,direct
 HOST-SUFFIX,tanksuv.com,direct
 HOST-SUFFIX,86hcdnsuv.com,direct
 HOST-SUFFIX,chnsuv.com,direct
@@ -109170,6 +108842,7 @@ HOST-SUFFIX,zhckw.com,direct
 HOST-SUFFIX,lyckw.com,direct
 HOST-SUFFIX,liuxuekw.com,direct
 HOST-SUFFIX,fkw.com,direct
+HOST-SUFFIX,918fkw.com,direct
 HOST-SUFFIX,hifkw.com,direct
 HOST-SUFFIX,wwwfkw.com,direct
 HOST-SUFFIX,myhkw.com,direct
@@ -109847,6 +109520,7 @@ HOST-SUFFIX,ncxuw.com,direct
 HOST-SUFFIX,szxuw.com,direct
 HOST-SUFFIX,faw-vw.com,direct
 HOST-SUFFIX,idux-vw.com,direct
+HOST-SUFFIX,743bvw.com,direct
 HOST-SUFFIX,uaomprvw.com,direct
 HOST-SUFFIX,csvw.com,direct
 HOST-SUFFIX,mysvw.com,direct
@@ -109959,7 +109633,6 @@ HOST-SUFFIX,smbxw.com,direct
 HOST-SUFFIX,fybxw.com,direct
 HOST-SUFFIX,cxw.com,direct
 HOST-SUFFIX,jacxw.com,direct
-HOST-SUFFIX,gjjcxw.com,direct
 HOST-SUFFIX,zgmcxw.com,direct
 HOST-SUFFIX,dtcxw.com,direct
 HOST-SUFFIX,qhdxw.com,direct
@@ -110014,7 +109687,6 @@ HOST-SUFFIX,altxw.com,direct
 HOST-SUFFIX,quwentxw.com,direct
 HOST-SUFFIX,nntxw.com,direct
 HOST-SUFFIX,edutxw.com,direct
-HOST-SUFFIX,sztxw.com,direct
 HOST-SUFFIX,jingzhouxw.com,direct
 HOST-SUFFIX,souxw.com,direct
 HOST-SUFFIX,hepuxw.com,direct
@@ -110270,7 +109942,6 @@ HOST-SUFFIX,626x.com,direct
 HOST-SUFFIX,kuai666trqtauks5ht6x.com,direct
 HOST-SUFFIX,8x6x.com,direct
 HOST-SUFFIX,057x.com,direct
-HOST-SUFFIX,zx18x.com,direct
 HOST-SUFFIX,9nj563358x.com,direct
 HOST-SUFFIX,pubg8x.com,direct
 HOST-SUFFIX,db9x.com,direct
@@ -110420,11 +110091,9 @@ HOST-SUFFIX,21xcx.com,direct
 HOST-SUFFIX,jaxcx.com,direct
 HOST-SUFFIX,naxcx.com,direct
 HOST-SUFFIX,bmdxcx.com,direct
-HOST-SUFFIX,yjgxcx.com,direct
 HOST-SUFFIX,lixcx.com,direct
 HOST-SUFFIX,jiyixcx.com,direct
 HOST-SUFFIX,wjkjxcx.com,direct
-HOST-SUFFIX,hklmxcx.com,direct
 HOST-SUFFIX,banyuetanxcx.com,direct
 HOST-SUFFIX,nnxcx.com,direct
 HOST-SUFFIX,jsxcx.com,direct
@@ -110502,7 +110171,6 @@ HOST-SUFFIX,sinozoc-ex.com,direct
 HOST-SUFFIX,jd-ex.com,direct
 HOST-SUFFIX,sd-ex.com,direct
 HOST-SUFFIX,axjm-ex.com,direct
-HOST-SUFFIX,us-ex.com,direct
 HOST-SUFFIX,sov2ex.com,direct
 HOST-SUFFIX,s5ex.com,direct
 HOST-SUFFIX,u6ex.com,direct
@@ -110567,6 +110235,7 @@ HOST-SUFFIX,geeflex.com,direct
 HOST-SUFFIX,memsflex.com,direct
 HOST-SUFFIX,chellex.com,direct
 HOST-SUFFIX,yenlex.com,direct
+HOST-SUFFIX,snylex.com,direct
 HOST-SUFFIX,gzlex.com,direct
 HOST-SUFFIX,mzksgmex.com,direct
 HOST-SUFFIX,gruposeimex.com,direct
@@ -110867,7 +110536,6 @@ HOST-SUFFIX,nongjx.com,direct
 HOST-SUFFIX,gxqgjx.com,direct
 HOST-SUFFIX,ttgjx.com,direct
 HOST-SUFFIX,hbzgjx.com,direct
-HOST-SUFFIX,mdzgjx.com,direct
 HOST-SUFFIX,wgtechjx.com,direct
 HOST-SUFFIX,cqslhjx.com,direct
 HOST-SUFFIX,zgxzhjx.com,direct
@@ -110914,7 +110582,6 @@ HOST-SUFFIX,gxzpjx.com,direct
 HOST-SUFFIX,aqjx.com,direct
 HOST-SUFFIX,tbqjx.com,direct
 HOST-SUFFIX,gxeqjx.com,direct
-HOST-SUFFIX,qcmrjx.com,direct
 HOST-SUFFIX,rayrjx.com,direct
 HOST-SUFFIX,qddsjx.com,direct
 HOST-SUFFIX,gdsjx.com,direct
@@ -111463,7 +111130,6 @@ HOST-SUFFIX,youtx.com,direct
 HOST-SUFFIX,6wtx.com,direct
 HOST-SUFFIX,bjhwtx.com,direct
 HOST-SUFFIX,cqxwtx.com,direct
-HOST-SUFFIX,chextx.com,direct
 HOST-SUFFIX,ifxtx.com,direct
 HOST-SUFFIX,ilxtx.com,direct
 HOST-SUFFIX,zjlxtx.com,direct
@@ -112371,6 +112037,7 @@ HOST-SUFFIX,2y9y.com,direct
 HOST-SUFFIX,92ay.com,direct
 HOST-SUFFIX,loadingbay.com,direct
 HOST-SUFFIX,lehibay.com,direct
+HOST-SUFFIX,wesemibay.com,direct
 HOST-SUFFIX,shanbay.com,direct
 HOST-SUFFIX,ibaobay.com,direct
 HOST-SUFFIX,ennobay.com,direct
@@ -112406,7 +112073,6 @@ HOST-SUFFIX,dongguantoday.com,direct
 HOST-SUFFIX,iappstoday.com,direct
 HOST-SUFFIX,hotstoday.com,direct
 HOST-SUFFIX,moviereviewtoday.com,direct
-HOST-SUFFIX,whatbuytoday.com,direct
 HOST-SUFFIX,epday.com,direct
 HOST-SUFFIX,hrday.com,direct
 HOST-SUFFIX,gdsday.com,direct
@@ -112437,7 +112103,6 @@ HOST-SUFFIX,66play.com,direct
 HOST-SUFFIX,i7play.com,direct
 HOST-SUFFIX,68play.com,direct
 HOST-SUFFIX,139play.com,direct
-HOST-SUFFIX,669play.com,direct
 HOST-SUFFIX,yidaplay.com,direct
 HOST-SUFFIX,ccplay.com,direct
 HOST-SUFFIX,appicplay.com,direct
@@ -112627,6 +112292,7 @@ HOST-SUFFIX,jiandaopay.com,direct
 HOST-SUFFIX,weibopay.com,direct
 HOST-SUFFIX,oppopay.com,direct
 HOST-SUFFIX,lsqpay.com,direct
+HOST-SUFFIX,cbarpay.com,direct
 HOST-SUFFIX,xorpay.com,direct
 HOST-SUFFIX,cmfspay.com,direct
 HOST-SUFFIX,winspay.com,direct
@@ -113642,7 +113308,6 @@ HOST-SUFFIX,gxhqjy.com,direct
 HOST-SUFFIX,htqjy.com,direct
 HOST-SUFFIX,52jrjy.com,direct
 HOST-SUFFIX,whjrjy.com,direct
-HOST-SUFFIX,gxqrjy.com,direct
 HOST-SUFFIX,zgxrjy.com,direct
 HOST-SUFFIX,txrjy.com,direct
 HOST-SUFFIX,th-sjy.com,direct
@@ -113672,6 +113337,7 @@ HOST-SUFFIX,tianhujy.com,direct
 HOST-SUFFIX,sipujy.com,direct
 HOST-SUFFIX,beiqujy.com,direct
 HOST-SUFFIX,wanyujy.com,direct
+HOST-SUFFIX,snowjy.com,direct
 HOST-SUFFIX,gxaxjy.com,direct
 HOST-SUFFIX,cngxjy.com,direct
 HOST-SUFFIX,gd-jxjy.com,direct
@@ -114140,7 +113806,6 @@ HOST-SUFFIX,dingwenacademy.com,direct
 HOST-SUFFIX,kolleracademy.com,direct
 HOST-SUFFIX,aiemy.com,direct
 HOST-SUFFIX,baikemy.com,direct
-HOST-SUFFIX,glhfmy.com,direct
 HOST-SUFFIX,ggshfmy.com,direct
 HOST-SUFFIX,gxtfmy.com,direct
 HOST-SUFFIX,guitongmy.com,direct
@@ -114176,7 +113841,6 @@ HOST-SUFFIX,sdqmy.com,direct
 HOST-SUFFIX,ggnqmy.com,direct
 HOST-SUFFIX,twoarmy.com,direct
 HOST-SUFFIX,hxdsmy.com,direct
-HOST-SUFFIX,bfsmy.com,direct
 HOST-SUFFIX,tfsmy.com,direct
 HOST-SUFFIX,gxggfhsmy.com,direct
 HOST-SUFFIX,omsmy.com,direct
@@ -114388,7 +114052,6 @@ HOST-SUFFIX,showjoy.com,direct
 HOST-SUFFIX,swjoy.com,direct
 HOST-SUFFIX,sixjoy.com,direct
 HOST-SUFFIX,rayjoy.com,direct
-HOST-SUFFIX,ibabyjoy.com,direct
 HOST-SUFFIX,iskyjoy.com,direct
 HOST-SUFFIX,cosyjoy.com,direct
 HOST-SUFFIX,lzjoy.com,direct
@@ -114929,7 +114592,6 @@ HOST-SUFFIX,taobaocity.com,direct
 HOST-SUFFIX,mangocity.com,direct
 HOST-SUFFIX,remapcity.com,direct
 HOST-SUFFIX,ireadercity.com,direct
-HOST-SUFFIX,hercity.com,direct
 HOST-SUFFIX,iflowercity.com,direct
 HOST-SUFFIX,shharborcity.com,direct
 HOST-SUFFIX,mycolorcity.com,direct
@@ -115103,7 +114765,6 @@ HOST-SUFFIX,nicsbuy.com,direct
 HOST-SUFFIX,artsbuy.com,direct
 HOST-SUFFIX,cabinetbuy.com,direct
 HOST-SUFFIX,itbuy.com,direct
-HOST-SUFFIX,ozsmartbuy.com,direct
 HOST-SUFFIX,eastbuy.com,direct
 HOST-SUFFIX,subuy.com,direct
 HOST-SUFFIX,yiwubuy.com,direct
@@ -115168,7 +114829,6 @@ HOST-SUFFIX,nblhwy.com,direct
 HOST-SUFFIX,szshwy.com,direct
 HOST-SUFFIX,gxwhwy.com,direct
 HOST-SUFFIX,yhyhwy.com,direct
-HOST-SUFFIX,bjyhwy.com,direct
 HOST-SUFFIX,hongtaiwy.com,direct
 HOST-SUFFIX,hzbjwy.com,direct
 HOST-SUFFIX,fxgjwy.com,direct
@@ -115261,7 +114921,6 @@ HOST-SUFFIX,gfxy.com,direct
 HOST-SUFFIX,ahjgxy.com,direct
 HOST-SUFFIX,gdlgxy.com,direct
 HOST-SUFFIX,omgxy.com,direct
-HOST-SUFFIX,loongxy.com,direct
 HOST-SUFFIX,xasgxy.com,direct
 HOST-SUFFIX,cqstgxy.com,direct
 HOST-SUFFIX,wgxy.com,direct
@@ -116268,7 +115927,6 @@ HOST-SUFFIX,1934xjzy.com,direct
 HOST-SUFFIX,gxjzy.com,direct
 HOST-SUFFIX,zjzy.com,direct
 HOST-SUFFIX,88zjzy.com,direct
-HOST-SUFFIX,17kzy.com,direct
 HOST-SUFFIX,gkzy.com,direct
 HOST-SUFFIX,bxgkzy.com,direct
 HOST-SUFFIX,zuikzy.com,direct
@@ -116555,7 +116213,6 @@ HOST-SUFFIX,bxldz.com,direct
 HOST-SUFFIX,zmdz.com,direct
 HOST-SUFFIX,baiwandz.com,direct
 HOST-SUFFIX,njdndz.com,direct
-HOST-SUFFIX,hzjndz.com,direct
 HOST-SUFFIX,szhightondz.com,direct
 HOST-SUFFIX,huikundz.com,direct
 HOST-SUFFIX,jiebaodz.com,direct
@@ -116748,7 +116405,6 @@ HOST-SUFFIX,cisgz.com,direct
 HOST-SUFFIX,gdlsgz.com,direct
 HOST-SUFFIX,czlsgz.com,direct
 HOST-SUFFIX,osgz.com,direct
-HOST-SUFFIX,ssgz.com,direct
 HOST-SUFFIX,lbysgz.com,direct
 HOST-SUFFIX,csysgz.com,direct
 HOST-SUFFIX,sjzysgz.com,direct
@@ -116788,7 +116444,6 @@ HOST-SUFFIX,0755hz.com,direct
 HOST-SUFFIX,cgahz.com,direct
 HOST-SUFFIX,diyahz.com,direct
 HOST-SUFFIX,idchz.com,direct
-HOST-SUFFIX,hnechz.com,direct
 HOST-SUFFIX,8333dhz.com,direct
 HOST-SUFFIX,huiyuehz.com,direct
 HOST-SUFFIX,xiangjiayaoyehz.com,direct
@@ -116847,7 +116502,6 @@ HOST-SUFFIX,globalsourcingbiz.com,direct
 HOST-SUFFIX,vlongbiz.com,direct
 HOST-SUFFIX,rongbiz.com,direct
 HOST-SUFFIX,badambiz.com,direct
-HOST-SUFFIX,dnbiz.com,direct
 HOST-SUFFIX,ctripbiz.com,direct
 HOST-SUFFIX,szhxbiz.com,direct
 HOST-SUFFIX,imummybiz.com,direct
@@ -116899,7 +116553,6 @@ HOST-SUFFIX,whkjz.com,direct
 HOST-SUFFIX,yskjz.com,direct
 HOST-SUFFIX,qxkjz.com,direct
 HOST-SUFFIX,gxdljz.com,direct
-HOST-SUFFIX,gxjljz.com,direct
 HOST-SUFFIX,yzsljz.com,direct
 HOST-SUFFIX,lmwljz.com,direct
 HOST-SUFFIX,jsyljz.com,direct
@@ -117256,7 +116909,6 @@ HOST-SUFFIX,lscstz.com,direct
 HOST-SUFFIX,hzfstz.com,direct
 HOST-SUFFIX,hhhstz.com,direct
 HOST-SUFFIX,ggjstz.com,direct
-HOST-SUFFIX,grstz.com,direct
 HOST-SUFFIX,gxxstz.com,direct
 HOST-SUFFIX,jtystz.com,direct
 HOST-SUFFIX,izstz.com,direct
@@ -117301,7 +116953,6 @@ HOST-SUFFIX,schimalayanuz.com,direct
 HOST-SUFFIX,tangdouz.com,direct
 HOST-SUFFIX,egouz.com,direct
 HOST-SUFFIX,lequz.com,direct
-HOST-SUFFIX,shengniuuz.com,direct
 HOST-SUFFIX,leyuz.com,direct
 HOST-SUFFIX,nwifyuz.com,direct
 HOST-SUFFIX,y92ft2vz.com,direct
@@ -117525,7 +117176,6 @@ HOST-SUFFIX,njyjzz.com,direct
 HOST-SUFFIX,njnkzz.com,direct
 HOST-SUFFIX,xlykzz.com,direct
 HOST-SUFFIX,gxclzz.com,direct
-HOST-SUFFIX,qyglzz.com,direct
 HOST-SUFFIX,omlzz.com,direct
 HOST-SUFFIX,olzz.com,direct
 HOST-SUFFIX,cqlzz.com,direct
@@ -118111,7 +117761,6 @@ HOST-SUFFIX,deyuan.fun,direct
 HOST-SUFFIX,xyyuan.fun,direct
 HOST-SUFFIX,cdn.fun,direct
 HOST-SUFFIX,mpdn.fun,direct
-HOST-SUFFIX,chen.fun,direct
 HOST-SUFFIX,liushen.fun,direct
 HOST-SUFFIX,cumen.fun,direct
 HOST-SUFFIX,benjamin.fun,direct
@@ -118361,7 +118010,6 @@ HOST-SUFFIX,xinglan.co,direct
 HOST-SUFFIX,fengxuan.co,direct
 HOST-SUFFIX,hangyan.co,direct
 HOST-SUFFIX,blogcn.co,direct
-HOST-SUFFIX,telegramcn.co,direct
 HOST-SUFFIX,jushen.co,direct
 HOST-SUFFIX,booen.co,direct
 HOST-SUFFIX,ewen.co,direct
@@ -118559,7 +118207,6 @@ HOST-SUFFIX,caoxudong.info,direct
 HOST-SUFFIX,wuqiong.info,direct
 HOST-SUFFIX,baixiong.info,direct
 HOST-SUFFIX,hongsong.info,direct
-HOST-SUFFIX,datong.info,direct
 HOST-SUFFIX,lingtong.info,direct
 HOST-SUFFIX,bytetech.info,direct
 HOST-SUFFIX,dyqh.info,direct
@@ -118972,7 +118619,6 @@ HOST-SUFFIX,hwbfxp5030.vip,direct
 HOST-SUFFIX,qygbet140.vip,direct
 HOST-SUFFIX,qwmtjj360.vip,direct
 HOST-SUFFIX,63860.vip,direct
-HOST-SUFFIX,hgveejt270.vip,direct
 HOST-SUFFIX,48670.vip,direct
 HOST-SUFFIX,190.vip,direct
 HOST-SUFFIX,mystery0.vip,direct
@@ -119015,6 +118661,7 @@ HOST-SUFFIX,anan123.vip,direct
 HOST-SUFFIX,62923.vip,direct
 HOST-SUFFIX,83133.vip,direct
 HOST-SUFFIX,qhcuvj3143.vip,direct
+HOST-SUFFIX,148353.vip,direct
 HOST-SUFFIX,18263.vip,direct
 HOST-SUFFIX,qxioqq4283.vip,direct
 HOST-SUFFIX,8383.vip,direct
@@ -119170,7 +118817,6 @@ HOST-SUFFIX,uliang.vip,direct
 HOST-SUFFIX,dlwang.vip,direct
 HOST-SUFFIX,zhaoquanwang.vip,direct
 HOST-SUFFIX,wangyangyang.vip,direct
-HOST-SUFFIX,pangeng.vip,direct
 HOST-SUFFIX,56cheng.vip,direct
 HOST-SUFFIX,dimeng.vip,direct
 HOST-SUFFIX,elianmeng.vip,direct
@@ -119271,7 +118917,6 @@ HOST-SUFFIX,landian.vip,direct
 HOST-SUFFIX,qufenqian.vip,direct
 HOST-SUFFIX,vitian.vip,direct
 HOST-SUFFIX,xinmintian.vip,direct
-HOST-SUFFIX,duanzaixian.vip,direct
 HOST-SUFFIX,qakkan.vip,direct
 HOST-SUFFIX,geekman.vip,direct
 HOST-SUFFIX,barman.vip,direct
@@ -119297,7 +118942,6 @@ HOST-SUFFIX,hijin.vip,direct
 HOST-SUFFIX,qingpin.vip,direct
 HOST-SUFFIX,duanshipin.vip,direct
 HOST-SUFFIX,duoduoshipin.vip,direct
-HOST-SUFFIX,jvpin.vip,direct
 HOST-SUFFIX,shenhexin.vip,direct
 HOST-SUFFIX,nnn.vip,direct
 HOST-SUFFIX,pokemon.vip,direct
@@ -119405,7 +119049,6 @@ HOST-SUFFIX,easynet.vip,direct
 HOST-SUFFIX,apet.vip,direct
 HOST-SUFFIX,jobosoft.vip,direct
 HOST-SUFFIX,trsoft.vip,direct
-HOST-SUFFIX,chinait.vip,direct
 HOST-SUFFIX,mayikt.vip,direct
 HOST-SUFFIX,ymlt.vip,direct
 HOST-SUFFIX,buyhot.vip,direct
@@ -119459,7 +119102,6 @@ HOST-SUFFIX,dcxx.vip,direct
 HOST-SUFFIX,bjxx.vip,direct
 HOST-SUFFIX,vxxx.vip,direct
 HOST-SUFFIX,glxsyx.vip,direct
-HOST-SUFFIX,yutongplay.vip,direct
 HOST-SUFFIX,jeepay.vip,direct
 HOST-SUFFIX,xxpay.vip,direct
 HOST-SUFFIX,padddy.vip,direct
@@ -119539,6 +119181,7 @@ HOST-SUFFIX,jqs4463333a7.shop,direct
 HOST-SUFFIX,2233488aa7.shop,direct
 HOST-SUFFIX,5559000ab7.shop,direct
 HOST-SUFFIX,0007999ab7.shop,direct
+HOST-SUFFIX,mk1688.shop,direct
 HOST-SUFFIX,0007999ab8.shop,direct
 HOST-SUFFIX,jqs4463333a9.shop,direct
 HOST-SUFFIX,qdd2223338a9.shop,direct
@@ -119609,7 +119252,6 @@ HOST-SUFFIX,wscp.shop,direct
 HOST-SUFFIX,neep.shop,direct
 HOST-SUFFIX,3b1xgp.shop,direct
 HOST-SUFFIX,929vip.shop,direct
-HOST-SUFFIX,yuanvip.shop,direct
 HOST-SUFFIX,picup.shop,direct
 HOST-SUFFIX,kkyp.shop,direct
 HOST-SUFFIX,velouras.shop,direct
@@ -120458,7 +120100,6 @@ HOST-SUFFIX,yyyy.games,direct
 HOST-SUFFIX,ymzy.games,direct
 HOST-SUFFIX,chaojiping.homes,direct
 HOST-SUFFIX,13.gs,direct
-HOST-SUFFIX,nmsl.gs,direct
 HOST-SUFFIX,0z.gs,direct
 HOST-SUFFIX,xn--fiq228c5hs,direct
 HOST-SUFFIX,u.tools,direct
@@ -120480,7 +120121,6 @@ HOST-SUFFIX,zuobiao.press,direct
 HOST-SUFFIX,boao.press,direct
 HOST-SUFFIX,fastsilver.press,direct
 HOST-SUFFIX,vuejs.press,direct
-HOST-SUFFIX,qqqv.press,direct
 HOST-SUFFIX,jiay.press,direct
 HOST-SUFFIX,minz.press,direct
 HOST-SUFFIX,findic.us,direct
@@ -120728,7 +120368,6 @@ HOST-SUFFIX,ay001.net,direct
 HOST-SUFFIX,cloud301.net,direct
 HOST-SUFFIX,roboticsurg301.net,direct
 HOST-SUFFIX,robot301.net,direct
-HOST-SUFFIX,8801.net,direct
 HOST-SUFFIX,78901.net,direct
 HOST-SUFFIX,b01.net,direct
 HOST-SUFFIX,jucheng01.net,direct
@@ -120794,7 +120433,6 @@ HOST-SUFFIX,myappdl1.net,direct
 HOST-SUFFIX,txdl1.net,direct
 HOST-SUFFIX,edgeonetcp1.net,direct
 HOST-SUFFIX,dnsvip1.net,direct
-HOST-SUFFIX,dpcq1.net,direct
 HOST-SUFFIX,5r1.net,direct
 HOST-SUFFIX,5plus1.net,direct
 HOST-SUFFIX,rdcv1.net,direct
@@ -121169,7 +120807,6 @@ HOST-SUFFIX,lh17.net,direct
 HOST-SUFFIX,ckeyan17.net,direct
 HOST-SUFFIX,yr17.net,direct
 HOST-SUFFIX,tencentcloudga027.net,direct
-HOST-SUFFIX,idc027.net,direct
 HOST-SUFFIX,127.net,direct
 HOST-SUFFIX,lf127.net,direct
 HOST-SUFFIX,3527.net,direct
@@ -121212,7 +120849,6 @@ HOST-SUFFIX,hx008.net,direct
 HOST-SUFFIX,600208.net,direct
 HOST-SUFFIX,inter1908.net,direct
 HOST-SUFFIX,awsdns-cn-18.net,direct
-HOST-SUFFIX,9018.net,direct
 HOST-SUFFIX,tencentcloudga018.net,direct
 HOST-SUFFIX,x118.net,direct
 HOST-SUFFIX,yunhe518.net,direct
@@ -121224,7 +120860,6 @@ HOST-SUFFIX,pc18.net,direct
 HOST-SUFFIX,w18.net,direct
 HOST-SUFFIX,awsdns-cn-28.net,direct
 HOST-SUFFIX,tencentcloudga028.net,direct
-HOST-SUFFIX,ch028.net,direct
 HOST-SUFFIX,7428.net,direct
 HOST-SUFFIX,pc528.net,direct
 HOST-SUFFIX,jiaji28.net,direct
@@ -121516,7 +121151,6 @@ HOST-SUFFIX,bilimanga.net,direct
 HOST-SUFFIX,scdnga.net,direct
 HOST-SUFFIX,mosoga.net,direct
 HOST-SUFFIX,yahaha.net,direct
-HOST-SUFFIX,huhaha.net,direct
 HOST-SUFFIX,00cha.net,direct
 HOST-SUFFIX,peacha.net,direct
 HOST-SUFFIX,qichacha.net,direct
@@ -121765,7 +121399,6 @@ HOST-SUFFIX,molihua.net,direct
 HOST-SUFFIX,xiaokuihua.net,direct
 HOST-SUFFIX,chadianhua.net,direct
 HOST-SUFFIX,samanhua.net,direct
-HOST-SUFFIX,hhmanhua.net,direct
 HOST-SUFFIX,xinmanhua.net,direct
 HOST-SUFFIX,nanhua.net,direct
 HOST-SUFFIX,taoyuewenhua.net,direct
@@ -122271,7 +121904,6 @@ HOST-SUFFIX,nnrc.net,direct
 HOST-SUFFIX,ynrc.net,direct
 HOST-SUFFIX,nprc.net,direct
 HOST-SUFFIX,cqrc.net,direct
-HOST-SUFFIX,jqrc.net,direct
 HOST-SUFFIX,hbwsrc.net,direct
 HOST-SUFFIX,gdwsrc.net,direct
 HOST-SUFFIX,xtrc.net,direct
@@ -122522,7 +122154,6 @@ HOST-SUFFIX,pword.net,direct
 HOST-SUFFIX,zgsd.net,direct
 HOST-SUFFIX,xhsd.net,direct
 HOST-SUFFIX,yunsd.net,direct
-HOST-SUFFIX,gxsd.net,direct
 HOST-SUFFIX,qysd.net,direct
 HOST-SUFFIX,abtd.net,direct
 HOST-SUFFIX,apitd.net,direct
@@ -123158,7 +122789,6 @@ HOST-SUFFIX,lcbdf.net,direct
 HOST-SUFFIX,xjbdf.net,direct
 HOST-SUFFIX,cidf.net,direct
 HOST-SUFFIX,cndf.net,direct
-HOST-SUFFIX,xpdf.net,direct
 HOST-SUFFIX,mydf.net,direct
 HOST-SUFFIX,hnydf.net,direct
 HOST-SUFFIX,chinaief.net,direct
@@ -124325,7 +123955,6 @@ HOST-SUFFIX,zgpj.net,direct
 HOST-SUFFIX,bmpj.net,direct
 HOST-SUFFIX,cqj.net,direct
 HOST-SUFFIX,jjqj.net,direct
-HOST-SUFFIX,rj.net,direct
 HOST-SUFFIX,llrj.net,direct
 HOST-SUFFIX,wyrj.net,direct
 HOST-SUFFIX,szrj.net,direct
@@ -124551,7 +124180,6 @@ HOST-SUFFIX,yccdl.net,direct
 HOST-SUFFIX,3ddl.net,direct
 HOST-SUFFIX,yxlmdl.net,direct
 HOST-SUFFIX,azpdl.net,direct
-HOST-SUFFIX,docexcel.net,direct
 HOST-SUFFIX,sonicmodel.net,direct
 HOST-SUFFIX,bsteel.net,direct
 HOST-SUFFIX,worldsteel.net,direct
@@ -125058,7 +124686,6 @@ HOST-SUFFIX,lezuan.net,direct
 HOST-SUFFIX,cenvan.net,direct
 HOST-SUFFIX,666wan.net,direct
 HOST-SUFFIX,37wan.net,direct
-HOST-SUFFIX,nbwan.net,direct
 HOST-SUFFIX,17lewan.net,direct
 HOST-SUFFIX,huanlewan.net,direct
 HOST-SUFFIX,ggwan.net,direct
@@ -125876,7 +125503,6 @@ HOST-SUFFIX,omooo.net,direct
 HOST-SUFFIX,tattooo.net,direct
 HOST-SUFFIX,yoqoo.net,direct
 HOST-SUFFIX,youqoo.net,direct
-HOST-SUFFIX,rosoo.net,direct
 HOST-SUFFIX,sosoo.net,direct
 HOST-SUFFIX,gpsoo.net,direct
 HOST-SUFFIX,uusoo.net,direct
@@ -126527,7 +126153,6 @@ HOST-SUFFIX,armbbs.net,direct
 HOST-SUFFIX,gearbbs.net,direct
 HOST-SUFFIX,qsbbs.net,direct
 HOST-SUFFIX,hostbbs.net,direct
-HOST-SUFFIX,tjubbs.net,direct
 HOST-SUFFIX,dvbbs.net,direct
 HOST-SUFFIX,hybbs.net,direct
 HOST-SUFFIX,cccbs.net,direct
@@ -126796,9 +126421,9 @@ HOST-SUFFIX,lxdns.net,direct
 HOST-SUFFIX,nxdns.net,direct
 HOST-SUFFIX,vipxdns.net,direct
 HOST-SUFFIX,bdydns.net,direct
-HOST-SUFFIX,eflydns.net,direct
 HOST-SUFFIX,imydns.net,direct
 HOST-SUFFIX,qnydns.net,direct
+HOST-SUFFIX,joydns.net,direct
 HOST-SUFFIX,bsydns.net,direct
 HOST-SUFFIX,icitizens.net,direct
 HOST-SUFFIX,3ins.net,direct
@@ -126928,6 +126553,7 @@ HOST-SUFFIX,oafocus.net,direct
 HOST-SUFFIX,nsfocus.net,direct
 HOST-SUFFIX,vfocus.net,direct
 HOST-SUFFIX,xfocus.net,direct
+HOST-SUFFIX,hyeus.net,direct
 HOST-SUFFIX,jius.net,direct
 HOST-SUFFIX,baijus.net,direct
 HOST-SUFFIX,oneplus.net,direct
@@ -127001,7 +126627,6 @@ HOST-SUFFIX,cemsurveys.net,direct
 HOST-SUFFIX,zgys.net,direct
 HOST-SUFFIX,cjys.net,direct
 HOST-SUFFIX,szjys.net,direct
-HOST-SUFFIX,imys.net,direct
 HOST-SUFFIX,actoys.net,direct
 HOST-SUFFIX,jstoys.net,direct
 HOST-SUFFIX,hqys.net,direct
@@ -127319,7 +126944,6 @@ HOST-SUFFIX,jcloudwaftest.net,direct
 HOST-SUFFIX,qcdntest.net,direct
 HOST-SUFFIX,ieasytest.net,direct
 HOST-SUFFIX,linkist.net,direct
-HOST-SUFFIX,oculist.net,direct
 HOST-SUFFIX,cqvist.net,direct
 HOST-SUFFIX,tjst.net,direct
 HOST-SUFFIX,d9af5a60.edmonst.net,direct
@@ -127782,7 +127406,6 @@ HOST-SUFFIX,hnsyu.net,direct
 HOST-SUFFIX,3dbuyu.net,direct
 HOST-SUFFIX,quyu.net,direct
 HOST-SUFFIX,taohuazu.net,direct
-HOST-SUFFIX,xdzu.net,direct
 HOST-SUFFIX,ditiezu.net,direct
 HOST-SUFFIX,meizu.net,direct
 HOST-SUFFIX,kuaiyizu.net,direct
@@ -128178,7 +127801,6 @@ HOST-SUFFIX,pdxx.net,direct
 HOST-SUFFIX,szydxx.net,direct
 HOST-SUFFIX,ggxx.net,direct
 HOST-SUFFIX,hxx.net,direct
-HOST-SUFFIX,mchxx.net,direct
 HOST-SUFFIX,ckxx.net,direct
 HOST-SUFFIX,cdtlxx.net,direct
 HOST-SUFFIX,hmxx.net,direct
@@ -128366,7 +127988,6 @@ HOST-SUFFIX,fsjy.net,direct
 HOST-SUFFIX,hsjy.net,direct
 HOST-SUFFIX,btjy.net,direct
 HOST-SUFFIX,bestjy.net,direct
-HOST-SUFFIX,lwjy.net,direct
 HOST-SUFFIX,zxjy.net,direct
 HOST-SUFFIX,lyjy.net,direct
 HOST-SUFFIX,xyjy.net,direct
@@ -128487,7 +128108,6 @@ HOST-SUFFIX,chinaequity.net,direct
 HOST-SUFFIX,geoactivity.net,direct
 HOST-SUFFIX,siomxity.net,direct
 HOST-SUFFIX,njloyalty.net,direct
-HOST-SUFFIX,unibeauty.net,direct
 HOST-SUFFIX,labbuy.net,direct
 HOST-SUFFIX,cobuy.net,direct
 HOST-SUFFIX,ehowbuy.net,direct
@@ -128563,7 +128183,6 @@ HOST-SUFFIX,hyyyy.net,direct
 HOST-SUFFIX,dhszyy.net,direct
 HOST-SUFFIX,lszyy.net,direct
 HOST-SUFFIX,bzy.net,direct
-HOST-SUFFIX,rdzy.net,direct
 HOST-SUFFIX,cgzy.net,direct
 HOST-SUFFIX,szzxgzy.net,direct
 HOST-SUFFIX,zgzy.net,direct
@@ -128652,7 +128271,6 @@ HOST-SUFFIX,xn--fiq7v55hnsepqz.net,direct
 HOST-SUFFIX,cits-sz.net,direct
 HOST-SUFFIX,jy-sz.net,direct
 HOST-SUFFIX,ceicsz.net,direct
-HOST-SUFFIX,speedsz.net,direct
 HOST-SUFFIX,wdsz.net,direct
 HOST-SUFFIX,gfsz.net,direct
 HOST-SUFFIX,zyfsz.net,direct
@@ -128869,7 +128487,6 @@ HOST-SUFFIX,puoraiatorcubt.icu,direct
 HOST-SUFFIX,yllt.icu,direct
 HOST-SUFFIX,cttptru-pt.icu,direct
 HOST-SUFFIX,ert.icu,direct
-HOST-SUFFIX,muspost.icu,direct
 HOST-SUFFIX,turs-ptt.icu,direct
 HOST-SUFFIX,youku.icu,direct
 HOST-SUFFIX,zhou.icu,direct
@@ -128931,7 +128548,6 @@ HOST-SUFFIX,mchost.guru,direct
 HOST-SUFFIX,tcwqqdy.guru,direct
 HOST-SUFFIX,qing.su,direct
 HOST-SUFFIX,fengli.su,direct
-HOST-SUFFIX,kitty.su,direct
 HOST-SUFFIX,linglong.dev,direct
 HOST-SUFFIX,i-m.dev,direct
 HOST-SUFFIX,redirector.bdn.dev,direct
@@ -129281,7 +128897,6 @@ HOST-SUFFIX,hexun.com.tw,direct
 HOST-SUFFIX,cast.uforadio.com.tw,direct
 HOST-SUFFIX,lvyahoo.com.tw,direct
 HOST-SUFFIX,ksair.com.tw,direct
-HOST-SUFFIX,sialiagames.com.tw,direct
 HOST-SUFFIX,mgplay.com.tw,direct
 HOST-SUFFIX,txwy.com.tw,direct
 HOST-SUFFIX,qingkan.tw,direct
@@ -129303,11 +128918,8 @@ HOST-SUFFIX,icbc.com.mx,direct
 HOST-SUFFIX,quan.mx,direct
 HOST-SUFFIX,xn--unup4y,direct
 HOST-SUFFIX,tophub.today,direct
-HOST-SUFFIX,post-delivered.today,direct
-HOST-SUFFIX,postdelivered.today,direct
 HOST-SUFFIX,rebang.today,direct
 HOST-SUFFIX,daren.today,direct
-HOST-SUFFIX,sporposten.today,direct
 HOST-SUFFIX,wxq.today,direct
 HOST-SUFFIX,zyq.today,direct
 HOST-SUFFIX,resistor.today,direct
@@ -129501,7 +129113,6 @@ HOST-SUFFIX,tjoy.biz,direct
 HOST-SUFFIX,jsxy.biz,direct
 HOST-SUFFIX,icbcalmaty.kz,direct
 HOST-SUFFIX,ftd.nz,direct
-HOST-SUFFIX,79008500.xyz,direct
 HOST-SUFFIX,369110.xyz,direct
 HOST-SUFFIX,520810.xyz,direct
 HOST-SUFFIX,031130.xyz,direct
@@ -129555,7 +129166,6 @@ HOST-SUFFIX,004837963.xyz,direct
 HOST-SUFFIX,zjh1893.xyz,direct
 HOST-SUFFIX,940304.xyz,direct
 HOST-SUFFIX,996404.xyz,direct
-HOST-SUFFIX,hurx04.xyz,direct
 HOST-SUFFIX,130014.xyz,direct
 HOST-SUFFIX,202014.xyz,direct
 HOST-SUFFIX,359798114.xyz,direct
@@ -129603,9 +129213,11 @@ HOST-SUFFIX,cyc2018.xyz,direct
 HOST-SUFFIX,850718.xyz,direct
 HOST-SUFFIX,wskj16818.xyz,direct
 HOST-SUFFIX,20240828.xyz,direct
+HOST-SUFFIX,jndft28.xyz,direct
 HOST-SUFFIX,666548.xyz,direct
 HOST-SUFFIX,zqin758.xyz,direct
 HOST-SUFFIX,aa08072678.xyz,direct
+HOST-SUFFIX,5535678.xyz,direct
 HOST-SUFFIX,cdn78.xyz,direct
 HOST-SUFFIX,721888.xyz,direct
 HOST-SUFFIX,5151888.xyz,direct
@@ -129804,7 +129416,6 @@ HOST-SUFFIX,fancygo.xyz,direct
 HOST-SUFFIX,graueneko.xyz,direct
 HOST-SUFFIX,3miko.xyz,direct
 HOST-SUFFIX,hvsgqlo.xyz,direct
-HOST-SUFFIX,hongmo.xyz,direct
 HOST-SUFFIX,littlehero.xyz,direct
 HOST-SUFFIX,christophero.xyz,direct
 HOST-SUFFIX,kuso.xyz,direct
@@ -129882,7 +129493,6 @@ HOST-SUFFIX,tomax.xyz,direct
 HOST-SUFFIX,tsxcx.xyz,direct
 HOST-SUFFIX,zinglix.xyz,direct
 HOST-SUFFIX,jdbox.xyz,direct
-HOST-SUFFIX,hoyibox.xyz,direct
 HOST-SUFFIX,xsyx.xyz,direct
 HOST-SUFFIX,awyx.xyz,direct
 HOST-SUFFIX,yqwyx.xyz,direct
