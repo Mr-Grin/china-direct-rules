@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-07T01:03:41.213394+00:00
+# UPDATED: 2026-08-07T22:06:53.946527+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 111751
+# DOMAIN-SUFFIX: 111754
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5238
-# IP-CIDR: 8278
-# IP-CIDR6: 4170
-# TOTAL: 129502
+# IP-ASN: 5222
+# IP-CIDR: 8277
+# IP-CIDR6: 4179
+# TOTAL: 129497
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -103,7 +103,6 @@ IP-ASN,131522,direct
 IP-ASN,131524,direct
 IP-ASN,131526,direct
 IP-ASN,131536,direct
-IP-ASN,131539,direct
 IP-ASN,131541,direct
 IP-ASN,131558,direct
 IP-ASN,131562,direct
@@ -126,7 +125,6 @@ IP-ASN,132536,direct
 IP-ASN,132553,direct
 IP-ASN,132623,direct
 IP-ASN,132833,direct
-IP-ASN,133033,direct
 IP-ASN,133111,direct
 IP-ASN,133118,direct
 IP-ASN,133119,direct
@@ -347,7 +345,6 @@ IP-ASN,139799,direct
 IP-ASN,139859,direct
 IP-ASN,139887,direct
 IP-ASN,139888,direct
-IP-ASN,140043,direct
 IP-ASN,140053,direct
 IP-ASN,140056,direct
 IP-ASN,140061,direct
@@ -479,7 +476,6 @@ IP-ASN,140633,direct
 IP-ASN,140636,direct
 IP-ASN,140638,direct
 IP-ASN,140647,direct
-IP-ASN,140648,direct
 IP-ASN,140649,direct
 IP-ASN,140650,direct
 IP-ASN,140651,direct
@@ -515,7 +511,6 @@ IP-ASN,140979,direct
 IP-ASN,141005,direct
 IP-ASN,141006,direct
 IP-ASN,141025,direct
-IP-ASN,141172,direct
 IP-ASN,141425,direct
 IP-ASN,141429,direct
 IP-ASN,141445,direct
@@ -4720,10 +4715,8 @@ IP-ASN,151230,direct
 IP-ASN,151231,direct
 IP-ASN,151232,direct
 IP-ASN,151247,direct
-IP-ASN,151251,direct
 IP-ASN,151253,direct
 IP-ASN,151263,direct
-IP-ASN,151270,direct
 IP-ASN,151276,direct
 IP-ASN,151277,direct
 IP-ASN,151284,direct
@@ -4778,13 +4771,13 @@ IP-ASN,151461,direct
 IP-ASN,151462,direct
 IP-ASN,151464,direct
 IP-ASN,151490,direct
+IP-ASN,151640,direct
 IP-ASN,151673,direct
 IP-ASN,151674,direct
 IP-ASN,151785,direct
 IP-ASN,151814,direct
 IP-ASN,151823,direct
 IP-ASN,151951,direct
-IP-ASN,152092,direct
 IP-ASN,152118,direct
 IP-ASN,152120,direct
 IP-ASN,152134,direct
@@ -4859,10 +4852,7 @@ IP-ASN,18257,direct
 IP-ASN,197626,direct
 IP-ASN,198025,direct
 IP-ASN,198135,direct
-IP-ASN,198184,direct
-IP-ASN,198266,direct
 IP-ASN,198516,direct
-IP-ASN,198527,direct
 IP-ASN,198588,direct
 IP-ASN,198681,direct
 IP-ASN,199310,direct
@@ -4881,7 +4871,6 @@ IP-ASN,200853,direct
 IP-ASN,200890,direct
 IP-ASN,200936,direct
 IP-ASN,200959,direct
-IP-ASN,201235,direct
 IP-ASN,201674,direct
 IP-ASN,201705,direct
 IP-ASN,201944,direct
@@ -4916,7 +4905,6 @@ IP-ASN,207091,direct
 IP-ASN,207292,direct
 IP-ASN,207299,direct
 IP-ASN,207303,direct
-IP-ASN,207317,direct
 IP-ASN,207338,direct
 IP-ASN,207615,direct
 IP-ASN,208618,direct
@@ -4964,7 +4952,6 @@ IP-ASN,213625,direct
 IP-ASN,213700,direct
 IP-ASN,213782,direct
 IP-ASN,213876,direct
-IP-ASN,213878,direct
 IP-ASN,213891,direct
 IP-ASN,213903,direct
 IP-ASN,214040,direct
@@ -4975,7 +4962,6 @@ IP-ASN,214575,direct
 IP-ASN,214610,direct
 IP-ASN,214613,direct
 IP-ASN,214660,direct
-IP-ASN,214740,direct
 IP-ASN,214759,direct
 IP-ASN,214848,direct
 IP-ASN,214871,direct
@@ -5097,7 +5083,6 @@ IP-ASN,38255,direct
 IP-ASN,38272,direct
 IP-ASN,38283,direct
 IP-ASN,38323,direct
-IP-ASN,38340,direct
 IP-ASN,38341,direct
 IP-ASN,38345,direct
 IP-ASN,38355,direct
@@ -5108,7 +5093,6 @@ IP-ASN,38367,direct
 IP-ASN,38372,direct
 IP-ASN,38375,direct
 IP-ASN,38378,direct
-IP-ASN,38379,direct
 IP-ASN,38380,direct
 IP-ASN,38381,direct
 IP-ASN,38564,direct
@@ -5434,10 +5418,8 @@ IP-CIDR,14.192.76.0/22,direct
 IP-CIDR,14.196.0.0/15,direct
 IP-CIDR,14.204.0.0/15,direct
 IP-CIDR,14.208.0.0/12,direct
-IP-CIDR,14.238.116.0/24,direct
 IP-CIDR,14.255.16.0/24,direct
 IP-CIDR,14.255.238.0/24,direct
-IP-CIDR,14.255.249.0/24,direct
 IP-CIDR,14.255.254.0/24,direct
 IP-CIDR,15.32.104.0/23,direct
 IP-CIDR,15.36.64.0/22,direct
@@ -6245,6 +6227,7 @@ IP-CIDR,45.81.34.0/24,direct
 IP-CIDR,45.82.241.0/24,direct
 IP-CIDR,45.87.53.0/24,direct
 IP-CIDR,45.87.54.0/24,direct
+IP-CIDR,45.95.207.0/24,direct
 IP-CIDR,45.112.132.0/22,direct
 IP-CIDR,45.112.188.0/22,direct
 IP-CIDR,45.112.208.0/20,direct
@@ -6404,11 +6387,11 @@ IP-CIDR,45.137.43.0/24,direct
 IP-CIDR,45.137.52.0/24,direct
 IP-CIDR,45.137.238.16/28,direct
 IP-CIDR,45.138.232.0/22,direct
+IP-CIDR,45.139.182.0/24,direct
 IP-CIDR,45.149.16.0/22,direct
 IP-CIDR,45.150.236.0/23,direct
 IP-CIDR,45.152.24.0/22,direct
 IP-CIDR,45.154.244.0/24,direct
-IP-CIDR,45.196.104.0/24,direct
 IP-CIDR,45.196.165.0/24,direct
 IP-CIDR,45.248.8.0/22,direct
 IP-CIDR,45.248.80.0/21,direct
@@ -6741,17 +6724,17 @@ IP-CIDR,81.173.20.0/22,direct
 IP-CIDR,81.173.28.0/24,direct
 IP-CIDR,82.29.98.0/24,direct
 IP-CIDR,82.38.46.0/23,direct
+IP-CIDR,82.108.208.0/24,direct
 IP-CIDR,82.109.172.0/24,direct
-IP-CIDR,82.139.229.0/24,direct
 IP-CIDR,82.156.0.0/15,direct
-IP-CIDR,82.163.16.0/24,direct
 IP-CIDR,85.12.7.192/28,direct
 IP-CIDR,85.184.245.0/24,direct
 IP-CIDR,85.209.40.0/22,direct
-IP-CIDR,85.239.154.0/24,direct
 IP-CIDR,87.76.149.0/24,direct
 IP-CIDR,87.76.221.0/24,direct
 IP-CIDR,87.76.222.0/24,direct
+IP-CIDR,87.84.190.0/23,direct
+IP-CIDR,87.86.208.0/24,direct
 IP-CIDR,87.232.115.0/24,direct
 IP-CIDR,87.254.207.0/24,direct
 IP-CIDR,89.30.124.160/30,direct
@@ -7847,6 +7830,7 @@ IP-CIDR,103.101.180.0/22,direct
 IP-CIDR,103.101.184.0/22,direct
 IP-CIDR,103.102.76.0/22,direct
 IP-CIDR,103.102.80.0/22,direct
+IP-CIDR,103.102.133.0/24,direct
 IP-CIDR,103.102.168.0/21,direct
 IP-CIDR,103.102.180.0/22,direct
 IP-CIDR,103.102.184.0/21,direct
@@ -8153,7 +8137,6 @@ IP-CIDR,103.142.0.0/23,direct
 IP-CIDR,103.142.28.0/23,direct
 IP-CIDR,103.142.58.0/23,direct
 IP-CIDR,103.142.82.0/23,direct
-IP-CIDR,103.142.84.0/24,direct
 IP-CIDR,103.142.96.0/23,direct
 IP-CIDR,103.142.102.0/23,direct
 IP-CIDR,103.142.122.0/23,direct
@@ -9361,7 +9344,6 @@ IP-CIDR,106.108.0.0/14,direct
 IP-CIDR,106.112.0.0/12,direct
 IP-CIDR,106.224.0.0/12,direct
 IP-CIDR,107.149.9.0/24,direct
-IP-CIDR,107.149.27.0/24,direct
 IP-CIDR,107.150.125.199/32,direct
 IP-CIDR,107.151.212.0/24,direct
 IP-CIDR,107.153.91.0/24,direct
@@ -10199,7 +10181,6 @@ IP-CIDR,142.70.0.0/16,direct
 IP-CIDR,142.86.0.0/16,direct
 IP-CIDR,143.20.246.0/24,direct
 IP-CIDR,143.64.0.0/16,direct
-IP-CIDR,143.109.55.0/24,direct
 IP-CIDR,143.191.64.0/19,direct
 IP-CIDR,143.191.96.0/21,direct
 IP-CIDR,143.191.188.0/22,direct
@@ -10869,6 +10850,7 @@ IP-CIDR,185.109.236.0/24,direct
 IP-CIDR,185.175.100.0/22,direct
 IP-CIDR,185.183.84.0/24,direct
 IP-CIDR,185.188.32.0/22,direct
+IP-CIDR,185.191.20.0/24,direct
 IP-CIDR,185.194.148.0/24,direct
 IP-CIDR,185.196.210.68/30,direct
 IP-CIDR,185.196.211.68/30,direct
@@ -10885,7 +10867,6 @@ IP-CIDR,188.65.16.0/22,direct
 IP-CIDR,188.131.128.0/17,direct
 IP-CIDR,188.190.1.0/24,direct
 IP-CIDR,188.190.2.0/24,direct
-IP-CIDR,188.220.7.0/24,direct
 IP-CIDR,188.240.211.0/25,direct
 IP-CIDR,188.241.80.0/24,direct
 IP-CIDR,189.75.185.0/24,direct
@@ -10937,6 +10918,7 @@ IP-CIDR,194.45.55.8/30,direct
 IP-CIDR,194.50.99.48/32,direct
 IP-CIDR,194.50.111.48/32,direct
 IP-CIDR,194.61.237.0/25,direct
+IP-CIDR,194.77.78.0/24,direct
 IP-CIDR,194.110.135.0/24,direct
 IP-CIDR,194.116.150.47/32,direct
 IP-CIDR,194.127.229.0/24,direct
@@ -10946,7 +10928,6 @@ IP-CIDR,194.138.245.0/24,direct
 IP-CIDR,194.156.99.0/24,direct
 IP-CIDR,194.231.140.0/24,direct
 IP-CIDR,195.49.78.0/23,direct
-IP-CIDR,195.162.248.0/24,direct
 IP-CIDR,195.178.110.176/28,direct
 IP-CIDR,196.19.225.0/24,direct
 IP-CIDR,196.48.67.0/24,direct
@@ -12553,6 +12534,8 @@ IP-CIDR,212.64.0.0/17,direct
 IP-CIDR,212.103.62.0/24,direct
 IP-CIDR,212.129.128.0/17,direct
 IP-CIDR,212.189.57.0/24,direct
+IP-CIDR,212.189.116.0/24,direct
+IP-CIDR,212.222.171.0/24,direct
 IP-CIDR,213.151.233.20/32,direct
 IP-CIDR,213.159.70.0/24,direct
 IP-CIDR,213.182.216.0/21,direct
@@ -14047,6 +14030,15 @@ IP6-CIDR,2400:de20::/32,direct
 IP6-CIDR,2400:de80::/32,direct
 IP6-CIDR,2400:dee0::/32,direct
 IP6-CIDR,2400:e0c0::/32,direct
+IP6-CIDR,2400:e3e0:aa00::/40,direct
+IP6-CIDR,2400:e3e0:ab00::/41,direct
+IP6-CIDR,2400:e3e0:ab80::/42,direct
+IP6-CIDR,2400:e3e0:abc0::/43,direct
+IP6-CIDR,2400:e3e0:abe0::/44,direct
+IP6-CIDR,2400:e3e0:abf1::/48,direct
+IP6-CIDR,2400:e3e0:abf2::/47,direct
+IP6-CIDR,2400:e3e0:abf4::/46,direct
+IP6-CIDR,2400:e3e0:abf8::/45,direct
 IP6-CIDR,2400:e5c0::/32,direct
 IP6-CIDR,2400:e680::/32,direct
 IP6-CIDR,2400:e7e0::/32,direct
@@ -16300,7 +16292,7 @@ IP6-CIDR,2a06:3605::/32,direct
 IP6-CIDR,2a06:3606::/31,direct
 IP6-CIDR,2a06:9f45:1111::/48,direct
 IP6-CIDR,2a06:9f81:4600::/44,direct
-IP6-CIDR,2a06:9f81:4620::/43,direct
+IP6-CIDR,2a06:9f81:4620::/44,direct
 IP6-CIDR,2a06:9f81:4640::/43,direct
 IP6-CIDR,2a06:9f81:4660::/44,direct
 IP6-CIDR,2a06:a005:260::/43,direct
@@ -17553,7 +17545,7 @@ IP6-CIDR,2a0f:1cc5:c01::/48,direct
 IP6-CIDR,2a0f:1cc5:f00::/46,direct
 IP6-CIDR,2a0f:1cc5:f05::/48,direct
 IP6-CIDR,2a0f:1cc5:f06::/47,direct
-IP6-CIDR,2a0f:1cc5:f08::/47,direct
+IP6-CIDR,2a0f:1cc5:f09::/48,direct
 IP6-CIDR,2a0f:1cc5:fff::/48,direct
 IP6-CIDR,2a0f:1cc5:1000::/48,direct
 IP6-CIDR,2a0f:1cc5:1010::/44,direct
@@ -17577,12 +17569,11 @@ IP6-CIDR,2a0f:1cc5:4700::/40,direct
 IP6-CIDR,2a0f:1cc6:b110::/47,direct
 IP6-CIDR,2a0f:1cc6:b210::/47,direct
 IP6-CIDR,2a0f:1cc6:b212::/48,direct
+IP6-CIDR,2a0f:1cc6:b250::/44,direct
 IP6-CIDR,2a0f:2706::/32,direct
 IP6-CIDR,2a0f:6280:1400::/43,direct
-IP6-CIDR,2a0f:6280:1430::/44,direct
 IP6-CIDR,2a0f:6280:1440::/42,direct
 IP6-CIDR,2a0f:6280:1480::/44,direct
-IP6-CIDR,2a0f:6284:4c00::/44,direct
 IP6-CIDR,2a0f:6284:4c20::/44,direct
 IP6-CIDR,2a0f:6284:4c30::/48,direct
 IP6-CIDR,2a0f:6284:4c40::/43,direct
@@ -17590,6 +17581,7 @@ IP6-CIDR,2a0f:6284:4c60::/44,direct
 IP6-CIDR,2a0f:6284:4c80::/43,direct
 IP6-CIDR,2a0f:6284:4ca0::/44,direct
 IP6-CIDR,2a0f:6284:4cc0::/43,direct
+IP6-CIDR,2a0f:7802:e100::/46,direct
 IP6-CIDR,2a0f:7803:fd00::/44,direct
 IP6-CIDR,2a0f:7803:fd20::/43,direct
 IP6-CIDR,2a0f:7803:fd40::/42,direct
@@ -17633,7 +17625,6 @@ IP6-CIDR,2a12:49c4:f400::/39,direct
 IP6-CIDR,2a12:49c4:f600::/40,direct
 IP6-CIDR,2a12:6f40:800::/37,direct
 IP6-CIDR,2a12:cb41::/44,direct
-IP6-CIDR,2a12:cb41:200::/44,direct
 IP6-CIDR,2a12:cb41:600::/44,direct
 IP6-CIDR,2a12:cb41:1200::/44,direct
 IP6-CIDR,2a12:cb41:13f0::/44,direct
@@ -17680,7 +17671,8 @@ IP6-CIDR,2a14:67c1:b147::/48,direct
 IP6-CIDR,2a14:67c1:b148::/48,direct
 IP6-CIDR,2a14:67c1:b511::/48,direct
 IP6-CIDR,2a14:67c1:b514::/48,direct
-IP6-CIDR,2a14:67c1:b530::/44,direct
+IP6-CIDR,2a14:67c1:b531::/48,direct
+IP6-CIDR,2a14:67c1:b533::/48,direct
 IP6-CIDR,2a14:67c1:b563::/48,direct
 IP6-CIDR,2a14:67c1:b578::/48,direct
 IP6-CIDR,2a14:67c1:b586::/47,direct
@@ -17734,7 +17726,6 @@ IP6-CIDR,2a14:7583:f306::/48,direct
 IP6-CIDR,2a14:7583:f411::/48,direct
 IP6-CIDR,2a14:7583:f4f0::/47,direct
 IP6-CIDR,2a14:7583:f4f4::/48,direct
-IP6-CIDR,2a14:7583:f4fe::/48,direct
 IP6-CIDR,2a14:7583:f500::/48,direct
 IP6-CIDR,2a14:7583:f701::/48,direct
 IP6-CIDR,2a14:7583:f703::/48,direct
@@ -17745,7 +17736,7 @@ IP6-CIDR,2a14:7583:f70c::/48,direct
 IP6-CIDR,2a14:7583:f743::/48,direct
 IP6-CIDR,2a14:7583:f744::/48,direct
 IP6-CIDR,2a14:7583:f764::/48,direct
-IP6-CIDR,2a14:7586:6100::/47,direct
+IP6-CIDR,2a14:7586:6101::/48,direct
 IP6-CIDR,2a14:7586:6103::/48,direct
 IP6-CIDR,2a14:7586:6104::/47,direct
 IP6-CIDR,2a14:7586:6106::/48,direct
@@ -17760,6 +17751,7 @@ IP6-CIDR,2a14:7dc0:515::/48,direct
 IP6-CIDR,2a14:7dc0:516::/47,direct
 IP6-CIDR,2a14:7dc0:51b::/48,direct
 IP6-CIDR,2a14:ae00:50::/44,direct
+IP6-CIDR,2a14:c380:21::/48,direct
 IP6-CIDR,2c0f:f7a8:8011::/48,direct
 IP6-CIDR,2c0f:f7a8:8050::/48,direct
 IP6-CIDR,2c0f:f7a8:805f::/48,direct
@@ -37196,6 +37188,7 @@ HOST-SUFFIX,pm-china.com,direct
 HOST-SUFFIX,szpan-china.com,direct
 HOST-SUFFIX,hodgen-china.com,direct
 HOST-SUFFIX,kaken-china.com,direct
+HOST-SUFFIX,made-in-china.com,direct
 HOST-SUFFIX,daeshin-china.com,direct
 HOST-SUFFIX,bomin-china.com,direct
 HOST-SUFFIX,rosin-china.com,direct
@@ -42392,6 +42385,7 @@ HOST-SUFFIX,zastatic.com,direct
 HOST-SUFFIX,bstatic.com,direct
 HOST-SUFFIX,vlabstatic.com,direct
 HOST-SUFFIX,fdczbstatic.com,direct
+HOST-SUFFIX,micstatic.com,direct
 HOST-SUFFIX,bdstatic.com,direct
 HOST-SUFFIX,ecombdstatic.com,direct
 HOST-SUFFIX,vipkidstatic.com,direct
@@ -99514,6 +99508,7 @@ HOST-SUFFIX,wldmarket.com,direct
 HOST-SUFFIX,qcloudmarket.com,direct
 HOST-SUFFIX,tencentcloudmarket.com,direct
 HOST-SUFFIX,eoemarket.com,direct
+HOST-SUFFIX,poweremarket.com,direct
 HOST-SUFFIX,chinaflashmarket.com,direct
 HOST-SUFFIX,tencentcloudapimarket.com,direct
 HOST-SUFFIX,coolapkmarket.com,direct
