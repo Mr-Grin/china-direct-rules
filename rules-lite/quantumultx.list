@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-10T22:07:49.622848+00:00
+# UPDATED: 2026-08-11T22:13:30.435793+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,10 +11,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5202
+# IP-ASN: 5221
 # IP-CIDR: 7242
 # IP-CIDR6: 4149
-# TOTAL: 20321
+# TOTAL: 20340
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -62,6 +62,7 @@ IP-ASN,131325,direct
 IP-ASN,131482,direct
 IP-ASN,131483,direct
 IP-ASN,131486,direct
+IP-ASN,131489,direct
 IP-ASN,131490,direct
 IP-ASN,131495,direct
 IP-ASN,131497,direct
@@ -80,6 +81,7 @@ IP-ASN,131565,direct
 IP-ASN,131567,direct
 IP-ASN,131568,direct
 IP-ASN,131574,direct
+IP-ASN,131577,direct
 IP-ASN,131578,direct
 IP-ASN,132019,direct
 IP-ASN,132147,direct
@@ -265,6 +267,7 @@ IP-ASN,138982,direct
 IP-ASN,138991,direct
 IP-ASN,139007,direct
 IP-ASN,139018,direct
+IP-ASN,139019,direct
 IP-ASN,139073,direct
 IP-ASN,139080,direct
 IP-ASN,139090,direct
@@ -335,6 +338,9 @@ IP-ASN,140258,direct
 IP-ASN,140259,direct
 IP-ASN,140260,direct
 IP-ASN,140261,direct
+IP-ASN,140265,direct
+IP-ASN,140276,direct
+IP-ASN,140278,direct
 IP-ASN,140290,direct
 IP-ASN,140291,direct
 IP-ASN,140292,direct
@@ -4786,6 +4792,7 @@ IP-ASN,154402,direct
 IP-ASN,154648,direct
 IP-ASN,17428,direct
 IP-ASN,17429,direct
+IP-ASN,17430,direct
 IP-ASN,17442,direct
 IP-ASN,17490,direct
 IP-ASN,17621,direct
@@ -4945,6 +4952,8 @@ IP-ASN,216100,direct
 IP-ASN,216173,direct
 IP-ASN,216224,direct
 IP-ASN,216299,direct
+IP-ASN,216412,direct
+IP-ASN,219078,direct
 IP-ASN,219207,direct
 IP-ASN,219208,direct
 IP-ASN,219210,direct
@@ -4962,6 +4971,7 @@ IP-ASN,23650,direct
 IP-ASN,23662,direct
 IP-ASN,23724,direct
 IP-ASN,23771,direct
+IP-ASN,23839,direct
 IP-ASN,23840,direct
 IP-ASN,23841,direct
 IP-ASN,23842,direct
@@ -4973,6 +4983,7 @@ IP-ASN,23853,direct
 IP-ASN,23910,direct
 IP-ASN,23911,direct
 IP-ASN,24133,direct
+IP-ASN,24134,direct
 IP-ASN,24137,direct
 IP-ASN,24138,direct
 IP-ASN,24139,direct
@@ -5038,6 +5049,7 @@ IP-ASN,37970,direct
 IP-ASN,38019,direct
 IP-ASN,38027,direct
 IP-ASN,38057,direct
+IP-ASN,38238,direct
 IP-ASN,38255,direct
 IP-ASN,38272,direct
 IP-ASN,38283,direct
@@ -5049,6 +5061,7 @@ IP-ASN,38358,direct
 IP-ASN,38364,direct
 IP-ASN,38365,direct
 IP-ASN,38367,direct
+IP-ASN,38372,direct
 IP-ASN,38375,direct
 IP-ASN,38378,direct
 IP-ASN,38380,direct
@@ -5072,6 +5085,7 @@ IP-ASN,45074,direct
 IP-ASN,45075,direct
 IP-ASN,45079,direct
 IP-ASN,45083,direct
+IP-ASN,45084,direct
 IP-ASN,45086,direct
 IP-ASN,45090,direct
 IP-ASN,45097,direct
@@ -5103,11 +5117,13 @@ IP-ASN,55468,direct
 IP-ASN,55641,direct
 IP-ASN,55786,direct
 IP-ASN,55956,direct
+IP-ASN,55958,direct
 IP-ASN,55960,direct
 IP-ASN,55962,direct
 IP-ASN,55966,direct
 IP-ASN,55967,direct
 IP-ASN,55971,direct
+IP-ASN,55973,direct
 IP-ASN,55982,direct
 IP-ASN,55990,direct
 IP-ASN,55991,direct
@@ -5116,11 +5132,14 @@ IP-ASN,55994,direct
 IP-ASN,55996,direct
 IP-ASN,56000,direct
 IP-ASN,56002,direct
+IP-ASN,56003,direct
 IP-ASN,56004,direct
 IP-ASN,56005,direct
 IP-ASN,56006,direct
+IP-ASN,56011,direct
 IP-ASN,56012,direct
 IP-ASN,56013,direct
+IP-ASN,56015,direct
 IP-ASN,56019,direct
 IP-ASN,56040,direct
 IP-ASN,56041,direct
@@ -5176,7 +5195,6 @@ IP-ASN,59049,direct
 IP-ASN,59064,direct
 IP-ASN,59067,direct
 IP-ASN,59068,direct
-IP-ASN,59072,direct
 IP-ASN,59073,direct
 IP-ASN,59074,direct
 IP-ASN,59077,direct
@@ -5201,9 +5219,10 @@ IP-ASN,63590,direct
 IP-ASN,63593,direct
 IP-ASN,63603,direct
 IP-ASN,63607,direct
+IP-ASN,63612,direct
 IP-ASN,63614,direct
+IP-ASN,63615,direct
 IP-ASN,63617,direct
-IP-ASN,63619,direct
 IP-ASN,63620,direct
 IP-ASN,63621,direct
 IP-ASN,63629,direct
