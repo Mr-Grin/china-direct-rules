@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-12T22:11:51.604594+00:00
+# UPDATED: 2026-08-13T22:12:08.533446+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,10 +11,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5222
+# IP-ASN: 5221
 # IP-CIDR: 7243
 # IP-CIDR6: 4149
-# TOTAL: 20342
+# TOTAL: 20341
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -4831,7 +4831,6 @@ payload:
   - IP-ASN,204518
   - IP-ASN,204856
   - IP-ASN,205008
-  - IP-ASN,205027
   - IP-ASN,205152
   - IP-ASN,205369
   - IP-ASN,205532
@@ -9230,6 +9229,7 @@ payload:
   - IP-CIDR,106.108.0.0/14
   - IP-CIDR,106.112.0.0/12
   - IP-CIDR,106.224.0.0/12
+  - IP-CIDR,107.148.6.0/24
   - IP-CIDR,107.149.9.0/24
   - IP-CIDR,107.150.125.199/32
   - IP-CIDR,107.151.212.0/24
@@ -10500,7 +10500,6 @@ payload:
   - IP-CIDR,166.0.100.0/23
   - IP-CIDR,166.1.139.0/24
   - IP-CIDR,166.1.218.0/24
-  - IP-CIDR,166.1.232.0/24
   - IP-CIDR,166.111.0.0/16
   - IP-CIDR,166.118.227.88/32
   - IP-CIDR,167.139.0.0/16

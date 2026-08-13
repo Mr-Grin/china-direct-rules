@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-12T22:11:50.611550+00:00
+# UPDATED: 2026-08-13T22:12:07.756843+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 111758
+# DOMAIN-SUFFIX: 111765
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5222
+# IP-ASN: 5221
 # IP-CIDR: 8272
 # IP-CIDR6: 4169
-# TOTAL: 129486
+# TOTAL: 129492
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -4838,7 +4838,6 @@ payload:
   - IP-ASN,204518
   - IP-ASN,204856
   - IP-ASN,205008
-  - IP-ASN,205027
   - IP-ASN,205152
   - IP-ASN,205369
   - IP-ASN,205532
@@ -5370,7 +5369,6 @@ payload:
   - IP-CIDR,14.238.116.0/24
   - IP-CIDR,14.255.16.0/24
   - IP-CIDR,14.255.238.0/24
-  - IP-CIDR,14.255.249.0/24
   - IP-CIDR,14.255.254.0/24
   - IP-CIDR,15.32.104.0/23
   - IP-CIDR,15.36.64.0/22
@@ -6179,6 +6177,7 @@ payload:
   - IP-CIDR,45.82.241.0/24
   - IP-CIDR,45.87.53.0/24
   - IP-CIDR,45.87.54.0/24
+  - IP-CIDR,45.91.225.0/24
   - IP-CIDR,45.112.132.0/22
   - IP-CIDR,45.112.188.0/22
   - IP-CIDR,45.112.208.0/20
@@ -9289,6 +9288,7 @@ payload:
   - IP-CIDR,106.108.0.0/14
   - IP-CIDR,106.112.0.0/12
   - IP-CIDR,106.224.0.0/12
+  - IP-CIDR,107.148.6.0/24
   - IP-CIDR,107.149.9.0/24
   - IP-CIDR,107.150.125.199/32
   - IP-CIDR,107.151.212.0/24
@@ -10581,7 +10581,6 @@ payload:
   - IP-CIDR,166.0.100.0/23
   - IP-CIDR,166.1.139.0/24
   - IP-CIDR,166.1.218.0/24
-  - IP-CIDR,166.1.232.0/24
   - IP-CIDR,166.111.0.0/16
   - IP-CIDR,166.118.227.88/32
   - IP-CIDR,167.139.0.0/16
@@ -23914,6 +23913,7 @@ payload:
   - DOMAIN-SUFFIX,z17.link
   - DOMAIN-SUFFIX,78.link
   - DOMAIN-SUFFIX,wetab.link
+  - DOMAIN-SUFFIX,jgtab.link
   - DOMAIN-SUFFIX,itab.link
   - DOMAIN-SUFFIX,tencentclb.link
   - DOMAIN-SUFFIX,icc.link
@@ -35891,6 +35891,7 @@ payload:
   - DOMAIN-SUFFIX,tangrenmedia.com
   - DOMAIN-SUFFIX,wosenmedia.com
   - DOMAIN-SUFFIX,johnmedia.com
+  - DOMAIN-SUFFIX,juwinmedia.com
   - DOMAIN-SUFFIX,caixinmedia.com
   - DOMAIN-SUFFIX,zhiyinmedia.com
   - DOMAIN-SUFFIX,qinronmedia.com
@@ -39050,7 +39051,6 @@ payload:
   - DOMAIN-SUFFIX,szcttlab.com
   - DOMAIN-SUFFIX,mttlab.com
   - DOMAIN-SUFFIX,bwtlab.com
-  - DOMAIN-SUFFIX,bambulab.com
   - DOMAIN-SUFFIX,hubulab.com
   - DOMAIN-SUFFIX,caniculab.com
   - DOMAIN-SUFFIX,jihulab.com
@@ -46728,6 +46728,7 @@ payload:
   - DOMAIN-SUFFIX,maczd.com
   - DOMAIN-SUFFIX,saiczd.com
   - DOMAIN-SUFFIX,findzd.com
+  - DOMAIN-SUFFIX,xhsdzd.com
   - DOMAIN-SUFFIX,lftdzd.com
   - DOMAIN-SUFFIX,fangzd.com
   - DOMAIN-SUFFIX,mifengzd.com
@@ -60517,6 +60518,7 @@ payload:
   - DOMAIN-SUFFIX,114yygh.com
   - DOMAIN-SUFFIX,shyygh.com
   - DOMAIN-SUFFIX,gsyygh.com
+  - DOMAIN-SUFFIX,sxyygh.com
   - DOMAIN-SUFFIX,zgh.com
   - DOMAIN-SUFFIX,cdzgh.com
   - DOMAIN-SUFFIX,lsszgh.com
@@ -84221,6 +84223,7 @@ payload:
   - DOMAIN-SUFFIX,wenzaizhibo.com
   - DOMAIN-SUFFIX,shoumizhibo.com
   - DOMAIN-SUFFIX,yizhibo.com
+  - DOMAIN-SUFFIX,bkzhibo.com
   - DOMAIN-SUFFIX,qmzhibo.com
   - DOMAIN-SUFFIX,huoshanzhibo.com
   - DOMAIN-SUFFIX,zhaopianzhibo.com
@@ -92989,6 +92992,7 @@ payload:
   - DOMAIN-SUFFIX,sdqlkr.com
   - DOMAIN-SUFFIX,icnkr.com
   - DOMAIN-SUFFIX,linkr.com
+  - DOMAIN-SUFFIX,36linkr.com
   - DOMAIN-SUFFIX,pinkr.com
   - DOMAIN-SUFFIX,downkr.com
   - DOMAIN-SUFFIX,okr.com
@@ -97372,6 +97376,7 @@ payload:
   - DOMAIN-SUFFIX,258jrs.com
   - DOMAIN-SUFFIX,hupujrs.com
   - DOMAIN-SUFFIX,pbkrs.com
+  - DOMAIN-SUFFIX,jkzlrs.com
   - DOMAIN-SUFFIX,petmrs.com
   - DOMAIN-SUFFIX,gxtmrs.com
   - DOMAIN-SUFFIX,gxcors.com
@@ -114824,6 +114829,7 @@ payload:
   - DOMAIN-SUFFIX,81xy.com
   - DOMAIN-SUFFIX,91xy.com
   - DOMAIN-SUFFIX,94xy.com
+  - DOMAIN-SUFFIX,1958xy.com
   - DOMAIN-SUFFIX,guangshaxy.com
   - DOMAIN-SUFFIX,australiaxy.com
   - DOMAIN-SUFFIX,gemini-galaxy.com
