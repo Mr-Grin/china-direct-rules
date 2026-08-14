@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-13T22:12:07.756843+00:00
+# UPDATED: 2026-08-14T21:50:36.490931+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -13,8 +13,8 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5221
-# IP-CIDR: 8272
+# IP-ASN: 5220
+# IP-CIDR: 8273
 # IP-CIDR6: 4169
 # TOTAL: 129492
 payload:
@@ -4667,6 +4667,7 @@ payload:
   - IP-ASN,151247
   - IP-ASN,151253
   - IP-ASN,151263
+  - IP-ASN,151270
   - IP-ASN,151276
   - IP-ASN,151277
   - IP-ASN,151284
@@ -4721,7 +4722,6 @@ payload:
   - IP-ASN,151462
   - IP-ASN,151464
   - IP-ASN,151490
-  - IP-ASN,151640
   - IP-ASN,151673
   - IP-ASN,151674
   - IP-ASN,151785
@@ -4937,7 +4937,6 @@ payload:
   - IP-ASN,219208
   - IP-ASN,219210
   - IP-ASN,219283
-  - IP-ASN,219289
   - IP-ASN,219300
   - IP-ASN,219324
   - IP-ASN,219332
@@ -12565,6 +12564,7 @@ payload:
   - IP-CIDR,222.128.0.0/12
   - IP-CIDR,222.160.0.0/14
   - IP-CIDR,222.166.0.224/27
+  - IP-CIDR,222.167.160.0/23
   - IP-CIDR,222.168.0.0/13
   - IP-CIDR,222.176.0.0/12
   - IP-CIDR,222.192.0.0/11
