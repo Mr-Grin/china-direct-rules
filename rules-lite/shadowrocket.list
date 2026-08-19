@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-18T21:48:58.507770+00:00
+# UPDATED: 2026-08-19T21:51:51.709577+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,8 +11,8 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5222
-# IP-CIDR: 7173
+# IP-ASN: 5221
+# IP-CIDR: 7174
 # IP-CIDR6: 3929
 # TOTAL: 20052
 
@@ -5060,7 +5060,6 @@ IP-ASN,38358,no-resolve
 IP-ASN,38364,no-resolve
 IP-ASN,38365,no-resolve
 IP-ASN,38367,no-resolve
-IP-ASN,38371,no-resolve
 IP-ASN,38372,no-resolve
 IP-ASN,38375,no-resolve
 IP-ASN,38378,no-resolve
@@ -10708,6 +10707,7 @@ IP-CIDR,192.11.26.0/24,no-resolve
 IP-CIDR,192.11.39.0/24,no-resolve
 IP-CIDR,192.11.236.0/24,no-resolve
 IP-CIDR,192.23.191.0/24,no-resolve
+IP-CIDR,192.51.173.0/24,no-resolve
 IP-CIDR,192.51.188.0/24,no-resolve
 IP-CIDR,192.55.10.0/23,no-resolve
 IP-CIDR,192.55.40.0/24,no-resolve
