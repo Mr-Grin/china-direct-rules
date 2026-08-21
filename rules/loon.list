@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-20T21:54:37.236326+00:00
+# UPDATED: 2026-08-21T21:50:18.511290+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 111766
+# DOMAIN-SUFFIX: 111737
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5222
-# IP-CIDR: 8213
+# IP-ASN: 5226
+# IP-CIDR: 8214
 # IP-CIDR6: 3947
-# TOTAL: 129213
+# TOTAL: 129189
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -4717,6 +4717,7 @@ IP-ASN,151232,no-resolve
 IP-ASN,151245,no-resolve
 IP-ASN,151247,no-resolve
 IP-ASN,151253,no-resolve
+IP-ASN,151257,no-resolve
 IP-ASN,151263,no-resolve
 IP-ASN,151276,no-resolve
 IP-ASN,151277,no-resolve
@@ -4919,6 +4920,7 @@ IP-ASN,209306,no-resolve
 IP-ASN,209481,no-resolve
 IP-ASN,209484,no-resolve
 IP-ASN,209556,no-resolve
+IP-ASN,209565,no-resolve
 IP-ASN,209574,no-resolve
 IP-ASN,209586,no-resolve
 IP-ASN,209645,no-resolve
@@ -4957,6 +4959,7 @@ IP-ASN,213891,no-resolve
 IP-ASN,213903,no-resolve
 IP-ASN,214040,no-resolve
 IP-ASN,214203,no-resolve
+IP-ASN,214207,no-resolve
 IP-ASN,214439,no-resolve
 IP-ASN,214575,no-resolve
 IP-ASN,214610,no-resolve
@@ -5094,6 +5097,7 @@ IP-ASN,38367,no-resolve
 IP-ASN,38372,no-resolve
 IP-ASN,38375,no-resolve
 IP-ASN,38378,no-resolve
+IP-ASN,38379,no-resolve
 IP-ASN,38380,no-resolve
 IP-ASN,38381,no-resolve
 IP-ASN,38564,no-resolve
@@ -6214,6 +6218,7 @@ IP-CIDR,45.81.34.0/24,no-resolve
 IP-CIDR,45.82.241.0/24,no-resolve
 IP-CIDR,45.87.53.0/24,no-resolve
 IP-CIDR,45.87.54.0/24,no-resolve
+IP-CIDR,45.91.139.0/24,no-resolve
 IP-CIDR,45.112.132.0/22,no-resolve
 IP-CIDR,45.112.188.0/22,no-resolve
 IP-CIDR,45.112.208.0/20,no-resolve
@@ -10142,7 +10147,7 @@ IP-CIDR,140.248.63.47/32,no-resolve
 IP-CIDR,140.249.0.0/16,no-resolve
 IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
-IP-CIDR,141.11.50.0/24,no-resolve
+IP-CIDR,141.11.50.0/23,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
 IP-CIDR,143.64.0.0/16,no-resolve
@@ -10302,7 +10307,6 @@ IP-CIDR,154.19.86.0/23,no-resolve
 IP-CIDR,154.19.88.0/21,no-resolve
 IP-CIDR,154.19.96.0/19,no-resolve
 IP-CIDR,154.36.92.0/23,no-resolve
-IP-CIDR,154.72.42.0/24,no-resolve
 IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.84.180.0/24,no-resolve
@@ -10587,6 +10591,7 @@ IP-CIDR,166.0.97.0/24,no-resolve
 IP-CIDR,166.0.100.0/23,no-resolve
 IP-CIDR,166.1.139.0/24,no-resolve
 IP-CIDR,166.1.218.0/24,no-resolve
+IP-CIDR,166.1.246.0/23,no-resolve
 IP-CIDR,166.111.0.0/16,no-resolve
 IP-CIDR,166.118.227.88/32,no-resolve
 IP-CIDR,167.139.0.0/16,no-resolve
@@ -56489,7 +56494,6 @@ DOMAIN-SUFFIX,dataing.com
 DOMAIN-SUFFIX,th.bing.com
 DOMAIN-SUFFIX,bj1.api.bing.com
 DOMAIN-SUFFIX,cn.bing.com
-DOMAIN-SUFFIX,emoi-cncdn.bing.com
 DOMAIN-SUFFIX,r.bing.com
 DOMAIN-SUFFIX,xunchabing.com
 DOMAIN-SUFFIX,youtube-dubbing.com
@@ -62675,7 +62679,6 @@ DOMAIN-SUFFIX,chinapowerbi.com
 DOMAIN-SUFFIX,xmrbi.com
 DOMAIN-SUFFIX,shtbi.com
 DOMAIN-SUFFIX,uni-ubi.com
-DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN-SUFFIX,queniubi.com
 DOMAIN-SUFFIX,bsnniubi.com
 DOMAIN-SUFFIX,jvniubi.com
@@ -71672,33 +71675,7 @@ DOMAIN-SUFFIX,cnbiocell.com
 DOMAIN-SUFFIX,cpcell.com
 DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,lmanucell.com
-DOMAIN-SUFFIX,ftaemea.dell.com
-DOMAIN-SUFFIX,fta.dell.com
-DOMAIN-SUFFIX,www-csb.dell.com
-DOMAIN-SUFFIX,i.dell.com
-DOMAIN-SUFFIX,snpi.dell.com
-DOMAIN-SUFFIX,ftaapj.dell.com
-DOMAIN-SUFFIX,ftasitapj.dell.com
-DOMAIN-SUFFIX,dl.dell.com
 DOMAIN-SUFFIX,platform.dell.com
-DOMAIN-SUFFIX,sm.dell.com
-DOMAIN-SUFFIX,scene7-cdn.dell.com
-DOMAIN-SUFFIX,customization-cdn.dell.com
-DOMAIN-SUFFIX,si.cdn.dell.com
-DOMAIN-SUFFIX,snp.cdn.dell.com
-DOMAIN-SUFFIX,p.cdn.persaas.dell.com
-DOMAIN-SUFFIX,fcs.dell.com
-DOMAIN-SUFFIX,afcs.dell.com
-DOMAIN-SUFFIX,dds.dell.com
-DOMAIN-SUFFIX,clientperipherals.dell.com
-DOMAIN-SUFFIX,nexus.dell.com
-DOMAIN-SUFFIX,ea2cn-prod-outlet.dell.com
-DOMAIN-SUFFIX,ea2cn-staging-outlet.dell.com
-DOMAIN-SUFFIX,ea2cn-dev-outlet.dell.com
-DOMAIN-SUFFIX,supportassist.dell.com
-DOMAIN-SUFFIX,gbxgateway-dev.dell.com
-DOMAIN-SUFFIX,www.dell.com
-DOMAIN-SUFFIX,gbxgateway.dell.com
 DOMAIN-SUFFIX,010dell.com
 DOMAIN-SUFFIX,hihell.com
 DOMAIN-SUFFIX,chiphell.com
@@ -80918,7 +80895,6 @@ DOMAIN-SUFFIX,chinapiston.com
 DOMAIN-SUFFIX,bhpiston.com
 DOMAIN-SUFFIX,globalston.com
 DOMAIN-SUFFIX,dtston.com
-DOMAIN-SUFFIX,tp.louisvuitton.com
 DOMAIN-SUFFIX,whcotton.com
 DOMAIN-SUFFIX,cncotton.com
 DOMAIN-SUFFIX,socotton.com
