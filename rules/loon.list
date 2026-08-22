@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-21T21:50:18.511290+00:00
+# UPDATED: 2026-08-22T21:47:48.459906+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -13,10 +13,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5226
+# IP-ASN: 5227
 # IP-CIDR: 8214
 # IP-CIDR6: 3947
-# TOTAL: 129189
+# TOTAL: 129190
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -4854,6 +4854,7 @@ IP-ASN,18257,no-resolve
 IP-ASN,197626,no-resolve
 IP-ASN,198025,no-resolve
 IP-ASN,198135,no-resolve
+IP-ASN,198266,no-resolve
 IP-ASN,198516,no-resolve
 IP-ASN,198588,no-resolve
 IP-ASN,198681,no-resolve
