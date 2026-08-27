@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-25T21:53:58.851072+00:00
+# UPDATED: 2026-08-27T00:58:53.965961+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -4793,6 +4793,7 @@ payload:
   - IP-ASN,18245
   - IP-ASN,18257
   - IP-ASN,197626
+  - IP-ASN,197817
   - IP-ASN,198025
   - IP-ASN,198135
   - IP-ASN,198266
@@ -4826,6 +4827,7 @@ payload:
   - IP-ASN,203309
   - IP-ASN,203643
   - IP-ASN,203655
+  - IP-ASN,203991
   - IP-ASN,204185
   - IP-ASN,204211
   - IP-ASN,204244
@@ -5170,7 +5172,6 @@ payload:
   - IP-ASN,59064
   - IP-ASN,59067
   - IP-ASN,59068
-  - IP-ASN,59072
   - IP-ASN,59073
   - IP-ASN,59074
   - IP-ASN,59077
@@ -5199,7 +5200,6 @@ payload:
   - IP-ASN,63614
   - IP-ASN,63615
   - IP-ASN,63617
-  - IP-ASN,63619
   - IP-ASN,63620
   - IP-ASN,63621
   - IP-ASN,63629
