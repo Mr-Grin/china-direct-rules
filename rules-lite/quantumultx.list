@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-27T00:58:53.926484+00:00
+# UPDATED: 2026-08-28T05:32:56.929486+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,10 +11,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5226
-# IP-CIDR: 7177
+# IP-ASN: 5227
+# IP-CIDR: 7166
 # IP-CIDR6: 3929
-# TOTAL: 20060
+# TOTAL: 20050
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -5000,6 +5000,7 @@ IP-ASN,24150,direct
 IP-ASN,24151,direct
 IP-ASN,24239,direct
 IP-ASN,24302,direct
+IP-ASN,24310,direct
 IP-ASN,24348,direct
 IP-ASN,24349,direct
 IP-ASN,24350,direct
@@ -6162,7 +6163,6 @@ IP-CIDR,45.81.34.0/24,direct
 IP-CIDR,45.82.241.0/24,direct
 IP-CIDR,45.87.53.0/24,direct
 IP-CIDR,45.87.54.0/24,direct
-IP-CIDR,45.91.139.0/24,direct
 IP-CIDR,45.112.132.0/22,direct
 IP-CIDR,45.112.188.0/22,direct
 IP-CIDR,45.112.208.0/20,direct
@@ -6625,7 +6625,6 @@ IP-CIDR,74.119.193.128/25,direct
 IP-CIDR,74.125.16.64/26,direct
 IP-CIDR,74.214.161.0/24,direct
 IP-CIDR,75.75.236.0/29,direct
-IP-CIDR,77.73.8.0/24,direct
 IP-CIDR,80.76.36.0/22,direct
 IP-CIDR,81.23.208.0/20,direct
 IP-CIDR,81.68.0.0/14,direct
@@ -9978,7 +9977,6 @@ IP-CIDR,134.175.0.0/16,direct
 IP-CIDR,135.84.255.0/24,direct
 IP-CIDR,135.159.208.0/20,direct
 IP-CIDR,135.244.80.0/20,direct
-IP-CIDR,136.0.34.0/24,direct
 IP-CIDR,136.0.131.0/24,direct
 IP-CIDR,136.0.133.0/24,direct
 IP-CIDR,136.175.177.145/32,direct
@@ -10266,7 +10264,7 @@ IP-CIDR,156.154.62.0/23,direct
 IP-CIDR,156.224.128.0/17,direct
 IP-CIDR,156.227.239.0/24,direct
 IP-CIDR,156.232.9.0/24,direct
-IP-CIDR,156.232.11.0/24,direct
+IP-CIDR,156.232.10.0/23,direct
 IP-CIDR,156.251.144.0/20,direct
 IP-CIDR,156.251.161.0/24,direct
 IP-CIDR,156.251.162.0/23,direct
@@ -10485,11 +10483,6 @@ IP-CIDR,165.154.112.0/20,direct
 IP-CIDR,165.154.128.0/18,direct
 IP-CIDR,165.154.192.0/19,direct
 IP-CIDR,165.156.30.0/24,direct
-IP-CIDR,166.0.97.0/24,direct
-IP-CIDR,166.0.100.0/23,direct
-IP-CIDR,166.1.139.0/24,direct
-IP-CIDR,166.1.218.0/24,direct
-IP-CIDR,166.1.246.0/23,direct
 IP-CIDR,166.111.0.0/16,direct
 IP-CIDR,166.118.227.88/32,direct
 IP-CIDR,167.139.0.0/16,direct
@@ -10568,7 +10561,6 @@ IP-CIDR,175.186.0.0/15,direct
 IP-CIDR,175.188.0.0/14,direct
 IP-CIDR,176.56.38.0/24,direct
 IP-CIDR,178.236.232.0/24,direct
-IP-CIDR,178.253.252.0/24,direct
 IP-CIDR,180.76.0.0/14,direct
 IP-CIDR,180.84.0.0/15,direct
 IP-CIDR,180.86.0.0/16,direct
@@ -10708,8 +10700,6 @@ IP-CIDR,188.190.1.0/24,direct
 IP-CIDR,188.190.2.0/24,direct
 IP-CIDR,188.240.211.0/25,direct
 IP-CIDR,188.241.80.0/24,direct
-IP-CIDR,192.6.161.0/24,direct
-IP-CIDR,192.6.243.0/24,direct
 IP-CIDR,192.11.23.0/24,direct
 IP-CIDR,192.11.26.0/24,direct
 IP-CIDR,192.11.39.0/24,direct
@@ -12429,7 +12419,7 @@ IP-CIDR,222.240.0.0/13,direct
 IP-CIDR,222.248.0.0/15,direct
 IP-CIDR,223.0.0.0/12,direct
 IP-CIDR,223.20.0.0/15,direct
-IP-CIDR,223.26.0.0/24,direct
+IP-CIDR,223.26.0.0/23,direct
 IP-CIDR,223.27.184.0/22,direct
 IP-CIDR,223.29.208.0/22,direct
 IP-CIDR,223.29.252.0/22,direct
