@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-08-30T23:43:36.448180+00:00
+# UPDATED: 2026-09-01T00:44:34.808693+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -11,8 +11,8 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
-# IP-ASN: 5231
-# IP-CIDR: 7222
+# IP-ASN: 5230
+# IP-CIDR: 7223
 # IP-CIDR6: 4169
 # TOTAL: 20350
 
@@ -313,6 +313,7 @@ IP-ASN,139769,direct
 IP-ASN,139791,direct
 IP-ASN,139799,direct
 IP-ASN,139859,direct
+IP-ASN,139874,direct
 IP-ASN,139887,direct
 IP-ASN,139888,direct
 IP-ASN,140053,direct
@@ -5203,7 +5204,6 @@ IP-ASN,59049,direct
 IP-ASN,59064,direct
 IP-ASN,59067,direct
 IP-ASN,59068,direct
-IP-ASN,59072,direct
 IP-ASN,59073,direct
 IP-ASN,59074,direct
 IP-ASN,59077,direct
@@ -5232,7 +5232,6 @@ IP-ASN,63612,direct
 IP-ASN,63614,direct
 IP-ASN,63615,direct
 IP-ASN,63617,direct
-IP-ASN,63619,direct
 IP-ASN,63620,direct
 IP-ASN,63621,direct
 IP-ASN,63629,direct
@@ -12324,6 +12323,7 @@ IP-CIDR,205.168.23.120/29,direct
 IP-CIDR,205.198.19.0/24,direct
 IP-CIDR,205.198.104.0/22,direct
 IP-CIDR,205.252.239.0/24,direct
+IP-CIDR,206.109.70.0/23,direct
 IP-CIDR,206.109.75.0/24,direct
 IP-CIDR,206.232.68.0/22,direct
 IP-CIDR,206.232.72.0/22,direct
