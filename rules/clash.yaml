@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-05T23:09:39.261853+00:00
+# UPDATED: 2026-09-07T23:40:47.134630+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 111436
+# DOMAIN-SUFFIX: 111453
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5230
 # IP-CIDR: 8269
 # IP-CIDR6: 4183
-# TOTAL: 129183
+# TOTAL: 129200
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -20603,6 +20603,7 @@ payload:
   - DOMAIN-SUFFIX,papatya.store
   - DOMAIN-SUFFIX,100web.store
   - DOMAIN-SUFFIX,flashsalesfb.store
+  - DOMAIN-SUFFIX,ksdyob.store
   - DOMAIN-SUFFIX,qqmusic.store
   - DOMAIN-SUFFIX,777e.store
   - DOMAIN-SUFFIX,52code.store
@@ -27630,7 +27631,9 @@ payload:
   - DOMAIN-SUFFIX,awsdns-cn-23.com
   - DOMAIN-SUFFIX,aliyunga0023.com
   - DOMAIN-SUFFIX,aliyunddos0023.com
+  - DOMAIN-SUFFIX,vvghj1023.com
   - DOMAIN-SUFFIX,aliyunddos1023.com
+  - DOMAIN-SUFFIX,mcgyaht1023.com
   - DOMAIN-SUFFIX,2023.com
   - DOMAIN-SUFFIX,00012023.com
   - DOMAIN-SUFFIX,jinqi2023.com
@@ -29894,6 +29897,7 @@ payload:
   - DOMAIN-SUFFIX,9495.com
   - DOMAIN-SUFFIX,0595.com
   - DOMAIN-SUFFIX,3595.com
+  - DOMAIN-SUFFIX,60353595.com
   - DOMAIN-SUFFIX,4008075595.com
   - DOMAIN-SUFFIX,26595.com
   - DOMAIN-SUFFIX,659595.com
@@ -30320,6 +30324,7 @@ payload:
   - DOMAIN-SUFFIX,171026.com
   - DOMAIN-SUFFIX,aliyunddos1026.com
   - DOMAIN-SUFFIX,datahome2026.com
+  - DOMAIN-SUFFIX,img9g2026.com
   - DOMAIN-SUFFIX,zlwh2026.com
   - DOMAIN-SUFFIX,roca026.com
   - DOMAIN-SUFFIX,tencentcloudga026.com
@@ -34419,6 +34424,7 @@ payload:
   - DOMAIN-SUFFIX,fafa9.com
   - DOMAIN-SUFFIX,dafga9.com
   - DOMAIN-SUFFIX,fymallqa9.com
+  - DOMAIN-SUFFIX,gua9.com
   - DOMAIN-SUFFIX,gtm-a1b9.com
   - DOMAIN-SUFFIX,416548ebbf96c1b9.com
   - DOMAIN-SUFFIX,79bb57f37108d1b9.com
@@ -46088,6 +46094,7 @@ payload:
   - DOMAIN-SUFFIX,mscodecloud.com
   - DOMAIN-SUFFIX,sdecloud.com
   - DOMAIN-SUFFIX,yeecloud.com
+  - DOMAIN-SUFFIX,medicalimagecloud.com
   - DOMAIN-SUFFIX,fledgecloud.com
   - DOMAIN-SUFFIX,dogecloud.com
   - DOMAIN-SUFFIX,mogecloud.com
@@ -57872,6 +57879,7 @@ payload:
   - DOMAIN-SUFFIX,xiaoshouhudong.com
   - DOMAIN-SUFFIX,wanyuhudong.com
   - DOMAIN-SUFFIX,wxhudong.com
+  - DOMAIN-SUFFIX,hyhudong.com
   - DOMAIN-SUFFIX,zjjudong.com
   - DOMAIN-SUFFIX,youdong.com
   - DOMAIN-SUFFIX,qudong.com
@@ -69076,6 +69084,7 @@ payload:
   - DOMAIN-SUFFIX,njcwlk.com
   - DOMAIN-SUFFIX,gxdxlk.com
   - DOMAIN-SUFFIX,gxxlk.com
+  - DOMAIN-SUFFIX,lygtylk.com
   - DOMAIN-SUFFIX,mxdzlk.com
   - DOMAIN-SUFFIX,gxlzlk.com
   - DOMAIN-SUFFIX,examk.com
@@ -78276,6 +78285,7 @@ payload:
   - DOMAIN-SUFFIX,icntvcdn.com
   - DOMAIN-SUFFIX,bestvcdn.com
   - DOMAIN-SUFFIX,cztvcdn.com
+  - DOMAIN-SUFFIX,yewcdn.com
   - DOMAIN-SUFFIX,myhwcdn.com
   - DOMAIN-SUFFIX,6xcdn.com
   - DOMAIN-SUFFIX,lufaxcdn.com
@@ -85054,6 +85064,7 @@ payload:
   - DOMAIN-SUFFIX,e-jitp-glo.com
   - DOMAIN-SUFFIX,v-jitp-glo.com
   - DOMAIN-SUFFIX,simglo.com
+  - DOMAIN-SUFFIX,norglo.com
   - DOMAIN-SUFFIX,cloudhlo.com
   - DOMAIN-SUFFIX,varmilo.com
   - DOMAIN-SUFFIX,secsilo.com
@@ -87924,6 +87935,7 @@ payload:
   - DOMAIN-SUFFIX,wailaishop.com
   - DOMAIN-SUFFIX,kwaishop.com
   - DOMAIN-SUFFIX,haozaishop.com
+  - DOMAIN-SUFFIX,gomeishop.com
   - DOMAIN-SUFFIX,paizishop.com
   - DOMAIN-SUFFIX,xlkshop.com
   - DOMAIN-SUFFIX,zymkshop.com
@@ -88437,6 +88449,7 @@ payload:
   - DOMAIN-SUFFIX,weplayapp.com
   - DOMAIN-SUFFIX,dfyapp.com
   - DOMAIN-SUFFIX,neatifyapp.com
+  - DOMAIN-SUFFIX,whjyapp.com
   - DOMAIN-SUFFIX,seaskyapp.com
   - DOMAIN-SUFFIX,fingerflyapp.com
   - DOMAIN-SUFFIX,myapp.com
@@ -96004,6 +96017,7 @@ payload:
   - DOMAIN-SUFFIX,volcisms.com
   - DOMAIN-SUFFIX,zjsms.com
   - DOMAIN-SUFFIX,jnsms.com
+  - DOMAIN-SUFFIX,xmaosms.com
   - DOMAIN-SUFFIX,sinosms.com
   - DOMAIN-SUFFIX,itwsms.com
   - DOMAIN-SUFFIX,t1tms.com
@@ -107686,6 +107700,7 @@ payload:
   - DOMAIN-SUFFIX,w123w.com
   - DOMAIN-SUFFIX,f1943w.com
   - DOMAIN-SUFFIX,ea3w.com
+  - DOMAIN-SUFFIX,er3w.com
   - DOMAIN-SUFFIX,my3w.com
   - DOMAIN-SUFFIX,zg114w.com
   - DOMAIN-SUFFIX,n5w.com
@@ -117323,6 +117338,7 @@ payload:
   - DOMAIN-SUFFIX,bicredit.xin
   - DOMAIN-SUFFIX,xiaobu.xin
   - DOMAIN-SUFFIX,lianku.xin
+  - DOMAIN-SUFFIX,shouhou.xin
   - DOMAIN-SUFFIX,findyou.xin
   - DOMAIN-SUFFIX,hifkw.xin
   - DOMAIN-SUFFIX,allpay.xin
@@ -128969,6 +128985,7 @@ payload:
   - DOMAIN-SUFFIX,sukoshi.xyz
   - DOMAIN-SUFFIX,junpengtouzhi.xyz
   - DOMAIN-SUFFIX,siii.xyz
+  - DOMAIN-SUFFIX,zhonghaiqishengkeji.xyz
   - DOMAIN-SUFFIX,qianqiankeji.xyz
   - DOMAIN-SUFFIX,zhixunkeji.xyz
   - DOMAIN-SUFFIX,yunxukeji.xyz
