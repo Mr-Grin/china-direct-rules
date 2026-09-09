@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-08T23:34:02.424653+00:00
+# UPDATED: 2026-09-09T23:27:35.501559+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 111453
+# DOMAIN-SUFFIX: 111454
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5231
 # IP-CIDR: 8269
 # IP-CIDR6: 4183
-# TOTAL: 129201
+# TOTAL: 129202
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -69873,6 +69873,7 @@ HOST-SUFFIX,tbdesk.com,direct
 HOST-SUFFIX,uncledesk.com,direct
 HOST-SUFFIX,ugdesk.com,direct
 HOST-SUFFIX,androidesk.com,direct
+HOST-SUFFIX,yuanqidesk.com,direct
 HOST-SUFFIX,4kdesk.com,direct
 HOST-SUFFIX,enfodesk.com,direct
 HOST-SUFFIX,todesk.com,direct
