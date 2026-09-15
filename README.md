@@ -105,9 +105,9 @@ rules:
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 51 |
 | IP-ASN | 5,231 |
-| IP-CIDR (v4) | 8,271 |
-| IP-CIDR6 (v6) | 4,193 |
-| **TOTAL** | **129,213** |
+| IP-CIDR (v4) | 8,274 |
+| IP-CIDR6 (v6) | 4,194 |
+| **TOTAL** | **129,217** |
 
 <!-- RULE-STATS:END -->
 
