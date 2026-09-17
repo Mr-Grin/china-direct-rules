@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-16T23:45:05.032219+00:00
+# UPDATED: 2026-09-17T23:37:17.323955+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -12,9 +12,9 @@
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
 # IP-ASN: 5231
-# IP-CIDR: 7231
-# IP-CIDR6: 4165
-# TOTAL: 20355
+# IP-CIDR: 7227
+# IP-CIDR6: 4174
+# TOTAL: 20360
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -7965,7 +7965,6 @@ IP-CIDR,103.131.138.0/23,no-resolve
 IP-CIDR,103.131.152.0/22,no-resolve
 IP-CIDR,103.131.168.0/22,no-resolve
 IP-CIDR,103.131.176.0/22,no-resolve
-IP-CIDR,103.131.194.0/23,no-resolve
 IP-CIDR,103.131.224.0/21,no-resolve
 IP-CIDR,103.131.240.0/22,no-resolve
 IP-CIDR,103.132.22.0/23,no-resolve
@@ -10768,7 +10767,6 @@ IP-CIDR,192.11.26.0/24,no-resolve
 IP-CIDR,192.11.39.0/24,no-resolve
 IP-CIDR,192.11.236.0/24,no-resolve
 IP-CIDR,192.23.191.0/24,no-resolve
-IP-CIDR,192.41.192.0/24,no-resolve
 IP-CIDR,192.51.172.0/23,no-resolve
 IP-CIDR,192.51.188.0/24,no-resolve
 IP-CIDR,192.55.10.0/23,no-resolve
@@ -10894,7 +10892,6 @@ IP-CIDR,202.12.1.0/24,no-resolve
 IP-CIDR,202.12.2.0/24,no-resolve
 IP-CIDR,202.12.17.0/24,no-resolve
 IP-CIDR,202.12.18.0/23,no-resolve
-IP-CIDR,202.12.30.0/24,no-resolve
 IP-CIDR,202.12.72.0/24,no-resolve
 IP-CIDR,202.12.84.0/23,no-resolve
 IP-CIDR,202.12.96.0/24,no-resolve
@@ -12393,7 +12390,6 @@ IP-CIDR,211.64.0.0/13,no-resolve
 IP-CIDR,211.76.108.0/27,no-resolve
 IP-CIDR,211.80.0.0/12,no-resolve
 IP-CIDR,211.96.0.0/13,no-resolve
-IP-CIDR,211.120.240.0/21,no-resolve
 IP-CIDR,211.136.0.0/13,no-resolve
 IP-CIDR,211.144.0.0/12,no-resolve
 IP-CIDR,211.160.0.0/13,no-resolve
@@ -12520,10 +12516,15 @@ IP-CIDR6,2001:254::/31,no-resolve
 IP-CIDR6,2001:256::/32,no-resolve
 IP-CIDR6,2001:470:ee53::/48,no-resolve
 IP-CIDR6,2001:500:15:3200::/56,no-resolve
+IP-CIDR6,2001:678:12b8::/48,no-resolve
+IP-CIDR6,2001:678:12c4::/48,no-resolve
+IP-CIDR6,2001:678:12cc::/48,no-resolve
 IP-CIDR6,2001:67c:a1c::/48,no-resolve
 IP-CIDR6,2001:67c:a38:f086::/64,no-resolve
 IP-CIDR6,2001:67c:aec::/48,no-resolve
 IP-CIDR6,2001:67c:c28::/48,no-resolve
+IP-CIDR6,2001:67c:ebc::/48,no-resolve
+IP-CIDR6,2001:67c:2c1c::/48,no-resolve
 IP-CIDR6,2001:7fa:5::/48,no-resolve
 IP-CIDR6,2001:7fa:10::/48,no-resolve
 IP-CIDR6,2001:c68::/32,no-resolve
@@ -12587,6 +12588,7 @@ IP-CIDR6,2001:df3:a680::/48,no-resolve
 IP-CIDR6,2001:df3:b380::/48,no-resolve
 IP-CIDR6,2001:df3:c380::/48,no-resolve
 IP-CIDR6,2001:df3:c680::/48,no-resolve
+IP-CIDR6,2001:df3:d0c0::/48,no-resolve
 IP-CIDR6,2001:df3:d880::/48,no-resolve
 IP-CIDR6,2001:df3:ed80::/48,no-resolve
 IP-CIDR6,2001:df3:ef80::/48,no-resolve
@@ -12607,7 +12609,11 @@ IP-CIDR6,2001:df4:c580::/48,no-resolve
 IP-CIDR6,2001:df4:c780::/48,no-resolve
 IP-CIDR6,2001:df4:cf00::/48,no-resolve
 IP-CIDR6,2001:df4:de80::/48,no-resolve
+IP-CIDR6,2001:df4:e140::/48,no-resolve
+IP-CIDR6,2001:df4:e142::/47,no-resolve
 IP-CIDR6,2001:df5:2080::/48,no-resolve
+IP-CIDR6,2001:df5:2fc0::/48,no-resolve
+IP-CIDR6,2001:df5:4cc0::/48,no-resolve
 IP-CIDR6,2001:df5:5f80::/48,no-resolve
 IP-CIDR6,2001:df5:7800::/48,no-resolve
 IP-CIDR6,2001:df6:100::/48,no-resolve
@@ -15209,6 +15215,7 @@ IP-CIDR6,2607:740:18::/48,no-resolve
 IP-CIDR6,2607:6b80:69::/48,no-resolve
 IP-CIDR6,2610:a1:3074::/46,no-resolve
 IP-CIDR6,2610:a1:3078::/46,no-resolve
+IP-CIDR6,2620:57:4004::/48,no-resolve
 IP-CIDR6,2620:171:32::/48,no-resolve
 IP-CIDR6,2620:171:5a:f0::/64,no-resolve
 IP-CIDR6,2620:171:fb::/48,no-resolve
@@ -16677,9 +16684,7 @@ IP-CIDR6,2c0f:f7a8:805f::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8150::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:815f::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8211::/48,no-resolve
-IP-CIDR6,2c0f:f7a8:9020::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:9041::/48,no-resolve
-IP-CIDR6,2c0f:f7a8:9220::/48,no-resolve
 DOMAIN-SUFFIX,ctexcel.ca
 DOMAIN-SUFFIX,900.la
 DOMAIN-SUFFIX,51.la
