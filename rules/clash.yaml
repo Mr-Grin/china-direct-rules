@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-19T23:23:29.369958+00:00
+# UPDATED: 2026-09-22T00:13:53.270712+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 111453
+# DOMAIN-SUFFIX: 111462
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5231
-# IP-CIDR: 8271
-# IP-CIDR6: 4192
-# TOTAL: 129212
+# IP-CIDR: 8272
+# IP-CIDR6: 4189
+# TOTAL: 129219
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -6604,7 +6604,7 @@ payload:
   - IP-CIDR,63.162.157.36/32
   - IP-CIDR,63.217.81.0/24
   - IP-CIDR,64.71.138.0/25
-  - IP-CIDR,64.96.4.0/24
+  - IP-CIDR,64.96.4.0/23
   - IP-CIDR,64.188.38.0/23
   - IP-CIDR,64.188.40.0/22
   - IP-CIDR,64.188.44.0/23
@@ -10287,6 +10287,7 @@ payload:
   - IP-CIDR,154.36.92.0/23
   - IP-CIDR,154.72.44.0/24
   - IP-CIDR,154.72.47.0/24
+  - IP-CIDR,154.84.180.0/24
   - IP-CIDR,154.89.32.0/20
   - IP-CIDR,154.209.251.0/24
   - IP-CIDR,155.102.0.0/16
@@ -15532,7 +15533,7 @@ payload:
   - IP-CIDR6,2406:840:808::/45
   - IP-CIDR6,2406:840:810::/44
   - IP-CIDR6,2406:840:820::/43
-  - IP-CIDR6,2406:840:840::/48
+  - IP-CIDR6,2406:840:840::/47
   - IP-CIDR6,2406:840:843::/48
   - IP-CIDR6,2406:840:844::/46
   - IP-CIDR6,2406:840:848::/45
@@ -15685,10 +15686,7 @@ payload:
   - IP-CIDR6,2406:840:6000::/35
   - IP-CIDR6,2406:840:8000::/36
   - IP-CIDR6,2406:840:9000::/37
-  - IP-CIDR6,2406:840:9800::/42
-  - IP-CIDR6,2406:840:9850::/44
-  - IP-CIDR6,2406:840:9860::/43
-  - IP-CIDR6,2406:840:9880::/41
+  - IP-CIDR6,2406:840:9800::/40
   - IP-CIDR6,2406:840:9900::/41
   - IP-CIDR6,2406:840:9981::/48
   - IP-CIDR6,2406:840:9982::/47
@@ -43130,6 +43128,7 @@ payload:
   - DOMAIN-SUFFIX,qihangcrrc.com
   - DOMAIN-SUFFIX,htcrrc.com
   - DOMAIN-SUFFIX,evcrrc.com
+  - DOMAIN-SUFFIX,fnrrc.com
   - DOMAIN-SUFFIX,360src.com
   - DOMAIN-SUFFIX,xasrc.com
   - DOMAIN-SUFFIX,cbsrc.com
@@ -48735,6 +48734,7 @@ payload:
   - DOMAIN-SUFFIX,mogujie.com
   - DOMAIN-SUFFIX,chuchujie.com
   - DOMAIN-SUFFIX,yishujie.com
+  - DOMAIN-SUFFIX,zhongliujie.com
   - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,jujie.com
   - DOMAIN-SUFFIX,huishoujie.com
@@ -72911,6 +72911,7 @@ payload:
   - DOMAIN-SUFFIX,hzzfcm.com
   - DOMAIN-SUFFIX,whwgcm.com
   - DOMAIN-SUFFIX,gdshcm.com
+  - DOMAIN-SUFFIX,vxhcm.com
   - DOMAIN-SUFFIX,lepaicm.com
   - DOMAIN-SUFFIX,yiticm.com
   - DOMAIN-SUFFIX,tongyicm.com
@@ -75277,6 +75278,7 @@ payload:
   - DOMAIN-SUFFIX,sdludian.com
   - DOMAIN-SUFFIX,shoudian.com
   - DOMAIN-SUFFIX,51youdian.com
+  - DOMAIN-SUFFIX,qudian.com
   - DOMAIN-SUFFIX,imzudian.com
   - DOMAIN-SUFFIX,vdian.com
   - DOMAIN-SUFFIX,davdian.com
@@ -97148,6 +97150,7 @@ payload:
   - DOMAIN-SUFFIX,23class.com
   - DOMAIN-SUFFIX,xuebaclass.com
   - DOMAIN-SUFFIX,xycclass.com
+  - DOMAIN-SUFFIX,mddclass.com
   - DOMAIN-SUFFIX,qcloudclass.com
   - DOMAIN-SUFFIX,jadeclass.com
   - DOMAIN-SUFFIX,qingclass.com
@@ -98287,6 +98290,7 @@ payload:
   - DOMAIN-SUFFIX,sxnxs.com
   - DOMAIN-SUFFIX,hboxs.com
   - DOMAIN-SUFFIX,steamboxs.com
+  - DOMAIN-SUFFIX,uboxs.com
   - DOMAIN-SUFFIX,wucuoxs.com
   - DOMAIN-SUFFIX,biduoxs.com
   - DOMAIN-SUFFIX,phpxs.com
@@ -104845,6 +104849,7 @@ payload:
   - DOMAIN-SUFFIX,haodanku.com
   - DOMAIN-SUFFIX,guifanku.com
   - DOMAIN-SUFFIX,shanshanku.com
+  - DOMAIN-SUFFIX,youbianku.com
   - DOMAIN-SUFFIX,jixianku.com
   - DOMAIN-SUFFIX,motanku.com
   - DOMAIN-SUFFIX,zujuanku.com
@@ -124299,6 +124304,7 @@ payload:
   - DOMAIN-SUFFIX,huotan.net
   - DOMAIN-SUFFIX,weixunyunduan.net
   - DOMAIN-SUFFIX,shuangguan.net
+  - DOMAIN-SUFFIX,gongniukaiguan.net
   - DOMAIN-SUFFIX,tanguan.net
   - DOMAIN-SUFFIX,gdjinguan.net
   - DOMAIN-SUFFIX,xhbaoguan.net
@@ -128461,6 +128467,7 @@ payload:
   - DOMAIN-SUFFIX,danmaku.tv
   - DOMAIN-SUFFIX,gulu.tv
   - DOMAIN-SUFFIX,chushou.tv
+  - DOMAIN-SUFFIX,zuiyou.tv
   - DOMAIN-SUFFIX,shenyou.tv
   - DOMAIN-SUFFIX,jiapu.tv
   - DOMAIN-SUFFIX,zhanqu.tv
