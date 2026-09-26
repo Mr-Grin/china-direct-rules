@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-23T23:53:58.054478+00:00
+# UPDATED: 2026-09-26T00:02:09.177602+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -12,9 +12,9 @@
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
 # IP-ASN: 5231
-# IP-CIDR: 7225
-# IP-CIDR6: 4174
-# TOTAL: 20358
+# IP-CIDR: 7223
+# IP-CIDR6: 4164
+# TOTAL: 20346
 
 HOST-KEYWORD,.tmall.com,direct
 HOST-KEYWORD,alicdn,direct
@@ -6629,7 +6629,6 @@ IP-CIDR,74.119.193.16/28,direct
 IP-CIDR,74.119.193.32/27,direct
 IP-CIDR,74.119.193.64/26,direct
 IP-CIDR,74.119.193.128/25,direct
-IP-CIDR,74.122.26.0/23,direct
 IP-CIDR,74.125.16.64/26,direct
 IP-CIDR,74.214.161.0/24,direct
 IP-CIDR,75.75.236.0/29,direct
@@ -10732,7 +10731,6 @@ IP-CIDR,183.182.0.0/19,direct
 IP-CIDR,183.184.0.0/13,direct
 IP-CIDR,183.192.0.0/10,direct
 IP-CIDR,185.2.48.0/24,direct
-IP-CIDR,185.2.51.0/24,direct
 IP-CIDR,185.26.84.0/24,direct
 IP-CIDR,185.56.163.112/28,direct
 IP-CIDR,185.74.222.0/24,direct
@@ -12514,15 +12512,10 @@ IP6-CIDR,2001:254::/31,direct
 IP6-CIDR,2001:256::/32,direct
 IP6-CIDR,2001:470:ee53::/48,direct
 IP6-CIDR,2001:500:15:3200::/56,direct
-IP6-CIDR,2001:678:12b8::/48,direct
-IP6-CIDR,2001:678:12c4::/48,direct
-IP6-CIDR,2001:678:12cc::/48,direct
 IP6-CIDR,2001:67c:a1c::/48,direct
 IP6-CIDR,2001:67c:a38:f086::/64,direct
 IP6-CIDR,2001:67c:aec::/48,direct
 IP6-CIDR,2001:67c:c28::/48,direct
-IP6-CIDR,2001:67c:ebc::/48,direct
-IP6-CIDR,2001:67c:2c1c::/48,direct
 IP6-CIDR,2001:7fa:5::/48,direct
 IP6-CIDR,2001:7fa:10::/48,direct
 IP6-CIDR,2001:c68::/32,direct
@@ -12586,7 +12579,6 @@ IP6-CIDR,2001:df3:a680::/48,direct
 IP6-CIDR,2001:df3:b380::/48,direct
 IP6-CIDR,2001:df3:c380::/48,direct
 IP6-CIDR,2001:df3:c680::/48,direct
-IP6-CIDR,2001:df3:d0c0::/48,direct
 IP6-CIDR,2001:df3:d880::/48,direct
 IP6-CIDR,2001:df3:ed80::/48,direct
 IP6-CIDR,2001:df3:ef80::/48,direct
@@ -12607,11 +12599,7 @@ IP6-CIDR,2001:df4:c580::/48,direct
 IP6-CIDR,2001:df4:c780::/48,direct
 IP6-CIDR,2001:df4:cf00::/48,direct
 IP6-CIDR,2001:df4:de80::/48,direct
-IP6-CIDR,2001:df4:e140::/48,direct
-IP6-CIDR,2001:df4:e142::/47,direct
 IP6-CIDR,2001:df5:2080::/48,direct
-IP6-CIDR,2001:df5:2fc0::/48,direct
-IP6-CIDR,2001:df5:4cc0::/48,direct
 IP6-CIDR,2001:df5:5f80::/48,direct
 IP6-CIDR,2001:df5:7800::/48,direct
 IP6-CIDR,2001:df6:100::/48,direct
@@ -15213,7 +15201,7 @@ IP6-CIDR,2607:740:18::/48,direct
 IP6-CIDR,2607:6b80:69::/48,direct
 IP6-CIDR,2610:a1:3074::/46,direct
 IP6-CIDR,2610:a1:3078::/46,direct
-IP6-CIDR,2620:57:4004::/48,direct
+IP6-CIDR,2620:57:4004::/47,direct
 IP6-CIDR,2620:171:32::/48,direct
 IP6-CIDR,2620:171:5a:f0::/64,direct
 IP6-CIDR,2620:171:fb::/48,direct
