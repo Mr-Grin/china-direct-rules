@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-30T00:41:40.353402+00:00
+# UPDATED: 2026-10-02T01:01:47.578173+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -13,10 +13,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5231
+# IP-ASN: 5230
 # IP-CIDR: 8267
-# IP-CIDR6: 4183
-# TOTAL: 129402
+# IP-CIDR6: 4212
+# TOTAL: 129430
 payload:
   - DOMAIN-KEYWORD,.tmall.com
   - DOMAIN-KEYWORD,alicdn
@@ -4801,7 +4801,6 @@ payload:
   - IP-ASN,18245
   - IP-ASN,18257
   - IP-ASN,197626
-  - IP-ASN,197817
   - IP-ASN,198025
   - IP-ASN,198078
   - IP-ASN,198135
@@ -5995,6 +5994,7 @@ payload:
   - IP-CIDR,43.241.48.0/22
   - IP-CIDR,43.241.76.0/22
   - IP-CIDR,43.241.80.0/20
+  - IP-CIDR,43.241.100.0/23
   - IP-CIDR,43.241.112.0/22
   - IP-CIDR,43.241.168.0/21
   - IP-CIDR,43.241.176.0/21
@@ -10331,7 +10331,6 @@ payload:
   - IP-CIDR,156.109.34.3/32
   - IP-CIDR,156.109.34.4/30
   - IP-CIDR,156.154.62.0/23
-  - IP-CIDR,156.227.239.0/24
   - IP-CIDR,156.232.9.0/24
   - IP-CIDR,156.232.10.0/23
   - IP-CIDR,156.239.237.0/24
@@ -16337,7 +16336,36 @@ payload:
   - IP-CIDR6,2a03:83e0:1211::/48
   - IP-CIDR6,2a03:83e0:1d11::/48
   - IP-CIDR6,2a03:f900::/29
+  - IP-CIDR6,2a04:3e00::/48
+  - IP-CIDR6,2a04:3e00:2::/47
+  - IP-CIDR6,2a04:3e00:4::/46
+  - IP-CIDR6,2a04:3e00:8::/45
+  - IP-CIDR6,2a04:3e00:10::/44
+  - IP-CIDR6,2a04:3e00:20::/43
+  - IP-CIDR6,2a04:3e00:40::/42
+  - IP-CIDR6,2a04:3e00:80::/41
+  - IP-CIDR6,2a04:3e00:100::/40
+  - IP-CIDR6,2a04:3e00:200::/39
+  - IP-CIDR6,2a04:3e00:400::/38
+  - IP-CIDR6,2a04:3e00:800::/37
+  - IP-CIDR6,2a04:3e00:1001::/48
   - IP-CIDR6,2a04:3e00:1002::/48
+  - IP-CIDR6,2a04:3e00:1004::/46
+  - IP-CIDR6,2a04:3e00:1008::/45
+  - IP-CIDR6,2a04:3e00:1010::/44
+  - IP-CIDR6,2a04:3e00:1020::/43
+  - IP-CIDR6,2a04:3e00:1040::/42
+  - IP-CIDR6,2a04:3e00:1080::/41
+  - IP-CIDR6,2a04:3e00:1100::/40
+  - IP-CIDR6,2a04:3e00:1200::/39
+  - IP-CIDR6,2a04:3e00:1400::/38
+  - IP-CIDR6,2a04:3e00:1800::/37
+  - IP-CIDR6,2a04:3e00:2000::/35
+  - IP-CIDR6,2a04:3e00:4000::/34
+  - IP-CIDR6,2a04:3e00:8000::/33
+  - IP-CIDR6,2a04:3e01::/32
+  - IP-CIDR6,2a04:3e02::/31
+  - IP-CIDR6,2a04:3e04::/30
   - IP-CIDR6,2a04:4e41:27:1::/64
   - IP-CIDR6,2a04:4e41:27:1100::/56
   - IP-CIDR6,2a04:4e41:29:1::/64

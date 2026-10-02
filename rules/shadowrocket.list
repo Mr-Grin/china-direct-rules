@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMerged
 # GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-09-30T00:41:40.061677+00:00
+# UPDATED: 2026-10-02T01:01:47.315376+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -13,10 +13,10 @@
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
-# IP-ASN: 5231
+# IP-ASN: 5230
 # IP-CIDR: 8267
-# IP-CIDR6: 4183
-# TOTAL: 129402
+# IP-CIDR6: 4212
+# TOTAL: 129430
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -4852,7 +4852,6 @@ IP-ASN,18244,no-resolve
 IP-ASN,18245,no-resolve
 IP-ASN,18257,no-resolve
 IP-ASN,197626,no-resolve
-IP-ASN,197817,no-resolve
 IP-ASN,198025,no-resolve
 IP-ASN,198078,no-resolve
 IP-ASN,198135,no-resolve
@@ -6046,6 +6045,7 @@ IP-CIDR,43.241.16.0/21,no-resolve
 IP-CIDR,43.241.48.0/22,no-resolve
 IP-CIDR,43.241.76.0/22,no-resolve
 IP-CIDR,43.241.80.0/20,no-resolve
+IP-CIDR,43.241.100.0/23,no-resolve
 IP-CIDR,43.241.112.0/22,no-resolve
 IP-CIDR,43.241.168.0/21,no-resolve
 IP-CIDR,43.241.176.0/21,no-resolve
@@ -10382,7 +10382,6 @@ IP-CIDR,156.109.34.0/31,no-resolve
 IP-CIDR,156.109.34.3/32,no-resolve
 IP-CIDR,156.109.34.4/30,no-resolve
 IP-CIDR,156.154.62.0/23,no-resolve
-IP-CIDR,156.227.239.0/24,no-resolve
 IP-CIDR,156.232.9.0/24,no-resolve
 IP-CIDR,156.232.10.0/23,no-resolve
 IP-CIDR,156.239.237.0/24,no-resolve
@@ -16388,7 +16387,36 @@ IP-CIDR,2a03:83e0:1111::/48,no-resolve
 IP-CIDR,2a03:83e0:1211::/48,no-resolve
 IP-CIDR,2a03:83e0:1d11::/48,no-resolve
 IP-CIDR,2a03:f900::/29,no-resolve
+IP-CIDR,2a04:3e00::/48,no-resolve
+IP-CIDR,2a04:3e00:2::/47,no-resolve
+IP-CIDR,2a04:3e00:4::/46,no-resolve
+IP-CIDR,2a04:3e00:8::/45,no-resolve
+IP-CIDR,2a04:3e00:10::/44,no-resolve
+IP-CIDR,2a04:3e00:20::/43,no-resolve
+IP-CIDR,2a04:3e00:40::/42,no-resolve
+IP-CIDR,2a04:3e00:80::/41,no-resolve
+IP-CIDR,2a04:3e00:100::/40,no-resolve
+IP-CIDR,2a04:3e00:200::/39,no-resolve
+IP-CIDR,2a04:3e00:400::/38,no-resolve
+IP-CIDR,2a04:3e00:800::/37,no-resolve
+IP-CIDR,2a04:3e00:1001::/48,no-resolve
 IP-CIDR,2a04:3e00:1002::/48,no-resolve
+IP-CIDR,2a04:3e00:1004::/46,no-resolve
+IP-CIDR,2a04:3e00:1008::/45,no-resolve
+IP-CIDR,2a04:3e00:1010::/44,no-resolve
+IP-CIDR,2a04:3e00:1020::/43,no-resolve
+IP-CIDR,2a04:3e00:1040::/42,no-resolve
+IP-CIDR,2a04:3e00:1080::/41,no-resolve
+IP-CIDR,2a04:3e00:1100::/40,no-resolve
+IP-CIDR,2a04:3e00:1200::/39,no-resolve
+IP-CIDR,2a04:3e00:1400::/38,no-resolve
+IP-CIDR,2a04:3e00:1800::/37,no-resolve
+IP-CIDR,2a04:3e00:2000::/35,no-resolve
+IP-CIDR,2a04:3e00:4000::/34,no-resolve
+IP-CIDR,2a04:3e00:8000::/33,no-resolve
+IP-CIDR,2a04:3e01::/32,no-resolve
+IP-CIDR,2a04:3e02::/31,no-resolve
+IP-CIDR,2a04:3e04::/30,no-resolve
 IP-CIDR,2a04:4e41:27:1::/64,no-resolve
 IP-CIDR,2a04:4e41:27:1100::/56,no-resolve
 IP-CIDR,2a04:4e41:29:1::/64,no-resolve
